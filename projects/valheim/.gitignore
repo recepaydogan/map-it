@@ -1,0 +1,23 @@
+node_modules/
+dist/
+*.opk
+*.zip
+.env
+.env.*
+!.env.example
+*.log
+.venv/
+data/generated/
+data/extracted-assets/
+tools/cache/
+
+# Local update audit and decompiled game files
+data/update-audit/
+tracking-mod/bin/
+tracking-mod/obj/
+tracking-observer/bin/
+tracking-observer/obj/
+tracking-exploration/bin/
+tracking-exploration/obj/
+scripts/tracking-tests/local-exploration/bin/
+scripts/tracking-tests/local-exploration/obj/

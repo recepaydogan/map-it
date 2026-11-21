@@ -1,0 +1,6 @@
+{
+  "elden-ring": [
+    { "id": "elden-ring", "name": "Elden Ring", "gameIds": [21866], "mode": "elden-ring" },
+    { "id": "nightreign", "name": "Elden Ring Nightreign", "gameIds": [25918], "mode": "nightreign" }
+  ]
+}

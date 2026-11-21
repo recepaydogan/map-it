@@ -1,0 +1,130 @@
+.map-filter-sections {
+  container-type: inline-size;
+}
+
+.map-filter-section {
+  min-width: 0;
+  padding: 7px 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.map-filter-section-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.map-filter-section-button {
+  display: flex;
+  min-width: 0;
+  min-height: 34px;
+  flex: 1;
+  align-items: center;
+  gap: 8px;
+  padding-block: 5px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.map-filter-section-label {
+  min-width: 0;
+  flex: 1;
+  color: var(--color-zinc-100);
+  font-size: calc(12px * var(--app-font-scale));
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  text-transform: uppercase;
+  overflow-wrap: anywhere;
+}
+
+.map-filter-category-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2px 12px;
+  padding-top: 4px;
+}
+
+@container (min-width: 360px) {
+  .map-filter-category-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.map-filter-category-row {
+  position: relative;
+  height: 100%;
+  min-width: 0;
+  border-radius: var(--radius-sm);
+}
+
+.map-filter-category-button {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  min-height: 36px;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 4px;
+  border-radius: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.map-filter-category-label {
+  min-width: 0;
+  flex: 1;
+  color: var(--color-zinc-100);
+  font-size: calc(12px * var(--app-font-scale));
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.map-filter-category-row.is-inactive .map-filter-category-label {
+  color: var(--color-muted);
+}
+
+.map-filter-category-row.is-inactive .map-filter-category-icon {
+  opacity: 0.45;
+}
+
+.map-filter-category-row:hover,
+.map-filter-category-row:has(:focus-visible) {
+  background: var(--color-surface-hover);
+}
+
+/* Overlay the count so showing the shortcut doesn't move the row label. */
+.map-filter-only {
+  position: absolute;
+  top: 50%;
+  right: 2px;
+  transform: translateY(-50%);
+  padding: 4px 5px;
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-hover);
+  color: var(--color-accent);
+  font-size: calc(10px * var(--app-font-scale));
+  font-weight: 600;
+  text-transform: uppercase;
+  opacity: 0;
+  pointer-events: none;
+  cursor: pointer;
+}
+
+.map-filter-group-only {
+  right: 23px;
+}
+
+.map-filter-category-row:hover .map-filter-only,
+.map-filter-section-header:hover .map-filter-only,
+.map-filter-only:focus-visible,
+.map-filter-only.is-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.map-filter-only:hover,
+.map-filter-only.is-active {
+  background: var(--color-accent-soft);
+}

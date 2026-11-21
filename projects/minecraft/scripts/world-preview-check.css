@@ -1,0 +1,12 @@
+@import "../src/index.css";
+@source "./world-preview-check.tsx";
+@source "../src/features/worlds";
+
+body { background: var(--color-map-surface); }
+.preview-check-shell { display: flex; width: 1280px; height: 800px; overflow: hidden; }
+.preview-check-map { position: relative; width: 840px; height: 800px; flex-shrink: 0; overflow: hidden; }
+.preview-check-rail { width: 440px; flex-shrink: 0; overflow: auto; border-left: 1px solid var(--color-border); background: var(--color-background); padding: 16px; }
+.preview-check-rail h1 { font-size: 14px; font-weight: 600; }
+.preview-check-rail p { margin: 12px 0; color: var(--color-subtle); font-size: 12px; line-height: 1.5; }
+.preview-check-rail button { cursor: pointer; border: 1px solid var(--color-border); border-radius: var(--radius-sm); background: var(--color-surface); padding: 8px 12px; font-size: 12px; }
+.preview-check-rail pre { margin-top: 16px; white-space: pre-wrap; overflow-wrap: anywhere; font-size: 12px; line-height: 1.5; }

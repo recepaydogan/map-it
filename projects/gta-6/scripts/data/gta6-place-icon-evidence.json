@@ -1,0 +1,9 @@
+{
+  "purpose": "Internal evidence for reviewed icon identities; not shipped app content.",
+  "venues": {
+    "Gellhorn Roadhouse": { "symbol": "restaurant", "source": "https://gta.fandom.com/wiki/Gellhorn_Roadhouse" },
+    "Whiz": { "symbol": "smartphone", "source": "https://gtasixhub.com/wiki/businesses/whiz" },
+    "Beacon": { "symbol": "movie", "source": "https://gta6toolkit.com/map/places/beacon" }
+  },
+  "catalogEvidence": "Other reviewed overrides use the game-side venue name, tags, existing description or an already classified branch. Real-world counterpart addresses are not used to assign icons."
+}

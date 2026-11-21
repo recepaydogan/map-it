@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "remoteRoots": [
+    "data/",
+    "maps/",
+    "locales/"
+  ],
+  "bundledPatterns": [
+    "^data/locales/[^/]+/(?:en(?:-US)?|source|manifest|quest-text-source|quest-text-en(?:-US)?)\\.json$",
+    "^data/game-files/[^/]+/localization/en(?:-US)?\\.json$"
+  ]
+}

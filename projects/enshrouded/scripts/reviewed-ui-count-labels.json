@@ -1,0 +1,17 @@
+{
+  "en": ["Used in recipes: {{count}}", "Used in other recipes: {{count}}", "Crafted here · Items: {{count}}"],
+  "de": ["Verwendung in Rezepten: {{count}}", "Verwendung in weiteren Rezepten: {{count}}", "Hier hergestellt · Gegenstände: {{count}}"],
+  "fr": ["Recettes utilisant cet objet : {{count}}", "Autres recettes utilisant cet objet : {{count}}", "Fabriqués ici · Objets : {{count}}"],
+  "it": ["Ricette che usano questo oggetto: {{count}}", "Altre ricette che usano questo oggetto: {{count}}", "Creati qui · Oggetti: {{count}}"],
+  "es": ["Recetas que usan este objeto: {{count}}", "Otras recetas que usan este objeto: {{count}}", "Fabricados aquí · Objetos: {{count}}"],
+  "ru": ["Используется в рецептах: {{count}}", "Используется в других рецептах: {{count}}", "Изготавливается здесь · Предметы: {{count}}"],
+  "pl": ["Wykorzystanie w przepisach: {{count}}", "Wykorzystanie w innych przepisach: {{count}}", "Wytwarzanie tutaj · Przedmioty: {{count}}"],
+  "ja": ["使用するレシピ：{{count}}", "使用するその他のレシピ：{{count}}", "ここで製作 · アイテム数：{{count}}"],
+  "ko": ["재료로 사용하는 제작법: {{count}}", "재료로 사용하는 다른 제작법: {{count}}", "여기서 제작 · 아이템 수: {{count}}"],
+  "pt-BR": ["Receitas que usam este item: {{count}}", "Outras receitas que usam este item: {{count}}", "Fabricados aqui · Itens: {{count}}"],
+  "th": ["สูตรที่ใช้ไอเทมนี้: {{count}}", "สูตรอื่นที่ใช้ไอเทมนี้: {{count}}", "คราฟต์ที่นี่ · จำนวนไอเทม: {{count}}"],
+  "tr": ["Kullanıldığı tarif sayısı: {{count}}", "Kullanıldığı diğer tarif sayısı: {{count}}", "Burada üretilen eşya sayısı: {{count}}"],
+  "zh-Hans": ["使用此物品的配方：{{count}}", "使用此物品的其他配方：{{count}}", "在此制作 · 物品数量：{{count}}"],
+  "zh-Hant": ["使用此物品的配方：{{count}}", "使用此物品的其他配方：{{count}}", "在此製作 · 物品數量：{{count}}"],
+  "uk": ["Використовується в рецептах: {{count}}", "Використовується в інших рецептах: {{count}}", "Виготовляється тут · Предмети: {{count}}"]
+}

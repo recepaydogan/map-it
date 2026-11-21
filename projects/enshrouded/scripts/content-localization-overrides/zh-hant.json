@@ -1,0 +1,590 @@
+{
+  "f272b4dbc9955200f659af63": {
+    "english": "Smithing Tools are obtained at the base of the small bridge at the north-western corner of Jasper Isles in Umbra Hollow in the Nomad Highlands, as part of the quest The Blacksmith's Request for the Blacksmith.",
+    "templateSha256": "df0442a49a1d450155da4cbc0281fba81a93c19ee2347ed5f73fdec36ddb73f1",
+    "translation": "{{EMTERM_0}}位於{{EMTERM_3}}的{{EMTERM_2}}區域，具體在{{EMTERM_1}}西北角一座小橋的橋腳處。這是為{{EMTERM_5}}完成任務「{{EMTERM_4}}」時需要取得的物品。",
+    "reviewNote": "Restore the Jasper Isles location. The known Umbra Hollow spelling in this source uses the verified native Umber Hollow place-name alias, so Hollow is not translated as the enemy faction."
+  },
+  "e0f651508d5ad0e49f6a0b9a": {
+    "english": "The Fell took the Archaic Essence into a winding, enshrouded cave. What purpose are they after? Explore the depths of the Shroud Lair to proceed! Consider gathering more Archaic Essence as you go forth to reclaim it from the Shroud!",
+    "templateSha256": "c5aff0a22a9b27e9dca87e5e201a81bc39a55c4e1f10f03feebb6ee25037af8e",
+    "translation": "{{EMTERM_0}}把{{EMTERM_1}}帶進了一處蜿蜒、被迷霧籠罩的洞穴。他們究竟有何目的？深入{{EMTERM_2}}繼續探索吧！前往{{EMTERM_4}}奪回資源時，不妨多收集一些{{EMTERM_3}}。",
+    "reviewNote": "Preserve each protected term and every original acquisition or quest clause; repair duplicate or damaged machine placeholders."
+  },
+  "eedd9cd276139fbc02c279b6": {
+    "english": "This block is unlocked by acquiring Iron Bars for the first time. Iron Bars can be crafted by combining Iron Ore and Charcoal in the Smelter or found in the world, such as by breaking destructible containers in the Kindlewastes Ancient Spire. Iron Ore can be found in certain mines and cave passages in the Kindlewastes.",
+    "templateSha256": "b4b70c57b5d58e36f805ee8b6d4cd898a1d9e28408fbc81b2e46cab200fc8799",
+    "translation": "首次獲得{{EMTERM_0}}後即可解鎖這種建材。{{EMTERM_1}}可以在{{EMTERM_4}}中用{{EMTERM_2}}和{{EMTERM_3}}製作，也可以在世界中找到，例如打破{{EMTERM_5}}的{{EMTERM_6}}內可破壞的容器。{{EMTERM_7}}則能在{{EMTERM_8}}的部分礦坑與洞穴通道中找到。",
+    "reviewNote": "Preserve each protected term and every original acquisition or quest clause; repair duplicate or damaged machine placeholders."
+  },
+  "f9dff6a56fdf2cce74d40d4a": {
+    "english": "Fell Critters can spawn almost anywhere in the Shroud, but they are most often found in areas of heavy activity in the Shroud; this includes Elixir Wells, around Shroud Roots, and in ruined villages or towns within the Shroud. In mycelium-covered areas of the Shroud, Critters have a chance to spontaneously pop up from the ground to attack the player. Fell Critter Nests will continuously spawn critters unless destroyed (best done using a felling axe or fire damage). Fell Critters are also often spawned as secondary enemies in boss fights; with the Fell Critter Queen and Fell Wispwyvern both summoning critters in their fights",
+    "templateSha256": "179f505cfcfdd4e69181119741f9d0cbdbd60841588e0946af1d1c941d3a44f3",
+    "translation": "{{EMTERM_0}}小蟲幾乎能在{{EMTERM_1}}中的任何地方出現，但最常見於{{EMTERM_2}}活動頻繁的區域，包括{{EMTERM_3}}之井、{{EMTERM_4}}之根周圍，以及{{EMTERM_5}}中的村莊或城鎮廢墟。在{{EMTERM_6}}內被菌絲覆蓋的區域，小蟲可能突然從地面鑽出並攻擊玩家。{{EMTERM_7}}的巢穴會持續生成小蟲，直到被摧毀；最好使用伐木斧或火焰傷害處理。{{EMTERM_8}}小蟲也常作為頭目戰的支援敵人出現，{{EMTERM_9}}和{{EMTERM_10}}都會在戰鬥中召喚牠們。",
+    "reviewNote": "Translate the full source in context, retaining every gameplay fact, quantity and native-name placeholder."
+  },
+  "9af84f76badcb8cac32324b3": {
+    "english": "Ingredients : Drak Teeth x2, Drak Claws x2, String x2, Aquamarine Dust x1, Feather x2 Workstation : Bard Craft Time : Instant Product : Skull Trophy I x1",
+    "templateSha256": "cf1b5a1881526699c6baba6f29861b8870ab9cf32f8bf20b9c5f2fc82813acac",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1, {{EMTERM_4}} x2 製作處 : {{EMTERM_5}} 製作時間 : 立即完成 產物 : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "a166c18e3a04920158c8e8f0": {
+    "english": "Ingredients : Sulfur x2, Conifer Logs x2, Wool x18, Saffron x2, Indigo Plant x2, Mauveine x2, Mint Mushroom Meat x2 Workstation : Bard Craft Time : Instant Product : Wall Tapestry IV x1",
+    "templateSha256": "581e87682e2e3d30df1d8b2bcaba467d40c4b0cdb08a2d61642a83db484eda0f",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x18, {{EMTERM_3}} x2, 槐藍 x2, {{EMTERM_4}} x2, {{EMTERM_5}} x2 製作處 : {{EMTERM_6}} 製作時間 : 立即完成 產物 : {{EMTERM_7}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "0535ae4b955f6ccb830c6dfb": {
+    "english": "Linen is crafted at either the Hand Spindle, the Spinning Wheel, or the Spinning Machine. The Hand Spindle produces 6 Linen per minute, making it the fastest but most Flax-intensive. The Spinning Wheel is the slowest at 2 Linen per minute, but uses half as much Flax per Linen as the Hand Spindle. The Spinning Machine balances speed and efficiency, averaging 3.75 Linen per minute and using 50% less Flax per Linen than the Spinning Wheel, though it produces in batches.",
+    "templateSha256": "850e01ed3407488947a3d85d2af790edb47fb2e9bb7e50805bc22544fb552163",
+    "translation": "{{EMTERM_0}}可用紡錘、{{EMTERM_1}}或紡織機製作。紡錘每分鐘能製作6份{{EMTERM_2}}，速度最快，但消耗的{{EMTERM_3}}也最多。{{EMTERM_4}}最慢，每分鐘只能製作2份{{EMTERM_5}}，但每份{{EMTERM_7}}消耗的{{EMTERM_6}}僅為紡錘的一半。紡織機兼顧速度與效率，平均每分鐘製作3.75份{{EMTERM_8}}；每份{{EMTERM_10}}所需的{{EMTERM_9}}比{{EMTERM_11}}少50%，但採用批次生產。",
+    "reviewNote": "Translate the full source in context, retaining every gameplay fact, quantity and native-name placeholder."
+  },
+  "a570cbe6072a7a35387e6ceb": {
+    "english": "Sparks can be collected from Flame Shrines and Flame Sanctums found throughout Embervale. The amount of sparks gathered is decided by the biome the Flame Shrine and Sanctum reside.: Springlands x1: Revelwood x2: Nomad Highlands x3: Kindlewastes x4: Albaneve Summits x5: Veilwater Basin x6 C:Early Access Launch",
+    "templateSha256": "48595e9f779bd4d39a88c8fa2207e96f9d3cb17decdde75d91a830d05aae9bda",
+    "translation": "火花可從遍布{{EMTERM_2}}的{{EMTERM_0}}和{{EMTERM_1}}聖殿收集。每次取得的火花數量取決於{{EMTERM_3}}神殿與聖殿所在的生物群落：{{EMTERM_4}} x1、{{EMTERM_5}} x2、{{EMTERM_6}} x3、{{EMTERM_7}} x4、{{EMTERM_8}} x5、面紗水盆地 x6。分類：搶先體驗推出時的內容。",
+    "reviewNote": "Translate the full source in context, retaining every gameplay fact, quantity and native-name placeholder."
+  },
+  "0a3a72f90848749219a8ba53": {
+    "english": "“Embervale can still be saved… Where there’s ash, there’s embers, kid! The Shroud suffocates the valleys, so seek the Elixir Well with your new gear and raze the root of our misery! Ignite the depths and set this evil ablaze! Go on. I’m counting on ya, Flameborn!”",
+    "templateSha256": "506a43c95c3b5805b39bc97d87957faeca48c00f873748a162080d551eeea9de",
+    "translation": "「{{EMTERM_0}}還有救……孩子，只要還有灰燼，就還有餘火！{{EMTERM_1}}讓山谷窒息，帶上你的新裝備去尋找{{EMTERM_2}}，剷除我們苦難的根源！點燃深處，讓這股邪惡付之一炬！去吧，{{EMTERM_3}}，我指望你了！」",
+    "reviewNote": "Translate the full source in context, retaining every gameplay fact, quantity and native-name placeholder."
+  },
+  "fadc14268c53401e65ff168e": {
+    "english": "“Gems are seemingly rare– in our altitude, at least! Their properties are not at all common on the surface. I propose this: The Ancients unearthed these gems on their never-ending dig for knowledge! Why did they abandon the pursuit? Perhaps they were interrupted by a greater mystery, turned calamity: The Shroud?”",
+    "templateSha256": "7ca728a95b7765b62d890c48ec096eb59448e212555b08af2f0d960d19b8d681",
+    "translation": "「{{EMTERM_0}}似乎很罕見，至少在我們這個海拔是如此！它們的特性在地表上並不常見。我猜是這樣：{{EMTERM_1}}在永無止境的求知挖掘中發現了這些寶石！他們為何放棄繼續探索？也許是另一個更大的謎團打斷了他們，而它後來成了災難：{{EMTERM_2}}？」",
+    "reviewNote": "Translate the full source in context, retaining every gameplay fact, quantity and native-name placeholder."
+  },
+  "fff3b371a3fa6dc95eb5719e": {
+    "english": "“To do my best work, I really need a Smelter, but crafting a Smelter requires a Crucible! I used to have one… I’ ll bet the Scavengers got to it. It’s probably at their mine, way up north in the Revelwood.”",
+    "templateSha256": "39092fba0ab9bf6dedd7e8756410ab6dcf53521c8e86cd89b3b478d2b214bcac",
+    "translation": "「要拿出最好的手藝，我確實需要{{EMTERM_0}}，但製作{{EMTERM_1}}又需要{{EMTERM_2}}！我以前有一個……我敢說是{{EMTERM_3}}拿走了。它大概就在他們的礦坑裡，在{{EMTERM_4}}的北邊很遠處。」",
+    "reviewNote": "Translate the full source in context, retaining every gameplay fact, quantity and native-name placeholder."
+  },
+  "50d45c504ea18582ef96ec77": {
+    "english": "“When disaster struck, we adapted. Rose above all limitations, freed of prejudice and convention. A splinter group of ancients, usually hidden in silence and obscurity, worked hand in hand with humans to build the Cinder Vaults. They house the only hope humanity has left, hidden from the Shroud…Sleeping, waiting to be roused by the Flameborn.”",
+    "templateSha256": "f8759743064c66d059a03de8db23e76b8a68fd2475759d71483f39785fac6708",
+    "translation": "「災難降臨時，我們學會了適應，突破所有限制，擺脫偏見與成規。一群平時隱於寂靜與幽暗中的遠古族人與人類攜手，建造了餘燼墓穴。人類最後的希望就藏在其中，躲避{{EMTERM_0}}……沉睡著，等待{{EMTERM_1}}將他們喚醒。」",
+    "reviewNote": "Translate the full source in context, retaining every gameplay fact, quantity and native-name placeholder."
+  },
+  "0cdf0ef64b3b649d4d911f91": {
+    "english": "“You look dreadful, friend. Come closer, let me look at you. Mhh… bloodshot eyes, cotton mouth, and a hint of decay in your breath. You’re suffering from a Fell Curse, no doubt. I advise you to take a cleanser posthaste! You can craft one with the right materials, but they’re only found amongst the Fell in the dead of night, above the Shroud!”",
+    "templateSha256": "79f4fc49ea2f8e14baf9533dce0290d5ef9d7356028ff5a3ca273dbca17f300c",
+    "translation": "「朋友，你看起來糟透了。靠近點，讓我看看。嗯……雙眼充血、口乾舌燥，呼吸還帶著一絲腐敗的氣味。毫無疑問，你中了{{EMTERM_0}}。我建議你立刻服用淨化藥劑！只要材料齊全就能製作，但那些材料只有在深夜、{{EMTERM_2}}上方的{{EMTERM_1}}身上才能找到！」",
+    "reviewNote": "Translate the full source in context, retaining every gameplay fact, quantity and native-name placeholder."
+  },
+  "00f364920dbb4866d2542b9a": {
+    "english": "“You found my camp near Morwenna? Blissful, no…? We tried to make those lands habitable. Lush lakes and a pretty great view… But when we came to settle, the wildlife fought back– hard. Eventually, we abandoned our efforts. The world was already falling apart… and I decided to enter the Cinder Vault’s to build the future, not just repair the present.”",
+    "templateSha256": "2d31666a67d39f7a1abbb13b36480ee3abbef9a2206fa2ca9b5006ba4c075694",
+    "translation": "「你找到我在{{EMTERM_0}}附近的營地了？那裡很愜意，對吧？我們曾想讓那片土地適合居住。湖泊秀美，景色也很棒……但當我們前去定居時，野生動物發起了猛烈反擊。最後，我們放棄了。當時世界已開始崩塌……於是我決定進入{{EMTERM_1}}，去建設未來，而不只是修補當下。」",
+    "reviewNote": "Translate the full source in context, retaining every gameplay fact, quantity and native-name placeholder."
+  },
+  "f4820827f00f49f975f5a4b4": {
+    "english": "Sulfur is mined from yellow sulfur deposits in the Kindlewastes. {| class=\"wikitable sortable\" |+ Recipes |- ! Items Produced !! Workshop !! Other Requirements !! Crafting Time !! Materials |- | 5 Enshrouded Oil || Laboratory || None || 2:00 || * 5 Shroud Spores * 5 Coal Powder * 5 Shroud Liquid * 1 Sulfur |- | 1 Black Powder || Laboratory || None || 3:00 || * 7 Nitrate * 1 Sulfur * 2 Coal Powder |- | 1 Shroud Meteor || Alchemist || Laboratory || N/A || * 2 Alchemical Base * 20 Nitrate * 20 Coal Powder * 20 Stone * 20 Sulfur |- | 1 Eternal Light Burst || Alchemist || Laboratory || N/A || * 5 Iron Bars * 10 Charcoal * 30 Sulfur * 20 Flintstone |- | 1 Eternal Acid Bite || Alchemist || Laboratory || N/A || * 20 Glass * 10 Charcoal * 30 Sulfur * 20 Ammonia Gland * 20 Poison Sack |}",
+    "templateSha256": "795ea26bae6019cee6b14640f7cbdeb217d53022ad0eadb85394b863722ac864",
+    "translation": "{{EMTERM_0}}可從{{EMTERM_1}}的黃色硫磺礦床開採。配方。產物：5 {{EMTERM_2}}；製作處：{{EMTERM_3}}；其他需求：無；製作時間：2:00；材料：5 {{EMTERM_4}}、5 {{EMTERM_5}}、5 {{EMTERM_6}}、1 {{EMTERM_7}}。產物：1 {{EMTERM_8}}；製作處：{{EMTERM_9}}；其他需求：無；製作時間：3:00；材料：7 {{EMTERM_10}}、1 {{EMTERM_11}}、2 {{EMTERM_12}}。產物：1 {{EMTERM_13}}；製作處：{{EMTERM_14}}；其他需求：{{EMTERM_15}}；製作時間：不適用；材料：2 {{EMTERM_16}}、20 {{EMTERM_17}}、20 {{EMTERM_18}}、20 石頭、20 {{EMTERM_19}}。產物：1 永恆{{EMTERM_20}}；製作處：{{EMTERM_21}}；其他需求：{{EMTERM_22}}；製作時間：不適用；材料：5 {{EMTERM_23}}、10 {{EMTERM_24}}、30 {{EMTERM_25}}、20 {{EMTERM_26}}。產物：1 永恆{{EMTERM_27}}；製作處：{{EMTERM_28}}；其他需求：{{EMTERM_29}}；製作時間：不適用；材料：20 {{EMTERM_30}}、10 {{EMTERM_31}}、30 {{EMTERM_32}}、20 {{EMTERM_33}}、20 {{EMTERM_34}}。",
+    "reviewNote": "Translate the full source in context, retaining every gameplay fact, quantity and native-name placeholder."
+  },
+  "58f65388fbae1b3765ef9ba1": {
+    "english": "Sulfur is mined from yellow sulfur deposits in the Kindlewastes. {| class=\"wikitable sortable\" |+ Recipes |-! Items Produced!! Workshop!! Other Requirements!! Crafting Time!! Materials |- | 5 Enshrouded Oil || Laboratory || None || 2:00 || * 5 Shroud Spores * 5 Coal Powder * 5 Shroud Liquid * 1 Sulfur |- | 1 Black Powder || Laboratory || None || 3:00 || * 7 Nitrate * 1 Sulfur * 2 Coal Powder |- | 1 Shroud Meteor || Alchemist || Laboratory || N/A || * 2 Alchemical Base * 20 Nitrate * 20 Coal Powder * 20 Stone * 20 Sulfur |- | 1 Eternal Light Burst || Alchemist || Laboratory || N/A || * 5 Iron Bars * 10 Charcoal * 30 Sulfur * 20 Flintstone |- | 1 Eternal Acid Bite || Alchemist || Laboratory || N/A || * 20 Glass * 10 Charcoal * 30 Sulfur * 20 Ammonia Gland * 20 Poison Sack |}",
+    "templateSha256": "795ea26bae6019cee6b14640f7cbdeb217d53022ad0eadb85394b863722ac864",
+    "translation": "{{EMTERM_0}}可從{{EMTERM_1}}的黃色硫磺礦床開採。配方。產物：5 {{EMTERM_2}}；製作處：{{EMTERM_3}}；其他需求：無；製作時間：2:00；材料：5 {{EMTERM_4}}、5 {{EMTERM_5}}、5 {{EMTERM_6}}、1 {{EMTERM_7}}。產物：1 {{EMTERM_8}}；製作處：{{EMTERM_9}}；其他需求：無；製作時間：3:00；材料：7 {{EMTERM_10}}、1 {{EMTERM_11}}、2 {{EMTERM_12}}。產物：1 {{EMTERM_13}}；製作處：{{EMTERM_14}}；其他需求：{{EMTERM_15}}；製作時間：不適用；材料：2 {{EMTERM_16}}、20 {{EMTERM_17}}、20 {{EMTERM_18}}、20 石頭、20 {{EMTERM_19}}。產物：1 永恆{{EMTERM_20}}；製作處：{{EMTERM_21}}；其他需求：{{EMTERM_22}}；製作時間：不適用；材料：5 {{EMTERM_23}}、10 {{EMTERM_24}}、30 {{EMTERM_25}}、20 {{EMTERM_26}}。產物：1 永恆{{EMTERM_27}}；製作處：{{EMTERM_28}}；其他需求：{{EMTERM_29}}；製作時間：不適用；材料：20 {{EMTERM_30}}、10 {{EMTERM_31}}、30 {{EMTERM_32}}、20 {{EMTERM_33}}、20 {{EMTERM_34}}。",
+    "reviewNote": "Translate the full source in context, retaining every gameplay fact, quantity and native-name placeholder."
+  },
+  "9f88e6e6c27e1184bda5c420": {
+    "english": "Ingredients : Conifer Logs x1, Wool x10, Indigo Plant x1, Mint Mushroom Meat x1, Saffron x1, Sulfur x1, Mauveine x1 Workstation : Bard Craft Time : Instant Product : Wall Tapestry I x1",
+    "templateSha256": "c3b956b82a7216bbd82546158a3bcf936ad46a11808f3b5431dc584fe9496f7f",
+    "translation": "材料 : {{EMTERM_0}} x1, {{EMTERM_1}} x10, 槐藍 x1, {{EMTERM_2}} x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1, {{EMTERM_5}} x1 製作處 : {{EMTERM_6}} 製作時間 : 立即完成 產物 : {{EMTERM_7}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "3a64a3e3536d6cb7e83ce2fd": {
+    "english": "Ingredients : Drak Teeth x2, Drak Claws x2, String x2, Daylily x1, Feather x2 Workstation : Bard Craft Time : Instant Product : Skull Trophy II x1",
+    "templateSha256": "cf1b5a1881526699c6baba6f29861b8870ab9cf32f8bf20b9c5f2fc82813acac",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1, {{EMTERM_4}} x2 製作處 : {{EMTERM_5}} 製作時間 : 立即完成 產物 : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "9e42a951b86cd3244110694f": {
+    "english": "Ingredients : Sulfur x2, Conifer Logs x2, Wool x18, Saffron x2, Indigo Plant x2, Mauveine x2, Mint Mushroom Meat x2 Workstation : Bard Craft Time : Instant Product : Wall Tapestry V x1",
+    "templateSha256": "581e87682e2e3d30df1d8b2bcaba467d40c4b0cdb08a2d61642a83db484eda0f",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x18, {{EMTERM_3}} x2, 槐藍 x2, {{EMTERM_4}} x2, {{EMTERM_5}} x2 製作處 : {{EMTERM_6}} 製作時間 : 立即完成 產物 : {{EMTERM_7}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "e6fea274b406cbeda470485b": {
+    "english": "“My dear! The Alchemist tasked you to enter the Hollow Halls? Beware of the Hollow inside! These thieves conspired to claim part of the Flame, and were cursed by the Ancients as punishment! To never feel the warmth of another… I almost pity them.”",
+    "templateSha256": "327ccf132c7eb0c5b4d82a0ea319fec0b116072431113bd235d5bcb30089b325",
+    "translation": "「親愛的！{{EMTERM_0}}要你進入{{EMTERM_1}}？小心裡面的{{EMTERM_2}}！這些盜賊企圖奪取一部分{{EMTERM_3}}，因此被{{EMTERM_4}}施以詛咒作為懲罰！從此再也感受不到他人的溫暖……我幾乎有些同情他們。」",
+    "reviewNote": "Restore every original gameplay clause, recipe quantity and protected native name."
+  },
+  "06d03fc86ec44c278fc1dc0d": {
+    "english": "“What is that…? Some sort of blight permeates every fiber. The skin is fibrous and porous… changed already. In the end, the Shroud reaches all. Animal, soldier, king… All our bones crack the same… Here. I’ll share my hunting grounds with you. I’ll mark it in your journal. Walk my trails, and release them in my stead, Flameborn.”",
+    "templateSha256": "46a760b9f98c5d769ceea59719705c9cf0f55910132387f0f47ea9ad294d48b1",
+    "translation": "「那是什麼……？某種疫病滲透了每一條纖維。皮膚變得纖維狀而多孔……已經發生變化了。到頭來，{{EMTERM_0}}會侵蝕一切。動物、士兵、國王……我們的骨頭碎裂時都一樣……來吧，我會與你分享我的獵場，並標在你的日誌上。{{EMTERM_1}}，沿著我的獵徑前進，代我讓牠們解脫吧。」",
+    "reviewNote": "Restore every original gameplay clause, recipe quantity and protected native name."
+  },
+  "1ce07e3ecc8266841053eee0": {
+    "english": "Fell Draconian Vultures are a Shroud-infected Fell variant of Draconian Vultures that are encountered in Enshrouded areas of the Kindlewastes and Albaneve Summits. They are vicious and difficult enemies that should be treated with caution",
+    "templateSha256": "75706e4fb3acb6e10ae2728c1aa2d38a763632d0e2f22ea90f5045c33f162464",
+    "translation": "{{EMTERM_0}}龍禿鷹是受{{EMTERM_1}}感染的{{EMTERM_2}}變種龍禿鷹，可在{{EMTERM_3}}和{{EMTERM_4}}被迷霧籠罩的區域遇到。牠們兇猛而難纏，應謹慎應對。",
+    "reviewNote": "Complete contextual repair. Enshrouded areas describes areas covered by the Shroud here, rather than the game brand."
+  },
+  "637a01616e4cc2c01be004be": {
+    "english": "Ingredients : Conifer Logs x1, Wool x10, Indigo Plant x1, Mint Mushroom Meat x1, Saffron x1, Sulfur x1, Mauveine x1 Workstation : Bard Craft Time : Instant Product : Wall Tapestry II x1",
+    "templateSha256": "c3b956b82a7216bbd82546158a3bcf936ad46a11808f3b5431dc584fe9496f7f",
+    "translation": "材料 : {{EMTERM_0}} x1, {{EMTERM_1}} x10, 槐藍 x1, {{EMTERM_2}} x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1, {{EMTERM_5}} x1 製作處 : {{EMTERM_6}} 製作時間 : 立即完成 產物 : {{EMTERM_7}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "2cbe99d99e8ae3af1c1cdd76": {
+    "english": "Ingredients : Iron Bars x5, Charcoal x5, Nails x3, Scrappy Sword x2 Workstation : Bard Craft Time : Instant Product : Diamond Wall Emblem (Maces) x1",
+    "templateSha256": "c0f8e20ff2ffd900a933a46e9a659c50a6649cacafaeba76ba36583c2ab48401",
+    "translation": "材料 : {{EMTERM_0}} x5, {{EMTERM_1}} x5, {{EMTERM_2}} x3, {{EMTERM_3}} x2 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} 壁飾（釘頭錘） x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "71379ef4c3c08b666d77bfca": {
+    "english": "Ingredients : Wood Planks x2, Cyclops Head x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Cyclops Trophy x1",
+    "templateSha256": "8d0c7aefb679a9a699a1df06514f641f380ae47ee144231492d796c1d73f1456",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "3010584aeabaa6b540e77539": {
+    "english": "Ingredients : Conifer Logs x1, Wool x10, Indigo Plant x1, Mint Mushroom Meat x1, Saffron x1, Sulfur x1, Mauveine x1 Workstation : Bard Craft Time : Instant Product : Wall Tapestry III x1",
+    "templateSha256": "c3b956b82a7216bbd82546158a3bcf936ad46a11808f3b5431dc584fe9496f7f",
+    "translation": "材料 : {{EMTERM_0}} x1, {{EMTERM_1}} x10, 槐藍 x1, {{EMTERM_2}} x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1, {{EMTERM_5}} x1 製作處 : {{EMTERM_6}} 製作時間 : 立即完成 產物 : {{EMTERM_7}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "79316294f96980a761c56819": {
+    "english": "Ingredients : Drak Teeth x2, Drak Claws x2, String x2, Daylily x1, Feather x2 Workstation : Bard Craft Time : Instant Product : Skull Trophy III x1",
+    "templateSha256": "cf1b5a1881526699c6baba6f29861b8870ab9cf32f8bf20b9c5f2fc82813acac",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1, {{EMTERM_4}} x2 製作處 : {{EMTERM_5}} 製作時間 : 立即完成 產物 : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "df94e7fd56881e871d28807e": {
+    "english": "Ingredients : Drak Teeth x2, Drak Claws x2, String x2, Daylily x1, Feather x2 Workstation : Bard Craft Time : Instant Product : Skull Trophy IV x1",
+    "templateSha256": "cf1b5a1881526699c6baba6f29861b8870ab9cf32f8bf20b9c5f2fc82813acac",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1, {{EMTERM_4}} x2 製作處 : {{EMTERM_5}} 製作時間 : 立即完成 產物 : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "648014f90e0e74828fa9affb": {
+    "english": "Ingredients : Drak Teeth x2, Drak Claws x2, String x2, Daylily x1, Feather x2 Workstation : Bard Craft Time : Instant Product : Skull Trophy V x1",
+    "templateSha256": "cf1b5a1881526699c6baba6f29861b8870ab9cf32f8bf20b9c5f2fc82813acac",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1, {{EMTERM_4}} x2 製作處 : {{EMTERM_5}} 製作時間 : 立即完成 產物 : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "bb8183a8deeb41552c452030": {
+    "english": "Ingredients : Drak Teeth x2, Drak Claws x2, String x2, Daylily x1, Feather x2 Workstation : Bard Craft Time : Instant Product : Skull Trophy VI x1",
+    "templateSha256": "cf1b5a1881526699c6baba6f29861b8870ab9cf32f8bf20b9c5f2fc82813acac",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1, {{EMTERM_4}} x2 製作處 : {{EMTERM_5}} 製作時間 : 立即完成 產物 : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "a3e023f61bcb22ccfc97c0fa": {
+    "english": "Ingredients : Iron Bars x3, Charcoal x3, Nails x3, Scrappy Sword x4 Workstation : Bard Craft Time : Instant Product : Diamond Wall Emblem (Swords) x1",
+    "templateSha256": "e7c9a65249550454c202273e14ae7f8a29ee98e1635a27a7f1046cb01132550b",
+    "translation": "材料 : {{EMTERM_0}} x3, {{EMTERM_1}} x3, {{EMTERM_2}} x3, {{EMTERM_3}} x4 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} 壁飾（劍） x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "56fc1755e3a46d636dfd9ead": {
+    "english": "Ingredients : Iron Bars x5, Charcoal x5, Nails x3, Scrappy Sword x2 Workstation : Bard Craft Time : Instant Product : Shield Wall Emblem (Maces) x1",
+    "templateSha256": "c0f8e20ff2ffd900a933a46e9a659c50a6649cacafaeba76ba36583c2ab48401",
+    "translation": "材料 : {{EMTERM_0}} x5, {{EMTERM_1}} x5, {{EMTERM_2}} x3, {{EMTERM_3}} x2 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} 壁飾（釘頭錘） x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "8d9096c363fb668d9c15239b": {
+    "english": "Ingredients : Iron Bars x5, Charcoal x5, Nails x3, Scrappy Sword x2 Workstation : Bard Craft Time : Instant Product : Shield Wall Emblem (Swords) x1",
+    "templateSha256": "55f0e820cfd514650bedd751b6f30cec47b591643bde6acf02eac0261c7d9ad8",
+    "translation": "材料 : {{EMTERM_0}} x5, {{EMTERM_1}} x5, {{EMTERM_2}} x3, {{EMTERM_3}} x2 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} 壁飾（劍） x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "3ddb2edd65cb0bdeda050ef8": {
+    "english": "Ingredients : Palm Wood Logs x1, Fabric x1, Saffron x1, Indigo Plant x1, Mint Mushroom Meat x1, Sulfur x1 Workstation : Bard Craft Time : Instant Product : Boar At Home x1",
+    "templateSha256": "26e4744ae0da5e6930e8d0b840f34ed59190c1ec94b01b7992f3e8096aab612b",
+    "translation": "材料 : {{EMTERM_0}} x1, {{EMTERM_1}} x1, {{EMTERM_2}} x1, 槐藍 x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1 製作處 : {{EMTERM_5}} 製作時間 : 立即完成 產物 : 家中的野豬 x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "371355ede3ad6645729ddda5": {
+    "english": "Ingredients : Palm Wood Logs x1, Fabric x1, Saffron x1, Indigo Plant x1, Mint Mushroom Meat x1, Sulfur x1 Workstation : Bard Craft Time : Instant Product : Flower Snake x1",
+    "templateSha256": "542523c85c851bbfb71be272c19762745eaa4e3ae949482315eb53ce860b940c",
+    "translation": "材料 : {{EMTERM_0}} x1, {{EMTERM_1}} x1, {{EMTERM_2}} x1, 槐藍 x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1 製作處 : {{EMTERM_5}} 製作時間 : 立即完成 產物 : 花蛇 x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "26bb0c57d0f40d460ddfb00a": {
+    "english": "Ingredients : Palm Wood Logs x1, Fabric x1, Saffron x1, Indigo Plant x1, Mint Mushroom Meat x1, Sulfur x1 Workstation : Bard Craft Time : Instant Product : Flower Vase x1",
+    "templateSha256": "0deeb72ccc209a409c541988b1484469f09147f23beba8b6dd080a7c88d59f16",
+    "translation": "材料 : {{EMTERM_0}} x1, {{EMTERM_1}} x1, {{EMTERM_2}} x1, 槐藍 x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1 製作處 : {{EMTERM_5}} 製作時間 : 立即完成 產物 : 花瓶 x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "ed5157c10e9a5e072e8e07ab": {
+    "english": "Ingredients : Palm Wood Logs x1, Fabric x1, Saffron x1, Indigo Plant x1, Mint Mushroom Meat x1, Sulfur x1 Workstation : Bard Craft Time : Instant Product : Scabird On One Leg x1",
+    "templateSha256": "3785a42a905193df5b39cae30db50457d8edc68e791778e495558de5a8c7370b",
+    "translation": "材料 : {{EMTERM_0}} x1, {{EMTERM_1}} x1, {{EMTERM_2}} x1, 槐藍 x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1 製作處 : {{EMTERM_5}} 製作時間 : 立即完成 產物 : 單腳站立的斯卡鳥 x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "49ca3b722b9339225e6a1d7f": {
+    "english": "Ingredients : Palm Wood Logs x1, Fabric x1, Saffron x1, Indigo Plant x1, Mint Mushroom Meat x1, Sulfur x1 Workstation : Bard Craft Time : Instant Product : Still Life x1",
+    "templateSha256": "86a0ffb5c569175245fd0b834335cc625e6ba6f7ecc1861d81750d41fb8d7190",
+    "translation": "材料 : {{EMTERM_0}} x1, {{EMTERM_1}} x1, {{EMTERM_2}} x1, 槐藍 x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1 製作處 : {{EMTERM_5}} 製作時間 : 立即完成 產物 : 靜物 x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "9cc48ef7c667f48b2b3d7d36": {
+    "english": "Ingredients : Palm Wood Logs x1, Fabric x1, Saffron x1, Indigo Plant x1, Mint Mushroom Meat x1, Sulfur x1 Workstation : Bard Craft Time : Instant Product : Temple Landscape x1",
+    "templateSha256": "c5959e3dc66927dd7eb5f69b4422541f840989c46801176017c2d256e2eec728",
+    "translation": "材料 : {{EMTERM_0}} x1, {{EMTERM_1}} x1, {{EMTERM_2}} x1, 槐藍 x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1 製作處 : {{EMTERM_5}} 製作時間 : 立即完成 產物 : 神殿風景 x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "b9ad7c12015d5fe0242d4d57": {
+    "english": "Ingredients : Palm Wood Logs x1, Fabric x1, Saffron x1, Indigo Plant x1, Mint Mushroom Meat x1, Sulfur x1 Workstation : Bard Craft Time : Instant Product : Tower In The Night x1",
+    "templateSha256": "3b79d9d49509a85977b47c7efcf7a3a59ac25b6fae06089ef3703f8d0a285a84",
+    "translation": "材料 : {{EMTERM_0}} x1, {{EMTERM_1}} x1, {{EMTERM_2}} x1, 槐藍 x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1 製作處 : {{EMTERM_5}} 製作時間 : 立即完成 產物 : 夜色中的塔 x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "f47d58d8e38702d5bcb2105f": {
+    "english": "Ingredients : Palm Wood Logs x1, Fabric x1, Saffron x1, Indigo Plant x1, Mint Mushroom Meat x1, Sulfur x1 Workstation : Bard Craft Time : Instant Product : Wolf's Choir x1",
+    "templateSha256": "aa29829027bed07293ce6ab276db722b7d9a995eaec037b07ed04237b2865139",
+    "translation": "材料 : {{EMTERM_0}} x1, {{EMTERM_1}} x1, {{EMTERM_2}} x1, 槐藍 x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1 製作處 : {{EMTERM_5}} 製作時間 : 立即完成 產物 : 狼之合唱 x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "119bb5dc82b282f106ea8e3c": {
+    "english": "Ingredients : Wood Planks x2, Cyclops Head x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Cyclops Trophy x1",
+    "templateSha256": "adb21d50e981639de6974574c237450bd75460246a80969b7c5944a0536f35aa",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x1, {{EMTERM_2}} x2 製作處 : {{EMTERM_3}} 製作時間 : 立即完成 產物 : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "05f4902783a3e91521ad33c1": {
+    "english": "Ingredients : Wood Planks x2, Cyclops Head x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Cyclops Trophy x1",
+    "templateSha256": "afbbe082b69d4a1ca93f7aaad7ee2acff527ae16d7560fced81991aeadf8e19f",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "b96db1e4090fddc0cad4df49": {
+    "english": "Ingredients : Wood Planks x2, Cyclops Head x4, Nails x2, Gold Bars x1 Workstations : Hunter + Table Saw Craft Time : Instant Product : Gold Cyclops Trophy x1",
+    "templateSha256": "7b16e14bd744b2286248242cdae885e516c63bbb349e7f7e2affd3d9c912883f",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} + {{EMTERM_5}} 製作時間 : 立即完成 產物 : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "6f49915e9c720daf1422074d": {
+    "english": "Ingredients : Wood Planks x2, Fell Cyclops Head x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Fell Cyclops Trophy x1",
+    "templateSha256": "adb21d50e981639de6974574c237450bd75460246a80969b7c5944a0536f35aa",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x1, {{EMTERM_2}} x2 製作處 : {{EMTERM_3}} 製作時間 : 立即完成 產物 : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "493c9ef5c5c5ed7006f085bb": {
+    "english": "Ingredients : Wood Planks x2, Fell Cyclops Head x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Fell Cyclops Trophy x1",
+    "templateSha256": "afbbe082b69d4a1ca93f7aaad7ee2acff527ae16d7560fced81991aeadf8e19f",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "f86634fe727f811e7e1392f9": {
+    "english": "Ingredients : Wood Planks x2, Fell Cyclops Head x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Fell Cyclops Trophy x1",
+    "templateSha256": "8d0c7aefb679a9a699a1df06514f641f380ae47ee144231492d796c1d73f1456",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "0252c1cce4128d92a251a40d": {
+    "english": "Ingredients : Wood Planks x2, Fell Cyclops Head x4, Nails x2, Gold Bars x1 Workstations : Hunter + Table Saw Craft Time : Instant Product : Gold Fell Cyclops Trophy x1",
+    "templateSha256": "7b16e14bd744b2286248242cdae885e516c63bbb349e7f7e2affd3d9c912883f",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} + {{EMTERM_5}} 製作時間 : 立即完成 產物 : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "2ea18ac94bda24bdc824dbf5": {
+    "english": "Ingredients : Wood Planks x2, Fell Dragon Youngling Head x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Fell Dragon Youngling Trophy x1",
+    "templateSha256": "adb21d50e981639de6974574c237450bd75460246a80969b7c5944a0536f35aa",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x1, {{EMTERM_2}} x2 製作處 : {{EMTERM_3}} 製作時間 : 立即完成 產物 : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "d76f8dda9754716c5e3b7ab6": {
+    "english": "Ingredients : Wood Planks x2, Fell Dragon Youngling Head x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Fell Dragon Youngling Trophy x1",
+    "templateSha256": "afbbe082b69d4a1ca93f7aaad7ee2acff527ae16d7560fced81991aeadf8e19f",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "e49b23ce7ce2dd69a4b358f5": {
+    "english": "Ingredients : Wood Planks x2, Fell Dragon Youngling Head x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Fell Dragon Youngling Trophy x1",
+    "templateSha256": "8d0c7aefb679a9a699a1df06514f641f380ae47ee144231492d796c1d73f1456",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "45a30ddc2489a91a050cc7d6": {
+    "english": "Ingredients : Wood Planks x2, Fell Dragon Youngling Head x4, Nails x2, Gold Bars x1 Workstations : Hunter + Table Saw Craft Time : Instant Product : Gold Fell Dragon Youngling Trophy x1",
+    "templateSha256": "7b16e14bd744b2286248242cdae885e516c63bbb349e7f7e2affd3d9c912883f",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} + {{EMTERM_5}} 製作時間 : 立即完成 產物 : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "c220d68cdc77a720f22aa4a1": {
+    "english": "Ingredients : Wood Planks x2, Fell Monstrosity Head x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Fell Monstrosity Trophy x1",
+    "templateSha256": "adb21d50e981639de6974574c237450bd75460246a80969b7c5944a0536f35aa",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x1, {{EMTERM_2}} x2 製作處 : {{EMTERM_3}} 製作時間 : 立即完成 產物 : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "70dfc13f80d3b2844ebf2204": {
+    "english": "Ingredients : Wood Planks x2, Fell Monstrosity Head x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Fell Monstrosity Trophy x1",
+    "templateSha256": "afbbe082b69d4a1ca93f7aaad7ee2acff527ae16d7560fced81991aeadf8e19f",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "039244e51fcc0dfb2928d0a5": {
+    "english": "Ingredients : Wood Planks x2, Fell Monstrosity Head x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Fell Monstrosity Trophy x1",
+    "templateSha256": "8d0c7aefb679a9a699a1df06514f641f380ae47ee144231492d796c1d73f1456",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "2830e7c0ff1f44e7c1822533": {
+    "english": "Ingredients : Wood Planks x2, Fell Monstrosity Head x4, Nails x2, Gold Bars x1 Workstations : Hunter + Table Saw Craft Time : Instant Product : Gold Fell Monstrosity Trophy x1",
+    "templateSha256": "7b16e14bd744b2286248242cdae885e516c63bbb349e7f7e2affd3d9c912883f",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} + {{EMTERM_5}} 製作時間 : 立即完成 產物 : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "1285b7fe6f1401f40ef3e25f": {
+    "english": "Ingredients : Wood Planks x2, Fell Sicklescythe Head x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Fell Sicklescythe Trophy x1",
+    "templateSha256": "adb21d50e981639de6974574c237450bd75460246a80969b7c5944a0536f35aa",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x1, {{EMTERM_2}} x2 製作處 : {{EMTERM_3}} 製作時間 : 立即完成 產物 : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "e092ab51484aab44a2fdc619": {
+    "english": "Ingredients : Wood Planks x2, Fell Sicklescythe Head x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Fell Sicklescythe Trophy x1",
+    "templateSha256": "afbbe082b69d4a1ca93f7aaad7ee2acff527ae16d7560fced81991aeadf8e19f",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "050324ba4f229a1d4cb032c8": {
+    "english": "Ingredients : Wood Planks x2, Fell Sicklescythe Head x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Fell Sicklescythe Trophy x1",
+    "templateSha256": "8d0c7aefb679a9a699a1df06514f641f380ae47ee144231492d796c1d73f1456",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "86c62d14addcc50d36336033": {
+    "english": "Ingredients : Wood Planks x2, Fell Sicklescythe Head x4, Nails x2, Gold Bars x1 Workstation : Hunter Craft Time : Instant Product : Gold Fell Sicklescythe Trophy x1",
+    "templateSha256": "1b47bb52d631224e7601ddfb7d37882c5d9cc7e387ccbc74c824445fe2211fd9",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "3e2342d1ac99c225ee3be5fe": {
+    "english": "Ingredients : Wood Planks x2, Fell Thunderbrute Head x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Fell Thunderbrute Trophy x1",
+    "templateSha256": "adb21d50e981639de6974574c237450bd75460246a80969b7c5944a0536f35aa",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x1, {{EMTERM_2}} x2 製作處 : {{EMTERM_3}} 製作時間 : 立即完成 產物 : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "87cef2dd3d69b82f5ea35cbc": {
+    "english": "Ingredients : Wood Planks x2, Fell Thunderbrute Head x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Fell Thunderbrute Trophy x1",
+    "templateSha256": "afbbe082b69d4a1ca93f7aaad7ee2acff527ae16d7560fced81991aeadf8e19f",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "6007446055c31000f50f1ccc": {
+    "english": "Ingredients : Wood Planks x2, Fell Thunderbrute Head x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Fell Thunderbrute Trophy x1",
+    "templateSha256": "8d0c7aefb679a9a699a1df06514f641f380ae47ee144231492d796c1d73f1456",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "686d52388ec25ae390e9d2f2": {
+    "english": "Ingredients : Wood Planks x2, Fell Thunderbrute Head x4, Nails x2, Gold Bars x1 Workstation : Hunter Craft Time : Instant Product : Gold Fell Thunderbrute Trophy x1",
+    "templateSha256": "1b47bb52d631224e7601ddfb7d37882c5d9cc7e387ccbc74c824445fe2211fd9",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "51a8d4b064d33b9cb4887727": {
+    "english": "Ingredients : Wood Planks x2, Fell Wispwyvern Head x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Fell Wispwyvern Trophy x1",
+    "templateSha256": "adb21d50e981639de6974574c237450bd75460246a80969b7c5944a0536f35aa",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x1, {{EMTERM_2}} x2 製作處 : {{EMTERM_3}} 製作時間 : 立即完成 產物 : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "df1439ba38d34c0c33252bcf": {
+    "english": "Ingredients : Wood Planks x2, Fell Wispwyvern Head x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Fell Wispwyvern Trophy x1",
+    "templateSha256": "afbbe082b69d4a1ca93f7aaad7ee2acff527ae16d7560fced81991aeadf8e19f",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "45ad15bc5efad7efa79dba30": {
+    "english": "Ingredients : Wood Planks x2, Fell Wispwyvern Head x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Fell Wispwyvern Trophy x1",
+    "templateSha256": "8d0c7aefb679a9a699a1df06514f641f380ae47ee144231492d796c1d73f1456",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "9d572546be1b5ea7cc09f0e9": {
+    "english": "Ingredients : Wood Planks x2, Fell Wispwyvern Head x4, Nails x2, Gold Bars x1 Workstations : Hunter + Table Saw Craft Time : Instant Product : Gold Fell Wispwyvern Trophy x1",
+    "templateSha256": "7b16e14bd744b2286248242cdae885e516c63bbb349e7f7e2affd3d9c912883f",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} + {{EMTERM_5}} 製作時間 : 立即完成 產物 : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "a752d949d197d02e6f307457": {
+    "english": "Ingredients : Wood Planks x2, Hollow Cyclops Head x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Hollow Cyclops Trophy x1",
+    "templateSha256": "adb21d50e981639de6974574c237450bd75460246a80969b7c5944a0536f35aa",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x1, {{EMTERM_2}} x2 製作處 : {{EMTERM_3}} 製作時間 : 立即完成 產物 : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "489470772b3b4e433ce5722a": {
+    "english": "Ingredients : Wood Planks x2, Hollow Cyclops Head x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Hollow Cyclops Trophy x1",
+    "templateSha256": "afbbe082b69d4a1ca93f7aaad7ee2acff527ae16d7560fced81991aeadf8e19f",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "3e432114e7d246eec7e3507c": {
+    "english": "Ingredients : Wood Planks x2, Hollow Cyclops Head x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Hollow Cyclops Trophy x1",
+    "templateSha256": "8d0c7aefb679a9a699a1df06514f641f380ae47ee144231492d796c1d73f1456",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "c0e6955db2ce942f910ac77f": {
+    "english": "Ingredients : Wood Planks x2, Hollow Cyclops Head x4, Nails x2, Gold Bars x1 Workstations : Hunter + Table Saw Craft Time : Instant Product : Gold Hollow Cyclops Trophy x1",
+    "templateSha256": "7b16e14bd744b2286248242cdae885e516c63bbb349e7f7e2affd3d9c912883f",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} + {{EMTERM_5}} 製作時間 : 立即完成 產物 : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "732a3761273cc5cf1d7e475b": {
+    "english": "Ingredients : Wood Planks x2, Hydrak'Dal Head x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Hydrak'Dal Trophy x1",
+    "templateSha256": "adb21d50e981639de6974574c237450bd75460246a80969b7c5944a0536f35aa",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x1, {{EMTERM_2}} x2 製作處 : {{EMTERM_3}} 製作時間 : 立即完成 產物 : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "db4f943a0613f15a79ec268f": {
+    "english": "Ingredients : Wood Planks x2, Hydrak'Dal Head x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Hydrak'Dal Trophy x1",
+    "templateSha256": "afbbe082b69d4a1ca93f7aaad7ee2acff527ae16d7560fced81991aeadf8e19f",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "cc58ce4b875bc2c5c485c1ca": {
+    "english": "Ingredients : Wood Planks x2, Hydrak'Dal Head x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Hydrak'Dal Trophy x1",
+    "templateSha256": "8d0c7aefb679a9a699a1df06514f641f380ae47ee144231492d796c1d73f1456",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "f4a330a2f51146cd08b52a4a": {
+    "english": "Ingredients : Wood Planks x2, Hydrak'Dal Head x4, Nails x2, Gold Bars x1 Workstations : Hunter + Table Saw Craft Time : Instant Product : Gold Hydrak'Dal Trophy x1",
+    "templateSha256": "7b16e14bd744b2286248242cdae885e516c63bbb349e7f7e2affd3d9c912883f",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} + {{EMTERM_5}} 製作時間 : 立即完成 產物 : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "9bc4bb61bd36b6d7c3915a54": {
+    "english": "Ingredients : Wood Planks x2, Scavenger Matron Helmet x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Scavenger Matron Trophy x1",
+    "templateSha256": "adb21d50e981639de6974574c237450bd75460246a80969b7c5944a0536f35aa",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x1, {{EMTERM_2}} x2 製作處 : {{EMTERM_3}} 製作時間 : 立即完成 產物 : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "dff0a12d06314952fbf4fe80": {
+    "english": "Ingredients : Wood Planks x2, Scavenger Matron Helmet x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Scavenger Matron Trophy x1",
+    "templateSha256": "afbbe082b69d4a1ca93f7aaad7ee2acff527ae16d7560fced81991aeadf8e19f",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "c48d3f20a982153183c86500": {
+    "english": "Ingredients : Wood Planks x2, Scavenger Matron Helmet x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Scavenger Matron Trophy x1",
+    "templateSha256": "8d0c7aefb679a9a699a1df06514f641f380ae47ee144231492d796c1d73f1456",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "dae8a23c716f900c9171384a": {
+    "english": "Ingredients : Wood Planks x2, Scavenger Matron Helmet x4, Nails x2, Gold Bars x1 Workstation : Hunter Craft Time : Instant Product : Gold Scavenger Matron Trophy x1",
+    "templateSha256": "1b47bb52d631224e7601ddfb7d37882c5d9cc7e387ccbc74c824445fe2211fd9",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "0400b7058fb4e83ebd669545": {
+    "english": "Ingredients : Wood Planks x2, Vukah Brawler Head x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Vukah Brawler Trophy x1",
+    "templateSha256": "404728f1dee13db9aabfc64c86857f385069e6e24633365b6e9c889347b6edcc",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} 頭部 x1, {{EMTERM_2}} x2 製作處 : {{EMTERM_3}} 製作時間 : 立即完成 產物 : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "971fc368d836a9abe428d5dc": {
+    "english": "Ingredients : Wood Planks x2, Vukah Brawler Head x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Vukah Brawler Trophy x1",
+    "templateSha256": "2514ab89ed1ff3898775a12609db98cbb4afefdafe6b830be2497c135a90ae6f",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} 頭部 x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "2b2cd4d8cb7cd5725b192059": {
+    "english": "Ingredients : Wood Planks x2, Vukah Brawler Head x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Vukah Brawler Trophy x1",
+    "templateSha256": "5b73f78c69cd9c8c3ded2bb08d7f34c9a9a13b7a07a7d83d2c491ae90a0f9271",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} 頭部 x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} 製作時間 : 立即完成 產物 : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "1ade0cf224a52320ec05ec38": {
+    "english": "Ingredients : Wood Planks x2, Vukah Brawler Head x4, Nails x2, Gold Bars x1 Workstations : Hunter + Table Saw Craft Time : Instant Product : Gold Vukah Brawler Trophy x1",
+    "templateSha256": "d0c57f45cac11508a27d29ac348c63cb90f231f5c7c2e44ce6cefac7c16a8e42",
+    "translation": "材料 : {{EMTERM_0}} x2, {{EMTERM_1}} 頭部 x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 製作處 : {{EMTERM_4}} + {{EMTERM_5}} 製作時間 : 立即完成 產物 : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed fixed recipe-field grammar and artwork-title vocabulary; retain every original material, quantity, workstation and native placeholder."
+  },
+  "1b1fb32b219fe264c4380e5c": {
+    "english": "Crab Meat is dropped by Crabs and Drak. C:Wake Of Water Update",
+    "templateSha256": "1f9460cc68db5857f2a2bea60e52a864ab78753119b00b8ffcbaa766f7ef076c",
+    "translation": "{{EMTERM_0}}可透過擊敗螃蟹和{{EMTERM_1}}獲得。分類：水之覺醒更新。",
+    "reviewNote": "Full contextual prose repair; preserve every item, place, quest and gameplay fact."
+  },
+  "b6a5bdfb95719c4f212cb50a": {
+    "english": "Gatherable - Veilwater Basin Farmable from Banana Seedling",
+    "templateSha256": "25b964319ea30c6410030a1f091f1f55bf39a9f892d7ea782bc005b129f8e5eb",
+    "translation": "可在面紗水盆地採集，也可種植{{EMTERM_0}}獲得。",
+    "reviewNote": "Full contextual prose repair; preserve every item, place, quest and gameplay fact."
+  },
+  "dbdf72eeef2310e2f4706c38": {
+    "english": "Gatherable - Veilwater Basin Farmable from Ginger Seedling",
+    "templateSha256": "25b964319ea30c6410030a1f091f1f55bf39a9f892d7ea782bc005b129f8e5eb",
+    "translation": "可在面紗水盆地採集，也可種植{{EMTERM_0}}獲得。",
+    "reviewNote": "Full contextual prose repair; preserve every item, place, quest and gameplay fact."
+  },
+  "a55c539689c362dc5ef684b4": {
+    "english": "Gatherable - Veilwater Basin Farmable from Shiitake Seedling",
+    "templateSha256": "25b964319ea30c6410030a1f091f1f55bf39a9f892d7ea782bc005b129f8e5eb",
+    "translation": "可在面紗水盆地採集，也可種植{{EMTERM_0}}獲得。",
+    "reviewNote": "Full contextual prose repair; preserve every item, place, quest and gameplay fact."
+  },
+  "c6107edc1fbcb93f7ae62f90": {
+    "english": "Shroud Weaver pickup associated with The Mysterious Wanderer Appears.",
+    "templateSha256": "ae4649874821b659f456c87c97db1db1be97f675e44032572eebfdb87eb47ded",
+    "translation": "取得{{EMTERM_0}}與任務「神祕旅人現身」有關。",
+    "reviewNote": "Pickup denotes obtaining a weapon, not a vehicle or recording device. Use the native associated quest title without changing navigation."
+  },
+  "0691434ec66712f2aa9fb068": {
+    "english": "The Scavenger Matron is the 2nd boss in Enshrouded.",
+    "templateSha256": "12e5bf49b423faf5565f0edb7fdd1aab88f7191bf6b9d9a8671f439e57685391",
+    "translation": "{{EMTERM_0}}是{{EMTERM_1}}中的第2位首領。",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "3aaf36b7e7b551994070abdf": {
+    "english": "The Scavenger Matron is the 2nd boss in Enshrouded. They drop one of the key ingredients for upgrading the Flame Altar to Level 3: the Scavenger Matron Head. There are variations of this boss: * Gorger: Throws poison in 3 directions toward her target * Grizzler: Summons reinforcements",
+    "templateSha256": "ad94bbac6a1bb6712f908ed5bc8ad48541c8100a6da2895320aaaaa9e27f0496",
+    "translation": "{{EMTERM_0}}是{{EMTERM_3}}中的第2位首領。牠會掉落將{{EMTERM_1}}升至3級所需的重要材料之一：{{EMTERM_2}}的頭顱。該首領有以下變體：拾荒者貪食女傑，會朝目標所在的3個方向投擲毒液；拾荒者嗚咽女傑，會召喚援軍。",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "8722e76604b48c78370f1950": {
+    "english": "A miniature piece that shows the Revelwood, part of Meldore. It used to be a vibrant area where the rivers flowed with wine, and the trees would shade the weary. Eventually, though, abuse of the Elixir spread, and the roots that once brought life to the Kingdom began to rot.",
+    "templateSha256": "39b93ff9bfef2c2e82cf84c97cdae50129e35d98764b69666c31ff0eaa07c2d9",
+    "translation": "展示 喧囂森林 的微型作品，是 梅爾多 的一部分。這裡曾經是一個生氣勃勃的地區，河流流著美酒，樹木為疲憊的人們遮蔭。然而，最終，對 萬靈藥 的濫用蔓延開來，曾經為王國帶來生命的根源開始腐爛。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "8a451fdad09c9ff157da837f": {
+    "english": "Former research camp used by Loraine Crim.",
+    "templateSha256": "8a451fdad09c9ff157da837f1d3b4f99b1eb5add83200c2c7fa84866e1de08cb",
+    "translation": "洛蘭‧克里姆 (洛蘭·克里姆) 曾經使用過的研究營地。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "d877d4ae27b6857c199a2b4a": {
+    "english": "Hearing Voices — Vorgoth Notes",
+    "templateSha256": "d877d4ae27b6857c199a2b4a6da7880f87ea098b67246fe345e544793737cec1",
+    "translation": "聽到聲音 — 沃爾戈特筆記",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "a12aa64946bc45333790c6f2": {
+    "english": "Research camp where Nala hid Masonry Tools .",
+    "templateSha256": "f38cf974feb1463e0a5aedd274db13d6778b9f56ef9462161647d1815324f86e",
+    "translation": "娜拉 藏匿 石匠工具 的研究營。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "27ba781b6ade2d27b094d97d": {
+    "english": "The Dungeon is where the Library Foyeris located",
+    "templateSha256": "1aaf66da4f9a164987da42304c4d68fe848ea9b917163c3cbdfe2cc75da732fe",
+    "translation": "圖書館玄關位於這座地牢內。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "f049d47288ac7a14a2a074da": {
+    "english": "The Final Trial (1/1), Need to drink Drak Soulward Flaskto read.",
+    "templateSha256": "f049d47288ac7a14a2a074da46a6da536ae2da514bf32bf925fa9ce7e9c0e2be",
+    "translation": "最後的試煉（1/1）。閱讀前需要飲用龍族護魂瓶。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "8fa3e5f9a2e1b546d46f3f6e": {
+    "english": "This block is found in the Albaneve Hollow Halls.",
+    "templateSha256": "a636ce8b209945ca12ea27821517958cd2f1d8659372e4c4be5a4a3f0905282e",
+    "translation": "該塊位於 阿爾班伊維高峰骷髏大廳 中。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  }
+}

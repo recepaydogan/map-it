@@ -1,0 +1,59 @@
+.companion-crafts { --tracker-secondary: #cbbfa6; position: relative; isolation: isolate; display: flex; flex: 1; flex-direction: column; min-height: 0; color: var(--text); }
+.companion-crafts button { cursor: pointer; }
+.companion-crafts:has(.craft-tracker-auto-hint)::after { content: ''; position: absolute; inset: 0; background: #0006; z-index: 3; pointer-events: none; }
+.multi-craft-companion { display: flex; flex: 1; flex-direction: column; height: auto; min-height: 0; overflow: hidden; }
+.multi-craft-toolbar { position: relative; z-index: 2; display: flex; align-items: center; gap: 10px; padding: 10px 12px; flex-shrink: 0; }
+.multi-craft-toolbar .multi-craft-search { flex: 1; min-width: 0; margin: 0; }
+.multi-craft-toolbar .multi-craft-chests { flex-shrink: 0; margin: 0; font-size: 10px; white-space: nowrap; }
+.multi-craft-companion .multi-craft-stage { flex: 1; min-height: 0; overflow-y: auto; overflow-x: hidden; padding: 0 12px 12px; text-shadow: none; scrollbar-width: thin; scrollbar-color: #695a38 transparent; }
+.multi-craft-companion .multi-craft-row { display: grid; grid-template-columns: 38px minmax(0, 1fr) 24px; align-items: center; column-gap: 8px; width: 100%; margin-bottom: 8px; padding: 10px; background: var(--surface); border: 1px solid var(--border-strong); border-radius: 6px; }
+.multi-craft-companion .multi-craft-heading { display: grid; grid-column: 2; grid-row: 1; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 5px 8px; margin: 0; }
+.multi-craft-companion .multi-craft-heading > span { grid-column: 1; grid-row: 1; min-width: 0; overflow-wrap: anywhere; font-size: 13px; line-height: 1.4; }
+.multi-craft-companion .multi-craft-heading label { color: var(--muted); font-size: 11px; }
+.multi-craft-companion .multi-craft-heading input { height: 26px; text-align: center; border-color: var(--border-strong); background: var(--background); color: var(--text); }
+.multi-craft-companion .multi-craft-heading label { grid-column: 1; grid-row: 2; display: inline-flex; align-items: center; gap: 5px; }
+.multi-craft-companion .multi-craft-heading .companion-remove { display: inline-flex; align-items: center; justify-content: center; gap: 5px; height: 26px; padding: 0 8px; border: 1px solid var(--border-strong); border-radius: 4px; color: var(--tracker-secondary); font-size: 10px; line-height: 1; }
+.multi-craft-companion .companion-remove:hover { color: var(--danger-text); background: var(--surface-hover); }
+.multi-craft-companion .multi-craft-heading > button { grid-column: 2; grid-row: 1 / 3; align-self: center; }
+.multi-craft-companion .multi-craft-line { display: contents; }
+.multi-craft-companion .multi-craft-target { grid-column: 1; grid-row: 1; width: 38px; height: 42px; margin: 0; }
+.multi-craft-companion .multi-craft-target img { width: 30px; height: 30px; }
+.multi-craft-companion .multi-craft-target small { display: none; }
+.multi-craft-companion .multi-craft-target::after { display: none; }
+.multi-craft-companion .multi-craft-separator { grid-column: 3; grid-row: 1; width: 24px; height: 32px; margin: 0; }
+.multi-craft-companion .multi-craft-materials-reveal { grid-column: 1 / -1; grid-row: 2; grid-template-columns: minmax(0, 1fr); grid-template-rows: 1fr; transform: none; transition: grid-template-rows 220ms ease, opacity 180ms ease; }
+.multi-craft-companion .multi-craft-materials-reveal[data-collapsed="true"] { grid-template-columns: minmax(0, 1fr); grid-template-rows: 0fr; }
+.multi-craft-companion .multi-craft-materials-clip { min-height: 0; }
+.companion-material-list { min-width: 0; padding-top: 10px; }
+.companion-material-row { display: grid; grid-template-columns: 38px minmax(0, 1fr) max-content 14px; align-items: center; gap: 4px 8px; padding: 10px 0; border-top: 1px solid var(--border); }
+.companion-material-icon { display: grid; place-items: center; width: 38px; height: 42px; border-radius: 5px; background: var(--background); color: var(--muted); }
+.companion-material-row[data-expandable="true"] { cursor: pointer; }
+.companion-material-row[data-expandable="true"]:hover { background: rgb(255 255 255 / 3%); }
+.companion-material-icon img { width: 32px; height: 32px; object-fit: contain; }
+.companion-material-copy { min-width: 0; }
+.companion-material-name { display: block; font-size: 12px; font-weight: 600; line-height: 1.4; text-align: left; overflow-wrap: anywhere; }
+button.companion-material-name:hover { color: var(--accent); }
+.companion-material-sources { display: flex; flex-wrap: wrap; gap: 2px 10px; margin-top: 3px; font-size: 10px; line-height: 1.5; color: var(--tracker-secondary); }
+.companion-chest-link { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.companion-material-count { display: flex; flex-direction: column; align-items: flex-end; gap: 3px; font-variant-numeric: tabular-nums; }
+.companion-material-count strong { font-size: 13px; line-height: 1.3; }
+.companion-material-count small { font-size: 11px; font-weight: 400; color: var(--tracker-secondary); }
+.companion-material-count > span { font-size: 10px; color: var(--accent); }
+.companion-material[data-complete="true"] > .companion-material-row .companion-material-count > span { color: var(--success-text); }
+.companion-material-expand { grid-column: 4; grid-row: 1; display: grid; place-items: center; height: 28px; color: var(--tracker-secondary); }
+.companion-material-expand svg { transition: transform 180ms ease; }
+.companion-material-chests { grid-column: 2 / -1; display: flex; flex-wrap: wrap; gap: 4px 10px; }
+.companion-material-chests button { font-size: 10px; line-height: 1.5; color: var(--accent); text-decoration: underline; text-underline-offset: 3px; text-align: left; }
+.companion-material > .companion-material-list { padding-top: 0; padding-left: 12px; margin-left: 18px; border-left: 1px solid var(--border-strong); }
+.companion-material:last-child > .companion-material-row { padding-bottom: 2px; }
+.multi-craft-companion .multi-craft-picker-backdrop { height: calc(100dvh - 325px); padding: 8px; }
+.multi-craft-companion .multi-craft-picker-backdrop::backdrop { background: transparent; }
+.multi-craft-companion .multi-craft-picker { width: 100%; text-shadow: none; }
+.multi-craft-empty { padding: 16px 4px; color: var(--muted); font-size: 12px; line-height: 1.5; }
+.companion-search-results { position: absolute; top: calc(100% - 4px); left: 12px; right: 12px; z-index: 1; max-height: min(320px, calc(100dvh - 430px)); overflow-y: auto; padding: 4px; background: var(--surface); border: 1px solid var(--border-strong); border-radius: 6px; box-shadow: 0 8px 24px #0006; scrollbar-width: thin; scrollbar-color: #695a38 transparent; }
+.companion-search-results li > button { display: flex; align-items: center; gap: 10px; width: 100%; padding: 9px; border-bottom: 1px solid var(--border); border-radius: 4px; text-align: left; }
+.companion-search-results li > button:hover { background: var(--surface-hover); }
+.companion-search-results img { width: 32px; height: 32px; object-fit: contain; }
+.companion-search-results span { flex: 1; font-size: 12px; }
+.companion-search-results small { font-size: 10px; color: var(--accent); }
+@media (prefers-reduced-motion: reduce) { .multi-craft-companion .multi-craft-materials-reveal { transition: none; } }

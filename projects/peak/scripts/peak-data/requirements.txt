@@ -1,0 +1,5 @@
+UnityPy==1.25.3
+TypeTreeGeneratorAPI==0.0.10
+numpy==2.3.2
+Pillow==11.3.0
+dnfile==0.18.0

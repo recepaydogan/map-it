@@ -1,0 +1,11 @@
+[functions.character-profile]
+verify_jwt = false
+
+[functions.character-leaderboard]
+verify_jwt = false
+
+[functions.character-profile-refresh]
+verify_jwt = false
+
+[functions.regional-subscription-prices]
+verify_jwt = true

@@ -1,0 +1,29 @@
+/* Keep support surfaces aligned with the dashboard theme. */
+@theme {
+  --color-support-background: #0e0c0a;
+  --color-support-surface: #1a1611;
+  --color-support-border: rgba(216, 203, 176, 0.16);
+  --color-support-muted: #8a8068;
+  --color-support-subtle: #a39882;
+  --color-support-accent: #d4af37;
+  --color-support-accent-soft: rgba(212, 175, 55, 0.16);
+  --color-support-on-accent: #1a1407;
+  --color-support-zinc-50: #faf7f0;
+  --color-support-zinc-100: #f1ebdd;
+  --color-support-zinc-200: #e0d7c4;
+  --color-support-zinc-300: #cbbfa6;
+  --color-support-zinc-400: #a39882;
+  --color-support-zinc-500: #9b917b;
+  --color-support-zinc-600: #948a75;
+  --color-support-zinc-700: #403b30;
+  --color-support-zinc-800: #272018;
+  --color-support-zinc-900: #1a1611;
+  --color-support-zinc-950: #0e0c0a;
+  --font-support-display: "Cinzel", "Inter", system-ui, sans-serif;
+  --animate-support-fade-in: support-fade-in 120ms ease-out both;
+
+  @keyframes support-fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+}

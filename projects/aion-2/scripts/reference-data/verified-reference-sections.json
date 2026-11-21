@@ -1,0 +1,600 @@
+{
+  "version": 1,
+  "evidence": "Installed AION2 client PAKs, verified 2026-10-12: AbyssArtifact, AbyssArtifactEvent, AbyssArtifactBuff, EnvObjData, SkillAbnormal, SkillAbnormalEffect, Item and MapData",
+  "entries": {
+    "EnvObjData:1100017": {
+      "nativeArtifactId": 1001,
+      "nativeEvent": "abyss_ar1_artifactwar",
+      "sections": [
+        {
+          "title": "reference.labels.artifact-siege",
+          "summary": {
+            "key": "reference.artifact.siegeNotice",
+            "values": {}
+          }
+        },
+        {
+          "title": "reference.labels.artifact-portals",
+          "rows": [
+            {
+              "name": "Abyss Corridor",
+              "facts": [
+                {
+                  "label": "reference.labels.faction",
+                  "value": "Light"
+                }
+              ],
+              "location": {
+                "mapId": "reshanta-a",
+                "markerId": "reshanta-a-dungeon-f046dc9bfa69923f",
+                "name": "Reshanta's Root Artifact · Abyss Corridor",
+                "referenceId": "EnvObjData:1100206"
+              },
+              "locationIcon": "/icons/categories/dungeon.png"
+            },
+            {
+              "name": "Abyss Corridor",
+              "facts": [
+                {
+                  "label": "reference.labels.faction",
+                  "value": "Dark"
+                }
+              ],
+              "location": {
+                "mapId": "reshanta-a",
+                "markerId": "reshanta-a-dungeon-dae37fbe4f6436c5",
+                "name": "Reshanta's Root Artifact · Abyss Corridor",
+                "referenceId": "EnvObjData:1100209"
+              },
+              "locationIcon": "/icons/categories/dungeon.png"
+            }
+          ]
+        },
+        {
+          "title": "reference.labels.artifact-occupation-bonuses",
+          "tierCards": {
+            "countLabel": "reference.artifact.artifactsHeld",
+            "valueLabel": "reference.labels.abyss-points-bonus",
+            "tiers": [
+              {
+                "count": 1,
+                "value": "+2.5%",
+                "link": {
+                  "id": "SkillAbnormal:12000261",
+                  "category": "effects",
+                  "name": "Lower Reshanta Artifact I"
+                }
+              },
+              {
+                "count": 2,
+                "value": "+5%",
+                "link": {
+                  "id": "SkillAbnormal:12000262",
+                  "category": "effects",
+                  "name": "Lower Reshanta Artifact II"
+                }
+              },
+              {
+                "count": 3,
+                "value": "+7.5%",
+                "link": {
+                  "id": "SkillAbnormal:12000263",
+                  "category": "effects",
+                  "name": "Lower Reshanta Artifact III"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "title": "reference.labels.artifact-teleport-cost",
+          "summaryNotice": "reference.artifact.teleportCostNotice",
+          "links": [
+            {
+              "id": "530560001",
+              "category": "items",
+              "name": "Return Scroll (Bound)",
+              "icon": "data/items/icons/icon-item-usable-scroll-retunhome-002.png",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    "EnvObjData:1100019": {
+      "nativeArtifactId": 1002,
+      "nativeEvent": "abyss_ar1_artifactwar",
+      "sections": [
+        {
+          "title": "reference.labels.artifact-siege",
+          "summary": {
+            "key": "reference.artifact.siegeNotice",
+            "values": {}
+          }
+        },
+        {
+          "title": "reference.labels.artifact-portals",
+          "rows": [
+            {
+              "name": "Abyss Corridor",
+              "facts": [
+                {
+                  "label": "reference.labels.faction",
+                  "value": "Light"
+                }
+              ],
+              "location": {
+                "mapId": "reshanta-a",
+                "markerId": "reshanta-a-dungeon-3cf4d4adae8139c7",
+                "name": "Sulfur Tree Island Artifact · Abyss Corridor",
+                "referenceId": "EnvObjData:1100204"
+              },
+              "locationIcon": "/icons/categories/dungeon.png"
+            },
+            {
+              "name": "Abyss Corridor",
+              "facts": [
+                {
+                  "label": "reference.labels.faction",
+                  "value": "Dark"
+                }
+              ],
+              "location": {
+                "mapId": "reshanta-a",
+                "markerId": "reshanta-a-dungeon-a0366e22047d6578",
+                "name": "Sulfur Tree Island Artifact · Abyss Corridor",
+                "referenceId": "EnvObjData:1100207"
+              },
+              "locationIcon": "/icons/categories/dungeon.png"
+            }
+          ]
+        },
+        {
+          "title": "reference.labels.artifact-occupation-bonuses",
+          "tierCards": {
+            "countLabel": "reference.artifact.artifactsHeld",
+            "valueLabel": "reference.labels.abyss-points-bonus",
+            "tiers": [
+              {
+                "count": 1,
+                "value": "+2.5%",
+                "link": {
+                  "id": "SkillAbnormal:12000261",
+                  "category": "effects",
+                  "name": "Lower Reshanta Artifact I"
+                }
+              },
+              {
+                "count": 2,
+                "value": "+5%",
+                "link": {
+                  "id": "SkillAbnormal:12000262",
+                  "category": "effects",
+                  "name": "Lower Reshanta Artifact II"
+                }
+              },
+              {
+                "count": 3,
+                "value": "+7.5%",
+                "link": {
+                  "id": "SkillAbnormal:12000263",
+                  "category": "effects",
+                  "name": "Lower Reshanta Artifact III"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "title": "reference.labels.artifact-teleport-cost",
+          "summaryNotice": "reference.artifact.teleportCostNotice",
+          "links": [
+            {
+              "id": "530560001",
+              "category": "items",
+              "name": "Return Scroll (Bound)",
+              "icon": "data/items/icons/icon-item-usable-scroll-retunhome-002.png",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    "EnvObjData:1100021": {
+      "nativeArtifactId": 1003,
+      "nativeEvent": "abyss_ar1_artifactwar",
+      "sections": [
+        {
+          "title": "reference.labels.artifact-siege",
+          "summary": {
+            "key": "reference.artifact.siegeNotice",
+            "values": {}
+          }
+        },
+        {
+          "title": "reference.labels.artifact-portals",
+          "rows": [
+            {
+              "name": "Abyss Corridor",
+              "facts": [
+                {
+                  "label": "reference.labels.faction",
+                  "value": "Light"
+                }
+              ],
+              "location": {
+                "mapId": "reshanta-a",
+                "markerId": "reshanta-a-dungeon-308ad720b18adfd2",
+                "name": "Archipelago of Siel's Wings Artifact · Abyss Corridor",
+                "referenceId": "EnvObjData:1100205"
+              },
+              "locationIcon": "/icons/categories/dungeon.png"
+            },
+            {
+              "name": "Abyss Corridor",
+              "facts": [
+                {
+                  "label": "reference.labels.faction",
+                  "value": "Dark"
+                }
+              ],
+              "location": {
+                "mapId": "reshanta-a",
+                "markerId": "reshanta-a-dungeon-e7078ad29304ca08",
+                "name": "Archipelago of Siel's Wings Artifact · Abyss Corridor",
+                "referenceId": "EnvObjData:1100208"
+              },
+              "locationIcon": "/icons/categories/dungeon.png"
+            }
+          ]
+        },
+        {
+          "title": "reference.labels.artifact-occupation-bonuses",
+          "tierCards": {
+            "countLabel": "reference.artifact.artifactsHeld",
+            "valueLabel": "reference.labels.abyss-points-bonus",
+            "tiers": [
+              {
+                "count": 1,
+                "value": "+2.5%",
+                "link": {
+                  "id": "SkillAbnormal:12000261",
+                  "category": "effects",
+                  "name": "Lower Reshanta Artifact I"
+                }
+              },
+              {
+                "count": 2,
+                "value": "+5%",
+                "link": {
+                  "id": "SkillAbnormal:12000262",
+                  "category": "effects",
+                  "name": "Lower Reshanta Artifact II"
+                }
+              },
+              {
+                "count": 3,
+                "value": "+7.5%",
+                "link": {
+                  "id": "SkillAbnormal:12000263",
+                  "category": "effects",
+                  "name": "Lower Reshanta Artifact III"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "title": "reference.labels.artifact-teleport-cost",
+          "summaryNotice": "reference.artifact.teleportCostNotice",
+          "links": [
+            {
+              "id": "530560001",
+              "category": "items",
+              "name": "Return Scroll (Bound)",
+              "icon": "data/items/icons/icon-item-usable-scroll-retunhome-002.png",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    "EnvObjData:1100464": {
+      "nativeArtifactId": 2001,
+      "nativeEvent": "abyss_ar2_artifactwar",
+      "sections": [
+        {
+          "title": "reference.labels.artifact-siege",
+          "summary": {
+            "key": "reference.artifact.siegeNotice",
+            "values": {}
+          }
+        },
+        {
+          "title": "reference.labels.artifact-portals",
+          "rows": [
+            {
+              "name": "Abyss Corridor",
+              "facts": [
+                {
+                  "label": "reference.labels.faction",
+                  "value": "Light"
+                }
+              ],
+              "location": {
+                "mapId": "dungeon-atlas",
+                "markerId": "interior-22-fee5f1b457197603",
+                "name": "Corroded Heart Artifact · Abyss Corridor",
+                "referenceId": "EnvObjData:1100467"
+              },
+              "locationIcon": "/icons/categories/dungeon.png"
+            },
+            {
+              "name": "Abyss Corridor",
+              "facts": [
+                {
+                  "label": "reference.labels.faction",
+                  "value": "Dark"
+                }
+              ],
+              "location": {
+                "mapId": "dungeon-atlas",
+                "markerId": "interior-22-72d631ed0ba36d37",
+                "name": "Corroded Heart Artifact · Abyss Corridor",
+                "referenceId": "EnvObjData:1100470"
+              },
+              "locationIcon": "/icons/categories/dungeon.png"
+            }
+          ]
+        },
+        {
+          "title": "reference.labels.artifact-occupation-bonuses",
+          "tierCards": {
+            "countLabel": "reference.artifact.artifactsHeld",
+            "valueLabel": "reference.labels.abyss-points-bonus",
+            "tiers": [
+              {
+                "count": 1,
+                "value": "+2.5%",
+                "link": {
+                  "id": "SkillAbnormal:12000264",
+                  "category": "effects",
+                  "name": "Middle Reshanta Artifact I"
+                }
+              },
+              {
+                "count": 2,
+                "value": "+5%",
+                "link": {
+                  "id": "SkillAbnormal:12000265",
+                  "category": "effects",
+                  "name": "Middle Reshanta Artifact II"
+                }
+              },
+              {
+                "count": 3,
+                "value": "+7.5%",
+                "link": {
+                  "id": "SkillAbnormal:12000266",
+                  "category": "effects",
+                  "name": "Middle Reshanta Artifact III"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "title": "reference.labels.artifact-teleport-cost",
+          "summaryNotice": "reference.artifact.teleportCostNotice",
+          "links": [
+            {
+              "id": "530560001",
+              "category": "items",
+              "name": "Return Scroll (Bound)",
+              "icon": "data/items/icons/icon-item-usable-scroll-retunhome-002.png",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    "EnvObjData:1100465": {
+      "nativeArtifactId": 2002,
+      "nativeEvent": "abyss_ar2_artifactwar",
+      "sections": [
+        {
+          "title": "reference.labels.artifact-siege",
+          "summary": {
+            "key": "reference.artifact.siegeNotice",
+            "values": {}
+          }
+        },
+        {
+          "title": "reference.labels.artifact-portals",
+          "rows": [
+            {
+              "name": "Abyss Corridor",
+              "facts": [
+                {
+                  "label": "reference.labels.faction",
+                  "value": "Light"
+                }
+              ],
+              "location": {
+                "mapId": "dungeon-atlas",
+                "markerId": "interior-22-3702cbc1e2e4ee7c",
+                "name": "Contaminated Marsh Artifact · Abyss Corridor",
+                "referenceId": "EnvObjData:1100468"
+              },
+              "locationIcon": "/icons/categories/dungeon.png"
+            },
+            {
+              "name": "Abyss Corridor",
+              "facts": [
+                {
+                  "label": "reference.labels.faction",
+                  "value": "Dark"
+                }
+              ],
+              "location": {
+                "mapId": "dungeon-atlas",
+                "markerId": "interior-22-e26f9e4866416a08",
+                "name": "Contaminated Marsh Artifact · Abyss Corridor",
+                "referenceId": "EnvObjData:1100471"
+              },
+              "locationIcon": "/icons/categories/dungeon.png"
+            }
+          ]
+        },
+        {
+          "title": "reference.labels.artifact-occupation-bonuses",
+          "tierCards": {
+            "countLabel": "reference.artifact.artifactsHeld",
+            "valueLabel": "reference.labels.abyss-points-bonus",
+            "tiers": [
+              {
+                "count": 1,
+                "value": "+2.5%",
+                "link": {
+                  "id": "SkillAbnormal:12000264",
+                  "category": "effects",
+                  "name": "Middle Reshanta Artifact I"
+                }
+              },
+              {
+                "count": 2,
+                "value": "+5%",
+                "link": {
+                  "id": "SkillAbnormal:12000265",
+                  "category": "effects",
+                  "name": "Middle Reshanta Artifact II"
+                }
+              },
+              {
+                "count": 3,
+                "value": "+7.5%",
+                "link": {
+                  "id": "SkillAbnormal:12000266",
+                  "category": "effects",
+                  "name": "Middle Reshanta Artifact III"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "title": "reference.labels.artifact-teleport-cost",
+          "summaryNotice": "reference.artifact.teleportCostNotice",
+          "links": [
+            {
+              "id": "530560001",
+              "category": "items",
+              "name": "Return Scroll (Bound)",
+              "icon": "data/items/icons/icon-item-usable-scroll-retunhome-002.png",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    },
+    "EnvObjData:1100466": {
+      "nativeArtifactId": 2003,
+      "nativeEvent": "abyss_ar2_artifactwar",
+      "sections": [
+        {
+          "title": "reference.labels.artifact-siege",
+          "summary": {
+            "key": "reference.artifact.siegeNotice",
+            "values": {}
+          }
+        },
+        {
+          "title": "reference.labels.artifact-portals",
+          "rows": [
+            {
+              "name": "Abyss Corridor",
+              "facts": [
+                {
+                  "label": "reference.labels.faction",
+                  "value": "Light"
+                }
+              ],
+              "location": {
+                "mapId": "dungeon-atlas",
+                "markerId": "interior-22-ea35cda26847fa18",
+                "name": "Distorted Old Growth Forest Artifact · Abyss Corridor",
+                "referenceId": "EnvObjData:1100469"
+              },
+              "locationIcon": "/icons/categories/dungeon.png"
+            },
+            {
+              "name": "Abyss Corridor",
+              "facts": [
+                {
+                  "label": "reference.labels.faction",
+                  "value": "Dark"
+                }
+              ],
+              "location": {
+                "mapId": "dungeon-atlas",
+                "markerId": "interior-22-0fc10b2ddc756929",
+                "name": "Distorted Old Growth Forest Artifact · Abyss Corridor",
+                "referenceId": "EnvObjData:1100472"
+              },
+              "locationIcon": "/icons/categories/dungeon.png"
+            }
+          ]
+        },
+        {
+          "title": "reference.labels.artifact-occupation-bonuses",
+          "tierCards": {
+            "countLabel": "reference.artifact.artifactsHeld",
+            "valueLabel": "reference.labels.abyss-points-bonus",
+            "tiers": [
+              {
+                "count": 1,
+                "value": "+2.5%",
+                "link": {
+                  "id": "SkillAbnormal:12000264",
+                  "category": "effects",
+                  "name": "Middle Reshanta Artifact I"
+                }
+              },
+              {
+                "count": 2,
+                "value": "+5%",
+                "link": {
+                  "id": "SkillAbnormal:12000265",
+                  "category": "effects",
+                  "name": "Middle Reshanta Artifact II"
+                }
+              },
+              {
+                "count": 3,
+                "value": "+7.5%",
+                "link": {
+                  "id": "SkillAbnormal:12000266",
+                  "category": "effects",
+                  "name": "Middle Reshanta Artifact III"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "title": "reference.labels.artifact-teleport-cost",
+          "summaryNotice": "reference.artifact.teleportCostNotice",
+          "links": [
+            {
+              "id": "530560001",
+              "category": "items",
+              "name": "Return Scroll (Bound)",
+              "icon": "data/items/icons/icon-item-usable-scroll-retunhome-002.png",
+              "quantity": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

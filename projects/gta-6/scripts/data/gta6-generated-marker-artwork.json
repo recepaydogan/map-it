@@ -1,0 +1,699 @@
+{
+  "version": 1,
+  "generator": "built-in-imagegen",
+  "symbols": {
+    "account-balance": "maps/category-icons/gta6-generated/account-balance.png",
+    "agriculture": "maps/category-icons/gta6-generated/agriculture.png",
+    "anchor": "maps/category-icons/gta6-generated/anchor.png",
+    "aquarium": "maps/category-icons/gta6-generated/aquarium.png",
+    "area": "maps/category-icons/gta6-generated/area.png",
+    "baseball": "maps/category-icons/gta6-generated/baseball.png",
+    "blimp": "maps/category-icons/gta6-generated/blimp.png",
+    "camp": "maps/category-icons/gta6-generated/camp.png",
+    "car-repair": "maps/category-icons/gta6-generated/car-repair.png",
+    "casino": "maps/category-icons/gta6-generated/casino.png",
+    "cell-tower": "maps/category-icons/gta6-generated/cell-tower.png",
+    "checkroom": "maps/category-icons/gta6-generated/checkroom.png",
+    "church": "maps/category-icons/gta6-generated/church.png",
+    "coffee": "maps/category-icons/gta6-generated/coffee.png",
+    "community": "maps/category-icons/gta6-generated/community.png",
+    "construction": "maps/category-icons/gta6-generated/construction.png",
+    "content-cut": "maps/category-icons/gta6-generated/content-cut.png",
+    "control-tower": "maps/category-icons/gta6-generated/control-tower.png",
+    "crane": "maps/category-icons/gta6-generated/crane.png",
+    "dam": "maps/category-icons/gta6-generated/dam.png",
+    "diamond": "maps/category-icons/gta6-generated/diamond.png",
+    "directions-bus": "maps/category-icons/gta6-generated/directions-bus.png",
+    "directions-car": "maps/category-icons/gta6-generated/directions-car.png",
+    "diving": "maps/category-icons/gta6-generated/diving.png",
+    "electrical-services": "maps/category-icons/gta6-generated/electrical-services.png",
+    "ferris-wheel": "maps/category-icons/gta6-generated/ferris-wheel.png",
+    "flight": "maps/category-icons/gta6-generated/flight.png",
+    "forest": "maps/category-icons/gta6-generated/forest.png",
+    "fort": "maps/category-icons/gta6-generated/fort.png",
+    "fountain": "maps/category-icons/gta6-generated/fountain.png",
+    "furniture": "maps/category-icons/gta6-generated/furniture.png",
+    "gallery": "maps/category-icons/gta6-generated/gallery.png",
+    "gaming": "maps/category-icons/gta6-generated/gaming.png",
+    "garage": "maps/category-icons/gta6-generated/garage.png",
+    "gate": "maps/category-icons/gta6-generated/gate.png",
+    "gym": "maps/category-icons/gta6-generated/gym.png",
+    "hangar": "maps/category-icons/gta6-generated/hangar.png",
+    "home": "maps/category-icons/gta6-generated/home.png",
+    "hotel": "maps/category-icons/gta6-generated/hotel.png",
+    "industry": "maps/category-icons/gta6-generated/industry.png",
+    "info": "maps/category-icons/gta6-generated/info.png",
+    "lifeguard": "maps/category-icons/gta6-generated/lifeguard.png",
+    "lighthouse": "maps/category-icons/gta6-generated/lighthouse.png",
+    "local-bar": "maps/category-icons/gta6-generated/local-bar.png",
+    "local-car-wash": "maps/category-icons/gta6-generated/local-car-wash.png",
+    "local-fire-department": "maps/category-icons/gta6-generated/local-fire-department.png",
+    "local-gas-station": "maps/category-icons/gta6-generated/local-gas-station.png",
+    "local-hospital": "maps/category-icons/gta6-generated/local-hospital.png",
+    "local-parking": "maps/category-icons/gta6-generated/local-parking.png",
+    "local-police": "maps/category-icons/gta6-generated/local-police.png",
+    "location-city": "maps/category-icons/gta6-generated/location-city.png",
+    "mail": "maps/category-icons/gta6-generated/mail.png",
+    "maze": "maps/category-icons/gta6-generated/maze.png",
+    "monument": "maps/category-icons/gta6-generated/monument.png",
+    "mountain": "maps/category-icons/gta6-generated/mountain.png",
+    "movie": "maps/category-icons/gta6-generated/movie.png",
+    "museum": "maps/category-icons/gta6-generated/museum.png",
+    "nightlife": "maps/category-icons/gta6-generated/nightlife.png",
+    "observatory": "maps/category-icons/gta6-generated/observatory.png",
+    "package-2": "maps/category-icons/gta6-generated/package-2.png",
+    "park": "maps/category-icons/gta6-generated/park.png",
+    "personal-danger": "maps/category-icons/gta6-generated/personal-danger.png",
+    "personal-flag": "maps/category-icons/gta6-generated/personal-flag.png",
+    "pets": "maps/category-icons/gta6-generated/pets.png",
+    "pharmacy": "maps/category-icons/gta6-generated/pharmacy.png",
+    "photo-camera": "maps/category-icons/gta6-generated/photo-camera.png",
+    "piano": "maps/category-icons/gta6-generated/piano.png",
+    "pistol-gun": "maps/category-icons/gta6-generated/pistol-gun.png",
+    "print": "maps/category-icons/gta6-generated/print.png",
+    "prison": "maps/category-icons/gta6-generated/prison.png",
+    "radar": "maps/category-icons/gta6-generated/radar.png",
+    "record": "maps/category-icons/gta6-generated/record.png",
+    "research": "maps/category-icons/gta6-generated/research.png",
+    "restaurant": "maps/category-icons/gta6-generated/restaurant.png",
+    "restrooms": "maps/category-icons/gta6-generated/restrooms.png",
+    "road": "maps/category-icons/gta6-generated/road.png",
+    "sign": "maps/category-icons/gta6-generated/sign.png",
+    "smartphone": "maps/category-icons/gta6-generated/smartphone.png",
+    "soccer": "maps/category-icons/gta6-generated/soccer.png",
+    "spa": "maps/category-icons/gta6-generated/spa.png",
+    "sports-golf": "maps/category-icons/gta6-generated/sports-golf.png",
+    "sports-score": "maps/category-icons/gta6-generated/sports-score.png",
+    "sports-tennis": "maps/category-icons/gta6-generated/sports-tennis.png",
+    "stadium": "maps/category-icons/gta6-generated/stadium.png",
+    "storefront": "maps/category-icons/gta6-generated/storefront.png",
+    "suspension-bridge": "maps/category-icons/gta6-generated/suspension-bridge.png",
+    "swimming": "maps/category-icons/gta6-generated/swimming.png",
+    "tattoo": "maps/category-icons/gta6-generated/tattoo.png",
+    "theater": "maps/category-icons/gta6-generated/theater.png",
+    "tools": "maps/category-icons/gta6-generated/tools.png",
+    "town": "maps/category-icons/gta6-generated/town.png",
+    "train": "maps/category-icons/gta6-generated/train.png",
+    "tunnel": "maps/category-icons/gta6-generated/tunnel.png",
+    "volleyball": "maps/category-icons/gta6-generated/volleyball.png",
+    "warehouse": "maps/category-icons/gta6-generated/warehouse.png",
+    "water-tower": "maps/category-icons/gta6-generated/water-tower.png",
+    "water": "maps/category-icons/gta6-generated/water.png",
+    "waterfall": "maps/category-icons/gta6-generated/waterfall.png",
+    "boat": "maps/category-icons/gta6-generated/anchor.png",
+    "car-rental": "maps/category-icons/gta6-generated/directions-car.png",
+    "crossed-pistols": "maps/category-icons/gta6-generated/pistol-gun.png",
+    "factory": "maps/category-icons/gta6-generated/warehouse.png",
+    "golf-course": "maps/category-icons/gta6-generated/sports-golf.png"
+  },
+  "entries": [
+    {
+      "symbol": "account-balance",
+      "path": "maps/category-icons/gta6-generated/account-balance.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a civic government hall with triangular pediment and three solid columns. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/account-balance.png"
+    },
+    {
+      "symbol": "agriculture",
+      "path": "maps/category-icons/gta6-generated/agriculture.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a compact farm tractor in side profile with two large wheels. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/agriculture.png"
+    },
+    {
+      "symbol": "anchor",
+      "path": "maps/category-icons/gta6-generated/anchor.png",
+      "prompt": "Existing standalone generated sample from this conversation; transparent filled off-white, charcoal outline, muted accent.",
+      "original": "artifacts/gta6-generated-icons/originals/anchor.png"
+    },
+    {
+      "symbol": "aquarium",
+      "path": "maps/category-icons/gta6-generated/aquarium.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a single tropical fish with pale teal body and a simple broad tail. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/aquarium.png"
+    },
+    {
+      "symbol": "area",
+      "path": "maps/category-icons/gta6-generated/area.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium location PIN icon for use directly as a geographic area marker on a GTA VI companion map. The silhouette MUST be the instantly recognizable classic map pin: a rounded circular head tapering to one crisp downward point. Front-facing, symmetrical, compact, single solid sculpted shape. Broad off-white enamel body with subtle cool gray side shading, a narrow charcoal outer contour, and a single small muted coral circular inset in the center of the head. The center inset is plain, no glyph. Refined modern game UI asset, filled substantial forms rather than thin Lucide outline art. Clean strong contrast, very legible at 28px. Understated dimensionality, no plastic gloss, no bulky bevels. Keep the pin itself the entire icon. Centered with generous transparent margins, about 80% canvas height. Genuine transparent alpha background. No backing tile, no disc behind the pin, no ground platform, no map, no terrain, no flag, no compass, no buildings, no secondary symbols, no text, no glow, no gold/yellow, no cast shadow, no decorative objects. One icon only, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/area.png"
+    },
+    {
+      "symbol": "baseball",
+      "path": "maps/category-icons/gta6-generated/baseball.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a baseball with two broad curved coral seam lines. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/baseball.png"
+    },
+    {
+      "symbol": "blimp",
+      "path": "maps/category-icons/gta6-generated/blimp.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a streamlined airship with short tail fins and a small gondola. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/blimp.png"
+    },
+    {
+      "symbol": "camp",
+      "path": "maps/category-icons/gta6-generated/camp.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a camping tent with open triangular entrance. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/camp.png"
+    },
+    {
+      "symbol": "car-repair",
+      "path": "maps/category-icons/gta6-generated/car-repair.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a large mechanics wrench over a small car silhouette. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/car-repair.png"
+    },
+    {
+      "symbol": "casino",
+      "path": "maps/category-icons/gta6-generated/casino.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: two dice with large unmistakable pips. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/casino.png"
+    },
+    {
+      "symbol": "cell-tower",
+      "path": "maps/category-icons/gta6-generated/cell-tower.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a cellular antenna tower with two large side antenna panels and simple signal arcs. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/cell-tower.png"
+    },
+    {
+      "symbol": "checkroom",
+      "path": "maps/category-icons/gta6-generated/checkroom.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a simple short-sleeved T-shirt with folded fabric shading. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/checkroom.png"
+    },
+    {
+      "symbol": "church",
+      "path": "maps/category-icons/gta6-generated/church.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a small church with a steeple and cross. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/church.png"
+    },
+    {
+      "symbol": "coffee",
+      "path": "maps/category-icons/gta6-generated/coffee.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a takeaway coffee cup with coral sleeve and pale lid. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/coffee.png"
+    },
+    {
+      "symbol": "community",
+      "path": "maps/category-icons/gta6-generated/community.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: three friendly abstract human busts arranged as a community group. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/community.png"
+    },
+    {
+      "symbol": "construction",
+      "path": "maps/category-icons/gta6-generated/construction.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a construction hard hat with a short handled hammer. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/construction.png"
+    },
+    {
+      "symbol": "content-cut",
+      "path": "maps/category-icons/gta6-generated/content-cut.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a barber pole with coral and off-white diagonal bands and dark caps. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/content-cut.png"
+    },
+    {
+      "symbol": "control-tower",
+      "path": "maps/category-icons/gta6-generated/control-tower.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: an airport control tower with a broad glazed top and sturdy tapered shaft. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/control-tower.png"
+    },
+    {
+      "symbol": "crane",
+      "path": "maps/category-icons/gta6-generated/crane.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a tall container port gantry crane with a hanging cargo container, simple bold silhouette. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/crane.png"
+    },
+    {
+      "symbol": "dam",
+      "path": "maps/category-icons/gta6-generated/dam.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a concrete hydroelectric dam with three broad spillways and teal water. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/dam.png"
+    },
+    {
+      "symbol": "diamond",
+      "path": "maps/category-icons/gta6-generated/diamond.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a single faceted cut diamond, broad simple facets and pale teal reflections. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/diamond.png"
+    },
+    {
+      "symbol": "directions-bus",
+      "path": "maps/category-icons/gta6-generated/directions-bus.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a city bus viewed from the front with wide windshield and two headlights. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/directions-bus.png"
+    },
+    {
+      "symbol": "directions-car",
+      "path": "maps/category-icons/gta6-generated/directions-car.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a compact sports car seen from the front three-quarter view. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/directions-car.png"
+    },
+    {
+      "symbol": "diving",
+      "path": "maps/category-icons/gta6-generated/diving.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a scuba diving mask with broad glass lenses and snorkel. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/diving.png"
+    },
+    {
+      "symbol": "electrical-services",
+      "path": "maps/category-icons/gta6-generated/electrical-services.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a chunky electrical transformer with a clear lightning bolt. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/electrical-services.png"
+    },
+    {
+      "symbol": "ferris-wheel",
+      "path": "maps/category-icons/gta6-generated/ferris-wheel.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: an amusement park ferris wheel with six large gondolas and sturdy supports. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/ferris-wheel.png"
+    },
+    {
+      "symbol": "flight",
+      "path": "maps/category-icons/gta6-generated/flight.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a passenger airplane seen from directly above, wings spread. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/flight.png"
+    },
+    {
+      "symbol": "forest",
+      "path": "maps/category-icons/gta6-generated/forest.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: three pine trees with broad filled branches. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/forest.png"
+    },
+    {
+      "symbol": "fort",
+      "path": "maps/category-icons/gta6-generated/fort.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a low fortified concrete bunker with a small dark entry and heavy sloped roof. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/fort.png"
+    },
+    {
+      "symbol": "fountain",
+      "path": "maps/category-icons/gta6-generated/fountain.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a two-tier stone fountain with broad teal water streams. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/fountain.png"
+    },
+    {
+      "symbol": "furniture",
+      "path": "maps/category-icons/gta6-generated/furniture.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a comfortable two-seat sofa with broad cushions. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/furniture.png"
+    },
+    {
+      "symbol": "gallery",
+      "path": "maps/category-icons/gta6-generated/gallery.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a framed landscape painting showing simple hills and a coral sun. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/gallery.png"
+    },
+    {
+      "symbol": "gaming",
+      "path": "maps/category-icons/gta6-generated/gaming.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a modern game controller with bold directional pad and four buttons. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/gaming.png"
+    },
+    {
+      "symbol": "garage",
+      "path": "maps/category-icons/gta6-generated/garage.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a garage facade with roll-up door and a small car front. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/garage.png"
+    },
+    {
+      "symbol": "gate",
+      "path": "maps/category-icons/gta6-generated/gate.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a pair of entrance gate pillars and an open double gate. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/gate.png"
+    },
+    {
+      "symbol": "gym",
+      "path": "maps/category-icons/gta6-generated/gym.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a chunky dumbbell with two large plates each side. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/gym.png"
+    },
+    {
+      "symbol": "hangar",
+      "path": "maps/category-icons/gta6-generated/hangar.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: an aircraft hangar with large arched roof and a tiny airplane silhouette in the doorway. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/hangar.png"
+    },
+    {
+      "symbol": "home",
+      "path": "maps/category-icons/gta6-generated/home.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a simple coastal house with a coral pitched roof, door and two windows. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/home.png"
+    },
+    {
+      "symbol": "hotel",
+      "path": "maps/category-icons/gta6-generated/hotel.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a comfortable hotel bed with two pillows and a sturdy headboard. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/hotel.png"
+    },
+    {
+      "symbol": "industry",
+      "path": "maps/category-icons/gta6-generated/industry.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a factory building with sawtooth roof and two broad smokestacks. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/industry.png"
+    },
+    {
+      "symbol": "info",
+      "path": "maps/category-icons/gta6-generated/info.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a visitor information plaque with one clear lowercase i, no other text. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/info.png"
+    },
+    {
+      "symbol": "lifeguard",
+      "path": "maps/category-icons/gta6-generated/lifeguard.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a lifeguard rescue buoy with a clear cross, small simple silhouette. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/lifeguard.png"
+    },
+    {
+      "symbol": "lighthouse",
+      "path": "maps/category-icons/gta6-generated/lighthouse.png",
+      "prompt": "Existing standalone generated sample from this conversation; transparent filled off-white, charcoal outline, muted accent.",
+      "original": "artifacts/gta6-generated-icons/originals/lighthouse.png"
+    },
+    {
+      "symbol": "local-bar",
+      "path": "maps/category-icons/gta6-generated/local-bar.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a cocktail martini glass with a coral drink and small olive. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/local-bar.png"
+    },
+    {
+      "symbol": "local-car-wash",
+      "path": "maps/category-icons/gta6-generated/local-car-wash.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a car front with two broad water jets at the sides. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/local-car-wash.png"
+    },
+    {
+      "symbol": "local-fire-department",
+      "path": "maps/category-icons/gta6-generated/local-fire-department.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a firefighter helmet with a small flame emblem, coral and off-white. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/local-fire-department.png"
+    },
+    {
+      "symbol": "local-gas-station",
+      "path": "maps/category-icons/gta6-generated/local-gas-station.png",
+      "prompt": "Existing standalone generated sample from this conversation; transparent filled off-white, charcoal outline, muted accent.",
+      "original": "artifacts/gta6-generated-icons/originals/local-gas-station.png"
+    },
+    {
+      "symbol": "local-hospital",
+      "path": "maps/category-icons/gta6-generated/local-hospital.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a compact medical hospital building with a prominent coral medical cross. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/local-hospital.png"
+    },
+    {
+      "symbol": "local-parking",
+      "path": "maps/category-icons/gta6-generated/local-parking.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a parking sign with a single uppercase P and tiny car silhouette. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/local-parking.png"
+    },
+    {
+      "symbol": "local-police",
+      "path": "maps/category-icons/gta6-generated/local-police.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a neutral silver police shield with a small central star, no text. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/local-police.png"
+    },
+    {
+      "symbol": "location-city",
+      "path": "maps/category-icons/gta6-generated/location-city.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: two office tower buildings, big simple windows. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/location-city.png"
+    },
+    {
+      "symbol": "mail",
+      "path": "maps/category-icons/gta6-generated/mail.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a sealed postal envelope with broad folded flap and coral stamp. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/mail.png"
+    },
+    {
+      "symbol": "maze",
+      "path": "maps/category-icons/gta6-generated/maze.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a compact top-down hedge maze with wide simple paths, muted teal walls. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/maze.png"
+    },
+    {
+      "symbol": "monument",
+      "path": "maps/category-icons/gta6-generated/monument.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a stone obelisk monument on a simple two-step pedestal. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/monument.png"
+    },
+    {
+      "symbol": "mountain",
+      "path": "maps/category-icons/gta6-generated/mountain.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: two overlapping mountain peaks with pale snowy caps. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/mountain.png"
+    },
+    {
+      "symbol": "movie",
+      "path": "maps/category-icons/gta6-generated/movie.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a clapperboard with three large diagonal stripe segments. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/movie.png"
+    },
+    {
+      "symbol": "museum",
+      "path": "maps/category-icons/gta6-generated/museum.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a small classical museum facade with three substantial columns and a pediment. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/museum.png"
+    },
+    {
+      "symbol": "nightlife",
+      "path": "maps/category-icons/gta6-generated/nightlife.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a disco ball with just a few large mirror facets and two small sparkle marks. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/nightlife.png"
+    },
+    {
+      "symbol": "observatory",
+      "path": "maps/category-icons/gta6-generated/observatory.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: an astronomical observatory dome with a short telescope emerging. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/observatory.png"
+    },
+    {
+      "symbol": "package-2",
+      "path": "maps/category-icons/gta6-generated/package-2.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a closed supply crate with broad pale straps. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/package-2.png"
+    },
+    {
+      "symbol": "park",
+      "path": "maps/category-icons/gta6-generated/park.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a broad leafy park tree with a little bench. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/park.png"
+    },
+    {
+      "symbol": "personal-danger",
+      "path": "maps/category-icons/gta6-generated/personal-danger.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a warning triangle outline surrounding a bold exclamation mark, off-white and coral. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/personal-danger.png"
+    },
+    {
+      "symbol": "personal-flag",
+      "path": "maps/category-icons/gta6-generated/personal-flag.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a waving coral pennant on a sturdy short flagpole. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/personal-flag.png"
+    },
+    {
+      "symbol": "pets",
+      "path": "maps/category-icons/gta6-generated/pets.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a large paw print with four rounded toe pads. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/pets.png"
+    },
+    {
+      "symbol": "pharmacy",
+      "path": "maps/category-icons/gta6-generated/pharmacy.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a capsule pill crossing a small medical cross, coral and off-white. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/pharmacy.png"
+    },
+    {
+      "symbol": "photo-camera",
+      "path": "maps/category-icons/gta6-generated/photo-camera.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a compact camera with a large lens and small coral shutter button. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/photo-camera.png"
+    },
+    {
+      "symbol": "piano",
+      "path": "maps/category-icons/gta6-generated/piano.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a short piano keyboard with seven white keys and five dark keys. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/piano.png"
+    },
+    {
+      "symbol": "pistol-gun",
+      "path": "maps/category-icons/gta6-generated/pistol-gun.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a single compact handgun in profile, unmistakable gun store symbol. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/pistol-gun.png"
+    },
+    {
+      "symbol": "print",
+      "path": "maps/category-icons/gta6-generated/print.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a desktop printer with one sheet emerging and a single coral button. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/print.png"
+    },
+    {
+      "symbol": "prison",
+      "path": "maps/category-icons/gta6-generated/prison.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a barred prison window in a thick rectangular stone surround. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/prison.png"
+    },
+    {
+      "symbol": "radar",
+      "path": "maps/category-icons/gta6-generated/radar.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a broad satellite radar dish angled upward on a compact mount. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/radar.png"
+    },
+    {
+      "symbol": "record",
+      "path": "maps/category-icons/gta6-generated/record.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a vinyl record with a coral center label and only one broad groove. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/record.png"
+    },
+    {
+      "symbol": "research",
+      "path": "maps/category-icons/gta6-generated/research.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a sturdy laboratory microscope with a coral adjustment knob. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/research.png"
+    },
+    {
+      "symbol": "restaurant",
+      "path": "maps/category-icons/gta6-generated/restaurant.png",
+      "prompt": "Create ONE polished restaurant map marker icon: a bold upright fork beside a chef's knife. Original premium game-map artwork, sculpted filled off-white shapes, subtle cool-gray shading, narrow dark charcoal contour, tiny muted coral accent. Designed to remain unmistakable at 28px. Centered square composition occupying 80 percent, generous gaps, front view, minimal detail. Genuine transparent alpha background. No backing tile, no disc, no pin bubble, no text, no shadow outside silhouette, no gold, no glow, no thin wireframe or Lucide style. Single standalone icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/restaurant.png"
+    },
+    {
+      "symbol": "restrooms",
+      "path": "maps/category-icons/gta6-generated/restrooms.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: two simple restroom person silhouettes separated by a vertical bar. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/restrooms.png"
+    },
+    {
+      "symbol": "road",
+      "path": "maps/category-icons/gta6-generated/road.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a short winding stretch of asphalt road with broad off-white lane markings. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/road.png"
+    },
+    {
+      "symbol": "sign",
+      "path": "maps/category-icons/gta6-generated/sign.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a roadside billboard on two short supports with an abstract coral rectangle and no letters. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/sign.png"
+    },
+    {
+      "symbol": "smartphone",
+      "path": "maps/category-icons/gta6-generated/smartphone.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a modern smartphone with rounded rectangular screen and small coral app square. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/smartphone.png"
+    },
+    {
+      "symbol": "soccer",
+      "path": "maps/category-icons/gta6-generated/soccer.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: one soccer ball with large charcoal pentagonal panels. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/soccer.png"
+    },
+    {
+      "symbol": "spa",
+      "path": "maps/category-icons/gta6-generated/spa.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: three smooth stacked spa stones with a small teal leaf. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/spa.png"
+    },
+    {
+      "symbol": "sports-golf",
+      "path": "maps/category-icons/gta6-generated/sports-golf.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a golf putting flag planted beside a single golf ball on a tiny neutral green silhouette, clearly golf. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/sports-golf.png"
+    },
+    {
+      "symbol": "sports-score",
+      "path": "maps/category-icons/gta6-generated/sports-score.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a waving checkered race flag with only nine large squares. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/sports-score.png"
+    },
+    {
+      "symbol": "sports-tennis",
+      "path": "maps/category-icons/gta6-generated/sports-tennis.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a tennis racket and one tennis ball, thick handle and simplified large grid. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/sports-tennis.png"
+    },
+    {
+      "symbol": "stadium",
+      "path": "maps/category-icons/gta6-generated/stadium.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: an oval stadium seen slightly from above, playing field and two broad stands. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/stadium.png"
+    },
+    {
+      "symbol": "storefront",
+      "path": "maps/category-icons/gta6-generated/storefront.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a shop facade with striped coral awning and a broad shop window. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/storefront.png"
+    },
+    {
+      "symbol": "suspension-bridge",
+      "path": "maps/category-icons/gta6-generated/suspension-bridge.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a suspension bridge with two towers and a simple hanging cable. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/suspension-bridge.png"
+    },
+    {
+      "symbol": "swimming",
+      "path": "maps/category-icons/gta6-generated/swimming.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a swimmer head and bent arm above two broad teal water waves. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/swimming.png"
+    },
+    {
+      "symbol": "tattoo",
+      "path": "maps/category-icons/gta6-generated/tattoo.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a professional tattoo machine with grip and tiny needle, thick recognizable silhouette. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/tattoo.png"
+    },
+    {
+      "symbol": "theater",
+      "path": "maps/category-icons/gta6-generated/theater.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: two sculpted theatrical masks, one smiling and one sad. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/theater.png"
+    },
+    {
+      "symbol": "tools",
+      "path": "maps/category-icons/gta6-generated/tools.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a chunky hammer crossed with a broad adjustable wrench. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/tools.png"
+    },
+    {
+      "symbol": "town",
+      "path": "maps/category-icons/gta6-generated/town.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a compact cluster of three small coastal town houses, distinct broad roofs. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/town.png"
+    },
+    {
+      "symbol": "train",
+      "path": "maps/category-icons/gta6-generated/train.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a passenger locomotive facing forward on two short rails. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/train.png"
+    },
+    {
+      "symbol": "tunnel",
+      "path": "maps/category-icons/gta6-generated/tunnel.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: an arched road tunnel portal with roadway entering dark opening. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/tunnel.png"
+    },
+    {
+      "symbol": "volleyball",
+      "path": "maps/category-icons/gta6-generated/volleyball.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a single volleyball with six broad curved panel shapes. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/volleyball.png"
+    },
+    {
+      "symbol": "warehouse",
+      "path": "maps/category-icons/gta6-generated/warehouse.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a broad warehouse with a roll-up door and one small carton. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/warehouse.png"
+    },
+    {
+      "symbol": "water-tower",
+      "path": "maps/category-icons/gta6-generated/water-tower.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: an elevated cylindrical water tank on four substantial legs, unmistakable water tower. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/water-tower.png"
+    },
+    {
+      "symbol": "water",
+      "path": "maps/category-icons/gta6-generated/water.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: three broad gently undulating water waves, bold separated ribbons. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/water.png"
+    },
+    {
+      "symbol": "waterfall",
+      "path": "maps/category-icons/gta6-generated/waterfall.png",
+      "prompt": "Use case: stylized-concept. Create ONE original premium game-map marker icon. Subject: a waterfall cascading over a simple rock ledge, broad teal and off-white water. Sculpted FILLED off-white forms, restrained cool-gray shading, narrow charcoal contour, one small muted coral or teal accent. Contemporary polished game UI artwork, instantly readable at 28px, bold silhouette, large clear negative spaces, front view or only slight perspective. Centered square, subject occupies 80 percent. Genuine transparent alpha background. No backing tile or circular badge, no pin bubble, no surrounding shadow, no glow, no gold or yellow, no tiny decorative details, no thin Lucide wireframe. No text except explicitly required symbol. Single isolated icon, not a sheet.",
+      "original": "artifacts/gta6-generated-icons/originals/waterfall.png"
+    }
+  ]
+}

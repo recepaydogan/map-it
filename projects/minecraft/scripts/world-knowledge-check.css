@@ -1,0 +1,12 @@
+@import "../src/index.css";
+@source "./world-knowledge-check.tsx";
+
+body { background: var(--color-map-surface); }
+.knowledge-shell { display: flex; width: 1280px; height: 800px; }
+.knowledge-map { position: relative; width: 840px; flex-shrink: 0; overflow: hidden; background: radial-gradient(circle at 60% 35%, #193431, var(--color-map-surface) 58%); }
+.knowledge-toolbar { position: absolute; inset: 12px 12px auto; z-index: 50; padding: 9px 12px; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--panel-bg); font-size: 12px; }
+.knowledge-rail { width: 440px; flex-shrink: 0; padding: 16px; overflow: auto; border-left: 1px solid var(--color-border); background: var(--color-background); }
+.knowledge-rail h1 { font-size: 14px; font-weight: 600; }
+.knowledge-rail p { margin: 12px 0; color: var(--color-subtle); font-size: 12px; line-height: 1.5; }
+.knowledge-rail button { cursor: pointer; border: 1px solid var(--color-border); border-radius: var(--radius-sm); background: var(--color-surface); padding: 8px 12px; font-size: 12px; }
+.knowledge-rail pre { margin-top: 16px; white-space: pre-wrap; overflow-wrap: anywhere; font-size: 12px; line-height: 1.5; }

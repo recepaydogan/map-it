@@ -1,0 +1,14 @@
+{
+  "c6107edc1fbcb93f7ae62f90": {
+    "english": "Shroud Weaver pickup associated with The Mysterious Wanderer Appears.",
+    "templateSha256": "ae4649874821b659f456c87c97db1db1be97f675e44032572eebfdb87eb47ded",
+    "translation": "Il ritrovamento di {{EMTERM_0}} è legato alla missione «Il Viandante misterioso appare».",
+    "reviewNote": "Pickup denotes obtaining a weapon, not a vehicle or recording device. Use the native associated quest title without changing navigation."
+  },
+  "4d69565d5233d4a70475b06a": {
+    "english": "The Vukah Brawler is a boss in Enshrouded. Way larger than a normal Vukah, The Brawler is the champion from gladiators fights, organised by a warrior sect",
+    "templateSha256": "453fbe4399268578c105a02c6e1a03b811f57ccb9adcb385d5856c995ce618b6",
+    "translation": "Il lottatore Vukah è un boss di {{EMTERM_1}}. È molto più grande di un normale Vukah ed è il campione dei combattimenti tra gladiatori organizzati da una setta guerriera.",
+    "reviewNote": "Repair singular boss context and untranslated Brawler title."
+  }
+}

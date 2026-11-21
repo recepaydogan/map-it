@@ -1,0 +1,286 @@
+[
+  {
+    "id": "aion-2",
+    "name": "AION 2",
+    "version": "4.0.5",
+    "entry": "index.html",
+    "background": "background.html",
+    "icon": "/apps/aion-2/icon.png",
+    "gameIds": [
+      28260
+    ],
+    "windows": {
+      "overlay_map": "mi_aion-2_overlay_map",
+      "background": "background",
+      "main": "main",
+      "in_game": "mi_aion-2_in_game"
+    },
+    "windowFiles": {
+      "overlay_map": "index.html",
+      "background": "background.html",
+      "main": "index.html",
+      "in_game": "index.html"
+    }
+  },
+  {
+    "id": "baldurs-gate-3",
+    "name": "Baldur’s Gate 3",
+    "version": "1.0.2",
+    "entry": "index.html",
+    "background": "background.html",
+    "icon": "/apps/baldurs-gate-3/icon.png",
+    "gameIds": [
+      22088
+    ],
+    "windows": {
+      "background": "background",
+      "main": "main",
+      "in_game": "mi_baldurs-gate-3_in_game",
+      "overlay_map": "mi_baldurs-gate-3_overlay_map"
+    },
+    "windowFiles": {
+      "background": "background.html",
+      "main": "index.html",
+      "in_game": "index.html",
+      "overlay_map": "index.html"
+    }
+  },
+  {
+    "id": "elden-ring",
+    "name": "Elden Ring / Nightreign",
+    "version": "2.1.5",
+    "entry": "app.html",
+    "background": "background.html",
+    "icon": "/apps/elden-ring/icon.png",
+    "gameIds": [
+      21866,
+      25918
+    ],
+    "windows": {
+      "background": "background",
+      "main": "main",
+      "companion": "mi_elden-ring_companion",
+      "overlay": "mi_elden-ring_overlay",
+      "overlay_map": "mi_elden-ring_overlay_map"
+    },
+    "windowFiles": {
+      "background": "background.html",
+      "main": "app.html",
+      "companion": "app.html",
+      "overlay": "app.html",
+      "overlay_map": "app.html"
+    }
+  },
+  {
+    "id": "enshrouded",
+    "name": "Enshrouded",
+    "version": "2.0.1",
+    "entry": "index.html",
+    "background": "background.html",
+    "icon": "/apps/enshrouded/icon.png",
+    "gameIds": [
+      23946
+    ],
+    "windows": {
+      "background": "background",
+      "main": "main",
+      "in_game": "mi_enshrouded_in_game",
+      "overlay_map": "mi_enshrouded_overlay_map"
+    },
+    "windowFiles": {
+      "background": "background.html",
+      "main": "index.html",
+      "in_game": "index.html",
+      "overlay_map": "index.html"
+    }
+  },
+  {
+    "id": "gta-6",
+    "name": "GTA 6",
+    "version": "1.0.5",
+    "entry": "index.html",
+    "background": "background.html",
+    "icon": "/apps/gta-6/icon.png",
+    "gameIds": [],
+    "windows": {
+      "overlay_map": "mi_gta-6_overlay_map",
+      "background": "background",
+      "main": "main",
+      "in_game": "mi_gta-6_in_game"
+    },
+    "windowFiles": {
+      "overlay_map": "index.html",
+      "background": "background.html",
+      "main": "index.html",
+      "in_game": "index.html"
+    }
+  },
+  {
+    "id": "minecraft",
+    "name": "Minecraft",
+    "version": "1.1.3",
+    "entry": "index.html",
+    "background": "background.html",
+    "icon": "/apps/minecraft/icon.png",
+    "gameIds": [
+      8032,
+      22176
+    ],
+    "windows": {
+      "background": "background",
+      "main": "main",
+      "in_game": "mi_minecraft_in_game",
+      "overlay_map": "mi_minecraft_overlay_map",
+      "overlay_marker_details": "mi_minecraft_overlay_marker_details"
+    },
+    "windowFiles": {
+      "background": "background.html",
+      "main": "index.html",
+      "in_game": "index.html",
+      "overlay_map": "index.html",
+      "overlay_marker_details": "index.html"
+    }
+  },
+  {
+    "id": "peak",
+    "name": "PEAK",
+    "version": "2.0.4",
+    "entry": "app.html",
+    "background": "background.html",
+    "icon": "/apps/peak/icon.png",
+    "gameIds": [
+      26092
+    ],
+    "windows": {
+      "background": "background",
+      "main": "main",
+      "overlay": "mi_peak_overlay"
+    },
+    "windowFiles": {
+      "background": "background.html",
+      "main": "app.html",
+      "overlay": "app.html"
+    }
+  },
+  {
+    "id": "phantom-blade",
+    "name": "Phantom Blade Zero",
+    "version": "1.0.6",
+    "entry": "index.html",
+    "background": "background.html",
+    "icon": "/apps/phantom-blade/icon.png",
+    "gameIds": [
+      28310
+    ],
+    "windows": {
+      "overlay_map": "mi_phantom-blade_overlay_map",
+      "background": "background",
+      "main": "main",
+      "in_game": "mi_phantom-blade_in_game"
+    },
+    "windowFiles": {
+      "overlay_map": "index.html",
+      "background": "background.html",
+      "main": "index.html",
+      "in_game": "index.html"
+    }
+  },
+  {
+    "id": "project-zomboid",
+    "name": "Project Zomboid",
+    "version": "2.2.0",
+    "entry": "index.html",
+    "background": "background.html",
+    "icon": "/apps/project-zomboid/icon.png",
+    "gameIds": [
+      10598
+    ],
+    "windows": {
+      "background": "background",
+      "main": "main",
+      "in_game": "mi_project-zomboid_in_game",
+      "overlay_map": "mi_project-zomboid_overlay_map"
+    },
+    "windowFiles": {
+      "background": "background.html",
+      "main": "index.html",
+      "in_game": "index.html",
+      "overlay_map": "index.html"
+    }
+  },
+  {
+    "id": "rob-run",
+    "name": "ROB RUN",
+    "version": "1.3.3",
+    "entry": "index.html",
+    "background": "background.html",
+    "icon": "/apps/rob-run/icon.png",
+    "gameIds": [
+      28318
+    ],
+    "windows": {
+      "overlay_map": "mi_rob-run_overlay_map",
+      "background": "background",
+      "main": "main",
+      "in_game": "mi_rob-run_in_game"
+    },
+    "windowFiles": {
+      "overlay_map": "index.html",
+      "background": "background.html",
+      "main": "index.html",
+      "in_game": "index.html"
+    }
+  },
+  {
+    "id": "valheim",
+    "name": "Valheim",
+    "version": "4.1.5",
+    "entry": "index.html",
+    "background": "background.html",
+    "icon": "/apps/valheim/icon.png",
+    "gameIds": [
+      21668
+    ],
+    "windows": {
+      "background": "background",
+      "main": "main",
+      "in_game": "mi_valheim_in_game",
+      "craft_overlay": "mi_valheim_craft_overlay",
+      "craft_hint": "mi_valheim_craft_hint",
+      "overlay": "mi_valheim_overlay",
+      "companion": "mi_valheim_companion"
+    },
+    "windowFiles": {
+      "background": "background.html",
+      "main": "index.html",
+      "in_game": "index.html",
+      "craft_overlay": "index.html",
+      "craft_hint": "index.html",
+      "overlay": "index.html",
+      "companion": "index.html"
+    }
+  },
+  {
+    "id": "wow-forever",
+    "name": "WoW Forever",
+    "version": "5.0.2",
+    "entry": "index.html",
+    "background": "background.html",
+    "icon": "/apps/wow-forever/icon.png",
+    "gameIds": [
+      28268
+    ],
+    "windows": {
+      "overlay_map": "mi_wow-forever_overlay_map",
+      "background": "background",
+      "main": "main",
+      "in_game": "mi_wow-forever_in_game"
+    },
+    "windowFiles": {
+      "overlay_map": "index.html",
+      "background": "background.html",
+      "main": "index.html",
+      "in_game": "index.html"
+    }
+  }
+]

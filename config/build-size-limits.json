@@ -1,0 +1,18 @@
+{
+  "totalBytes": 170000000,
+  "opkBytes": 50000000,
+  "apps": {
+    "aion-2": 7500000,
+    "baldurs-gate-3": 3500000,
+    "elden-ring": 27000000,
+    "enshrouded": 12000000,
+    "gta-6": 5000000,
+    "minecraft": 11000000,
+    "peak": 4500000,
+    "phantom-blade": 9500000,
+    "project-zomboid": 38000000,
+    "rob-run": 8000000,
+    "valheim": 51000000,
+    "wow-forever": 18500000
+  }
+}

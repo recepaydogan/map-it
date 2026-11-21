@@ -1,0 +1,150 @@
+.map-filter-trigger-label {
+  display: none;
+}
+
+.dashboard-window :is(.map-filter-trigger-frame, .map-search-field, .map-search-picker, .map-control-stack, .map-bottom-zoom, .map-bottom-pin, .map-placement-hint) {
+  border-color: var(--color-border);
+  background: var(--color-surface);
+  backdrop-filter: none;
+}
+
+.dashboard-window .map-filter-trigger-frame {
+  padding: 0;
+  border-radius: 8px;
+}
+
+.dashboard-window .map-filter-trigger {
+  display: flex;
+  width: auto;
+  height: calc(var(--map-toolbar-height) - 2px);
+  align-items: center;
+  gap: 8px;
+  padding-inline: 10px;
+  border-radius: 7px;
+  font-size: calc(12px * var(--app-font-scale));
+  font-weight: 700;
+}
+
+.dashboard-window .map-filter-trigger-label {
+  display: inline;
+}
+
+.dashboard-window .map-filter-count {
+  position: static;
+  min-width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background: var(--color-elevated);
+  color: var(--color-zinc-200);
+}
+
+.dashboard-window .map-filter-trigger[aria-expanded="true"] {
+  box-shadow: inset 2px 0 var(--color-accent);
+}
+
+.dashboard-window :is(.map-filter-trigger[aria-expanded="true"], .map-control-active, .map-filter-trigger[aria-expanded="true"] .map-filter-count) {
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+}
+
+.dashboard-window .map-search-picker {
+  border-radius: 8px;
+}
+
+.dashboard-window .map-search-picker:hover,
+.dashboard-window .map-bottom-pin:hover {
+  background: var(--color-surface-hover);
+}
+
+.dashboard-window .map-search-field {
+  border-radius: 8px;
+}
+
+.dashboard-window .map-search-field:has(input[aria-expanded="true"]) {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.dashboard-window :is(.map-filter-panel, .map-details-panel) {
+  border-color: var(--color-border);
+  border-radius: 10px;
+  background: var(--color-surface);
+  color: var(--color-zinc-300);
+  backdrop-filter: none;
+}
+
+.dashboard-window :is(.map-filter-panel > header, .map-details-panel .map-details-header) {
+  border-color: var(--color-border);
+  background: var(--color-elevated);
+}
+
+.dashboard-window .map-filter-panel > header h1 {
+  font-weight: 700;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+}
+
+.dashboard-window :is(.map-filter-action, .map-filter-search),
+.dashboard-window .map-details-panel .map-secondary-button {
+  border-color: var(--color-border);
+  border-radius: 6px;
+  color: var(--color-zinc-200);
+}
+
+.dashboard-window .map-filter-search {
+  --focus-ring: var(--color-accent);
+  background: var(--color-background);
+}
+
+.dashboard-window :is(.map-search-field, .map-filter-search):focus-within {
+  border-color: var(--focus-ring);
+}
+
+.dashboard-window :is(.map-search-field, .map-filter-search):focus-within > svg:first-child {
+  color: var(--focus-ring);
+}
+
+.dashboard-window .map-filter-action:hover:not(:disabled),
+.dashboard-window .map-filter-action-active,
+.dashboard-window .map-details-panel .map-secondary-button:hover:where(:not(.map-completed-button-active)) {
+  border-color: var(--color-subtle);
+  background: var(--color-surface-hover);
+  color: var(--parchment);
+}
+
+.dashboard-window .map-filter-action-active,
+.dashboard-window .map-details-panel .map-favorite-button-active {
+  color: var(--color-accent);
+}
+
+.dashboard-window .map-details-panel .map-completed-button-active {
+  border-color: var(--color-success);
+  color: var(--color-success-text);
+}
+
+.dashboard-window .map-details-title {
+  color: var(--parchment);
+  font-size: calc(21px * var(--app-font-scale));
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+.dashboard-window :is(.map-details-type, .map-details-location, .map-details-close) {
+  color: var(--color-subtle);
+}
+
+.dashboard-window .map-details-icon:not(.map-png-details-icon) {
+  background: var(--color-surface);
+  color: var(--color-zinc-200);
+}
+
+.dashboard-window .map-service-portrait {
+  border-color: var(--color-border);
+  background: var(--color-background);
+}
+
+@container (max-width: 680px) {
+  .dashboard-window .map-filter-trigger-label {
+    display: none;
+  }
+}

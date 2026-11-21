@@ -1,0 +1,72 @@
+{
+  "de": {
+    "title": "Deckkraft der Minikarte",
+    "description": "Verringere die Deckkraft, um mehr vom Spiel hinter der Minikarte zu sehen.",
+    "note": "Mach die Minikarte über das Zahnrad oder unter Einstellungen → Karte transparenter."
+  },
+  "es": {
+    "title": "Opacidad del minimapa",
+    "description": "Reduce la opacidad para ver mejor el juego a través del minimapa.",
+    "note": "Haz el minimapa más transparente desde el icono del engranaje o en Ajustes → Mapa."
+  },
+  "es-419": {
+    "title": "Opacidad del minimapa",
+    "description": "Reduce la opacidad para ver mejor el juego a través del minimapa.",
+    "note": "Haz que el minimapa sea más transparente desde el ícono de engranaje o en Configuración → Mapa."
+  },
+  "fr": {
+    "title": "Opacité de la minicarte",
+    "description": "Réduisez l’opacité pour mieux voir le jeu à travers la minicarte.",
+    "note": "Rendez la minicarte plus transparente via l’icône d’engrenage ou dans Paramètres → Carte."
+  },
+  "it": {
+    "title": "Opacità della minimappa",
+    "description": "Riduci l’opacità per vedere meglio il gioco attraverso la minimappa.",
+    "note": "Rendi la minimappa più trasparente dall’icona a ingranaggio o in Impostazioni → Mappa."
+  },
+  "ja": {
+    "title": "ミニマップの不透明度",
+    "description": "不透明度を下げると、ミニマップの背後にあるゲーム画面が見やすくなります。",
+    "note": "ミニマップの歯車アイコン、または「設定」→「マップ」から、ミニマップを透過できます。"
+  },
+  "ko": {
+    "title": "미니맵 불투명도",
+    "description": "불투명도를 낮추면 미니맵 뒤의 게임 화면이 더 잘 보입니다.",
+    "note": "미니맵의 톱니바퀴 아이콘이나 설정 → 지도에서 미니맵을 더 투명하게 조절할 수 있습니다."
+  },
+  "pt-BR": {
+    "title": "Opacidade do minimapa",
+    "description": "Reduza a opacidade para ver melhor o jogo através do minimapa.",
+    "note": "Deixe o minimapa mais transparente pelo ícone de engrenagem ou em Configurações → Mapa."
+  },
+  "pt": {
+    "title": "Opacidade do minimapa",
+    "description": "Reduz a opacidade para veres melhor o jogo através do minimapa.",
+    "note": "Torna o minimapa mais transparente através do ícone de engrenagem ou em Configurações → Mapa."
+  },
+  "ru": {
+    "title": "Непрозрачность мини-карты",
+    "description": "Уменьшите непрозрачность, чтобы лучше видеть игру за мини-картой.",
+    "note": "Сделайте мини-карту прозрачнее через значок шестерёнки или в разделе «Настройки» → «Карта»."
+  },
+  "th": {
+    "title": "ความทึบของมินิแมพ",
+    "description": "ลดความทึบเพื่อให้เห็นเกมด้านหลังมินิแมพได้ชัดขึ้น",
+    "note": "ปรับมินิแมพให้โปร่งใสขึ้นได้จากไอคอนรูปเฟืองหรือ การตั้งค่า → แผนที่"
+  },
+  "vi": {
+    "title": "Độ mờ của bản đồ nhỏ",
+    "description": "Giảm độ mờ để nhìn rõ hơn phần màn hình trò chơi phía sau bản đồ nhỏ.",
+    "note": "Chỉnh bản đồ nhỏ trong suốt hơn qua biểu tượng bánh răng hoặc trong Cài đặt → Bản đồ."
+  },
+  "zh-Hans": {
+    "title": "小地图不透明度",
+    "description": "调低不透明度，让小地图下方的游戏画面更清楚。",
+    "note": "通过小地图上的齿轮图标或「设置 → 地图」，即可调低小地图的不透明度。"
+  },
+  "zh-Hant": {
+    "title": "小地圖不透明度",
+    "description": "調低不透明度，讓小地圖下方的遊戲畫面更清楚。",
+    "note": "透過小地圖上的齒輪圖示或「設定 → 地圖」，即可調低小地圖的不透明度。"
+  }
+}

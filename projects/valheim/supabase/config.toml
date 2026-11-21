@@ -1,0 +1,8 @@
+[functions.tebex-subscriber-webhook]
+verify_jwt = false
+
+[functions.sync-premium-subscriber]
+verify_jwt = false
+
+[functions.valheim-regional-prices]
+verify_jwt = true

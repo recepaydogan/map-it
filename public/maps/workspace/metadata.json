@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "workspace",
+  "displayName": "Map workspace",
+  "description": "Game map content has not been added yet.",
+  "bounds": {
+    "minX": 0,
+    "minY": 0,
+    "maxX": 4096,
+    "maxY": 4096
+  },
+  "tileSize": 256,
+  "detailLevels": [
+    0
+  ],
+  "tileCoverage": [
+    []
+  ],
+  "hideBaseTiles": true,
+  "backgroundColor": "#181a1d",
+  "regions": [],
+  "locations": []
+}

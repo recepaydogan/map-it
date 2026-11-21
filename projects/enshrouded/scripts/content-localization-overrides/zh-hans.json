@@ -1,0 +1,140 @@
+{
+  "f272b4dbc9955200f659af63": {
+    "english": "Smithing Tools are obtained at the base of the small bridge at the north-western corner of Jasper Isles in Umbra Hollow in the Nomad Highlands, as part of the quest The Blacksmith's Request for the Blacksmith.",
+    "templateSha256": "df0442a49a1d450155da4cbc0281fba81a93c19ee2347ed5f73fdec36ddb73f1",
+    "translation": "{{EMTERM_0}}位于{{EMTERM_3}}的{{EMTERM_2}}区域，具体在{{EMTERM_1}}西北角一座小桥的桥脚处。这是为{{EMTERM_5}}完成任务“{{EMTERM_4}}”时需要取得的物品。",
+    "reviewNote": "Restore the Jasper Isles location. The known Umbra Hollow spelling in this source uses the verified native Umber Hollow place-name alias, so Hollow is not translated as the enemy faction."
+  },
+  "e0f651508d5ad0e49f6a0b9a": {
+    "english": "The Fell took the Archaic Essence into a winding, enshrouded cave. What purpose are they after? Explore the depths of the Shroud Lair to proceed! Consider gathering more Archaic Essence as you go forth to reclaim it from the Shroud!",
+    "templateSha256": "c5aff0a22a9b27e9dca87e5e201a81bc39a55c4e1f10f03feebb6ee25037af8e",
+    "translation": "{{EMTERM_0}}把{{EMTERM_1}}带进了一处蜿蜒、被迷雾笼罩的洞穴。他们究竟有何目的？深入{{EMTERM_2}}继续探索吧！前往{{EMTERM_4}}夺回资源时，不妨多收集一些{{EMTERM_3}}。",
+    "reviewNote": "Preserve each protected term and every original acquisition or quest clause; repair duplicate or damaged machine placeholders."
+  },
+  "eedd9cd276139fbc02c279b6": {
+    "english": "This block is unlocked by acquiring Iron Bars for the first time. Iron Bars can be crafted by combining Iron Ore and Charcoal in the Smelter or found in the world, such as by breaking destructible containers in the Kindlewastes Ancient Spire. Iron Ore can be found in certain mines and cave passages in the Kindlewastes.",
+    "templateSha256": "b4b70c57b5d58e36f805ee8b6d4cd898a1d9e28408fbc81b2e46cab200fc8799",
+    "translation": "首次获得{{EMTERM_0}}后即可解锁这种建材。{{EMTERM_1}}可以在{{EMTERM_4}}中用{{EMTERM_2}}和{{EMTERM_3}}制作，也可以在世界中找到，例如打破{{EMTERM_5}}的{{EMTERM_6}}内可破坏的容器。{{EMTERM_7}}则能在{{EMTERM_8}}的部分矿井和洞穴通道中找到。",
+    "reviewNote": "Preserve each protected term and every original acquisition or quest clause; repair duplicate or damaged machine placeholders."
+  },
+  "1b1fb32b219fe264c4380e5c": {
+    "english": "Crab Meat is dropped by Crabs and Drak. C:Wake Of Water Update",
+    "templateSha256": "1f9460cc68db5857f2a2bea60e52a864ab78753119b00b8ffcbaa766f7ef076c",
+    "translation": "{{EMTERM_0}}可通过击败螃蟹和{{EMTERM_1}}获得。分类：水之觉醒更新。",
+    "reviewNote": "Full contextual prose repair; preserve every item, place, quest and gameplay fact."
+  },
+  "a55c539689c362dc5ef684b4": {
+    "english": "Gatherable - Veilwater Basin Farmable from Shiitake Seedling",
+    "templateSha256": "25b964319ea30c6410030a1f091f1f55bf39a9f892d7ea782bc005b129f8e5eb",
+    "translation": "可在幕水盆地采集，也可种植{{EMTERM_0}}获得。",
+    "reviewNote": "Full contextual prose repair; preserve every item, place, quest and gameplay fact."
+  },
+  "c6107edc1fbcb93f7ae62f90": {
+    "english": "Shroud Weaver pickup associated with The Mysterious Wanderer Appears.",
+    "templateSha256": "ae4649874821b659f456c87c97db1db1be97f675e44032572eebfdb87eb47ded",
+    "translation": "获取{{EMTERM_0}}与任务“神秘旅人显现”有关。",
+    "reviewNote": "Pickup denotes obtaining a weapon, not a vehicle or recording device. Use the native associated quest title without changing navigation."
+  },
+  "0691434ec66712f2aa9fb068": {
+    "english": "The Scavenger Matron is the 2nd boss in Enshrouded.",
+    "templateSha256": "12e5bf49b423faf5565f0edb7fdd1aab88f7191bf6b9d9a8671f439e57685391",
+    "translation": "{{EMTERM_0}}是{{EMTERM_1}}中的第2位首领。",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "3aaf36b7e7b551994070abdf": {
+    "english": "The Scavenger Matron is the 2nd boss in Enshrouded. They drop one of the key ingredients for upgrading the Flame Altar to Level 3: the Scavenger Matron Head. There are variations of this boss: * Gorger: Throws poison in 3 directions toward her target * Grizzler: Summons reinforcements",
+    "templateSha256": "ad94bbac6a1bb6712f908ed5bc8ad48541c8100a6da2895320aaaaa9e27f0496",
+    "translation": "{{EMTERM_0}}是{{EMTERM_3}}中的第2位首领。它会掉落将{{EMTERM_1}}升至3级所需的重要材料之一：{{EMTERM_2}}的头颅。该首领有以下变体：拾荒者暴食主母，会朝目标所在的3个方向投掷毒液；拾荒者群兽主母，会召唤援军。",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "8722e76604b48c78370f1950": {
+    "english": "A miniature piece that shows the Revelwood, part of Meldore. It used to be a vibrant area where the rivers flowed with wine, and the trees would shade the weary. Eventually, though, abuse of the Elixir spread, and the roots that once brought life to the Kingdom began to rot.",
+    "templateSha256": "39b93ff9bfef2c2e82cf84c97cdae50129e35d98764b69666c31ff0eaa07c2d9",
+    "translation": "展示 喧嚣森林 的微型作品，是 梅尔多尔 的一部分。这里曾经是一个生机勃勃的地区，河流流淌着美酒，树木为疲惫的人们遮荫。然而，最终，对 魔药 的滥用蔓延开来，曾经给王国带来生命的根源开始腐烂。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "89caa362b871d1cc0a5adc79": {
+    "english": "Dimweald Axe can be looted from a corpse in Albaneve Summits Hollow Halls.",
+    "templateSha256": "08935d0533230a11f1d0c0e3f25b283c145c69f0a24b7ee255105b07634a0cb7",
+    "translation": "可从阿尔班耶夫山脉 空荡礼堂的尸体上拾取迪姆维尔德之斧。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "069af314bf76f96513b8a5b4": {
+    "english": "Dimweald Hammer can be looted from a corpse in Albaneve Summits Hollow Halls.",
+    "templateSha256": "08935d0533230a11f1d0c0e3f25b283c145c69f0a24b7ee255105b07634a0cb7",
+    "translation": "可从阿尔班耶夫山脉 空荡礼堂的尸体上拾取迪姆维尔德之锤。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "11f2e6a4f97f3a9559388019": {
+    "english": "Drak Fishing (1/1), Need to drink Drak Soulward Flask to read.",
+    "templateSha256": "047e88dca281b563b54068384f26205554b4815ca5f29d99702e34f020e93b6a",
+    "translation": "卓克钓鱼（1/1）。阅读前需要饮用卓克 御灵药水。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "98adfb7ce4f9e85b981b26ab": {
+    "english": "Fixed pickup.",
+    "templateSha256": "98adfb7ce4f9e85b981b26ab92494fbddedfcdaef613802bb433027afeed14e3",
+    "translation": "固定拾取点。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "f787e592671c812ce132472f": {
+    "english": "Flame Level 3",
+    "templateSha256": "794e54055e267d1ee80b5e2420e2f441556e893c870033c6df947d3cc8616f48",
+    "translation": "灵火等级 3",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "8a451fdad09c9ff157da837f": {
+    "english": "Former research camp used by Loraine Crim.",
+    "templateSha256": "8a451fdad09c9ff157da837f1d3b4f99b1eb5add83200c2c7fa84866e1de08cb",
+    "translation": "洛兰·克里姆 (洛琳·克里姆) 曾经使用过的研究营地。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "d38beb308e6a3cc333a7601f": {
+    "english": "Found in Treetop Vukah Settlement",
+    "templateSha256": "15600735d37aa58563d0fddb5056c8d0e2003d66fd6dd6fa975827dc9ea066c8",
+    "translation": "位于沃卡树顶村落。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "c8d911b606cae60da58636a3": {
+    "english": "Glacial",
+    "templateSha256": "c8d911b606cae60da58636a3e33caefac0bc1b109268a1f58dbc6c10ac53a77b",
+    "translation": "冰川",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "d877d4ae27b6857c199a2b4a": {
+    "english": "Hearing Voices — Vorgoth Notes",
+    "templateSha256": "d877d4ae27b6857c199a2b4a6da7880f87ea098b67246fe345e544793737cec1",
+    "translation": "听到声音 — 沃格斯笔记",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "3f9fdf6f5656c92c24cf6beb": {
+    "english": "Hollow Artifacts",
+    "templateSha256": "18bbc761a3ad3e335182c17126cf60bed65790b38e5810ff4149896d6aa6007b",
+    "translation": "空荡遗物",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "a12aa64946bc45333790c6f2": {
+    "english": "Research camp where Nala hid Masonry Tools .",
+    "templateSha256": "f38cf974feb1463e0a5aedd274db13d6778b9f56ef9462161647d1815324f86e",
+    "translation": "纳拉 藏匿 石匠工具 的研究营。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "27ba781b6ade2d27b094d97d": {
+    "english": "The Dungeon is where the Library Foyeris located",
+    "templateSha256": "1aaf66da4f9a164987da42304c4d68fe848ea9b917163c3cbdfe2cc75da732fe",
+    "translation": "图书馆前厅位于这座地牢内。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "f049d47288ac7a14a2a074da": {
+    "english": "The Final Trial (1/1), Need to drink Drak Soulward Flaskto read.",
+    "templateSha256": "f049d47288ac7a14a2a074da46a6da536ae2da514bf32bf925fa9ce7e9c0e2be",
+    "translation": "最后的试炼（1/1）。阅读前需要饮用卓克 御灵药水。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "8fa3e5f9a2e1b546d46f3f6e": {
+    "english": "This block is found in the Albaneve Hollow Halls.",
+    "templateSha256": "a636ce8b209945ca12ea27821517958cd2f1d8659372e4c4be5a4a3f0905282e",
+    "translation": "该块位于 阿尔班耶夫山脉 空荡礼堂 中。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  }
+}

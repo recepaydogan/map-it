@@ -1,0 +1,18 @@
+/* Keep the filter static; animate only the bright layer's opacity. The button
+   remains the single pointer target throughout the transition. */
+.remove-ads-cta-highlight {
+  filter: brightness(1.15);
+  opacity: 0;
+  transition: opacity 140ms ease-out;
+}
+
+.remove-ads-cta:not(:disabled):hover > .remove-ads-cta-highlight,
+.remove-ads-cta:not(:disabled):focus-visible > .remove-ads-cta-highlight {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .remove-ads-cta-highlight {
+    transition: none;
+  }
+}

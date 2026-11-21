@@ -1,0 +1,2102 @@
+{
+  "data/game-files/build-26266538/database/icons/02161141b1b827e4d9879c1c1c6bc8ef71bd166c4ca58f655ad624c451cbd3d5.png": {
+    "path": "maps/marker-icons/02161141b1b827e4d9879c1c1c6bc8ef71bd166c4ca58f655ad624c451cbd3d5.png",
+    "sourceSha256": "5a040e06f154a62736a5089459a8e297c3420a1a07041977d25e31fa8a51183a",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 84,
+      "top": 48,
+      "width": 96,
+      "height": 168
+    },
+    "width": 96,
+    "height": 168
+  },
+  "data/game-files/build-26266538/database/icons/02eb752dbc63fa19915faa5b02d921cd4d8faf74d58b2a8b88258fd089d6c1be.png": {
+    "path": "maps/marker-icons/02eb752dbc63fa19915faa5b02d921cd4d8faf74d58b2a8b88258fd089d6c1be.png",
+    "sourceSha256": "129c8af957a3ad23969ec0911b57233dfcad8073e56a0b78af44002d37a5d6dc",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 670,
+      "top": 380,
+      "width": 699,
+      "height": 1055
+    },
+    "width": 170,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/03e16128db5182afff79c2bd596a7db4b2ba797051fb0b7d33270362aee5b737.png": {
+    "path": "maps/marker-icons/03e16128db5182afff79c2bd596a7db4b2ba797051fb0b7d33270362aee5b737.png",
+    "sourceSha256": "40cebce871c4fae24442dc960205f0bab0be7fda3ef5d622229c0c0c036aca36",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 60,
+      "top": 60,
+      "width": 132,
+      "height": 128
+    },
+    "width": 132,
+    "height": 128
+  },
+  "data/game-files/build-26266538/database/icons/05932782a3bba57d7f0b3593524b8b8e60634b18624ac59c8dcc699746792371.png": {
+    "path": "maps/marker-icons/05932782a3bba57d7f0b3593524b8b8e60634b18624ac59c8dcc699746792371.png",
+    "sourceSha256": "e8c03ad3e29f00cd10fd1a6c761916520bc06554417aa23825dbee19e5b7e585",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 583,
+      "top": 620,
+      "width": 686,
+      "height": 1428
+    },
+    "width": 123,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/0605cbac4d4d8d0825c9d8df226eb7b8bd26ff0f10caf17208b28d34015f09af.png": {
+    "path": "maps/marker-icons/0605cbac4d4d8d0825c9d8df226eb7b8bd26ff0f10caf17208b28d34015f09af.png",
+    "sourceSha256": "dfa86f5373f3ef91ca891af3ea3cc15c57cdc7f2234deb0a5bb95071802035d9",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 60,
+      "top": 48,
+      "width": 144,
+      "height": 168
+    },
+    "width": 144,
+    "height": 168
+  },
+  "data/game-files/build-26266538/database/icons/098c0fe90920ef0d725f705b7440f8f7ac06a2acb4775b070d15c6b2195030e4.png": {
+    "path": "maps/marker-icons/098c0fe90920ef0d725f705b7440f8f7ac06a2acb4775b070d15c6b2195030e4.png",
+    "sourceSha256": "856f60033db00f7b7f57fd2a21b8753dbd8e5519cb94afc4c2cfe6ea24088053",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 12,
+      "top": 12,
+      "width": 232,
+      "height": 232
+    },
+    "width": 232,
+    "height": 232
+  },
+  "data/game-files/build-26266538/database/icons/0a25e483008738bd7859751a872c4d7860bb5fc83d673472080cc667abfc5c9b.png": {
+    "path": "maps/marker-icons/0a25e483008738bd7859751a872c4d7860bb5fc83d673472080cc667abfc5c9b.png",
+    "sourceSha256": "c4ac954753192344088f222569969bb9f85829e83a3371d4a93466591206d5cd",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 72,
+      "top": 8,
+      "width": 120,
+      "height": 236
+    },
+    "width": 120,
+    "height": 236
+  },
+  "data/game-files/build-26266538/database/icons/0abdda93050e138ee6426c42b85abb1fc18ed661a5d1991d4bdbec288ea7d2b5.png": {
+    "path": "maps/marker-icons/0abdda93050e138ee6426c42b85abb1fc18ed661a5d1991d4bdbec288ea7d2b5.png",
+    "sourceSha256": "2daee834c3790631bd76e8d4aed50db06b35a2bf8eb781a8e892f572fdf8da40",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 904,
+      "top": 800,
+      "width": 250,
+      "height": 364
+    },
+    "width": 176,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/0df5d7e70279ac0105d07b2b9b2f0ce4719094175d1df1fd45bf471a785cc785.png": {
+    "path": "maps/marker-icons/0df5d7e70279ac0105d07b2b9b2f0ce4719094175d1df1fd45bf471a785cc785.png",
+    "sourceSha256": "fd8b577eda719e9ea1389a1b506d98919e375acc62c4c468749f377d6ea9c9e4",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 0,
+      "top": 0,
+      "width": 256,
+      "height": 256
+    },
+    "width": 256,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/0e286e1550ceb6467c0b32bc31041faa3b7c2d6e982192f7c32c56501c87ddbb.png": {
+    "path": "maps/marker-icons/0e286e1550ceb6467c0b32bc31041faa3b7c2d6e982192f7c32c56501c87ddbb.png",
+    "sourceSha256": "359511738526685cfd50b6f501056f6cc5855499fc62c3544fe2ed99b6b7d591",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 44,
+      "top": 40,
+      "width": 160,
+      "height": 172
+    },
+    "width": 160,
+    "height": 172
+  },
+  "data/game-files/build-26266538/database/icons/0e78f9eb94bca3b3cf2a9d5bff55f3d58e09d2028e0d52e5d7e686a4c182297b.png": {
+    "path": "maps/marker-icons/0e78f9eb94bca3b3cf2a9d5bff55f3d58e09d2028e0d52e5d7e686a4c182297b.png",
+    "sourceSha256": "bae401566fea7626361618380644a29ea4e87950cebe0cb29774db3249685473",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 540,
+      "top": 787,
+      "width": 1157,
+      "height": 560
+    },
+    "width": 256,
+    "height": 124
+  },
+  "data/game-files/build-26266538/database/icons/0fdad41e84bf8b4dca400d21b08dd9f74624c0051febed2d862eb961358d9c70.png": {
+    "path": "maps/marker-icons/0fdad41e84bf8b4dca400d21b08dd9f74624c0051febed2d862eb961358d9c70.png",
+    "sourceSha256": "6cdb78170ab85434861f92104c9b31b939d76e2a16cb3d10a2919d6c2aa9b8dc",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 28,
+      "top": 56,
+      "width": 184,
+      "height": 172
+    },
+    "width": 184,
+    "height": 172
+  },
+  "data/game-files/build-26266538/database/icons/12ec173f84103f1b2390137712bf38468be2678cb47ee4aba30b77c21e70ec8f.png": {
+    "path": "maps/marker-icons/12ec173f84103f1b2390137712bf38468be2678cb47ee4aba30b77c21e70ec8f.png",
+    "sourceSha256": "1afb56ecaed4d196074be9c646206e4701dee4201fcc1a4bdc11d6131347303f",
+    "sourceWidth": 128,
+    "sourceHeight": 128,
+    "crop": {
+      "left": 31,
+      "top": 4,
+      "width": 65,
+      "height": 119
+    },
+    "width": 65,
+    "height": 119
+  },
+  "data/game-files/build-26266538/database/icons/1524f328461b630c3e86df73d2eac84a2347ab37753f798c8cc7b4f9530a5c20.png": {
+    "path": "maps/marker-icons/1524f328461b630c3e86df73d2eac84a2347ab37753f798c8cc7b4f9530a5c20.png",
+    "sourceSha256": "15154e788c41d923786ee08408ec863ab1906531d8e9b29d92af1a49bbf0e729",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 924,
+      "top": 827,
+      "width": 205,
+      "height": 293
+    },
+    "width": 179,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/17c945ac142e895ad0f2672cd22958c399621233e04cfa50bd8d9234c9ad59ce.png": {
+    "path": "maps/marker-icons/17c945ac142e895ad0f2672cd22958c399621233e04cfa50bd8d9234c9ad59ce.png",
+    "sourceSha256": "a4a409e007d0a924ebb864d45743377909062e7ee4c45bb3c9b18f39992a0091",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 694,
+      "top": 607,
+      "width": 788,
+      "height": 833
+    },
+    "width": 242,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/1b7e25a8f1ac9ba87f23434f53ef6343b66885035fcbf4154cc41a831fe18fe9.png": {
+    "path": "maps/marker-icons/1b7e25a8f1ac9ba87f23434f53ef6343b66885035fcbf4154cc41a831fe18fe9.png",
+    "sourceSha256": "cb2df09363de31f36be8759e19d95ef058c5055988a83505753e78e2f9707fc3",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 568,
+      "top": 499,
+      "width": 742,
+      "height": 1549
+    },
+    "width": 123,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/1c1736f8c2360c0d008bbcaa194507810a98164457e1eef787ae42f63ce632f5.png": {
+    "path": "maps/marker-icons/1c1736f8c2360c0d008bbcaa194507810a98164457e1eef787ae42f63ce632f5.png",
+    "sourceSha256": "bd0a59179728e8084928afd4efdd38a7747cfe1121a972b331ba6679d894091b",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 56,
+      "top": 16,
+      "width": 156,
+      "height": 232
+    },
+    "width": 156,
+    "height": 232
+  },
+  "data/game-files/build-26266538/database/icons/1d4a37d51cd810f356a52685d28171857476d33a49c4f680b215aba95d231a4f.png": {
+    "path": "maps/marker-icons/1d4a37d51cd810f356a52685d28171857476d33a49c4f680b215aba95d231a4f.png",
+    "sourceSha256": "8952c680efcdc7a60bf39d5d0443838ca7d62f7f22cada0e7502256af5c8f9a3",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 832,
+      "top": 704,
+      "width": 405,
+      "height": 564
+    },
+    "width": 184,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/1e8694230ac51d10052744ce5cdea83a55ddbd2da7f77da6b0e2a817e0187d14.png": {
+    "path": "maps/marker-icons/1e8694230ac51d10052744ce5cdea83a55ddbd2da7f77da6b0e2a817e0187d14.png",
+    "sourceSha256": "179586d42d3bc41c8e3564f1ed45ee493cb24581e2edb8782f57707b582003d2",
+    "sourceWidth": 128,
+    "sourceHeight": 128,
+    "crop": {
+      "left": 16,
+      "top": 6,
+      "width": 94,
+      "height": 116
+    },
+    "width": 94,
+    "height": 116
+  },
+  "data/game-files/build-26266538/database/icons/1fcde4ecdea23b743ceec443aeb18d8303fa00a37489660057cb2971cc302a4e.png": {
+    "path": "maps/marker-icons/1fcde4ecdea23b743ceec443aeb18d8303fa00a37489660057cb2971cc302a4e.png",
+    "sourceSha256": "b1bca5eb1d4d015bb36024d52ce691a5934efb80aaee51d104d34ac6fa012f28",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 714,
+      "top": 600,
+      "width": 882,
+      "height": 911
+    },
+    "width": 248,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/20019229e9ca61469df6cf67d3448fa9ef42e70dd51bbf65117e57f992121d6c.png": {
+    "path": "maps/marker-icons/20019229e9ca61469df6cf67d3448fa9ef42e70dd51bbf65117e57f992121d6c.png",
+    "sourceSha256": "96da6e1bdbb9bb00a141f0bade51237fd63c26d29195520bbe3fda902c7e159e",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 72,
+      "top": 40,
+      "width": 132,
+      "height": 164
+    },
+    "width": 132,
+    "height": 164
+  },
+  "data/game-files/build-26266538/database/icons/20455cb8a6eaed2f7a610e46cead8f7b60e2685dfcc02c40a64613f8d60db953.png": {
+    "path": "maps/marker-icons/20455cb8a6eaed2f7a610e46cead8f7b60e2685dfcc02c40a64613f8d60db953.png",
+    "sourceSha256": "6934dc44597a5f9e035556ad2a93bdb1f2fe57311270bb931eb9e67a9dc9b157",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 40,
+      "top": 68,
+      "width": 188,
+      "height": 120
+    },
+    "width": 188,
+    "height": 120
+  },
+  "data/game-files/build-26266538/database/icons/2361a9d44020aff5c1eccdb218b715b08d888499862e1269477467fe6b0c1fc8.png": {
+    "path": "maps/marker-icons/2361a9d44020aff5c1eccdb218b715b08d888499862e1269477467fe6b0c1fc8.png",
+    "sourceSha256": "d6f3623ef1a452179487dee493390953f241b990a9e9f9b9acb3ee7e1522e598",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 56,
+      "top": 60,
+      "width": 148,
+      "height": 132
+    },
+    "width": 148,
+    "height": 132
+  },
+  "data/game-files/build-26266538/database/icons/2668d3effad5d32d7101cac391ab7ef1907b3ff0a7b24fd054ba09194f7b7c3a.png": {
+    "path": "maps/marker-icons/2668d3effad5d32d7101cac391ab7ef1907b3ff0a7b24fd054ba09194f7b7c3a.png",
+    "sourceSha256": "19e4fcdf52fffe7c861f324843b3142faabe54197b883b000d4ebe549d02f306",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 572,
+      "top": 616,
+      "width": 700,
+      "height": 1432
+    },
+    "width": 125,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/2d9c2fcbad2416ce2690fd3b8cf16a88c78b650b7de05b67e39086204795eaff.png": {
+    "path": "maps/marker-icons/2d9c2fcbad2416ce2690fd3b8cf16a88c78b650b7de05b67e39086204795eaff.png",
+    "sourceSha256": "724cdc3a9b7c44d128dc34e88b1b3e5e41a097848a5f87ca29a3d8549471125e",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 795,
+      "top": 477,
+      "width": 510,
+      "height": 1065
+    },
+    "width": 123,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/2db61800b0e46511e172a9b065f32fc261f2a029656a35e0213765000339b1bd.png": {
+    "path": "maps/marker-icons/2db61800b0e46511e172a9b065f32fc261f2a029656a35e0213765000339b1bd.png",
+    "sourceSha256": "b3f0307291a96c0a218f92055515246d8f9a267921b290fee0592b13a050fe2e",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 52,
+      "top": 40,
+      "width": 152,
+      "height": 180
+    },
+    "width": 152,
+    "height": 180
+  },
+  "data/game-files/build-26266538/database/icons/30aae37d52ed7311f3d684196d24f66c8dc2a404ab46b86a42762c1b98de00ce.png": {
+    "path": "maps/marker-icons/30aae37d52ed7311f3d684196d24f66c8dc2a404ab46b86a42762c1b98de00ce.png",
+    "sourceSha256": "b91b88ebf83ed6edb38e17023bf268a8e9d15fed05b70aa9b690c2cef6ce1f11",
+    "sourceWidth": 128,
+    "sourceHeight": 128,
+    "crop": {
+      "left": 24,
+      "top": 6,
+      "width": 79,
+      "height": 115
+    },
+    "width": 79,
+    "height": 115
+  },
+  "data/game-files/build-26266538/database/icons/318fb1323b3298cc9ab87c5ebfcbf3b76a466135a509943599c9a627e6891c09.png": {
+    "path": "maps/marker-icons/318fb1323b3298cc9ab87c5ebfcbf3b76a466135a509943599c9a627e6891c09.png",
+    "sourceSha256": "ad5eb17c60abc1f40e8d46912c820c92f5f37f560eacd520beebd0cf6daa948d",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 15,
+      "top": 20,
+      "width": 229,
+      "height": 212
+    },
+    "width": 229,
+    "height": 212
+  },
+  "data/game-files/build-26266538/database/icons/35bf24b16bd06bb4a534ec5b48349c13d9082e3a78cc57931626b483aa2294c5.png": {
+    "path": "maps/marker-icons/35bf24b16bd06bb4a534ec5b48349c13d9082e3a78cc57931626b483aa2294c5.png",
+    "sourceSha256": "d263b7e9b1041aaac6329de66edae35018f48fb252b6cce6b7814c530ba09e23",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 84,
+      "top": 56,
+      "width": 88,
+      "height": 144
+    },
+    "width": 88,
+    "height": 144
+  },
+  "data/game-files/build-26266538/database/icons/36d24762275df633bbafd7e3c76fcd9e238bcfffe346c276ddb3a6a81206335b.png": {
+    "path": "maps/marker-icons/36d24762275df633bbafd7e3c76fcd9e238bcfffe346c276ddb3a6a81206335b.png",
+    "sourceSha256": "4a3fbff8dedc6422aed0365fc01bf1de853d2d83c69a1a112195c13cbe22fe0a",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 532,
+      "top": 604,
+      "width": 800,
+      "height": 1200
+    },
+    "width": 171,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/36d8d9b861e74291a78a71b1314b8b5fd14230677c196a4c41f29ef712f454ab.png": {
+    "path": "maps/marker-icons/36d8d9b861e74291a78a71b1314b8b5fd14230677c196a4c41f29ef712f454ab.png",
+    "sourceSha256": "32ef2cd3327b903ae527090b7acebc245487e4a8243f81c495e9a967d010227c",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 352,
+      "top": 588,
+      "width": 1033,
+      "height": 1342
+    },
+    "width": 197,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/373aa73f1833ff262ab444c6fc90a6da61d3fb00ee8fa3c2f3b17c3ff618c98b.png": {
+    "path": "maps/marker-icons/373aa73f1833ff262ab444c6fc90a6da61d3fb00ee8fa3c2f3b17c3ff618c98b.png",
+    "sourceSha256": "66c556de94b2d06aa55d6a8aa84702761b776a0153032e2cd8833848536c8a44",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 80,
+      "top": 44,
+      "width": 104,
+      "height": 164
+    },
+    "width": 104,
+    "height": 164
+  },
+  "data/game-files/build-26266538/database/icons/37b0ce7e7250a3c4176c5023c580fd348924349f5064661ae01a9e282c87a398.png": {
+    "path": "maps/marker-icons/37b0ce7e7250a3c4176c5023c580fd348924349f5064661ae01a9e282c87a398.png",
+    "sourceSha256": "ed1ae99517f2ccc159cb149cf6f8bd138a0e1f88e64b28a100f686b42c3afaf0",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 912,
+      "top": 831,
+      "width": 225,
+      "height": 301
+    },
+    "width": 191,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/391e5bd6647f4f01716d3208f1da207a028a030fcfc6607cf339ad6504db6e3e.png": {
+    "path": "maps/marker-icons/391e5bd6647f4f01716d3208f1da207a028a030fcfc6607cf339ad6504db6e3e.png",
+    "sourceSha256": "710ff5ef83ab7d560541273e01d6ee255ad442e7118824271f2711890addb52b",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 48,
+      "top": 8,
+      "width": 164,
+      "height": 240
+    },
+    "width": 164,
+    "height": 240
+  },
+  "data/game-files/build-26266538/database/icons/3bbe346fd734829ca2b157f4f8521a0fc32881b5910f1f0334993163ad0036a0.png": {
+    "path": "maps/marker-icons/3bbe346fd734829ca2b157f4f8521a0fc32881b5910f1f0334993163ad0036a0.png",
+    "sourceSha256": "ea5f2067d10d5f9bbed0a9bc8886d2ceecc23b04eda760fbd2383c11d32ec8a6",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 76,
+      "top": 60,
+      "width": 111,
+      "height": 140
+    },
+    "width": 111,
+    "height": 140
+  },
+  "data/game-files/build-26266538/database/icons/3c322467546ae515dea5c0d59eb93c447b4241f55a8305ccde6f5e33e11b3a87.png": {
+    "path": "maps/marker-icons/3c322467546ae515dea5c0d59eb93c447b4241f55a8305ccde6f5e33e11b3a87.png",
+    "sourceSha256": "90d426770580c86f2a1139243c89d388cc4ee4ff328d170ae98d2edf02c94e37",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 52,
+      "top": 48,
+      "width": 164,
+      "height": 140
+    },
+    "width": 164,
+    "height": 140
+  },
+  "data/game-files/build-26266538/database/icons/3c951ee5d04f2e0fb9aa4278eb646faa1bc6cfc5508225ac44bf0f06897eae77.png": {
+    "path": "maps/marker-icons/3c951ee5d04f2e0fb9aa4278eb646faa1bc6cfc5508225ac44bf0f06897eae77.png",
+    "sourceSha256": "a0a44c026186b211e71e26e10d1839bf8d1a5d1f2c16bbcc89c2bde0349f910d",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 56,
+      "top": 60,
+      "width": 152,
+      "height": 136
+    },
+    "width": 152,
+    "height": 136
+  },
+  "data/game-files/build-26266538/database/icons/3d2bdaf6630583b23690e1c9f9688fd8606be049195f5a23b0889664f5965680.png": {
+    "path": "maps/marker-icons/3d2bdaf6630583b23690e1c9f9688fd8606be049195f5a23b0889664f5965680.png",
+    "sourceSha256": "8f65ad4db0b7a1897833b6a0de8383fa944b25c7ad6fe1b60674bb1a422aeb98",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 88,
+      "top": 48,
+      "width": 88,
+      "height": 168
+    },
+    "width": 88,
+    "height": 168
+  },
+  "data/game-files/build-26266538/database/icons/3eddd2535717e7236d74b61c33cdec15ebb5fb01258fd9a0672c1a3dc0888feb.png": {
+    "path": "maps/marker-icons/3eddd2535717e7236d74b61c33cdec15ebb5fb01258fd9a0672c1a3dc0888feb.png",
+    "sourceSha256": "4e6e61c75e92098209797eca3017018b88d86a2ce3643ff29a8428305ffe2e69",
+    "sourceWidth": 128,
+    "sourceHeight": 128,
+    "crop": {
+      "left": 20,
+      "top": 8,
+      "width": 88,
+      "height": 112
+    },
+    "width": 88,
+    "height": 112
+  },
+  "data/game-files/build-26266538/database/icons/3f6dd8394ea8a4a10e9c5f1c5298073bca1aa1a26fbc78b4e804f3428c1d9d3f.png": {
+    "path": "maps/marker-icons/3f6dd8394ea8a4a10e9c5f1c5298073bca1aa1a26fbc78b4e804f3428c1d9d3f.png",
+    "sourceSha256": "dccdd25939649a28cf7d498140b906d18ffabdec9773acb70d8e71b8a8cdaec9",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 72,
+      "top": 8,
+      "width": 116,
+      "height": 244
+    },
+    "width": 116,
+    "height": 244
+  },
+  "data/game-files/build-26266538/database/icons/448a8660706a35127bc48bcc79613a29b224e84b3143330b880cd353fbb8d5bf.png": {
+    "path": "maps/marker-icons/448a8660706a35127bc48bcc79613a29b224e84b3143330b880cd353fbb8d5bf.png",
+    "sourceSha256": "af764ff49f936dba89ac7e15a52d30cf574c2b769c29f8bb57f9e0bbc8aac6a7",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 708,
+      "top": 595,
+      "width": 666,
+      "height": 948
+    },
+    "width": 180,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/458ed0e9141d77a1b1eb2c5ed5552e45abc288f7d95c760f0ce6197310e1ae29.png": {
+    "path": "maps/marker-icons/458ed0e9141d77a1b1eb2c5ed5552e45abc288f7d95c760f0ce6197310e1ae29.png",
+    "sourceSha256": "1927062764fb6381a21448ace2832721812d5a4f7a5c1fe098b45112d308ab5c",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 866,
+      "top": 775,
+      "width": 331,
+      "height": 419
+    },
+    "width": 202,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/4892206e75327c0d4766beb69878bfe8dc7bed44aa13769ef6ef498afee82ace.png": {
+    "path": "maps/marker-icons/4892206e75327c0d4766beb69878bfe8dc7bed44aa13769ef6ef498afee82ace.png",
+    "sourceSha256": "8c9df97a103f6f6e96dbb8adc12129c2ef22677faff25d9c3cf80fed868a3dcc",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 884,
+      "top": 790,
+      "width": 309,
+      "height": 387
+    },
+    "width": 204,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/49c9e75e82fa28c83fdff88bcabaf540b7ca74631b17171ddc409f39d81269c9.png": {
+    "path": "maps/marker-icons/49c9e75e82fa28c83fdff88bcabaf540b7ca74631b17171ddc409f39d81269c9.png",
+    "sourceSha256": "4318fb11e653a109e2d5a2fb39297e26af1f471c9989d7f61dd4216a06e7b19e",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 725,
+      "top": 603,
+      "width": 610,
+      "height": 896
+    },
+    "width": 174,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/4bc94b134a67e84e747183fd18393b3c1d4195f9118d6620c8512ab331a2ea64.png": {
+    "path": "maps/marker-icons/4bc94b134a67e84e747183fd18393b3c1d4195f9118d6620c8512ab331a2ea64.png",
+    "sourceSha256": "7eafe3de724327114f04804800217dfe77f97dcbf7d9db1d1d8d48d44098a3a8",
+    "sourceWidth": 128,
+    "sourceHeight": 128,
+    "crop": {
+      "left": 16,
+      "top": 6,
+      "width": 94,
+      "height": 115
+    },
+    "width": 94,
+    "height": 115
+  },
+  "data/game-files/build-26266538/database/icons/4c73258546c4e9b7355dab84f15a1e60027de3c054d553d73a2bb7fbe752c191.png": {
+    "path": "maps/marker-icons/4c73258546c4e9b7355dab84f15a1e60027de3c054d553d73a2bb7fbe752c191.png",
+    "sourceSha256": "57a1cddda21f13b1094ef616314ad742c89304b9b1e46b606b8d490a998191d2",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 936,
+      "top": 784,
+      "width": 210,
+      "height": 398
+    },
+    "width": 135,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/4c9e5840df412b21c34e24ff22f2867b0c0f18108ae990383dca3a37a7f24e5e.png": {
+    "path": "maps/marker-icons/4c9e5840df412b21c34e24ff22f2867b0c0f18108ae990383dca3a37a7f24e5e.png",
+    "sourceSha256": "e66a7f46002a79b7bedd1e20cb03c5c5d89277e74dd7bc120f55b03c57684dcb",
+    "sourceWidth": 128,
+    "sourceHeight": 128,
+    "crop": {
+      "left": 27,
+      "top": 5,
+      "width": 73,
+      "height": 118
+    },
+    "width": 73,
+    "height": 118
+  },
+  "data/game-files/build-26266538/database/icons/4cec73c76c82895cae3cf1dc985623b32662d56578195a1e1784c8f82c7dfe1f.png": {
+    "path": "maps/marker-icons/4cec73c76c82895cae3cf1dc985623b32662d56578195a1e1784c8f82c7dfe1f.png",
+    "sourceSha256": "4d8c0b34934ae3927d0903efb408f6b97c471d799d0a95bfa5c370adefea4424",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 84,
+      "top": 56,
+      "width": 96,
+      "height": 140
+    },
+    "width": 96,
+    "height": 140
+  },
+  "data/game-files/build-26266538/database/icons/50906d4355f9483a879af1ef1aefa8e7853106728d38e10c7d72a1bef749bfe6.png": {
+    "path": "maps/marker-icons/50906d4355f9483a879af1ef1aefa8e7853106728d38e10c7d72a1bef749bfe6.png",
+    "sourceSha256": "a02affa474d51978c3c77a3e5a6545fe0b3dddac166e70125065dbdca7ee9e8a",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 40,
+      "top": 28,
+      "width": 156,
+      "height": 216
+    },
+    "width": 156,
+    "height": 216
+  },
+  "data/game-files/build-26266538/database/icons/514f3f7221ffa06b5e914847752d05b90f4f967e6e7532cc70bc1a9b83690c49.png": {
+    "path": "maps/marker-icons/514f3f7221ffa06b5e914847752d05b90f4f967e6e7532cc70bc1a9b83690c49.png",
+    "sourceSha256": "21ca56550b07746a66cf2182f905453daef05129c823f1a3ae84a5c9e13fecde",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 894,
+      "top": 780,
+      "width": 251,
+      "height": 424
+    },
+    "width": 152,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/5179c476d9d0d03da971e8a0dfb78ff5ced2d0be9bd68e3fc9b4bab0f4d639f3.png": {
+    "path": "maps/marker-icons/5179c476d9d0d03da971e8a0dfb78ff5ced2d0be9bd68e3fc9b4bab0f4d639f3.png",
+    "sourceSha256": "091014e5b9176da256c8c9cb704260a9137b2ac87ef7545c665a2f7b57b8320a",
+    "sourceWidth": 128,
+    "sourceHeight": 128,
+    "crop": {
+      "left": 29,
+      "top": 4,
+      "width": 69,
+      "height": 120
+    },
+    "width": 69,
+    "height": 120
+  },
+  "data/game-files/build-26266538/database/icons/52db4ff0460984b301c5dfa607c6cc0c1df7b966790a7f87e7256b34c9faaa98.png": {
+    "path": "maps/marker-icons/52db4ff0460984b301c5dfa607c6cc0c1df7b966790a7f87e7256b34c9faaa98.png",
+    "sourceSha256": "3fbdc1741be3fd40e2b10c4ee0430b644f43fc6b32f151c2fa865df8b0d6d76e",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 784,
+      "top": 635,
+      "width": 698,
+      "height": 752
+    },
+    "width": 238,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/558599f6a5b4bb92cf8479105af48bdee0cedc64a40b5f61ad49fe18cc7671d2.png": {
+    "path": "maps/marker-icons/558599f6a5b4bb92cf8479105af48bdee0cedc64a40b5f61ad49fe18cc7671d2.png",
+    "sourceSha256": "284c69859118fdbe50b3c68fa1e2cd7b5f228197aab6e18681880255dd6b3871",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 60,
+      "top": 24,
+      "width": 144,
+      "height": 224
+    },
+    "width": 144,
+    "height": 224
+  },
+  "data/game-files/build-26266538/database/icons/55dbdd2331725c532f765d73c150ad011a2da0bf54c470a7b3daebcaf0a24fe6.png": {
+    "path": "maps/marker-icons/55dbdd2331725c532f765d73c150ad011a2da0bf54c470a7b3daebcaf0a24fe6.png",
+    "sourceSha256": "593d0368ed68869bccbd7c51a10c5337fcdd234bcefdf41b13456208a78a06c0",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 72,
+      "top": 52,
+      "width": 132,
+      "height": 152
+    },
+    "width": 132,
+    "height": 152
+  },
+  "data/game-files/build-26266538/database/icons/5ddacda06b1bf0183c4e63140288e79d2073b4f09c15ec85ab5d6f4d6be1b5b4.png": {
+    "path": "maps/marker-icons/5ddacda06b1bf0183c4e63140288e79d2073b4f09c15ec85ab5d6f4d6be1b5b4.png",
+    "sourceSha256": "223451a8d4d8a058aa1ebef154e143ed585288c6047023b929d2b25a7bca8953",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 646,
+      "top": 590,
+      "width": 843,
+      "height": 1426
+    },
+    "width": 151,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/5e46b993157a3315561c678095ace5ef36c9eb5c4d9918880a1edbf04535ddd5.png": {
+    "path": "maps/marker-icons/5e46b993157a3315561c678095ace5ef36c9eb5c4d9918880a1edbf04535ddd5.png",
+    "sourceSha256": "63f10abbca0621a0c1541cf7d75b252140cb81023b47d626ad0b9ce634ff4005",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 60,
+      "top": 44,
+      "width": 136,
+      "height": 176
+    },
+    "width": 136,
+    "height": 176
+  },
+  "data/game-files/build-26266538/database/icons/6108f64b8d5914f08713959553140f18198ffc47ba606882b95785d3bf30e7cc.png": {
+    "path": "maps/marker-icons/6108f64b8d5914f08713959553140f18198ffc47ba606882b95785d3bf30e7cc.png",
+    "sourceSha256": "8529dcfa00a8494dec390b1ebbe6ce2f8cdfbda4dfba68d03cb696e386bc1f69",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 367,
+      "top": 530,
+      "width": 953,
+      "height": 1518
+    },
+    "width": 161,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/620a36bf2b01a9b810e78f2a77bfc475df9147f46b594aed59a11a6d96ea1ec2.png": {
+    "path": "maps/marker-icons/620a36bf2b01a9b810e78f2a77bfc475df9147f46b594aed59a11a6d96ea1ec2.png",
+    "sourceSha256": "2a50e8b8ae5eec9b2761a0ecf775c2b8dce55d7c56009dc22b092307f36f6dc9",
+    "sourceWidth": 128,
+    "sourceHeight": 128,
+    "crop": {
+      "left": 20,
+      "top": 4,
+      "width": 87,
+      "height": 118
+    },
+    "width": 87,
+    "height": 118
+  },
+  "data/game-files/build-26266538/database/icons/64250e2fc1b88b3da9b2b0534d79bbfd9b3cf009d89043bf78a3a0e62701a372.png": {
+    "path": "maps/marker-icons/64250e2fc1b88b3da9b2b0534d79bbfd9b3cf009d89043bf78a3a0e62701a372.png",
+    "sourceSha256": "9d0e3968a98cfd07289b0e858da2e112385d0a02d8d32295c411799f638f9a7b",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 646,
+      "top": 0,
+      "width": 998,
+      "height": 1528
+    },
+    "width": 167,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/66a5157e06acf4ae606b609f38d24f4738b084117bd7207481b2a7cbe8fc38dc.png": {
+    "path": "maps/marker-icons/66a5157e06acf4ae606b609f38d24f4738b084117bd7207481b2a7cbe8fc38dc.png",
+    "sourceSha256": "a5da4877496080b739a08ec43a1a1f28d9705150fa00686b8a7b9ad6ec8406d6",
+    "sourceWidth": 128,
+    "sourceHeight": 128,
+    "crop": {
+      "left": 22,
+      "top": 6,
+      "width": 83,
+      "height": 115
+    },
+    "width": 83,
+    "height": 115
+  },
+  "data/game-files/build-26266538/database/icons/68b945ce074fb7c300377af3e2d8e1f39213a35998516457f792c78bae714711.png": {
+    "path": "maps/marker-icons/68b945ce074fb7c300377af3e2d8e1f39213a35998516457f792c78bae714711.png",
+    "sourceSha256": "34ca7cfcea9d0172cbc758eedcb6d4ed547ad48cb7539a06710d4b7b185f9939",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 11,
+      "top": 12,
+      "width": 229,
+      "height": 228
+    },
+    "width": 229,
+    "height": 228
+  },
+  "data/game-files/build-26266538/database/icons/69eaff2fd17e32b4cf4ed2895dabf52dc6dc942eaba44a9a76f81ea42ba9be0a.png": {
+    "path": "maps/marker-icons/69eaff2fd17e32b4cf4ed2895dabf52dc6dc942eaba44a9a76f81ea42ba9be0a.png",
+    "sourceSha256": "a5d0c90c4f48705b97215ae4572e75f407d47ef7309acd14f45f02d831f9a2eb",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 56,
+      "top": 60,
+      "width": 148,
+      "height": 136
+    },
+    "width": 148,
+    "height": 136
+  },
+  "data/game-files/build-26266538/database/icons/6ab41e651d56fda6e8eced128eb311d5be6cc294964f6adde7a18ec0b903ea3f.png": {
+    "path": "maps/marker-icons/6ab41e651d56fda6e8eced128eb311d5be6cc294964f6adde7a18ec0b903ea3f.png",
+    "sourceSha256": "b1cd51d46fae8fe7099a6aedaaca94fb0d7958fd1aaa48d441c23d17161e498c",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 56,
+      "top": 68,
+      "width": 144,
+      "height": 128
+    },
+    "width": 144,
+    "height": 128
+  },
+  "data/game-files/build-26266538/database/icons/6ace34b66871a88638fbb582a964fa7cd32556bae43b6304cd3f8db11c5d3fc1.png": {
+    "path": "maps/marker-icons/6ace34b66871a88638fbb582a964fa7cd32556bae43b6304cd3f8db11c5d3fc1.png",
+    "sourceSha256": "416dd4104c2a800581d06863da5c8f9ce4036950421f96767ef7aae9469de677",
+    "sourceWidth": 128,
+    "sourceHeight": 128,
+    "crop": {
+      "left": 8,
+      "top": 24,
+      "width": 110,
+      "height": 79
+    },
+    "width": 110,
+    "height": 79
+  },
+  "data/game-files/build-26266538/database/icons/6d47651a5a22be022e3cea909943df5134e3d2818c1b3cd29781259b29ebcbcc.png": {
+    "path": "maps/marker-icons/6d47651a5a22be022e3cea909943df5134e3d2818c1b3cd29781259b29ebcbcc.png",
+    "sourceSha256": "93a98a57880a3032120637679d654f44ac3956967106a1797c3651e761f18c8d",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 652,
+      "top": 608,
+      "width": 625,
+      "height": 1313
+    },
+    "width": 122,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/6d5cdd217cb7d4c71ec38f6f471444525d466b3c95fd88de0364f42dc961eebe.png": {
+    "path": "maps/marker-icons/6d5cdd217cb7d4c71ec38f6f471444525d466b3c95fd88de0364f42dc961eebe.png",
+    "sourceSha256": "b0abff72846b7c3b75f07e7f871952e542e6137a620bd4bd3e4e42e4c8fe4318",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 48,
+      "top": 8,
+      "width": 148,
+      "height": 244
+    },
+    "width": 148,
+    "height": 244
+  },
+  "data/game-files/build-26266538/database/icons/6db1a03fdabc597a0814c356aade4d80b1acfaa7d1a84b164dfa7a69bebc6223.png": {
+    "path": "maps/marker-icons/6db1a03fdabc597a0814c356aade4d80b1acfaa7d1a84b164dfa7a69bebc6223.png",
+    "sourceSha256": "ab99a41d47191ba33931ac112623c1f7a6ac4a8ae6a340b4c920cf55614d5062",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 615,
+      "top": 521,
+      "width": 691,
+      "height": 1384
+    },
+    "width": 128,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/70e427fefecd3b696d9e45e4c323c4058fd5e4c23d0933abc75996bb858cb534.png": {
+    "path": "maps/marker-icons/70e427fefecd3b696d9e45e4c323c4058fd5e4c23d0933abc75996bb858cb534.png",
+    "sourceSha256": "cd6a7b438ccca7c413ad30afd1934e04e40ff85e9f203801c62c4d45457f72db",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 216,
+      "height": 216
+    },
+    "width": 216,
+    "height": 216
+  },
+  "data/game-files/build-26266538/database/icons/72cce11fc417e478a0fe2ecb3d40f208f174c50ca7cbe9b07c8ed6afa603d4c5.png": {
+    "path": "maps/marker-icons/72cce11fc417e478a0fe2ecb3d40f208f174c50ca7cbe9b07c8ed6afa603d4c5.png",
+    "sourceSha256": "037fbbf761fd3f8c6db416f6ab2561260331785df55dd961bf59ef44f8327ee6",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 24,
+      "top": 64,
+      "width": 208,
+      "height": 128
+    },
+    "width": 208,
+    "height": 128
+  },
+  "data/game-files/build-26266538/database/icons/73caa71086ddbc4c2422d9589c5b4bbb7ef8cfe7dd442cb28de7232a7269ac27.png": {
+    "path": "maps/marker-icons/73caa71086ddbc4c2422d9589c5b4bbb7ef8cfe7dd442cb28de7232a7269ac27.png",
+    "sourceSha256": "a066955068b00e36207c549d734935e44fa5431530936507b2a33e7d259dc881",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 24,
+      "top": 4,
+      "width": 212,
+      "height": 252
+    },
+    "width": 212,
+    "height": 252
+  },
+  "data/game-files/build-26266538/database/icons/74b1d60aae227854cb25aee900053ae3fbd46deb1c4dd6668902eee0983595ee.png": {
+    "path": "maps/marker-icons/74b1d60aae227854cb25aee900053ae3fbd46deb1c4dd6668902eee0983595ee.png",
+    "sourceSha256": "e9068d8b429e1b1ff15c265be09c9940b72249df95019c2983dfdd39dc7f02b0",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 40,
+      "top": 40,
+      "width": 164,
+      "height": 168
+    },
+    "width": 164,
+    "height": 168
+  },
+  "data/game-files/build-26266538/database/icons/75330641b7a98c5a71b74d391b0c96e1c3f28f217f105b8b29ce505390987366.png": {
+    "path": "maps/marker-icons/75330641b7a98c5a71b74d391b0c96e1c3f28f217f105b8b29ce505390987366.png",
+    "sourceSha256": "2d40f1e2106de83160d872f07959335a42a7afc13683bd515ef692cdd4cd7bee",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 80,
+      "top": 44,
+      "width": 96,
+      "height": 172
+    },
+    "width": 96,
+    "height": 172
+  },
+  "data/game-files/build-26266538/database/icons/7a30932abd0e8650b32b5e9ce5b18bc4309a91c0742a2f91ad82fe67b67b347c.png": {
+    "path": "maps/marker-icons/7a30932abd0e8650b32b5e9ce5b18bc4309a91c0742a2f91ad82fe67b67b347c.png",
+    "sourceSha256": "4d1d908778e1216113997b020ac106edd780d0c88a8091b4c990f84decd2691d",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 839,
+      "top": 0,
+      "width": 697,
+      "height": 1525
+    },
+    "width": 117,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/7e622f761d976b74a5c8729dbd321d077d3776d4b3b2af36881ffaa35412a326.png": {
+    "path": "maps/marker-icons/7e622f761d976b74a5c8729dbd321d077d3776d4b3b2af36881ffaa35412a326.png",
+    "sourceSha256": "160e5d0466a30e23046015d7b7c0b5446ff5feb43b37bba13819a4ddb6d432fd",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 24,
+      "top": 68,
+      "width": 212,
+      "height": 128
+    },
+    "width": 212,
+    "height": 128
+  },
+  "data/game-files/build-26266538/database/icons/7e99cad9246f381f1637ecb1b0ded7b9328996ed9cdb98ecffb9e9c1f921b38a.png": {
+    "path": "maps/marker-icons/7e99cad9246f381f1637ecb1b0ded7b9328996ed9cdb98ecffb9e9c1f921b38a.png",
+    "sourceSha256": "c5cda11a3d9de8b9096976b2c6b224d3a747fcaa37ba4249fafd720f3741c7c9",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 28,
+      "top": 40,
+      "width": 204,
+      "height": 164
+    },
+    "width": 204,
+    "height": 164
+  },
+  "data/game-files/build-26266538/database/icons/838600ae58e54c2c0e01debbe1c35e9375425bed2c703724adc784071fa52982.png": {
+    "path": "maps/marker-icons/838600ae58e54c2c0e01debbe1c35e9375425bed2c703724adc784071fa52982.png",
+    "sourceSha256": "88251e6c61649d26683eb187bd78957f9225b84e55fb63c3346de3296ac6a98c",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 804,
+      "top": 308,
+      "width": 596,
+      "height": 1239
+    },
+    "width": 123,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/8552324332af43d7f6ff01af6c62a16e48b428cbd6428f118db2ea446f9c82ad.png": {
+    "path": "maps/marker-icons/8552324332af43d7f6ff01af6c62a16e48b428cbd6428f118db2ea446f9c82ad.png",
+    "sourceSha256": "9f7f6d268e961a3de01eea60316b045d8dbcacb9056606e69da54686b00c6e09",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 700,
+      "top": 589,
+      "width": 625,
+      "height": 1459
+    },
+    "width": 110,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/868ba1d2a3c6c27bcc924166855392f6c696bb3bc483531d4e2e9e263184d6cd.png": {
+    "path": "maps/marker-icons/868ba1d2a3c6c27bcc924166855392f6c696bb3bc483531d4e2e9e263184d6cd.png",
+    "sourceSha256": "2fc16f21421c7673c0afba463694cc4f7d42e5721502c105e0bbee62a9f14f3a",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 586,
+      "top": 576,
+      "width": 903,
+      "height": 900
+    },
+    "width": 256,
+    "height": 255
+  },
+  "data/game-files/build-26266538/database/icons/87c217713d3c7addefd5551ae80e8f81af3fe29d7afcc2c3358e6bacb360bb46.png": {
+    "path": "maps/marker-icons/87c217713d3c7addefd5551ae80e8f81af3fe29d7afcc2c3358e6bacb360bb46.png",
+    "sourceSha256": "938e2cbaaa9e4940941fe68304255eeb23d280d4ffa80e5453dddd97c0adef15",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 874,
+      "top": 784,
+      "width": 319,
+      "height": 395
+    },
+    "width": 207,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/9241a829dc2b6a194b2141915910b5cc215c80c7c0642b12285440a3bb9bebad.png": {
+    "path": "maps/marker-icons/9241a829dc2b6a194b2141915910b5cc215c80c7c0642b12285440a3bb9bebad.png",
+    "sourceSha256": "99b39a877fa41c40dba5c54fc07491863541bc3920b9ec1fc7ba543fc5edb737",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 897,
+      "top": 822,
+      "width": 255,
+      "height": 321
+    },
+    "width": 203,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/968b91163971c1335e12a5b8a49d6750c753458cd93685c694939c436ba52e94.png": {
+    "path": "maps/marker-icons/968b91163971c1335e12a5b8a49d6750c753458cd93685c694939c436ba52e94.png",
+    "sourceSha256": "d70d8579384e5a61c713303b3bb72dbb8959ccdcb657235c36b7678b0124874e",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 528,
+      "top": 576,
+      "width": 832,
+      "height": 1452
+    },
+    "width": 147,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/97e3e16c3cd2e2833b2dc34cbaa0a9b3b82bd6f62d80c3af977805dcb59249ae.png": {
+    "path": "maps/marker-icons/97e3e16c3cd2e2833b2dc34cbaa0a9b3b82bd6f62d80c3af977805dcb59249ae.png",
+    "sourceSha256": "5a70fb365263f8e61c12b2f0f6a656681cd928f7b7a2eb819a17379f1c691bf1",
+    "sourceWidth": 128,
+    "sourceHeight": 128,
+    "crop": {
+      "left": 20,
+      "top": 10,
+      "width": 87,
+      "height": 108
+    },
+    "width": 87,
+    "height": 108
+  },
+  "data/game-files/build-26266538/database/icons/988d20acfcfa2b3714bb0757dacf7d19ac09112dc86573ca850c1e2dfba5fec8.png": {
+    "path": "maps/marker-icons/988d20acfcfa2b3714bb0757dacf7d19ac09112dc86573ca850c1e2dfba5fec8.png",
+    "sourceSha256": "785497cdb8b92a41ed4af00cdb2ea2a944037164280bd18bbc0c396f56530165",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 940,
+      "top": 821,
+      "width": 180,
+      "height": 309
+    },
+    "width": 149,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/9989cfea3ce067fc07acc0cdd82ea3bd9a169c5f5aa3e833ea3c7fca574cec61.png": {
+    "path": "maps/marker-icons/9989cfea3ce067fc07acc0cdd82ea3bd9a169c5f5aa3e833ea3c7fca574cec61.png",
+    "sourceSha256": "9f9bdd8742a03eb364bd0de2de5fe7eab149ed429fc55b1453ca42f2576ecead",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 12,
+      "top": 12,
+      "width": 236,
+      "height": 232
+    },
+    "width": 236,
+    "height": 232
+  },
+  "data/game-files/build-26266538/database/icons/9a81d014516fbf20f0b4c9e7519c0cabd5aeaa5d0c1ec95f60b824569afb0b63.png": {
+    "path": "maps/marker-icons/9a81d014516fbf20f0b4c9e7519c0cabd5aeaa5d0c1ec95f60b824569afb0b63.png",
+    "sourceSha256": "0875cab53ee74babd418e56db030452cfe3032a4db44b67244f6089eea90fc2c",
+    "sourceWidth": 128,
+    "sourceHeight": 128,
+    "crop": {
+      "left": 31,
+      "top": 3,
+      "width": 65,
+      "height": 122
+    },
+    "width": 65,
+    "height": 122
+  },
+  "data/game-files/build-26266538/database/icons/9b4633b9850261dfdfa767c6ad4cdc23d5f3af8f69e127bef36bd4ed25d8f775.png": {
+    "path": "maps/marker-icons/9b4633b9850261dfdfa767c6ad4cdc23d5f3af8f69e127bef36bd4ed25d8f775.png",
+    "sourceSha256": "3ecbf2c6211efd7f14e8ed839b900bbc8af50784894073b197b253b5055e025d",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 908,
+      "top": 802,
+      "width": 213,
+      "height": 331
+    },
+    "width": 165,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/9bc87ecbdc32cf9fedf5b8798a77268eedcd17c5954918d2b3b7071178bc09ee.png": {
+    "path": "maps/marker-icons/9bc87ecbdc32cf9fedf5b8798a77268eedcd17c5954918d2b3b7071178bc09ee.png",
+    "sourceSha256": "f630fb6dec14805efb806fcd6a59f365ff36901dd4584ef0b6389f78f0469bdb",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 659,
+      "top": 603,
+      "width": 675,
+      "height": 888
+    },
+    "width": 195,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/9d5ac24e889943a3f83260fa5c8d77cdcc200e984c7211b5c110aae10ea35d17.png": {
+    "path": "maps/marker-icons/9d5ac24e889943a3f83260fa5c8d77cdcc200e984c7211b5c110aae10ea35d17.png",
+    "sourceSha256": "56045de8b06f89ab6eaf567e83253ff077d202309154a67cd3ff5aed96162c09",
+    "sourceWidth": 128,
+    "sourceHeight": 128,
+    "crop": {
+      "left": 15,
+      "top": 23,
+      "width": 97,
+      "height": 82
+    },
+    "width": 97,
+    "height": 82
+  },
+  "data/game-files/build-26266538/database/icons/9e18c3c336aa2248bddd56ea44bf327dbb08182c46c52170dec3d70d6e77ac30.png": {
+    "path": "maps/marker-icons/9e18c3c336aa2248bddd56ea44bf327dbb08182c46c52170dec3d70d6e77ac30.png",
+    "sourceSha256": "21a4562e481919f441ac376c7c6f5f08417f9a7e8b6efdd7f7134aa18a7dcb3d",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 830,
+      "top": 793,
+      "width": 327,
+      "height": 382
+    },
+    "width": 219,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/a144c2eaa3978f994a2bf4cc11ada3030fda71dc2328c8ce2d1a4537dedf3c52.png": {
+    "path": "maps/marker-icons/a144c2eaa3978f994a2bf4cc11ada3030fda71dc2328c8ce2d1a4537dedf3c52.png",
+    "sourceSha256": "3506cf2a55906f6dc49e4420396d85b16b7f9d6b0d05adac441e5c14c5be2624",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 28,
+      "top": 48,
+      "width": 196,
+      "height": 164
+    },
+    "width": 196,
+    "height": 164
+  },
+  "data/game-files/build-26266538/database/icons/a29eb694acca2d85597c1c324e8dc49c42732dd3525d7e0b066095cd319d5236.png": {
+    "path": "maps/marker-icons/a29eb694acca2d85597c1c324e8dc49c42732dd3525d7e0b066095cd319d5236.png",
+    "sourceSha256": "26fb9b04077fd9e72b7e32b987b58dc3ec04b54c8ebc7df28aadc18fccb06895",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 8,
+      "top": 20,
+      "width": 240,
+      "height": 216
+    },
+    "width": 240,
+    "height": 216
+  },
+  "data/game-files/build-26266538/database/icons/a340cd078c8715f9c4b0000307140ee739a93350ff5b3fe773dc7dd27cc02da7.png": {
+    "path": "maps/marker-icons/a340cd078c8715f9c4b0000307140ee739a93350ff5b3fe773dc7dd27cc02da7.png",
+    "sourceSha256": "5597124c4d5d237b87367d95e6e35457318a515b3d2f2958d37c0ae66bbfd19a",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 80,
+      "top": 48,
+      "width": 104,
+      "height": 164
+    },
+    "width": 104,
+    "height": 164
+  },
+  "data/game-files/build-26266538/database/icons/a38aca7a4ab97634d25e8fdbca83a268d3bace8717258ea513e5c78085a9bffa.png": {
+    "path": "maps/marker-icons/a38aca7a4ab97634d25e8fdbca83a268d3bace8717258ea513e5c78085a9bffa.png",
+    "sourceSha256": "550ee09b5e337cc40d3426d06f62cff8705a574d82c014ab2ef03cc1c7ce4639",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 575,
+      "top": 598,
+      "width": 699,
+      "height": 1450
+    },
+    "width": 123,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/a6115266ab3d51b23c6010a0a71f887e2f5ec89865544c21c8fed20b655bd061.png": {
+    "path": "maps/marker-icons/a6115266ab3d51b23c6010a0a71f887e2f5ec89865544c21c8fed20b655bd061.png",
+    "sourceSha256": "c9140b921220e0c16746b153607226a00fac55e725cfc0f07af355753600e992",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 48,
+      "top": 52,
+      "width": 168,
+      "height": 152
+    },
+    "width": 168,
+    "height": 152
+  },
+  "data/game-files/build-26266538/database/icons/a746b0658fc7a5c7b58d6cd6388b64c72ee5cb311ff47f0e453a83deec0e68a5.png": {
+    "path": "maps/marker-icons/a746b0658fc7a5c7b58d6cd6388b64c72ee5cb311ff47f0e453a83deec0e68a5.png",
+    "sourceSha256": "029371c337b9cd39771202de1adb11c3c3967fb6cb31c8b8f6072a67434e056b",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 16,
+      "top": 19,
+      "width": 212,
+      "height": 229
+    },
+    "width": 212,
+    "height": 229
+  },
+  "data/game-files/build-26266538/database/icons/a8ba1af8f4909a4c76e9c95237b047d4bf32e65f808dcb4b8425ddeca0bcc8cf.png": {
+    "path": "maps/marker-icons/a8ba1af8f4909a4c76e9c95237b047d4bf32e65f808dcb4b8425ddeca0bcc8cf.png",
+    "sourceSha256": "4e007616e0b2edfd717461e36f42e727298904b5c66dbaca76465064a947c01f",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 60,
+      "top": 50,
+      "width": 131,
+      "height": 170
+    },
+    "width": 131,
+    "height": 170
+  },
+  "data/game-files/build-26266538/database/icons/ad5142e8f455c060572119b75f3b530ec547b7c246b94a7c4d954c52edec8e60.png": {
+    "path": "maps/marker-icons/ad5142e8f455c060572119b75f3b530ec547b7c246b94a7c4d954c52edec8e60.png",
+    "sourceSha256": "c43e516eaf8b0b554b9b9ecf40329d3a83aebdadbf07e0e9a704793ac43ed8f0",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 72,
+      "top": 44,
+      "width": 132,
+      "height": 172
+    },
+    "width": 132,
+    "height": 172
+  },
+  "data/game-files/build-26266538/database/icons/ad9c5aa5edf2ad80ed641bdf2ed05a32b7c313a54a0963bf7d22e132f3879576.png": {
+    "path": "maps/marker-icons/ad9c5aa5edf2ad80ed641bdf2ed05a32b7c313a54a0963bf7d22e132f3879576.png",
+    "sourceSha256": "f9fb04fcb2c44275de1a6527a092af5490982ea067294832b12834a8a406813e",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 846,
+      "top": 760,
+      "width": 355,
+      "height": 445
+    },
+    "width": 204,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/af6b96962fefdfd124691ef62cd63ca2f08449610b4f15024547fabaf23ed1c9.png": {
+    "path": "maps/marker-icons/af6b96962fefdfd124691ef62cd63ca2f08449610b4f15024547fabaf23ed1c9.png",
+    "sourceSha256": "d2e177e76a71ecfb98602b25e04319202855b0542b83bff9c13350752aaef3b1",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 68,
+      "top": 23,
+      "width": 156,
+      "height": 225
+    },
+    "width": 156,
+    "height": 225
+  },
+  "data/game-files/build-26266538/database/icons/b29b03666d2d83ed0b9efcefd59a1ec68d78c7687f6d0496a45fcf682fc0d4ab.png": {
+    "path": "maps/marker-icons/b29b03666d2d83ed0b9efcefd59a1ec68d78c7687f6d0496a45fcf682fc0d4ab.png",
+    "sourceSha256": "855671a26ba7a4957915cc7c35806da91203fd914d0dd9cb32f3e02eb8a046cd",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 88,
+      "top": 56,
+      "width": 92,
+      "height": 156
+    },
+    "width": 92,
+    "height": 156
+  },
+  "data/game-files/build-26266538/database/icons/b3378fc83da01891be71d984769952559938ea9137fd5630c3db655a23f42dfe.png": {
+    "path": "maps/marker-icons/b3378fc83da01891be71d984769952559938ea9137fd5630c3db655a23f42dfe.png",
+    "sourceSha256": "5bb67e9b76e748b858416ac7aa1601e6a37af48579c54995b2c4754e78c75c1c",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 76,
+      "top": 56,
+      "width": 108,
+      "height": 144
+    },
+    "width": 108,
+    "height": 144
+  },
+  "data/game-files/build-26266538/database/icons/b35b09e84cec39c9a9f4f5d1dc11e934ae8971ae203ae968730c010c174540f5.png": {
+    "path": "maps/marker-icons/b35b09e84cec39c9a9f4f5d1dc11e934ae8971ae203ae968730c010c174540f5.png",
+    "sourceSha256": "a7395f8039f0ea26f9b98c0ffaa41ed83543cee00c7b58e60ab9ab8d75a7a9c3",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 72,
+      "top": 36,
+      "width": 112,
+      "height": 176
+    },
+    "width": 112,
+    "height": 176
+  },
+  "data/game-files/build-26266538/database/icons/b385e28e37e0f9a4d9ba9c1867d4c8eff2f93eac79e0c6f10de0c009f77f1d50.png": {
+    "path": "maps/marker-icons/b385e28e37e0f9a4d9ba9c1867d4c8eff2f93eac79e0c6f10de0c009f77f1d50.png",
+    "sourceSha256": "534a481d5bc83938ab9b4fb2b1dc9df3b601dab054c746981f6d205688456160",
+    "sourceWidth": 2600,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 938,
+      "top": 534,
+      "width": 1572,
+      "height": 1396
+    },
+    "width": 256,
+    "height": 227
+  },
+  "data/game-files/build-26266538/database/icons/b778c2e2d2dea6cc14f859b7cb310f345e82492a2c1d7089e15a7edd1cbdc2db.png": {
+    "path": "maps/marker-icons/b778c2e2d2dea6cc14f859b7cb310f345e82492a2c1d7089e15a7edd1cbdc2db.png",
+    "sourceSha256": "5bac95ede0346b27e8686648f2a6a61592ef524363da4d2e0ac220a31ede3374",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 671,
+      "top": 621,
+      "width": 591,
+      "height": 1278
+    },
+    "width": 118,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/b835fb79facdd1e4097f7907099e0b1f280550c5375370b58a9d8150b6b9c500.png": {
+    "path": "maps/marker-icons/b835fb79facdd1e4097f7907099e0b1f280550c5375370b58a9d8150b6b9c500.png",
+    "sourceSha256": "7cdd209c07c3fc2c48c7ee046df5ee5a6a88d955578e794a2ddcbfe220f5f2b4",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 629,
+      "top": 653,
+      "width": 956,
+      "height": 807
+    },
+    "width": 256,
+    "height": 216
+  },
+  "data/game-files/build-26266538/database/icons/bae2f3a4a7aac9126da380c72a4633e60d64a428afff58be99b394702f29a568.png": {
+    "path": "maps/marker-icons/bae2f3a4a7aac9126da380c72a4633e60d64a428afff58be99b394702f29a568.png",
+    "sourceSha256": "8464cdfd3cbfb9ee9097354ad973c984ba5e3d394d7d5d6738aabbf7304891b6",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 541,
+      "top": 652,
+      "width": 770,
+      "height": 1384
+    },
+    "width": 142,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/bb9e183c5455f2511e76e7d697adcada3724a85117fe9b8090f44eba66cd7353.png": {
+    "path": "maps/marker-icons/bb9e183c5455f2511e76e7d697adcada3724a85117fe9b8090f44eba66cd7353.png",
+    "sourceSha256": "dab2f549de1f38d7659b05097c53c71c65b48ff960c45dc4374d03302d5c4ddd",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 422,
+      "top": 188,
+      "width": 1341,
+      "height": 1447
+    },
+    "width": 237,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/bbabf93c80c0943380451a322e596c2b460a0fc4666e02fa0ed71056c16f6384.png": {
+    "path": "maps/marker-icons/bbabf93c80c0943380451a322e596c2b460a0fc4666e02fa0ed71056c16f6384.png",
+    "sourceSha256": "9fcc576c68a8bbb1c87ccbc5805fcd1f3f6c5e47d973fa023bf1c2deb876b46f",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 82,
+      "top": 60,
+      "width": 95,
+      "height": 136
+    },
+    "width": 95,
+    "height": 136
+  },
+  "data/game-files/build-26266538/database/icons/c03d6f58b1ec4a8630d504d10383d95889ce3e7089b79fd988ab917d9cdd664b.png": {
+    "path": "maps/marker-icons/c03d6f58b1ec4a8630d504d10383d95889ce3e7089b79fd988ab917d9cdd664b.png",
+    "sourceSha256": "6799387bd85358811ccff15fc0a2c22a858c8dd899509f010d46a1d68bfc8d20",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 60,
+      "top": 76,
+      "width": 168,
+      "height": 120
+    },
+    "width": 168,
+    "height": 120
+  },
+  "data/game-files/build-26266538/database/icons/c15939b55cf854bd744b58acc56b1ff8ae2b8834c7230fd1d660c1215beadd59.png": {
+    "path": "maps/marker-icons/c15939b55cf854bd744b58acc56b1ff8ae2b8834c7230fd1d660c1215beadd59.png",
+    "sourceSha256": "d5760fed989d0891be28f99a4c3e6793f9dc007d6f3d0813e0d609e653265efa",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 88,
+      "top": 52,
+      "width": 88,
+      "height": 148
+    },
+    "width": 88,
+    "height": 148
+  },
+  "data/game-files/build-26266538/database/icons/c29a2b9c843f5ebacff001b605c0c3e2c1a1fee0682a8b966c8a4484fb0e79d7.png": {
+    "path": "maps/marker-icons/c29a2b9c843f5ebacff001b605c0c3e2c1a1fee0682a8b966c8a4484fb0e79d7.png",
+    "sourceSha256": "f09771aa1237a81c02e37a7f506c2a5782a55189c3a88e227011fb34dac5efb7",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 711,
+      "top": 358,
+      "width": 665,
+      "height": 1191
+    },
+    "width": 143,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/c6f604d74a82601d34e6600f1e3cfdf5502f9f7b21fdc08a7a0471ef3c017028.png": {
+    "path": "maps/marker-icons/c6f604d74a82601d34e6600f1e3cfdf5502f9f7b21fdc08a7a0471ef3c017028.png",
+    "sourceSha256": "7b82a7ad1275a73d5a2dd76475b835d5dd4df0f1c2a88d0cbf4568088656866c",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 68,
+      "top": 52,
+      "width": 116,
+      "height": 148
+    },
+    "width": 116,
+    "height": 148
+  },
+  "data/game-files/build-26266538/database/icons/c8e9309a5b440d58ec1a3d18768b1b6743b026dd71d605c1755d8b9ceef0419e.png": {
+    "path": "maps/marker-icons/c8e9309a5b440d58ec1a3d18768b1b6743b026dd71d605c1755d8b9ceef0419e.png",
+    "sourceSha256": "01fdebac0cfb02df1d3d50ab2e4a899d45d16196b98e8a897710ab0fee3407c9",
+    "sourceWidth": 128,
+    "sourceHeight": 128,
+    "crop": {
+      "left": 23,
+      "top": 6,
+      "width": 81,
+      "height": 116
+    },
+    "width": 81,
+    "height": 116
+  },
+  "data/game-files/build-26266538/database/icons/c94cf7b8835d6a2e318f15ebaa4099ba38c5254158d2dcd3554cb8089b00270f.png": {
+    "path": "maps/marker-icons/c94cf7b8835d6a2e318f15ebaa4099ba38c5254158d2dcd3554cb8089b00270f.png",
+    "sourceSha256": "2b8779983cd4d3d47c2a7120f2731d8c5937557d546e1c7d33f6566c590e1acf",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 64,
+      "top": 48,
+      "width": 132,
+      "height": 160
+    },
+    "width": 132,
+    "height": 160
+  },
+  "data/game-files/build-26266538/database/icons/c9a9852ede30bf7af384daedf8884acc4dc7615bd6da9bd8aef8f4021db12c87.png": {
+    "path": "maps/marker-icons/c9a9852ede30bf7af384daedf8884acc4dc7615bd6da9bd8aef8f4021db12c87.png",
+    "sourceSha256": "cca414470fe28763b9f2dddbabc371f95abf035d890eb4ee80ceba722e5a968d",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 711,
+      "top": 952,
+      "width": 1324,
+      "height": 1096
+    },
+    "width": 256,
+    "height": 212
+  },
+  "data/game-files/build-26266538/database/icons/d2cf14eec5237477eb5b4d72bfbaf82096050bb2877df0a6ab1713bcc2017348.png": {
+    "path": "maps/marker-icons/d2cf14eec5237477eb5b4d72bfbaf82096050bb2877df0a6ab1713bcc2017348.png",
+    "sourceSha256": "6c37e07f43823806df1c04afe9f03e65c25221fc2b1df90a787cb2f7298d9631",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 52,
+      "top": 60,
+      "width": 152,
+      "height": 132
+    },
+    "width": 152,
+    "height": 132
+  },
+  "data/game-files/build-26266538/database/icons/d2ec9ef688013d7d4bbb55d6ac1c0678301bd7268d9ed38c77497682d26f25ad.png": {
+    "path": "maps/marker-icons/d2ec9ef688013d7d4bbb55d6ac1c0678301bd7268d9ed38c77497682d26f25ad.png",
+    "sourceSha256": "90272e9ef6398f056ca2cc1e9e6a840c09914b3688cd4d5c8cc764681f0525a6",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 52,
+      "top": 44,
+      "width": 160,
+      "height": 172
+    },
+    "width": 160,
+    "height": 172
+  },
+  "data/game-files/build-26266538/database/icons/d3e6aef25034f51688fa8bce4182aa93051cb0d85ec6a0400edf89bc36e566c4.png": {
+    "path": "maps/marker-icons/d3e6aef25034f51688fa8bce4182aa93051cb0d85ec6a0400edf89bc36e566c4.png",
+    "sourceSha256": "de19d11aac305091694d12aff2792ac7fe6ac9427e0fcb49d1a50b90b73ab9ba",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 667,
+      "top": 558,
+      "width": 632,
+      "height": 1287
+    },
+    "width": 126,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/d6de76931ff7dc16374178dd7b3c05dd897843cbec45437a17f5762bd49d6f28.png": {
+    "path": "maps/marker-icons/d6de76931ff7dc16374178dd7b3c05dd897843cbec45437a17f5762bd49d6f28.png",
+    "sourceSha256": "6fbe95f62e3dd443fe6c53b7e61ef65f02ba89d75127cd089c46bbbc84bc2e9d",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 4,
+      "top": 60,
+      "width": 245,
+      "height": 132
+    },
+    "width": 245,
+    "height": 132
+  },
+  "data/game-files/build-26266538/database/icons/d776bed1f19569accea585351c8af405845bbcac666d6f3ee51277cd18d6b0ff.png": {
+    "path": "maps/marker-icons/d776bed1f19569accea585351c8af405845bbcac666d6f3ee51277cd18d6b0ff.png",
+    "sourceSha256": "93d5b224e090c1f25837ffa62de5a167f477d7487de23219503ad27fc18f7ef8",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 883,
+      "top": 763,
+      "width": 281,
+      "height": 374
+    },
+    "width": 192,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/d7cad8545343f0c8d2611269bee392110bdd2366df95aba7c2004a9d6d16fc5a.png": {
+    "path": "maps/marker-icons/d7cad8545343f0c8d2611269bee392110bdd2366df95aba7c2004a9d6d16fc5a.png",
+    "sourceSha256": "a230a34f4e73dd74eff920a9b9e807d6226a05021f31402b3ca77f5a87493920",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 832,
+      "top": 616,
+      "width": 526,
+      "height": 777
+    },
+    "width": 173,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/d80234b1dbd3d03f3009c43aa35043db94f39e8b071596ef57f323b9fc0143d3.png": {
+    "path": "maps/marker-icons/d80234b1dbd3d03f3009c43aa35043db94f39e8b071596ef57f323b9fc0143d3.png",
+    "sourceSha256": "e20096660c9975ceaee63bc50f726b33cc7cb38ad5368db38cfc0cd10477f984",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 48,
+      "top": 52,
+      "width": 168,
+      "height": 152
+    },
+    "width": 168,
+    "height": 152
+  },
+  "data/game-files/build-26266538/database/icons/d8066c87b56b5880db0556b2252bb072f53ad1555ed4fdbd373af5be5f7394e0.png": {
+    "path": "maps/marker-icons/d8066c87b56b5880db0556b2252bb072f53ad1555ed4fdbd373af5be5f7394e0.png",
+    "sourceSha256": "f8b2bbd7b83f297fd41f8b1152e074eedbd5cd73fd11a215fb220397cb0742ec",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 802,
+      "top": 668,
+      "width": 451,
+      "height": 712
+    },
+    "width": 162,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/d97492832386081873d4c181427f1c9c600646d9506e03ee9c774cffac44741d.png": {
+    "path": "maps/marker-icons/d97492832386081873d4c181427f1c9c600646d9506e03ee9c774cffac44741d.png",
+    "sourceSha256": "6caffdf0997bb249ac061ea91adbf5dd0845cab42d6a14f7e3e3278c52120038",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 857,
+      "top": 786,
+      "width": 345,
+      "height": 375
+    },
+    "width": 236,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/da4bcf26033f34e7839fb9a6d6a68571b94083e3d2daf720ed42f6ef6b68d49f.png": {
+    "path": "maps/marker-icons/da4bcf26033f34e7839fb9a6d6a68571b94083e3d2daf720ed42f6ef6b68d49f.png",
+    "sourceSha256": "3af83510b6bdb81359d9cdc172131bc7e180974840e549425b1ad6f100c63a99",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 928,
+      "top": 801,
+      "width": 196,
+      "height": 353
+    },
+    "width": 142,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/de2090d972bd883c1d2ff49651ce67b75fe6a380f7ad5bb506f105afd6cfba2a.png": {
+    "path": "maps/marker-icons/de2090d972bd883c1d2ff49651ce67b75fe6a380f7ad5bb506f105afd6cfba2a.png",
+    "sourceSha256": "5b4608af2def1e5a9d4b120389d09eae81a2cdaac297670368c00ba25be09513",
+    "sourceWidth": 128,
+    "sourceHeight": 128,
+    "crop": {
+      "left": 16,
+      "top": 1,
+      "width": 95,
+      "height": 125
+    },
+    "width": 95,
+    "height": 125
+  },
+  "data/game-files/build-26266538/database/icons/de60ae1aad574d2b83d7811996c74bb9603c7e19d1e471308af083a65cab0409.png": {
+    "path": "maps/marker-icons/de60ae1aad574d2b83d7811996c74bb9603c7e19d1e471308af083a65cab0409.png",
+    "sourceSha256": "31f64f6f749243742a97512f68a54485b22568e7e0009722f2dfefc0976824e5",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 775,
+      "top": 307,
+      "width": 637,
+      "height": 1229
+    },
+    "width": 133,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/deaa03f8fddcaf50e221a90c4ce0cd86cfe114e66aacd205371e79a75d513d6a.png": {
+    "path": "maps/marker-icons/deaa03f8fddcaf50e221a90c4ce0cd86cfe114e66aacd205371e79a75d513d6a.png",
+    "sourceSha256": "c9fd5a2b69d855cbb7ea8aeb616b84cd37bca038039fa91ee4bae7d02690bac0",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 595,
+      "top": 584,
+      "width": 756,
+      "height": 1389
+    },
+    "width": 139,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/dfe31e77b45fb0b03790c62addd5e4725dcfb2ecff31ac77ab2a4b91dfd79a53.png": {
+    "path": "maps/marker-icons/dfe31e77b45fb0b03790c62addd5e4725dcfb2ecff31ac77ab2a4b91dfd79a53.png",
+    "sourceSha256": "816df98973412555497a578111f484031fd4346b97b37609ad7f3dbdde1ad5cd",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 712,
+      "top": 696,
+      "width": 652,
+      "height": 673
+    },
+    "width": 248,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/e0d77758e051bed48cb7e68dd015016dbdf83f8b2f193fb22e13c7cd4491645a.png": {
+    "path": "maps/marker-icons/e0d77758e051bed48cb7e68dd015016dbdf83f8b2f193fb22e13c7cd4491645a.png",
+    "sourceSha256": "0fca1cf0130bf557075cf100c25202ce9c31752b72b722e956f174e9b2f57e49",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 0,
+      "top": 0,
+      "width": 256,
+      "height": 256
+    },
+    "width": 256,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/e10bc0ab3dc0b07c49930377ae62d64e0da411cadd2a40694f34974685728f89.png": {
+    "path": "maps/marker-icons/e10bc0ab3dc0b07c49930377ae62d64e0da411cadd2a40694f34974685728f89.png",
+    "sourceSha256": "17e00544aa1b202dea881a7e92b746d044ec9a1de6b3635a8c794e6bf9a5923d",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 56,
+      "top": 4,
+      "width": 148,
+      "height": 252
+    },
+    "width": 148,
+    "height": 252
+  },
+  "data/game-files/build-26266538/database/icons/e224fba731b3b5841908f6995c5fd8e83f8784a76364e6205b8f0c0abbe45afb.png": {
+    "path": "maps/marker-icons/e224fba731b3b5841908f6995c5fd8e83f8784a76364e6205b8f0c0abbe45afb.png",
+    "sourceSha256": "c4b8ca7695ec1bc67f4ed12e49f07288a017133ae39f091196630180b80ca2e4",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 511,
+      "top": 560,
+      "width": 828,
+      "height": 1488
+    },
+    "width": 142,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/e296e079562cc654be48f69689e2c2e7e5ed749d4f04bbcba4dbcedc359a8343.png": {
+    "path": "maps/marker-icons/e296e079562cc654be48f69689e2c2e7e5ed749d4f04bbcba4dbcedc359a8343.png",
+    "sourceSha256": "f17360b888659782827b2f10f083c231beabddf3a1d4662b85fd8cb2c32bae6a",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 88,
+      "top": 52,
+      "width": 88,
+      "height": 152
+    },
+    "width": 88,
+    "height": 152
+  },
+  "data/game-files/build-26266538/database/icons/e50869771dc7e265234a2d7da5d0d3e620599923b305da1b8c4f3bd7d99f41de.png": {
+    "path": "maps/marker-icons/e50869771dc7e265234a2d7da5d0d3e620599923b305da1b8c4f3bd7d99f41de.png",
+    "sourceSha256": "560f800463e7c743660ff37419d9a55bb53b0577771e74bd1a093a59ab839537",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 28,
+      "top": 80,
+      "width": 208,
+      "height": 100
+    },
+    "width": 208,
+    "height": 100
+  },
+  "data/game-files/build-26266538/database/icons/e5220f422569c86a0ae910200b24393fc3a3d86becf293f9e256ddd0a9ceb311.png": {
+    "path": "maps/marker-icons/e5220f422569c86a0ae910200b24393fc3a3d86becf293f9e256ddd0a9ceb311.png",
+    "sourceSha256": "b08ca582318b1298a8cc80e8a8c3692c52e2822589b76fd9367d8fd5ebbe9389",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 68,
+      "top": 32,
+      "width": 140,
+      "height": 176
+    },
+    "width": 140,
+    "height": 176
+  },
+  "data/game-files/build-26266538/database/icons/e574d3a53e54584bbfd55a93f30708e6b822848b46b8eb1c8e86c1b4857695ba.png": {
+    "path": "maps/marker-icons/e574d3a53e54584bbfd55a93f30708e6b822848b46b8eb1c8e86c1b4857695ba.png",
+    "sourceSha256": "2cffe3952f1958f25fca4315633e5a31329efd5715284b96f0b98da8ee41a39f",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 76,
+      "top": 48,
+      "width": 116,
+      "height": 168
+    },
+    "width": 116,
+    "height": 168
+  },
+  "data/game-files/build-26266538/database/icons/e75652e242de2cb6bbcfde6f7e20a3578806ea8fbe716f858712cffe8b3e56e9.png": {
+    "path": "maps/marker-icons/e75652e242de2cb6bbcfde6f7e20a3578806ea8fbe716f858712cffe8b3e56e9.png",
+    "sourceSha256": "eec8492e2d80ec05726b654c852cfcd13220675a78502c81d99198168759b86d",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 888,
+      "top": 819,
+      "width": 276,
+      "height": 329
+    },
+    "width": 215,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/e794dddb681e0d786f4878600f74ee37320a1c4da94a3f50d604827e73824825.png": {
+    "path": "maps/marker-icons/e794dddb681e0d786f4878600f74ee37320a1c4da94a3f50d604827e73824825.png",
+    "sourceSha256": "3898ced2b03684e4abc487ddea4afb1c21c9323657b51fac6ef132a0f13eb283",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 84,
+      "top": 48,
+      "width": 96,
+      "height": 160
+    },
+    "width": 96,
+    "height": 160
+  },
+  "data/game-files/build-26266538/database/icons/e7a846ab3b7901d08894cda689458ce6e0ed7c28493c95e9758a107a80d146a9.png": {
+    "path": "maps/marker-icons/e7a846ab3b7901d08894cda689458ce6e0ed7c28493c95e9758a107a80d146a9.png",
+    "sourceSha256": "a4a2b1b4417ae083229443f75282c62bf03a17e50150f17a6b1db75cadf1d7f5",
+    "sourceWidth": 128,
+    "sourceHeight": 128,
+    "crop": {
+      "left": 12,
+      "top": 27,
+      "width": 101,
+      "height": 74
+    },
+    "width": 101,
+    "height": 74
+  },
+  "data/game-files/build-26266538/database/icons/e86415eb57d3092134f040efb150d71f27199b9d7226f6bcf1d1f4e89527655c.png": {
+    "path": "maps/marker-icons/e86415eb57d3092134f040efb150d71f27199b9d7226f6bcf1d1f4e89527655c.png",
+    "sourceSha256": "a3b2ad4360f5f0e2400cce0ad348ef85bd3f9df04526d1f36e5844c4cc649c26",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 723,
+      "top": 560,
+      "width": 645,
+      "height": 1388
+    },
+    "width": 119,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/ecf4d0e6e86cb0fced136c18e55a6161f74833443144f9232192f0db2078fb21.png": {
+    "path": "maps/marker-icons/ecf4d0e6e86cb0fced136c18e55a6161f74833443144f9232192f0db2078fb21.png",
+    "sourceSha256": "6eb5fc8a611a5911c6444e879e30fb5e39a205bfbd52485e554479ed03ebd774",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 380,
+      "top": 492,
+      "width": 937,
+      "height": 1556
+    },
+    "width": 154,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/eeb59638490d4ef50f31572d84ff8e670315ee45958c3b349dc031c27ea1a1d1.png": {
+    "path": "maps/marker-icons/eeb59638490d4ef50f31572d84ff8e670315ee45958c3b349dc031c27ea1a1d1.png",
+    "sourceSha256": "ae419607956fb40f3cc4b69c293d4fc88f3c5cb187b9934c77160a78696f9520",
+    "sourceWidth": 128,
+    "sourceHeight": 128,
+    "crop": {
+      "left": 18,
+      "top": 8,
+      "width": 92,
+      "height": 112
+    },
+    "width": 92,
+    "height": 112
+  },
+  "data/game-files/build-26266538/database/icons/f5e46ffbcc8d045d62aaa74e96469118854b5357657aca0baaf93c3e5ca2b229.png": {
+    "path": "maps/marker-icons/f5e46ffbcc8d045d62aaa74e96469118854b5357657aca0baaf93c3e5ca2b229.png",
+    "sourceSha256": "66ffd675b9e3fb48698d0b9bd2d5ab2eb19fe49763187669bbba3918b4d975c5",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 800,
+      "top": 0,
+      "width": 732,
+      "height": 1526
+    },
+    "width": 123,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/f62fa7ffb7c6a8850bea5e7d0e1f8e40535f25178f5e5045521c5a7def9841a0.png": {
+    "path": "maps/marker-icons/f62fa7ffb7c6a8850bea5e7d0e1f8e40535f25178f5e5045521c5a7def9841a0.png",
+    "sourceSha256": "2b819db77b29b1f4ef0f358be6771cbefcf5173affbacac20df76a546dff33d2",
+    "sourceWidth": 128,
+    "sourceHeight": 128,
+    "crop": {
+      "left": 28,
+      "top": 7,
+      "width": 71,
+      "height": 114
+    },
+    "width": 71,
+    "height": 114
+  },
+  "data/game-files/build-26266538/database/icons/f713c0b7491b72db0c9b4ab766a1b7c162589dd640d4d41e0b03fa005296bed1.png": {
+    "path": "maps/marker-icons/f713c0b7491b72db0c9b4ab766a1b7c162589dd640d4d41e0b03fa005296bed1.png",
+    "sourceSha256": "3155e6ec8c28fa339b8c63667bb558ad9f4d17b0a4229872f04a24a4cae1209e",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 72,
+      "top": 48,
+      "width": 168,
+      "height": 164
+    },
+    "width": 168,
+    "height": 164
+  },
+  "data/game-files/build-26266538/database/icons/f8433ba450421b8dc4b407c801df88bd983c18f290295eeeeb6953460ff9e237.png": {
+    "path": "maps/marker-icons/f8433ba450421b8dc4b407c801df88bd983c18f290295eeeeb6953460ff9e237.png",
+    "sourceSha256": "c472b2d9453e460a112cd34627ac89332bf04a49674429ff837cf0b037e7865c",
+    "sourceWidth": 2048,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 720,
+      "top": 566,
+      "width": 648,
+      "height": 1374
+    },
+    "width": 121,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/fbd87f1043f36038cb02fddb7c70bbc0d1569866bd9fba1bc7880c0701eb400e.png": {
+    "path": "maps/marker-icons/fbd87f1043f36038cb02fddb7c70bbc0d1569866bd9fba1bc7880c0701eb400e.png",
+    "sourceSha256": "0929e544555aa1a617de8669afb85bd56c37bf5753d573bcc1c9bb8b47bad545",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 80,
+      "top": 68,
+      "width": 92,
+      "height": 116
+    },
+    "width": 92,
+    "height": 116
+  },
+  "data/game-files/build-26266538/database/icons/fe855f4f035d9c6c8fa7e60336514811baa639b7ff22db4120cfbd9746376e30.png": {
+    "path": "maps/marker-icons/fe855f4f035d9c6c8fa7e60336514811baa639b7ff22db4120cfbd9746376e30.png",
+    "sourceSha256": "c524453965f9d1f130f0b79dc75be2ceb45ed3f061df60f542d37a3ada25e9e9",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 68,
+      "top": 16,
+      "width": 124,
+      "height": 220
+    },
+    "width": 124,
+    "height": 220
+  },
+  "data/game-files/build-26266538/database/icons/ff2e05b91378cc9dacf90ce94b976eaeadf726d6b6145ac47b8924eb3cf5dfba.png": {
+    "path": "maps/marker-icons/ff2e05b91378cc9dacf90ce94b976eaeadf726d6b6145ac47b8924eb3cf5dfba.png",
+    "sourceSha256": "118bfdcc1844a9bf6d6b19f126c2ebbabb968143c2318e016c4668f61b93ae89",
+    "sourceWidth": 2600,
+    "sourceHeight": 2048,
+    "crop": {
+      "left": 1014,
+      "top": 432,
+      "width": 1434,
+      "height": 1616
+    },
+    "width": 227,
+    "height": 256
+  },
+  "data/game-files/build-26266538/database/icons/ffc9946968d0e0bfb732922a3c24e43357c71791862c182042b196dd59f63fe7.png": {
+    "path": "maps/marker-icons/ffc9946968d0e0bfb732922a3c24e43357c71791862c182042b196dd59f63fe7.png",
+    "sourceSha256": "6a9ffdcf928343e19004d72b733ca5a14c7e81b18bb3aa8dc6717b9c1693432d",
+    "sourceWidth": 256,
+    "sourceHeight": 256,
+    "crop": {
+      "left": 80,
+      "top": 60,
+      "width": 104,
+      "height": 140
+    },
+    "width": 104,
+    "height": 140
+  }
+}

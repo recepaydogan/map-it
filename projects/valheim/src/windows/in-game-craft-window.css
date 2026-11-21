@@ -1,0 +1,18 @@
+.in-game-craft { --tracker-secondary: #eee3cf; position: relative; isolation: isolate; width: max-content; min-width: 340px; max-width: 640px; margin: 2px; padding: 4px; border: 2px solid transparent; border-radius: 8px; color: var(--text); background: rgb(0 0 0 / 50%); text-shadow: 0 1px 2px #000, 0 0 4px #000c; }
+.in-game-craft > .craft-tracker-bar { width: 340px; max-width: 100%; padding: 0 4px; }
+.in-game-craft button { cursor: pointer; }
+.craft-overlay-preview-page { height: 100%; overflow: auto; padding: 100px 20px 40px; }
+.craft-overlay-preview-page .craft-tracker-drag { cursor: default; }
+.craft-collapse-all svg { transition: transform 180ms ease; }
+.craft-overlay-content { display: grid; grid-template-rows: 1fr; opacity: 1; transition: grid-template-rows 220ms ease, opacity 180ms ease; }
+.craft-overlay-content[data-collapsed="true"] { grid-template-rows: 0fr; opacity: 0; }
+.craft-overlay-content-clip { min-height: 0; overflow: hidden; }
+@media (prefers-reduced-motion: reduce) { .craft-collapse-all svg, .craft-overlay-content { transition: none; } }
+.in-game-craft button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.in-game-craft .multi-craft-preview { height: auto; max-height: 600px; scrollbar-width: thin; scrollbar-color: #695a38 transparent; }
+.in-game-craft .multi-craft-stage { padding: 8px 4px 4px; }
+.in-game-craft .multi-craft-picker-backdrop { padding: 36px 4px 4px; }
+.in-game-craft:has(.craft-tracker-auto-hint) { min-height: 160px; }
+.in-game-craft:has(.multi-craft-picker-backdrop) { min-width: 370px; min-height: 460px; }
+.in-game-craft:has(.craft-close-dialog) { min-height: 250px; }
+.in-game-craft:has(.craft-tracker-auto-hint)::after { content: ''; position: absolute; inset: 0; z-index: 3; border-radius: inherit; background: rgb(0 0 0 / 35%); pointer-events: none; }

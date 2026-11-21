@@ -1,0 +1,33 @@
+.reference-panels {
+  gap: 18px;
+  padding: 18px 12px 12px;
+}
+
+.reference-categories,
+.reference-content {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.reference-categories {
+  align-self: start;
+  max-block-size: 100%;
+  background: var(--color-surface);
+}
+
+.reference-content {
+  background: var(--color-background);
+}
+
+.reference-toolbar {
+  border-bottom: 1px solid var(--color-border);
+  border-start-start-radius: inherit;
+  border-start-end-radius: inherit;
+  background: var(--color-surface);
+}
+
+@container (max-width: 530px) {
+  .reference-panels {
+    gap: 10px;
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "downloadedAt": "2026-11-03T22:05:17.881Z",
+  "note": "Unmodified official storefront and publisher artwork, used to identify games in the Map It game picker.",
+  "images": [
+    {
+      "id": "aion-2",
+      "page": "https://store.steampowered.com/app/3393110/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3393110/10aa4b096ebe6af0d1dd7882e5ba004271aef6f7/header.jpg?t=1792771538",
+      "file": "/game-cards/aion-2.jpg",
+      "bytes": 45322,
+      "width": 460,
+      "height": 215,
+      "sha256": "50a22c7f3d60de2698bec0095725cd5c22985a934c6cb9352ae783c67c4f56de"
+    },
+    {
+      "id": "baldurs-gate-3",
+      "page": "https://store.steampowered.com/app/1086940/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
+      "file": "/game-cards/baldurs-gate-3.jpg",
+      "bytes": 50671,
+      "width": 460,
+      "height": 215,
+      "sha256": "70f099749ece31e4ff2d017cbfafc47fd8cbe52e23eb26daec8dde4549576ccb"
+    },
+    {
+      "id": "elden-ring",
+      "page": "https://store.steampowered.com/app/1245620/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1790290043",
+      "file": "/game-cards/elden-ring.jpg",
+      "bytes": 32689,
+      "width": 460,
+      "height": 215,
+      "sha256": "d46402528e357350bdb31a00be57a7896238515e6dc8afc0669aa54573307c02"
+    },
+    {
+      "id": "enshrouded",
+      "page": "https://store.steampowered.com/app/1203620/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203620/98ca939f51b39bdd41e0e9198a9ccf8421148770/header_alt_assets_2.jpg?t=1792078032",
+      "file": "/game-cards/enshrouded.jpg",
+      "bytes": 54645,
+      "width": 460,
+      "height": 215,
+      "sha256": "8d14b2042a8acc449ebcdbaff4816037f7d17ea1baeebb580f6b8d01ebb37d50"
+    },
+    {
+      "id": "peak",
+      "page": "https://store.steampowered.com/app/3527290/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1792684718",
+      "file": "/game-cards/peak.jpg",
+      "bytes": 39190,
+      "width": 460,
+      "height": 215,
+      "sha256": "30f2047266f77dbb0e8be0f17bc1048a65603fc18f47cb953f843f425ff26abd"
+    },
+    {
+      "id": "phantom-blade",
+      "page": "https://store.steampowered.com/app/4115450/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg?t=1793261976",
+      "file": "/game-cards/phantom-blade.jpg",
+      "bytes": 35660,
+      "width": 460,
+      "height": 215,
+      "sha256": "087dbb4dbf72202ade4fec45f9f072dfcc1c4d33642c5270c6483ae854c0d098"
+    },
+    {
+      "id": "project-zomboid",
+      "page": "https://store.steampowered.com/app/108600/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg?t=1793224893",
+      "file": "/game-cards/project-zomboid.jpg",
+      "bytes": 49384,
+      "width": 460,
+      "height": 215,
+      "sha256": "97389b62f2b248da5caba27c353d5c79d29766b706a51db826d861cc029be08a"
+    },
+    {
+      "id": "valheim",
+      "page": "https://store.steampowered.com/app/892970/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/1888731b59362fca6c026cdbafa3dfffd45c3146/header_alt_assets_6.jpg?t=1791544831",
+      "file": "/game-cards/valheim.jpg",
+      "bytes": 47691,
+      "width": 460,
+      "height": 215,
+      "sha256": "b9eb18682f909462ead3b79156d429a026bdb31a9ec594f3632945dc72294238"
+    },
+    {
+      "id": "minecraft",
+      "page": "https://www.minecraft.net/en-us",
+      "image": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/Global-Header_Image-Tile_MC-Java-Bedrock_570x321.jpg",
+      "file": "/game-cards/minecraft.jpg",
+      "bytes": 145526,
+      "width": 570,
+      "height": 321,
+      "sha256": "c130f5e41905d2ac94a193188530346a428bb5dce2d63b73da56af1a4fad12a5"
+    },
+    {
+      "id": "wow-forever",
+      "page": "https://worldofwarcraft.blizzard.com/en-us/forever",
+      "image": "https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt766f7698aedb7b7f/6a9bc5882437ed5612d4878f/Open_Graph_-_Camelot.jpg",
+      "file": "/game-cards/wow-forever.jpg",
+      "bytes": 126984,
+      "width": 1287,
+      "height": 759,
+      "sha256": "11dcea477db7b87bf0b88428bb229884a98e3700e3719ec3cf15c58073f18109"
+    }
+  ]
+}

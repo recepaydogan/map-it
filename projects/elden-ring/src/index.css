@@ -1,0 +1,791 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  /* Base neutral palette (dark, game-native). Warm sepia-shifted off pure zinc
+     so the cool grey doesn't fight the Erdtree gold — "faded grandeur", an aged
+     tome rather than a sterile dashboard. Borders carry a faint warm tint too. */
+  --color-background: #0e0c0a;
+  --color-surface: #1a1611;
+  --color-surface-hover: #272018;
+  --color-border: rgba(216, 203, 176, 0.10);
+  --color-muted: #8a8068;
+  --color-subtle: #a39882;
+
+  /* Runtime-switched per-game accent. Defaults below are Elden Ring's; the
+     [data-game] wrappers override these very tokens directly so the cascade
+     re-themes descendants when the player swaps games — one token, two skins.
+     (Do NOT reintroduce a `--color-accent: var(--accent, …)` indirection here:
+     declared at :root where --accent is undefined, it freezes the gold fallback
+     and the per-game override silently never applies.) */
+  --color-accent: #d4af37;
+  --color-accent-soft: rgba(212, 175, 55, 0.16);
+  --color-on-accent: #1a1407;
+
+  /* ── Warm-shifted neutral ramp ────────────────────────────────────────
+     The components were built directly on Tailwind's `zinc` scale (cool blue-grey)
+     in ~280 places — text-zinc-400, bg-zinc-900, etc. Rather than rewrite 43 files,
+     we redefine the zinc ramp itself toward sepia/parchment so every existing
+     `zinc` utility re-themes at the source. Lightness is preserved per step so
+     contrast/readability is unchanged; only the hue warms (~40°, low saturation).
+     The dark end (900/950) is aligned to --color-surface/-background so
+     `bg-zinc-900` and `bg-surface` render identically. One edit, whole app warms. */
+  --color-zinc-50: #faf7f0;
+  --color-zinc-100: #f1ebdd; /* primary text / headings — bright vellum */
+  --color-zinc-200: #e0d7c4;
+  --color-zinc-300: #cbbfa6; /* body copy */
+  --color-zinc-400: #a39882; /* muted labels */
+  --color-zinc-500: #9b917b; /* secondary labels, icons */
+  --color-zinc-600: #948a75; /* disabled controls */
+  --color-zinc-700: #403b30;
+  --color-zinc-800: #272018; /* == surface-hover */
+  --color-zinc-900: #1a1611; /* == surface */
+  --color-zinc-950: #0e0c0a; /* == background */
+
+  /* CJK fallbacks (Microsoft YaHei on Windows/Overwolf, PingFang SC on macOS,
+     Noto on Linux) sit after the Latin faces: the browser only reaches for them
+     to render glyphs Inter/Cinzel lack, so Latin text is untouched while Chinese,
+     Japanese and Korean render natively instead of as tofu boxes — no bundled
+     CJK webfont needed. */
+  --font-sans: "Inter", "system-ui", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Noto Sans CJK SC", sans-serif;
+  /* Engraved Roman caps — the FromSoftware title voice. Reserved for the archive
+     masthead and item names so the codex reads as an in-world tome, not a list. */
+  --font-display: "Cinzel", "Inter", "Microsoft YaHei", "PingFang SC", "Noto Serif SC", "Noto Sans SC", serif;
+
+  /* Radius scale (used via rounded-[var(--radius-*)]). */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-full: 999px;
+
+  --animate-fade-in: fadeIn 0.3s ease-out;
+  --animate-fade-up: fadeUp 0.4s ease-out;
+  --animate-slide-in: slideIn 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+  /* Right-docked sheets (the phone navigation drawer) enter from their own edge —
+     the left-hand slideIn above would have them fly in across the content. */
+  --animate-slide-in-right: slideInRight 0.26s cubic-bezier(0.22, 1, 0.36, 1);
+  /* Bottom sheets (the phone filter panel) rise from the edge they're docked to. */
+  --animate-slide-up: slideUp 0.26s cubic-bezier(0.22, 1, 0.36, 1);
+  /* Onboarding spotlight ring — a soft, breathing accent halo drawn around the
+     tour's current target. Pure box-shadow so it never affects layout. */
+  --animate-tour-ring: tourRing 1.9s ease-in-out infinite;
+  /* Contextual key hints (features/hints): the card rises into place, the key
+     caps tap on a loop to point at themselves, and a hairline bar drains in step
+     with the auto-hide timer (its duration is set inline, per hint). */
+  --animate-hint-in: hintIn 0.34s cubic-bezier(0.22, 1, 0.36, 1);
+  --animate-hint-out: hintOut 0.2s ease-in forwards;
+  --animate-key-tap: keyTap 2.4s ease-in-out infinite;
+  --animate-hint-drain: hintDrain 9s linear forwards;
+  /* Release announcement (features/whats-new): a miniature of the boss build
+     advisor answering a rune level. All three loops share ONE 5s clock — the
+     slider travels, then the build (weapon, damage split, stats) swaps to the one
+     that fits — so they must keep identical durations or the cause and the effect
+     drift apart. */
+  /* First-run spotlight on the "Build for this boss" button: a slow accent breath
+     that stops the moment the feature is used (features/detail/use-build-cta). */
+  --animate-cta-glow: ctaGlow 2.6s ease-in-out infinite;
+  --animate-build-level-cue: buildLevelCue 2.4s ease-out 1;
+  --animate-wn-level: wnLevel 5s ease-in-out infinite;
+  --animate-wn-swap-a: wnSwapA 5s ease-in-out infinite;
+  --animate-wn-swap-b: wnSwapB 5s ease-in-out infinite;
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-16px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes hintIn {
+    0% {
+      opacity: 0;
+      transform: translateY(14px) scale(0.96);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+  @keyframes hintOut {
+    0% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(8px) scale(0.98);
+    }
+  }
+  /* Pressed for a beat near the end of the cycle, then back up — a key that
+     taps itself, not a pulsing blob. Transform only, so it stays cheap. */
+  @keyframes keyTap {
+    0%,
+    56%,
+    100% {
+      transform: translateY(0);
+    }
+    64%,
+    72% {
+      transform: translateY(2px);
+    }
+  }
+  @keyframes hintDrain {
+    0% {
+      transform: scaleX(1);
+    }
+    100% {
+      transform: scaleX(0);
+    }
+  }
+  /* Breathes rather than blinks: a halo that swells and fades, so the button reads
+     as "new here" without competing with the map behind the panel. */
+  @keyframes ctaGlow {
+    0%,
+    100% {
+      box-shadow: 0 0 0 0 color-mix(in srgb, var(--color-accent) 30%, transparent);
+    }
+    50% {
+      box-shadow: 0 0 14px 3px color-mix(in srgb, var(--color-accent) 26%, transparent);
+    }
+  }
+  /* A one-shot first-open cue for the rune-level control. It blooms twice, then
+     fully clears so the build itself remains the panel's focal point. */
+  @keyframes buildLevelCue {
+    0%,
+    100% {
+      border-color: color-mix(in srgb, var(--color-accent) 20%, transparent);
+      box-shadow: 0 0 0 0 transparent;
+    }
+    22%,
+    68% {
+      border-color: color-mix(in srgb, var(--color-accent) 62%, transparent);
+      box-shadow:
+        0 0 0 1px color-mix(in srgb, var(--color-accent) 22%, transparent),
+        0 0 18px 3px color-mix(in srgb, var(--color-accent) 24%, transparent);
+    }
+    44% {
+      border-color: color-mix(in srgb, var(--color-accent) 34%, transparent);
+      box-shadow: 0 0 9px 1px color-mix(in srgb, var(--color-accent) 13%, transparent);
+    }
+  }
+  /* The rune level travels up, holds, and comes back — the cause. */
+  @keyframes wnLevel {
+    0%,
+    22% {
+      width: 30%;
+    }
+    42%,
+    72% {
+      width: 74%;
+    }
+    92%,
+    100% {
+      width: 30%;
+    }
+  }
+  /* The two builds cross-fade in the gap the slider leaves: the outgoing one is
+     gone before the incoming one lands, so they never smear over each other. */
+  @keyframes wnSwapA {
+    0%,
+    24% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    34%,
+    80% {
+      opacity: 0;
+      transform: translateY(-5px);
+    }
+    92%,
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes wnSwapB {
+    0%,
+    26% {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+    38%,
+    78% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    90%,
+    100% {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+  }
+  @keyframes tourRing {
+    0%,
+    100% {
+      box-shadow:
+        0 0 0 2px var(--color-accent),
+        0 0 0 5px color-mix(in srgb, var(--color-accent) 35%, transparent),
+        0 0 22px 4px color-mix(in srgb, var(--color-accent) 30%, transparent);
+    }
+    50% {
+      box-shadow:
+        0 0 0 2px var(--color-accent),
+        0 0 0 9px color-mix(in srgb, var(--color-accent) 14%, transparent),
+        0 0 30px 9px color-mix(in srgb, var(--color-accent) 22%, transparent);
+    }
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background overflow-hidden font-sans antialiased;
+    /* Parchment, not pure white — the codex reads as aged vellum under the gold. */
+    color: #e6dcc4;
+  }
+
+  /* Full-bleed app shell. `100dvh` tracks the *visible* viewport on mobile so the
+     map fills the screen even as the browser address bar shows/hides — plain
+     `100vh` would leave the bottom row clipped under the URL bar. `overscroll-none`
+     kills pull-to-refresh and rubber-band bounce so a map drag never tugs the page.
+     No effect in Overwolf (fixed-size native window), so the desktop app is
+     untouched. */
+  html,
+  body,
+  #root {
+    height: 100vh;
+    height: 100dvh;
+    overscroll-behavior: none;
+  }
+
+  /* The map owns all touch gestures inside its container (Leaflet drives pan +
+     pinch-zoom); telling the browser to keep its hands off prevents the page from
+     scrolling or zooming out from under a one-finger drag on mobile. */
+  .leaflet-container {
+    touch-action: none;
+  }
+
+  /* Per-game accent definitions. Elden Ring = Erdtree gold (warm);
+     Nightreign = spectral cyan (cold). Each wrapper overrides the accent theme
+     tokens directly so every `accent` utility on descendants re-themes. */
+  [data-game="elden-ring"] {
+    --color-accent: #d4af37;
+    --color-accent-soft: rgba(212, 175, 55, 0.16);
+    --color-on-accent: #1a1407;
+  }
+  [data-game="nightreign"] {
+    --color-accent: #3fd6e0;
+    --color-accent-soft: rgba(63, 214, 224, 0.16);
+    --color-on-accent: #04161a;
+  }
+
+  .draggable {
+    cursor: grab;
+  }
+  .draggable:active {
+    cursor: grabbing;
+  }
+
+  /* App-wide: nothing is text-selectable. This is a native-app shell, not a
+     document — a drag on the map, a double-click on a marker, or a shift-click
+     down a list used to leave stray blue-ish highlights behind. Text fields are
+     the ONE exception: an <input> with user-select:none still accepts typing but
+     loses click-to-position, drag-select and Ctrl+A, which breaks the search
+     boxes. `.selectable` is the opt-in escape hatch for anything a user must be
+     able to copy (IDs, coords, error text). */
+  *,
+  *::before,
+  *::after {
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  input,
+  textarea,
+  [contenteditable="true"],
+  .selectable,
+  .selectable * {
+    -webkit-user-select: text;
+    user-select: text;
+  }
+
+  /* Kill the blue tap-highlight flash on touch/CEF too — the same "this is an
+     app, not a page" intent as the selection rule above. */
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* iOS Safari zooms the whole page in when you focus an input whose font-size
+     is under 16px — and with a fixed-viewport app like this one it never zooms
+     back out, leaving the chrome cropped for the rest of the session. The app's
+     fields are deliberately 12–13px, so raise them to the threshold on phone
+     widths only. Scoped to the same 768px breakpoint `useIsMobile` uses; the
+     Overwolf build (1300px window floor) never matches it. */
+  @media (max-width: 768px) {
+    input,
+    textarea {
+      font-size: 16px;
+    }
+  }
+}
+
+/* ── Slim scrollbars (global) ───────────────────────────────────────────
+   One slim, theme-tinted bar for EVERY scroll container, so the heavy default
+   OS/Chromium scrollbar (thick track + arrow buttons) can never show through
+   on the detail panel, codex, dropdowns, etc. The neutral translucent thumb
+   matches the app's border/divider language (--color-border); it brightens on
+   hover like the surface-hover states elsewhere. Firefox reads
+   scrollbar-width/color; WebKit (Overwolf CEF / Chrome) reads the
+   ::-webkit-scrollbar pseudo-elements. `.scroll-slim` kept as a no-op alias
+   for any element that still opts in explicitly. */
+:root {
+  /* Single source of truth for the slim scrollbar's thickness. Read by the
+     ::-webkit-scrollbar rule below AND by any layout that compensates for the
+     bar (e.g. the detail panel pulls content under it via a negative margin of
+     this size when a scrollbar is actually present — no shift, no reserved gap). */
+  --scrollbar-size: 8px;
+
+  /* How far a phone bottom sheet (the filter rail, the marker detail panel) stops
+     short of the top of the screen. It clears the title bar AND the map's own
+     toolbar row: a sheet that reached the header buried the layer picker and the
+     action buttons, so the control you'd want next was unreachable while the sheet
+     was open. Title bar (3.25rem) + the floating column's top inset (0.75) + the
+     toolbar row (2.5) + a gap (0.75). The notch is added by the callers, since
+     env() can't be resolved inside a custom property used in calc() everywhere. */
+  --sheet-top-gap: 7.25rem;
+
+  /* Height of Nitro's bottom anchor ad, published by startAnchorAdInset()
+     (web only). 0 here so the layout is correct before the ad script runs,
+     in Overwolf, and whenever the reader dismisses the ad. */
+  --anchor-ad-height: 0px;
+
+  /* Width of the web ad rail while it is showing an ad, published by
+     NitroAdRail. 0 when the rail is empty, narrow-viewport, or in Overwolf. */
+  --ad-rail-width: 0px;
+}
+
+/* Nitro's bottom anchor is a fixed, viewport-wide element it owns. While the ad
+   rail is showing, stop it at the map's right edge so the two units never
+   overlap (an ad-policy violation) and the anchor creative centres under the
+   map rather than under map+rail. !important: Nitro writes the box inline.
+
+   Only from 1330px up: Nitro picks the anchor creative by VIEWPORT width, not
+   by this box, and its widest is 970 — 970 + the 360 rail = 1330. Narrower
+   than that, a 970 creative would overflow the box back under the rail, so
+   the anchor stays full-width and the rail column lifts above it instead
+   (NitroAdRail's padding-bottom). */
+@media (min-width: 1330px) {
+  #atlas-anchor {
+    right: var(--ad-rail-width) !important;
+    width: auto !important;
+  }
+}
+*,
+.scroll-slim {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.18) transparent;
+}
+*::-webkit-scrollbar,
+.scroll-slim::-webkit-scrollbar {
+  width: var(--scrollbar-size);
+  height: var(--scrollbar-size);
+}
+*::-webkit-scrollbar-track,
+.scroll-slim::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb,
+.scroll-slim::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+*::-webkit-scrollbar-thumb:hover,
+.scroll-slim::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+  background-clip: padding-box;
+}
+/* Kill the chunky up/down arrow buttons and the corner square. */
+*::-webkit-scrollbar-button,
+.scroll-slim::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
+}
+*::-webkit-scrollbar-corner,
+.scroll-slim::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Bar-less scrolling — OPT-IN, and deliberately narrow in scope: the Roundtable
+   companion scrolls its whole page (identity header included) inside a 440px
+   frame, where even the slim bar above reads as chrome that column can't spare.
+   Content still scrolls by wheel, trackpad and keyboard; only the bar is gone.
+   The desktop panels never take this class and keep the slim bar. */
+.scroll-none {
+  scrollbar-width: none;
+}
+.scroll-none::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* ── Companion page chrome ─────────────────────────────────────────────
+   Scoped to the Roundtable window: the dashboard's panels are untouched.
+
+   Those panels carry a FILLED identity header (surface wash + backdrop blur),
+   which earns its weight when it's pinned above a scrolling body in a 1300px
+   window. The companion scrolls as one page, so that block reads as a card
+   dropped on top of the content — here it keeps only its bottom rule.
+
+   The back rows are nudged left because the chevron glyph carries ~6px of
+   padding inside its own box: with the button's px-4 the ink landed ~22px in,
+   visibly right of the 16px edge every row below it starts at. */
+.companion-page header {
+  background-color: transparent;
+  backdrop-filter: none;
+}
+.companion-page [data-detail-back] > svg:first-child {
+  margin-left: -5px;
+}
+
+/* ── Leaflet dark theme overrides ───────────────────────────────────────
+   The renderer ships light-themed chrome; pull it into our palette and kill
+   the default focus rings / attribution so the map reads as native UI. */
+.leaflet-container {
+  /* Matches the map artwork's own sea/border navy (#0a0b12) baked into the tiles,
+     so the void beyond the map edge continues seamlessly from the sea — no hard
+     seam between "sea" and "void". The warm UI chrome stays warm; only this map
+     backdrop tracks the map image. */
+  background: #0a0b12;
+  font-family: var(--font-sans);
+  outline: none;
+}
+.leaflet-container:focus,
+.leaflet-container *:focus {
+  outline: none;
+}
+.leaflet-control-attribution {
+  display: none;
+}
+.leaflet-marker-icon {
+  background: transparent;
+  border: none;
+}
+
+/* Marker pins — one shape language, tinted per category via the --pin var. */
+.er-pin-wrap {
+  background: transparent;
+}
+.er-pin {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  background: var(--pin);
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  box-shadow:
+    0 2px 5px rgba(0, 0, 0, 0.6),
+    0 0 0 1px rgba(255, 255, 255, 0.14) inset;
+  transition:
+    transform 0.12s ease,
+    box-shadow 0.12s ease;
+}
+/* Sites of Grace are the navigation backbone — give them a warm glow and a
+   touch more presence so they read first against the dense marker field. */
+.er-pin--grace {
+  width: 36px;
+  height: 36px;
+  box-shadow:
+    0 0 10px 1px color-mix(in srgb, var(--pin) 70%, transparent),
+    0 2px 5px rgba(0, 0, 0, 0.6),
+    0 0 0 1px rgba(255, 255, 255, 0.25) inset;
+}
+/* Nightreign markers carry the real extracted PNG icon on a dark disc with the
+   category color as the ring. */
+.er-pin--img {
+  background: rgba(9, 11, 15, 0.92);
+  border-color: var(--pin);
+  /* Clip the icon to the round disc. (Icons are pre-trimmed at extraction, so no
+     overscan is needed to fill the pin.) */
+  overflow: hidden;
+}
+.er-pin--img img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  /* Icons are pre-trimmed at extraction (tight to the symbol + a small margin),
+     so they fill the pin without the old scale-up crop. */
+  pointer-events: none;
+}
+.er-pin-wrap:hover .er-pin {
+  transform: scale(1.18);
+  z-index: 1000;
+}
+.er-pin--sel {
+  transform: scale(1.22);
+  box-shadow:
+    0 0 0 3px var(--pin),
+    0 0 0 6px rgba(255, 255, 255, 0.18),
+    0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* Colocated-pin fan ("spider web") — see test-map-marker-fan.ts. While a web is open
+   EVERY pin on the marker pane recedes, the stack it grew from included: those are
+   the anchor, not a target, and the fanned clones (own pane, undimmed) are the only
+   things meant to be clicked.
+
+   The dim lands on the inner disc and the badges, NEVER on .er-pin-wrap itself. That
+   wrap is Leaflet's own icon element, and markercluster writes an inline opacity onto
+   it during its zoom animations (setOpacity(1) — leaflet.markercluster-src.js:2229),
+   which beats any rule here short of !important. Dimming what's inside the wrap keeps
+   the two from ever fighting over the same property. */
+.er-fan-open .leaflet-marker-pane .er-pin,
+.er-fan-open .leaflet-marker-pane .er-pin-wrap::before,
+.er-fan-open .leaflet-marker-pane .er-pin-wrap::after {
+  /* Receded but still legible — the map should read as paused, not erased. The
+     scrim under the web is what actually separates the feet from this backdrop. */
+  opacity: 0.45;
+  transition: opacity 160ms ease-out;
+}
+/* Gold halo, matching the legs, so a fanned pin reads as lifted off the map. Skips
+   the selected one — its own ring already says more (and would otherwise lose it:
+   this selector outranks .er-pin--sel). */
+.er-pin-wrap--fan .er-pin:not(.er-pin--sel) {
+  box-shadow:
+    0 0 0 2px rgba(199, 173, 103, 0.9),
+    0 0 12px 2px rgba(199, 173, 103, 0.45),
+    0 4px 10px rgba(0, 0, 0, 0.55);
+}
+/* Host-random (seeded:false) locations: hollow + dashed so the UI never
+   implies a guaranteed position. */
+.er-pin--dashed {
+  background: color-mix(in srgb, var(--pin) 22%, transparent);
+  border-style: dashed;
+  border-color: var(--pin);
+}
+/* Completion / favorites: a found or favorited marker reads at FULL strength, exactly
+   like any other pin — it's just tagged with a corner badge (green check / amber star).
+   No dim, so a cleared pin is never harder to see than the rest (it only disappears
+   when the user actually filters it out via the Tracking switches). The badge state
+   lives on the .er-pin-wrap so the badges sit OUTSIDE the disc: the disc's
+   `overflow:hidden` (image pins) can't clip them — the whole badge stays sharp and
+   fully visible on top. A pin can be both found and favorited (check + star). */
+.er-pin-wrap--found::after,
+.er-pin-wrap--fav::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  box-shadow:
+    0 0 0 2px #0b0b0e,
+    0 1px 3px rgba(0, 0, 0, 0.55);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10px;
+  z-index: 2;
+}
+/* Cleared — green check, bottom-right. */
+.er-pin-wrap--found::after {
+  right: -3px;
+  bottom: -3px;
+  background-color: #34d399;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%230b0b0e' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");
+}
+/* Favorited — amber star, top-right (opposite corner so both can show at once). */
+.er-pin-wrap--fav::before {
+  right: -3px;
+  top: -3px;
+  background-color: #fbbf24;
+  background-size: 11px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='%230b0b0e'%3E%3Cpolygon points='12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26'/%3E%3C/svg%3E");
+}
+
+/* Hover name labels */
+.leaflet-tooltip.er-tooltip {
+  background: #1a1611;
+  color: #f1ebdd;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 3px 8px;
+  font-size: 12px;
+  font-weight: 500;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+}
+.leaflet-tooltip.er-tooltip::before {
+  display: none;
+}
+
+/* Map-fragment reveal rects: the label sits INSIDE its rectangle, so it must read as
+   engraved-on-the-map rather than as a floating chip — no card, no shadow box, just
+   parchment-gold type. Pointer-transparent so the rect under it still takes the click. */
+.leaflet-tooltip.er-fragment-label {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  color: #e7d9b5;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 12px rgba(0, 0, 0, 0.8);
+  pointer-events: none;
+  white-space: nowrap;
+}
+.leaflet-tooltip.er-fragment-label::before {
+  display: none;
+}
+
+/* Cluster bubbles — a collapsed group of same-type markers. The disc reuses the
+   pin look (.er-pin / .er-pin--img), just a touch larger. Per-category groups keep
+   every child one type, so the type icon alone identifies the group (no count). */
+.er-cluster-wrap {
+  background: transparent;
+}
+.er-cluster-pin {
+  /* Override .er-pin's 32px so the box set in buildClusterIcon (38px) matches. */
+  width: 38px;
+  height: 38px;
+}
+.er-cluster-wrap:hover .er-cluster-pin {
+  transform: scale(1.12);
+  z-index: 1000;
+}
+
+/* The saved player position sits above map markers and ignores pointer input. */
+.leaflet-player-pane {
+  z-index: 680;
+}
+.er-player-pin-wrap {
+  background: transparent;
+  pointer-events: none;
+}
+.er-player-pin {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #f0fbff;
+  border-radius: 50%;
+  background: #082b42;
+  box-shadow: 0 0 0 2px #071522, 0 0 0 5px #38bdf830, 0 3px 10px #000b;
+}
+.er-player-pin::before {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border: 1px solid #38bdf8;
+  border-radius: inherit;
+}
+.er-player-pin-core {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 5px #7dd3fc;
+}
+.leaflet-tooltip.er-player-label {
+  border: 1px solid #7dd3fc66;
+  border-radius: 999px;
+  background: #071726f2;
+  box-shadow: 0 2px 5px #0008;
+  color: #f0fbff;
+  padding: 2px 8px;
+  font: 600 11px/16px Inter, sans-serif;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.leaflet-tooltip.er-player-label::before {
+  display: none;
+}
+
+/* ---------------------------------------------------------------------------
+   Boss portrait cross-fade (detail/boss-portrait.tsx). Navigating between bosses
+   swaps in a fresh CDN portrait; the component holds the last one on screen and
+   only swaps once the next has decoded, so these rules just soften the seam:
+     • the image eases its opacity, so a freshly-swapped portrait fades up from
+       its held-dim state instead of popping in;
+     • while the next streams, the held portrait sits gently dimmed under a slow,
+       low-contrast light band — a "loading" cue that's calm, not a busy spinner
+       or a harsh blank.
+   --------------------------------------------------------------------------- */
+.boss-portrait-img {
+  transition: opacity 0.35s ease;
+}
+.boss-portrait-img.is-loading {
+  opacity: 0.45;
+}
+/* Bare-frame loading: a dim base tint so the skeleton reads as "loading" even before
+   any portrait is held (first open / after a remount), under the shimmer band below. */
+.boss-portrait-skeleton {
+  background: rgba(255, 255, 255, 0.05);
+}
+.boss-portrait-shimmer {
+  background: linear-gradient(
+    100deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.13) 50%,
+    transparent 70%
+  );
+  background-size: 220% 100%;
+  background-repeat: no-repeat;
+}
+/* Motion only — reduced-motion users keep the static dim (still a clear "loading"
+   state) without a drifting band. */
+@media (prefers-reduced-motion: no-preference) {
+  .boss-portrait-shimmer {
+    animation: bossPortraitShimmer 1.15s ease-in-out infinite;
+  }
+}
+@keyframes bossPortraitShimmer {
+  0% {
+    background-position: 175% 0;
+  }
+  100% {
+    background-position: -75% 0;
+  }
+}

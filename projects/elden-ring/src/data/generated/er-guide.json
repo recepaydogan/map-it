@@ -1,0 +1,778 @@
+{
+ "categories": [
+  {
+   "id": "tutorials",
+   "label": "Tutorials",
+   "entries": [
+    {
+     "id": 301020,
+     "title": "Sites of Grace",
+     "body": "Resting at a site of grace will restore your HP, FP, and cleanse any status ailments. It will also refill your sacred flasks. However, most of the enemies you've defeated will be revived.\n\nYou can find sites of grace by going where light converges.",
+     "image": 3
+    },
+    {
+     "id": 301060,
+     "title": "Sorceries and Incantations",
+     "body": "You can memorize sorceries and incantations at sites of grace.\n\nYou must have a staff equipped to cast sorceries, or a sacred seal equipped to cast incantations. Casting sorceries and incantations consumes FP.",
+     "image": 7
+    },
+    {
+     "id": 302410,
+     "title": "Guarding",
+     "body": "Use an armament in your left hand or both hands to guard against incoming attacks. Guarding is especially effective when done with a shield.\n\nGuarding consumes stamina. If your stamina runs out, your stance will be broken.",
+     "image": 16
+    },
+    {
+     "id": 201100,
+     "title": "Wielding Armaments",
+     "body": "Each hand can be equipped with up to three armaments, allowing you to toggle between them.\n\nArmaments can also be two-handed, making attacks more difficult to repel with shields and boosting effective strength by 50%.",
+     "image": 133
+    },
+    {
+     "id": 301130,
+     "title": "Bows",
+     "body": "Equip a bow to fire arrows. You can equip up to two types of arrows to choose from at once.\n\nWhen wielding a bow with two hands, hold for precision aiming. Use to adjust your aim.",
+     "image": 14
+    },
+    {
+     "id": 301140,
+     "title": "Crouching",
+     "body": "Crouch to make it harder for enemies to discover you. Especially effective in tall grass.\n\nAttacking an enemy that hasn't noticed you will cause more damage than usual.",
+     "image": 15
+    },
+    {
+     "id": 301160,
+     "title": "Stance-Breaking",
+     "body": "Some attacks may break an enemy's stance, giving you a chance to perform a critical hit.\n\nCharge attacks and jump attacks make it particularly easy to break an enemy's stance.\n\nHold : Charge attack while jumping: Jump attack",
+     "image": 17
+    },
+    {
+     "id": 302400,
+     "title": "Guard Counters",
+     "body": "You can perform a counterattack immediately after blocking an enemy attack.\n\nGuard counters make it easy to break an enemy's stance.\n\nimmediately after blocking an attack: Guard Counter",
+     "image": 18
+    },
+    {
+     "id": 301540,
+     "title": "Stakes of Marika",
+     "body": "Upon dying, you will be revived at the last site of grace that you visited.\n\nHowever, if there is a Stake of Marika near where you died, you can choose to be revived there instead.",
+     "image": 105
+    },
+    {
+     "id": 302430,
+     "title": "Skills",
+     "body": "Armaments have special abilities called skills.\n\nSkills are highly varied, and range from powerful attacks to temporary effects. Using skills consumes FP.",
+     "image": 19
+    },
+    {
+     "id": 302490,
+     "title": "Dodging",
+     "body": "You can avoid enemy attacks with a dodge roll or backstep. Both of these actions consume stamina.\n\n+: Dodge roll : Backstep",
+     "image": 131
+    },
+    {
+     "id": 301500,
+     "title": "The Map",
+     "body": "Use your map to check your current position, as well as the terrain and surrounding structures.\n\nYou can update your map with new information by finding map fragments at steles along the road.\n\nYou can also use the map to freely place beacons of light to serve as landmarks as you explore.",
+     "image": 100
+    },
+    {
+     "id": 301510,
+     "title": "Guidance of Grace",
+     "body": "Grace exists to guide the Tarnished and lead them along the proper path.\n\nEven now, some sites of grace retain that power. Their golden rays will guide you along your way.",
+     "image": 102
+    },
+    {
+     "id": 301520,
+     "title": "Horseback Riding",
+     "body": "Use the Spectral Steed Whistle to summon and ride your spectral steed.\n\nIf your spectral steed dies, you can summon it again, but it will cost one Flask of Crimson Tears to do so.\n\nYou can dismount by using the whistle again or by pressing .",
+     "image": 103
+    },
+    {
+     "id": 301530,
+     "title": "Death",
+     "body": "Upon dying, you will be revived at the last site of grace that you visited.\n\nYou will drop any runes in your possession at the site of your death. If you die again before reclaiming those runes, they will be lost forever.\n\nThe compass at the top of the screen indicates the direction of the lost runes.",
+     "image": 104
+    },
+    {
+     "id": 301550,
+     "title": "Summoning Spirits",
+     "body": "With a Spirit Calling Bell, you can use ashes to summon various spirits. Summoning typically consumes FP.\n\nYou can only summon one type of spirit at a time. You cannot summon spirits during multiplayer.",
+     "image": 106
+    },
+    {
+     "id": 301560,
+     "title": "Materials",
+     "body": "In every corner of the Lands Between, you will find fruits and flowers, mushrooms and butterflies, and various other useful materials.\n\nThese materials can be used for item crafting.",
+     "image": 107
+    },
+    {
+     "id": 301570,
+     "title": "Item Crafting",
+     "body": "If you have a Crafting Kit, you can make various items from materials that you find.\n\nSelect \"Item Crafting\" from the main menu to make items.\n\nYou can learn to craft more items by finding cookbooks.",
+     "image": 108
+    },
+    {
+     "id": 301580,
+     "title": "Containers",
+     "body": "You will need cracked pots or other containers to craft certain items. You will not be able to make more of those items than you have containers.\n\nContainer items will run out with use, but the containers themselves will remain.",
+     "image": 109
+    },
+    {
+     "id": 301590,
+     "title": "Flask of Wondrous Physick",
+     "body": "You can find crystal tears at the bases of Minor Erdtrees and elsewhere throughout the Lands Between.\n\nAt sites of grace, you can mix two crystal tears in the Flask of Wondrous Physick. This will allow you to create elixirs with various custom effects.",
+     "image": 110
+    },
+    {
+     "id": 301600,
+     "title": "Adding Skills",
+     "body": "With a Whetstone Knife, you can use ashes of war to grant your armaments new skills at sites of grace.\n\nAn armament can only have one skill. Any skill it previously had will be removed.\n\nAn armament's type determines what skills it can have. Some special armaments have unique skills and cannot be granted new ones.",
+     "image": 121
+    },
+    {
+     "id": 301610,
+     "title": "Birdseye Telescopes",
+     "body": "You can use the Birdseye Telescopes found in various areas to get a bird's-eye view of the terrain in the direction that the telescope is facing.",
+     "image": 112
+    },
+    {
+     "id": 301620,
+     "title": "Spiritspring Jumping",
+     "body": "Jump while on horseback near a spiritspring to ride its current high into the air.\n\nYou won't take damage from jumping into a spiritspring while on horseback, even from a great height.\n\nat a spiritspring while on horseback: Spiritspring jump",
+     "image": 113
+    },
+    {
+     "id": 301630,
+     "title": "Vanquishing Enemy Groups",
+     "body": "Vanquishing an enemy group will replenish your flasks.\n\nThe number and type of flasks to be replenished varies, depending on the enemy group.\n\nYou cannot replenish more flasks than your maximum amount allows.",
+     "image": 123
+    },
+    {
+     "id": 301640,
+     "title": "Teardrop Scarabs",
+     "body": "There are both Crimson and Cerulean Teardrop Scarabs. Defeat them to replenish the flasks that match their type.\n\nHowever, you cannot replenish more flasks than your maximum amount allows.",
+     "image": 115
+    },
+    {
+     "id": 301650,
+     "title": "Summoning Other Players",
+     "body": "Use Furlcalling Finger Remedy to reveal summon signs of players from other worlds.\n\nGold signs indicate an ally. Red signs indicate an adversary. The multiplayer session will begin once either type has been summoned. (You will take the role of the Host of Fingers.)",
+     "image": 116
+    },
+    {
+     "id": 301660,
+     "title": "Cooperative Multiplayer",
+     "body": "Use Tarnished's Furled Finger to write a gold summon sign.\n\nCooperative multiplayer will begin once you have been summoned by a player from another world.\n\nYou will take the role of an ally (Furled Finger) and your objective is to defeat the area boss.\n\nThe compass at the top of the screen indicates the direction of the summoner (Host of Fingers).",
+     "image": 117
+    },
+    {
+     "id": 301670,
+     "title": "Competitive Multiplayer",
+     "body": "Use Duelist's Furled Finger to write a red summon sign.\n\nCompetitive multiplayer will begin once you have been summoned by a player from another world.\n\nYou will take the role of an adversary (Duelist) and your objective is to defeat the Host of Fingers who summoned you.",
+     "image": 118
+    },
+    {
+     "id": 301680,
+     "title": "Invasion Multiplayer",
+     "body": "Use Festering Bloody Finger to attempt to invade the world of another player.\n\nThe multiplayer session will begin once the invasion succeeds.\n\nYou will take the role of an invader (Bloody Finger) and your objective is to defeat the Host of Fingers of that world.\n\nIf you stray far from the Host of Fingers, the compass at the top of the screen points to their location.",
+     "image": 119
+    },
+    {
+     "id": 301690,
+     "title": "Summoning Pools",
+     "body": "In each area, you may find effigies of martyrs. These effigies are summoning pools.\n\nYou'll find it easy to summon other players at these locations, as co-op and hostile summoning signs created with small effigies gather at summoning pools.",
+     "image": 120
+    },
+    {
+     "id": 302380,
+     "title": "Hunter Multiplayer",
+     "body": "If you use a Blue Cipher Ring, you will make yourself open to summons for rescue from other worlds.\n\nThe multiplayer session will begin once you have been summoned as a hunter, and your objective is to defeat the invader of that world.\n\nThe compass at the top of the screen indicates the direction of the summoner (Host of Fingers).",
+     "image": 124
+    },
+    {
+     "id": 302390,
+     "title": "Monument Icon",
+     "body": "You must be near a rebirth monument to summon spirits from ashes.\n\nWhen you are close to a rebirth monument and able to summon, a monument icon will appear on the left side of the screen.",
+     "image": 126
+    },
+    {
+     "id": 302420,
+     "title": "Requesting Aid from a Hunter",
+     "body": "If you use a White Cipher Ring, you will automatically request for a hunter from another world to come to your rescue when your world is invaded. (Can also be used after you are invaded.)\n\nThe hunter will be summoned once the request succeeds, and their objective is to defeat the invader of your world.",
+     "image": 125
+    },
+    {
+     "id": 302440,
+     "title": "Fast Travel to Sites of Grace",
+     "body": "Through your map, you can instantly travel to any sites of grace that you've discovered.\n\nHowever, there are some dungeons and other areas where this cannot be done.",
+     "image": 127
+    },
+    {
+     "id": 302450,
+     "title": "Strengthening Armaments",
+     "body": "At a smithing table, you can spend runes and smithing stones to strengthen your armaments.\n\nSomewhere in the Lands Between, you may meet a blacksmith who can make your armaments even stronger.",
+     "image": 128
+    },
+    {
+     "id": 302000,
+     "title": "Adding Affinities",
+     "body": "With a Whetstone Knife, you can use ashes of war to grant affinities to your armaments at sites of grace.\n\nThis way, you can alter an armament's attack affinity, boost attribute scaling, and more.\n\nAn armament's type determines what affinities it can have. Some special armaments, like those with unique skills, cannot be granted new affinities.",
+     "image": 122
+    },
+    {
+     "id": 309000,
+     "title": "Multiplayer",
+     "body": "You will need certain items to participate in each type of multiplayer: cooperative, invasion, or competitive.\n\nSelect \"Multiplayer\" from the main menu to see your multiplayer items. You can also use them directly from this menu.",
+     "image": 200
+    },
+    {
+     "id": 302480,
+     "title": "Pouches",
+     "body": "From \"Pouch\" in the main menu, you can equip six items to your pouches.\n\nFour of those items can be used without opening the main menu.\n\n+: Use item in Pouch 1 +: Use item in Pouch 2 +: Use item in Pouch 3 +: Use item in Pouch 4",
+     "image": 130
+    },
+    {
+     "id": 302460,
+     "title": "Roundtable Hold",
+     "body": "The Roundtable Hold is a place where Tarnished gather, guided by grace. Combat is prohibited on the premises due to a pact of non-aggression. (This rule is in effect when the Roundtable icon is displayed.) The Roundtable Hold is located outside of this world, and fast travel by grace is the only means of reaching it. (Use the map to travel there.)",
+     "image": 129
+    },
+    {
+     "id": 302500,
+     "title": "Great Runes",
+     "body": "The Great Runes you receive by defeating shardbearers have lost their beneficial power. However, their power can be restored at Divine Towers throughout the Lands Between.\n\nSee the description of each Great Rune to discover which Divine Tower you should visit.",
+     "image": 132
+    },
+    {
+     "id": 302510,
+     "title": "The Cave of Knowledge",
+     "body": "Jump down the hole ahead, and you will find the Cave of Knowledge.\n\nThere, you can learn more about game controls and basic actions, as well as other tips that may be helpful during your adventures in the Lands Between.",
+     "image": 134
+    },
+    {
+     "id": 302550,
+     "title": "Duels",
+     "body": "To engage in combat with other players, touch the effigy of Marika in a Colosseum.\n\nDuels, in which combatants fight one on one, can be undertaken in this venue.",
+     "image": 135
+    },
+    {
+     "id": 302560,
+     "title": "United Combat and Combat Ordeals",
+     "body": "To engage in combat with other players, touch the effigy of Marika in a Colosseum.\n\nUnited Combat and Combat Ordeals can be undertaken in this venue.\n\nIn United Combat two teams of fighters clash. Combat Ordeals are all-out brawls in which every combatant is out for themselves.",
+     "image": 136
+    },
+    {
+     "id": 302570,
+     "title": "Combat with Spirit Ashes",
+     "body": "To engage in combat with other players, touch the effigy of Marika in a Colosseum.\n\nIn this venue, spirit ashes are permitted for use in battle.",
+     "image": 137
+    },
+    {
+     "id": 302580,
+     "title": "Marika's Effigy at the Roundtable",
+     "body": "The effigy of Marika at the Roundtable Hold can be used to enter Colosseum combat.\n\nYour preferred format may be chosen from those of Colosseums already visited.",
+     "image": 138
+    },
+    {
+     "id": 302600,
+     "title": "Scadutree Blessing",
+     "body": "Scadutree Fragments can be found across the realm of shadow.\n\nConsume these at sites of grace to bolster your Scadutree Blessing.\n\nThe Scadutree Blessing bolsters the recipient's abilities to deal and negate damage, but has no influence outside the realm of shadow.",
+     "image": 140
+    },
+    {
+     "id": 302610,
+     "title": "Revered Spirit Ash Blessing",
+     "body": "Revered Spirit Ash can be found across the realm of shadow.\n\nConsume this Ash at sites of grace to bolster your Revered Spirit Ash Blessing.\n\nThe Revered Spirit Ash Blessing bolsters both summoned spirits' and spectral steed's abilities to deal and negate damage but has no influence outside the realm of shadow.",
+     "image": 141
+    },
+    {
+     "id": 302620,
+     "title": "New Inventory Features",
+     "body": "New features can be enabled in the display tab within the system menu.\n\n- Items obtained for the first time can be marked with . - A dedicated tab has been created to view the items obtained most recently.",
+     "image": 142
+    },
+    {
+     "id": 402000,
+     "title": "Equipment Menu",
+     "body": "With the Equipment menu, you can equip armaments, arrows, bolts, armor, talismans, and items.\n\nYou can equip up to three armaments each to your left and right hands. The actions each armament performs will vary based on which hand is wielding it."
+    },
+    {
+     "id": 402010,
+     "title": "Item Crafting Menu",
+     "body": "With the Item Crafting menu, you can make various items from materials that you find.\n\nYou can learn to craft more items by finding cookbooks."
+    },
+    {
+     "id": 402020,
+     "title": "Inventory Menu",
+     "body": "With the Inventory menu, you can browse the items you're carrying, drop them on the ground, or throw them away.\n\nYou can also use tools from the Inventory menu."
+    },
+    {
+     "id": 402030,
+     "title": "Status Menu",
+     "body": "With the Status menu, you can check your level, attributes, base stats, and more.\n\nThe information shown here also reflects changes to your attack, defense, and resistances bestowed by armaments and armor that you have equipped."
+    },
+    {
+     "id": 402040,
+     "title": "Message Menu",
+     "body": "With the Messages menu, you can write messages that players in other worlds can read at the spot where you left them.\n\nYou can change the message format to leave more complex messages and also attach gestures to your messages.\n\nYou can rate other players' messages. Whenever another player rates a message that you've written, your HP will be replenished."
+    },
+    {
+     "id": 402050,
+     "title": "Multiplayer Menu",
+     "body": "With the Multiplayer menu, you can use various multiplayer items.\n\nIf you set a group password, you'll be more likely to see messages, summon signs, bloodstains, phantoms, and so on from others using the same password.\n\nIf you set a multiplayer password, you'll only be matched with other players using the same password for most multiplayer features. However, multiplayer passwords do not apply to invasion multiplayer."
+    },
+    {
+     "id": 402200,
+     "title": "Level Up Menu",
+     "body": "With the Level Up menu, you can spend runes to increase your attributes.\n\nWith each attribute increase, your level rises by one. As your level rises, so does the amount of runes required for your next attribute increase."
+    },
+    {
+     "id": 402230,
+     "title": "Allocating Flask Uses",
+     "body": "With this menu, you can allocate the number of uses in each of your flasks.\n\nYou have a set total of maximum flask uses. You can decide how many of those uses are for the HP-replenishing Flask of Crimson Tears, and how many are for the FP-replenishing Flask of Cerulean Tears."
+    },
+    {
+     "id": 402240,
+     "title": "Memorize Spells Menu",
+     "body": "With the Memorize Spells menu, you can memorize sorceries and incantations.\n\nYou must have a staff equipped to cast sorceries, or a sacred seal equipped to cast incantations. Casting sorceries and incantations consumes FP.\n\nYour memory slots determine the number of sorceries and incantations you can memorize. You can increase your memory slots by obtaining a Memory Stone."
+    },
+    {
+     "id": 402250,
+     "title": "Sorting the Chest",
+     "body": "With this menu, you can place items that you're carrying into the chest for storage, or take stored items out of the chest.\n\nIf you are already carrying the maximum number of items when you pick up a new item, it will be stored in the chest automatically."
+    },
+    {
+     "id": 402300,
+     "title": "Shop Menu",
+     "body": "With the shop menu, you can spend runes to purchase various items.\n\nYou can also sell items for runes.\n\nEach merchant stocks a different variety of items for purchase."
+    },
+    {
+     "id": 402320,
+     "title": "Ashes of War Menu",
+     "body": "With the Ashes of War menu, you can use Ashes of War to grant skills and affinities to your armaments at sites of grace.\n\nAn armament can only have one skill. Any skill it previously had will be lost.\n\nBy adding an affinity, you can alter an armament's attack affinity, boost attribute scaling, and more.\n\nAn armament's type determines what skills and affinities it can have. Some special armaments cannot be granted new skills or affinities using Ashes of War."
+    },
+    {
+     "id": 402330,
+     "title": "Spirit Tuning Menu",
+     "body": "With the Spirit Tuning menu, you can spend runes and Grave Gloveworts to strengthen the spirits you summon from ashes.\n\nTo strengthen named spirits, you'll need Ghost Gloveworts."
+    },
+    {
+     "id": 402400,
+     "title": "Remembrance Duplication Menu",
+     "body": "With the Remembrance Duplication menu, you can duplicate remembrances you've previously acquired. (This includes remembrances from which you've already drawn out power.)\n\nDuplication can only be performed once per mausoleum."
+    },
+    {
+     "id": 402350,
+     "title": "Great Rune Menu",
+     "body": "With the Great Rune menu, you can equip Great Runes that have had their power restored.\n\nYou can use a Rune Arc to give even greater benefits to your equipped Great Runes."
+    },
+    {
+     "id": 402360,
+     "title": "Mixing Physicks",
+     "body": "With this menu, you can mix two crystal tears in the Flask of Wondrous Physick.\n\nThis will allow you to create physicks with various custom effects."
+    },
+    {
+     "id": 402370,
+     "title": "Rebirth Menu",
+     "body": "With the Rebirth menu, you can spend Larval Tears to clear your levels and reassign them from square one.\n\nYou must reassign all levels until you reach your present level and you cannot make any attributes lower than their initial level determined by your origin."
+    },
+    {
+     "id": 402380,
+     "title": "Power of Remembrance Menu",
+     "body": "With the Power of Remembrance menu, you can draw out the power of a remembrance's namesake.\n\nEach remembrance can provide one power. Once that power is claimed, the remembrance will be lost."
+    },
+    {
+     "id": 402100,
+     "title": "Map Menu",
+     "body": "With the Map menu, you can check your current position and terrain and buildings in the surrounding area.\n\nYou can also freely place beacons of light to serve as landmarks as you explore.\n\nLastly, through your map, you can select any site of grace that you've discovered and travel there instantaneously. However, there are some dungeons and other areas where this cannot be done."
+    },
+    {
+     "id": 402390,
+     "title": "Smithing Menu",
+     "body": "With the smithing menu, you can spend runes and smithing stones to strengthen your armaments.\n\nYou can strengthen your armaments up to +3 at a smithing table.\n\nSomewhere in the Lands Between, you may meet a blacksmith who can make your armaments even stronger."
+    },
+    {
+     "id": 402500,
+     "title": "Colosseum Menu",
+     "body": "With the Colosseum menu, you can adjust the rules for Colosseum combat, such as the format, player count, and use of spirit ashes, etc. You may also set your Colosseum password here.\n\nYou can jump straight into combat from this menu."
+    },
+    {
+     "id": 402600,
+     "title": "Scadutree Blessing Menu",
+     "body": "Consume Scadutree Fragments to bolster your Scadutree Blessing.\n\nThe Scadutree Blessing bolsters the recipient's abilities to deal and negate damage, but has no influence outside the realm of shadow."
+    },
+    {
+     "id": 402610,
+     "title": "Revered Spirit Ash Blessing Menu",
+     "body": "Consume Revered Spirit Ash to bolster your Revered Spirit Ash Blessing.\n\nThe Revered Spirit Ash Blessing bolsters both summoned spirits' and spectral steed's abilities to deal and negate damage but has no influence outside the realm of shadow."
+    }
+   ]
+  },
+  {
+   "id": "controls",
+   "label": "Combat & Controls",
+   "entries": [
+    {
+     "id": 1,
+     "title": "Crouching",
+     "body": "Crouch to make it harder for enemies to discover you. Especially effective in tall grass. Attacking an enemy that hasn't noticed you will cause more damage than usual."
+    },
+    {
+     "id": 2,
+     "title": "Guarding",
+     "body": "Use an armament in your left hand or both hands to guard against incoming attacks. Shields are particularly effective for guarding. Guarding consumes stamina. If your stamina runs out, your stance will be broken."
+    },
+    {
+     "id": 3,
+     "title": "Guard Counters",
+     "body": "You can perform a counterattack immediately after blocking an enemy attack. Guard counters make it easy to break an enemy's stance.\n\nimmediately after blocking an attack: Guard Counter"
+    },
+    {
+     "id": 4,
+     "title": "Two-Handing Armaments",
+     "body": "Wielding an armament in two hands will increase your effective strength for that armament by 50%. This eases attribute requirements, and armaments that scale with strength will do more damage. In addition, attacks with that armament are more difficult to repel with shields.\n\n+/: Wield with two hands"
+    },
+    {
+     "id": 5,
+     "title": "Charge and Jump Attacks",
+     "body": "Charge attacks and jump attacks are powerful. Using them makes it easy to break an enemy's stance. They are also likely to knock mounted enemies off of their mounts.\n\nHold : Charge attack while jumping: Jump attack"
+    },
+    {
+     "id": 6,
+     "title": "Skill",
+     "body": "Armaments have special abilities called skills. Skills are highly varied, and range from powerful attacks to temporary effects. Using skills consumes FP."
+    },
+    {
+     "id": 7,
+     "title": "Parrying",
+     "body": "Shields allow you to use the \"Parry\" skill to deflect enemies' close-range attacks. A successful parry will break the attacker's stance, giving you a chance to perform a critical hit.\n\nin time with an enemy attack: Parry"
+    },
+    {
+     "id": 8,
+     "title": "Setting a Target",
+     "body": "Lock-on to an enemy to keep it targeted, making it easier to focus on it as you fight."
+    },
+    {
+     "id": 9,
+     "title": "Precision Aiming",
+     "body": "When wielding a bow with two hands, you can hold for precision aiming. This lets you aim more precisely with . You can do major damage to foes of human or similar build by aiming for their heads.\n\nwhile wielding a bow with two hands: Precision aiming"
+    },
+    {
+     "id": 10,
+     "title": "Equipping Armaments",
+     "body": "You can equip up to three armaments each to your left and right hands.\n\nSome armaments, such as shields, have different actions depending on which hand equips them."
+    },
+    {
+     "id": 11,
+     "title": "Using Items",
+     "body": "You can equip up to ten items at a time. Equipped items can be used without accessing the item menu. You can also assign items to your pouch to use them directly from the main menu."
+    },
+    {
+     "id": 12,
+     "title": "Using Torches",
+     "body": "Raise your torch to see further into dark spaces.\n\nwith torch equipped in left hand: Raise torch"
+    },
+    {
+     "id": 13,
+     "title": "Critical Hits",
+     "body": "If you get behind an enemy, you'll have a chance to perform a critical hit. You can also perform a critical hit after breaking an enemy's stance. Stance-break critical hits cause more damage than critical hits from behind.\n\nwhen near a backturned enemy: Critical hit when near a stance-broken enemy: Critical hit"
+    },
+    {
+     "id": 14,
+     "title": "Gestures",
+     "body": "Use \"Gestures\" from the main menu to perform a variety of basic poses."
+    },
+    {
+     "id": 15,
+     "title": "The Map",
+     "body": "Use your map to check your current position, as well as the terrain and surrounding structures. You can update your map with new information by finding map fragments at steles along the road."
+    },
+    {
+     "id": 16,
+     "title": "Spiritspring Jumping",
+     "body": "Jump while on horseback near a spiritspring to ride its current high into the air. You won't take damage from jumping into a spiritspring while on horseback, even from a great height.\n\nat a spiritspring while on horseback: Spiritspring jump"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "label": "The World",
+   "entries": [
+    {
+     "id": 50,
+     "title": "Dying and Dropping Runes",
+     "body": "Upon dying, you will drop any runes in your possession at the site of your death. You can reclaim those runes by reaching that same spot again. However, if you die again before reclaiming those dropped runes, they will be lost forever."
+    },
+    {
+     "id": 52,
+     "title": "Summoning Spirits",
+     "body": "When the monument icon is shown on the left side of the screen, you can summon spirits from ashes. There are several different types of spirits that can be summoned. Summoning spirits typically consumes FP."
+    },
+    {
+     "id": 53,
+     "title": "Resting at Sites of Grace",
+     "body": "Resting at a site of grace will restore your HP, FP, and cleanse any status ailments. It will also refill your sacred flasks.\n\nHowever, most of the enemies you've defeated will be revived."
+    },
+    {
+     "id": 54,
+     "title": "Finding Sites of Grace",
+     "body": "Sites of grace that you haven't discovered yet illuminate their surroundings. If you see light while exploring, seek it out—you might find a site of grace."
+    },
+    {
+     "id": 55,
+     "title": "Guidance of Grace",
+     "body": "Grace exists to guide the Tarnished and lead them along the proper path. Even now, some sites of grace retain that power. Their golden rays will guide you along your way."
+    },
+    {
+     "id": 56,
+     "title": "Sacred Flasks",
+     "body": "The Flask of Crimson Tears replenishes your HP. The Flask of Cerulean Tears replenishes your FP.\n\nAt sites of grace, you can allocate portions of doses to each flask. You can also use certain items to upgrade your flasks at sites of grace."
+    },
+    {
+     "id": 57,
+     "title": "Fast Travel to Sites of Grace",
+     "body": "Through your map, you can instantly travel to any sites of grace that you've discovered. However, there are some dungeons and other areas where this cannot be done."
+    },
+    {
+     "id": 58,
+     "title": "Mounted Attacks",
+     "body": "While on horseback, you can attack with armaments equipped in your right hand or in both hands. If you take a certain amount of damage while on horseback, you will fall from your horse. This will leave you greatly vulnerable."
+    },
+    {
+     "id": 59,
+     "title": "No-Riding Areas",
+     "body": "You cannot enter large buildings, caves, catacombs, or similar spaces while on horseback. You also cannot summon your horse while inside such spaces."
+    },
+    {
+     "id": 60,
+     "title": "Item Crafting",
+     "body": "If you have a Crafting Kit, you can make various items from materials that you find. Select \"Item Crafting\" from the main menu to make items."
+    },
+    {
+     "id": 61,
+     "title": "Container Items",
+     "body": "You will need cracked pots or other containers to craft certain items. Container items will run out with use, but the containers themselves will remain."
+    },
+    {
+     "id": 62,
+     "title": "Armament Customization",
+     "body": "Ashes of War are memories of the affinities and skills imbued in armaments wielded long ago. With a Whetstone Knife, you can use Ashes of War to customize your armaments at sites of grace."
+    },
+    {
+     "id": 64,
+     "title": "Reviving After Dying",
+     "body": "Upon dying, you will be revived at the last site of grace that you visited.\n\nHowever, if there is a Stake of Marika near where you died, you can choose to be revived there instead."
+    },
+    {
+     "id": 65,
+     "title": "Equip Load",
+     "body": "When you carry more than 70% of your maximum equipment load, your dodge rolling will become slower and clumsier. If you exceed your maximum equipment load entirely, you will be unable to roll at all."
+    },
+    {
+     "id": 66,
+     "title": "While in Combat",
+     "body": "While in combat, you are unable to craft items or open your map."
+    },
+    {
+     "id": 67,
+     "title": "Strengthening Spirits",
+     "body": "Spirits that you've summoned from ashes can be made more powerful by a spirit tuner. You'll need glovewort to upgrade spirits."
+    },
+    {
+     "id": 68,
+     "title": "Leveling Up",
+     "body": "When you level up, you can spend runes to increase your attributes. As your attributes increase, your level rises—and so does the amount of runes required for your next attribute increase."
+    }
+   ]
+  },
+  {
+   "id": "status",
+   "label": "Status Effects",
+   "entries": [
+    {
+     "id": 70,
+     "title": "Status: Poison",
+     "body": "When the poison gauge is full, you will become poisoned and take continuous damage. The higher your immunity, the longer it takes for the poison gauge to fill."
+    },
+    {
+     "id": 71,
+     "title": "Status: Scarlet Rot",
+     "body": "When the scarlet rot gauge is full, you will become sick and take continuous damage. The scarlet rot is a very dangerous status ailment, but the higher your immunity, the longer it takes for the gauge to fill."
+    },
+    {
+     "id": 72,
+     "title": "Status: Blood Loss",
+     "body": "When the blood loss gauge is full, you will hemorrhage blood. This causes a large amount of damage relative to your maximum HP. The higher your robustness, the longer it takes for the blood loss gauge to fill."
+    },
+    {
+     "id": 73,
+     "title": "Status: Frost/Frostbite",
+     "body": "When the frost gauge is full, you will take damage and become frostbitten for a while. While suffering from frostbite, you will take increased damage from other sources. The higher your robustness, the longer it takes for the frost gauge to fill."
+    },
+    {
+     "id": 74,
+     "title": "Status: Sleep",
+     "body": "When the sleep gauge is full, you will become drowsy. Weaker characters will fall asleep entirely. The higher your focus, the longer it takes for the sleep gauge to fill."
+    },
+    {
+     "id": 75,
+     "title": "Status: Madness",
+     "body": "When the madness gauge is full, you will go mad and lose a great deal of both HP and FP. Only humans can be afflicted with madness. The higher your focus, the longer it takes for the madness gauge to fill."
+    },
+    {
+     "id": 76,
+     "title": "Status: Death",
+     "body": "When your death gauge is full, you will be struck with instant death. This is a very dangerous status ailment, but the higher your resistance to death, the longer it takes for the death gauge to fill."
+    },
+    {
+     "id": 77,
+     "title": "Poise",
+     "body": "Heavy armor provides high poise, making you less likely to recoil from enemy attacks. Wielding a heavy weapon with two hands may also provide similar effects."
+    }
+   ]
+  },
+  {
+   "id": "multiplayer",
+   "label": "Multiplayer",
+   "entries": [
+    {
+     "id": 100,
+     "title": "Cooperator's Objective (Furled Finger)",
+     "body": "During cooperative multiplayer, a Furled Finger's objective is to help the Host of Fingers defeat the boss of the area. A Furled Finger will return to their own world when they die or the boss is defeated, whichever happens first."
+    },
+    {
+     "id": 101,
+     "title": "Adversary's Objective (Duelist)",
+     "body": "During competitive multiplayer, a duelist's objective is to defeat the Host of Fingers. A duelist will return to their own world when they die or the Host of Fingers is defeated, whichever happens first."
+    },
+    {
+     "id": 102,
+     "title": "Multiplayer Maximums",
+     "body": "In typical multiplayer, there can be up to two cooperators and one invader or adversary present at once.\n\nThe host player can use a Taunter's Tongue to increase the maximum number of invaders or adversaries."
+    },
+    {
+     "id": 103,
+     "title": "Seeing Summon Signs",
+     "body": "With a Furlcalling Finger Remedy, you can see summon signs left by players in other worlds.\n\nIf you summon another player through their sign, multiplayer will begin, with you as the Host of Fingers."
+    },
+    {
+     "id": 104,
+     "title": "Leaving Co-op Signs",
+     "body": "With a Tarnished's Furled Finger, you can leave a gold summon sign. This sign will appear in other players' worlds and allow them to summon you as a Furled Finger for cooperative multiplayer."
+    },
+    {
+     "id": 105,
+     "title": "Leaving Hostile Signs",
+     "body": "With a Duelist's Furled Finger, you can leave a red summon sign. This sign will appear in other players' worlds and allow them to summon you as a duelist adversary for competitive multiplayer."
+    },
+    {
+     "id": 106,
+     "title": "Invasion",
+     "body": "With a Festering Bloody Finger, you can enter another player's world as an invading Bloody Finger. There are other items that allow you to invade other worlds as well."
+    },
+    {
+     "id": 107,
+     "title": "Requesting Support",
+     "body": "If you use a White Cipher Ring, you will automatically request for a hunter from another world to come to your rescue when your world is invaded. (Summoning is not always possible.)"
+    },
+    {
+     "id": 108,
+     "title": "Supporting",
+     "body": "If you use a Blue Cipher Ring, you will make yourself open to summons for rescue from other worlds. You will be summoned to their world as a hunter."
+    },
+    {
+     "id": 109,
+     "title": "Summoning Pools",
+     "body": "In each area, you may find effigies of martyrs. These effigies are summoning pools.\n\nSummon signs made with small effigies are gathered at these summoning pools. You'll find it easy to summon other players at these locations."
+    },
+    {
+     "id": 110,
+     "title": "Group Passwords",
+     "body": "If you set a group password, you'll be more likely to see messages, summon signs, bloodstains, and phantoms from other players using the same password."
+    },
+    {
+     "id": 111,
+     "title": "Multiplayer Passwords",
+     "body": "If you set a multiplayer password, you'll only be matched with other players using the same password for most multiplayer features.\n\nHowever, multiplayer passwords do not apply to invasion multiplayer."
+    },
+    {
+     "id": 112,
+     "title": "Messages",
+     "body": "You can use the Messages menu to leave messages for other players.\n\nYour message will appear in other players' worlds at the spot where you stood when you wrote it."
+    },
+    {
+     "id": 113,
+     "title": "Multiplayer Movement Limits",
+     "body": "During multiplayer, you can only explore a limited area. Areas beyond those limits are blocked off with a wall of light. They will be accessible again after multiplayer ends."
+    },
+    {
+     "id": 114,
+     "title": "Phantoms",
+     "body": "You may occasionally see faint, white phantoms. These are traces of players in other worlds and the actions they recently performed."
+    },
+    {
+     "id": 115,
+     "title": "Bloodstains",
+     "body": "Bloodstains are left behind in spots where players in other worlds have died. You can examine them to see how those players died."
+    },
+    {
+     "id": 116,
+     "title": "Support Objective (Hunter)",
+     "body": "During supportive multiplayer, a hunter's objective is to defeat an invader. A hunter will return to their own world when they die or the invader is defeated, whichever happens first."
+    },
+    {
+     "id": 117,
+     "title": "Summon Signs",
+     "body": "There are two types of summon signs left by players in other worlds.\n\nGold signs will summon Furled Finger cooperators. Red signs will summon duelist adversaries."
+    },
+    {
+     "id": 118,
+     "title": "Advanced Messages",
+     "body": "You can change the message format to leave more complex messages. You can also attach gestures to your messages."
+    },
+    {
+     "id": 120,
+     "title": "Colosseums",
+     "body": "The Colosseums found in the Lands Between are venues for combat against other players, each with their own set of rules.\n\nIt's possible to initiate combat via the effigy of Marika at the Roundtable Hold, using the formats of Colosseums already visited."
+    },
+    {
+     "id": 121,
+     "title": "Colosseum Rankings",
+     "body": "There are rankings in each colosseum which track the results of combatants fighting in Duels, United Combat / Combat Ordeals, and with spirit ashes enabled.\n\nThere are five ranks for each category. Repeated wins will see your rank increase, but repeated losses will have the opposite effect."
+    }
+   ]
+  },
+  {
+   "id": "advanced",
+   "label": "Advanced",
+   "entries": [
+    {
+     "id": 150,
+     "title": "Limits of Guarding",
+     "body": "Attacks with certain affinities, such as fire or lightning, may make guarding less effective than it is against normal physical attacks.\n\nGuarding does not work against many grappling attacks."
+    },
+    {
+     "id": 151,
+     "title": "Stance-Breaking",
+     "body": "Some attacks may break an enemy's stance, giving you a chance to perform a critical hit. Charge attacks and jump attacks make it particularly easy to break an enemy's stance."
+    },
+    {
+     "id": 152,
+     "title": "Knocking Down Mounted Enemies",
+     "body": "Repeatedly attack a mounted enemy to knock them off of their mount and break their stance. This will give you a chance to perform a critical hit. Charge attacks and jump attacks are particularly likely to knock enemies off of their mounts."
+    },
+    {
+     "id": 153,
+     "title": "Hardened Foes",
+     "body": "The slashing attacks of sharp weapons are largely ineffective against hardened armor and scales. Strike attacks are likely to hit the mark."
+    },
+    {
+     "id": 200,
+     "title": "Teardrop Scarabs",
+     "body": "There are both Crimson and Cerulean Teardrop Scarabs. Defeat them to replenish the flasks that match their type. However, you cannot replenish more flasks than your maximum amount allows."
+    }
+   ]
+  }
+ ]
+}

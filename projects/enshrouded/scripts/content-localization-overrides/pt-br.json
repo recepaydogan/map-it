@@ -1,0 +1,26 @@
+{
+  "fc370319bd10bf2710e02d31": {
+    "english": "“You claim the “Wailing Blade”? I forged it for her grasp afore she left me! …Fine. You may wield it in her place. Pierce the Shroud’s heart, Flameborn! It’s what my daughter would want.”",
+    "templateSha256": "cda5b1cdf3e6298eb63ddad98d8779361d03fed14ada0fe10c9435ae10c9c359",
+    "translation": "“Você quer a «{{EMTERM_0}}»? Eu a forjei para minha filha antes de ela me deixar! …Está bem. Você pode empunhá-la no lugar dela. Perfure o coração da {{EMTERM_1}}, {{EMTERM_2}}! É o que minha filha iria querer.”",
+    "reviewNote": "Translate the full source in context, retaining every gameplay fact, quantity and native-name placeholder."
+  },
+  "902d964af5328d47914fe6f7": {
+    "english": "Fell Footsoldiers have a small chance to drop their weapon upon death. The weapon dropped will match the weapon used by the Footsoldier. fr:Fantassin Déchu",
+    "templateSha256": "dba5e8add34515e790ae10e643b88919b3a16aaea08d1907f9092ebae818bd75",
+    "translation": "Os soldados de infantaria do grupo {{EMTERM_0}} têm uma pequena chance de deixar cair a arma ao morrer. A arma obtida é a mesma que o soldado usava.",
+    "reviewNote": "Restore the source gameplay meaning, remove mixed English, and omit unresolved empty source fragments or foreign interwiki annotations without inventing facts."
+  },
+  "c6107edc1fbcb93f7ae62f90": {
+    "english": "Shroud Weaver pickup associated with The Mysterious Wanderer Appears.",
+    "templateSha256": "ae4649874821b659f456c87c97db1db1be97f675e44032572eebfdb87eb47ded",
+    "translation": "A obtenção de {{EMTERM_0}} está ligada à missão «O Viajante Intrigante Aparece».",
+    "reviewNote": "Pickup denotes obtaining a weapon, not a vehicle or recording device. Use the native associated quest title without changing navigation."
+  },
+  "b7c23402e11b414e2d2372c8": {
+    "english": "+ 1:30 min. Wet Duration Reduction",
+    "templateSha256": "b7c23402e11b414e2d2372c863817b1b753f09cbb020f2becb6d95d3b434375b",
+    "translation": "+ 1:30 min. Redução da duração úmida",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  }
+}

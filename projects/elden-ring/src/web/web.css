@@ -1,0 +1,543 @@
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+@import "@fontsource/cinzel/600.css";
+@import "@fontsource/cinzel/700.css";
+
+:root {
+  color-scheme: dark;
+  --web-background: #0e0c0a;
+  --web-surface: #1a1611;
+  --web-surface-raised: #241e17;
+  --web-border: rgba(216, 203, 176, 0.16);
+  --web-text: #f4efe4;
+  --web-muted: #c1b69e;
+  --web-accent: #d4af37;
+  --web-accent-soft: rgba(212, 175, 55, 0.14);
+  --web-on-accent: #1a1407;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-full: 999px;
+  font-family: Inter, system-ui, sans-serif;
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  color: var(--web-text);
+  background:
+    radial-gradient(circle at 75% 4%, rgba(212, 175, 55, 0.1), transparent 28rem),
+    var(--web-background);
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 100;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-md);
+  color: var(--web-on-accent);
+  background: var(--web-accent);
+  transform: translateY(-150%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  border-bottom: 1px solid var(--web-border);
+  background: rgba(14, 12, 10, 0.92);
+  backdrop-filter: blur(18px);
+}
+
+.header-inner,
+.section,
+.hero,
+.footer-inner {
+  width: min(1180px, calc(100% - 2rem));
+  margin-inline: auto;
+}
+
+.header-inner {
+  display: flex;
+  min-height: 4.25rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+}
+
+.brand img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.brand-name,
+.hero h1,
+.section-title,
+.feature-card h3,
+.content-hero h1 {
+  font-family: Cinzel, Georgia, serif;
+}
+
+.brand-name {
+  font-weight: 700;
+  letter-spacing: 0.025em;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.site-nav a:not(.button) {
+  color: var(--web-muted);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.site-nav a:not(.button):hover,
+.site-nav a:not(.button):focus-visible {
+  color: var(--web-text);
+}
+
+.button {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.15rem;
+  border: 1px solid var(--web-border);
+  border-radius: var(--radius-md);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: border-color 160ms ease, background 160ms ease, transform 160ms ease;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button-primary {
+  border-color: var(--web-accent);
+  color: var(--web-on-accent);
+  background: var(--web-accent);
+}
+
+.button-secondary {
+  color: var(--web-text);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.hero {
+  display: grid;
+  min-height: min(780px, calc(100vh - 4.25rem));
+  grid-template-columns: minmax(0, 0.9fr) minmax(420px, 1.1fr);
+  align-items: center;
+  gap: clamp(2rem, 6vw, 5rem);
+  padding-block: clamp(4rem, 10vw, 8rem);
+}
+
+.eyebrow {
+  margin: 0 0 1rem;
+  color: var(--web-accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.hero h1,
+.content-hero h1 {
+  max-width: 16ch;
+  margin: 0;
+  font-size: clamp(2.75rem, 6vw, 5.75rem);
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+}
+
+.hero-lead,
+.content-lead {
+  max-width: 63ch;
+  margin: 1.5rem 0 0;
+  color: var(--web-muted);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  line-height: 1.75;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.hero-visual {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16 / 10;
+  border: 1px solid var(--web-border);
+  border-radius: var(--radius-lg);
+  background: var(--web-surface);
+  box-shadow: 0 2.5rem 7rem rgba(0, 0, 0, 0.5);
+}
+
+.hero-visual::after {
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: inherit;
+  content: "";
+  pointer-events: none;
+}
+
+.hero-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-block: 1px solid var(--web-border);
+}
+
+.stat {
+  padding: 1.75rem;
+  text-align: center;
+}
+
+.stat + .stat {
+  border-left: 1px solid var(--web-border);
+}
+
+.stat-value {
+  display: block;
+  color: var(--web-text);
+  font-family: Cinzel, Georgia, serif;
+  font-size: clamp(1.6rem, 4vw, 2.5rem);
+  font-weight: 700;
+}
+
+.stat-label {
+  display: block;
+  margin-top: 0.4rem;
+  color: var(--web-muted);
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+
+.section {
+  padding-block: clamp(4rem, 9vw, 7rem);
+}
+
+.section-heading {
+  max-width: 720px;
+  margin-bottom: 2.5rem;
+}
+
+.section-title {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3.6rem);
+  line-height: 1.08;
+}
+
+.section-copy {
+  margin: 1rem 0 0;
+  color: var(--web-muted);
+  line-height: 1.75;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.feature-card {
+  min-height: 16rem;
+  padding: clamp(1.5rem, 3vw, 2rem);
+  border: 1px solid var(--web-border);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.015));
+}
+
+.feature-card-kicker {
+  color: var(--web-accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.feature-card h3 {
+  margin: 3.5rem 0 0.75rem;
+  font-size: 1.4rem;
+}
+
+.feature-card p {
+  margin: 0;
+  color: var(--web-muted);
+  line-height: 1.7;
+}
+
+.content-hero {
+  width: min(900px, calc(100% - 2rem));
+  margin-inline: auto;
+  padding-block: clamp(5rem, 12vw, 9rem) 4rem;
+}
+
+.content-hero h1 {
+  max-width: 18ch;
+}
+
+.fact-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.fact-list li,
+.faq details {
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--web-border);
+  border-radius: var(--radius-md);
+  color: var(--web-muted);
+  background: var(--web-surface);
+  line-height: 1.65;
+}
+
+.fact-list strong {
+  color: var(--web-text);
+}
+
+.faq {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.faq summary {
+  color: var(--web-text);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.faq p {
+  margin: 0.75rem 0 0;
+}
+
+.cta-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: clamp(1.5rem, 5vw, 3.5rem);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  border-radius: var(--radius-lg);
+  background: var(--web-accent-soft);
+}
+
+.cta-panel h2 {
+  margin: 0;
+  font-family: Cinzel, Georgia, serif;
+  font-size: clamp(1.6rem, 4vw, 2.5rem);
+}
+
+.cta-panel p {
+  margin: 0.75rem 0 0;
+  color: var(--web-muted);
+}
+
+.site-footer {
+  margin-top: 3rem;
+  border-top: 1px solid var(--web-border);
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-block: 2rem;
+  color: var(--web-muted);
+  font-size: 0.8rem;
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-nav a {
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  color: var(--web-text);
+}
+
+/* ── Privacy policy page + consent controls ──────────────────────────────── */
+
+.legal-updated {
+  margin-top: 0.9rem;
+  color: var(--web-muted);
+  font-size: 0.85rem;
+}
+
+/* Legal prose reads as one column: two columns of disclosure text force the
+   eye back and forth across a measure nobody wants to re-read. */
+.legal-list {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.privacy-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* NitroPay's CMP injects its own <button> / <a> into #ncmp-consent-link and
+   [data-ccpa-link] — for EU/EEA/UK and California visitors respectively, and
+   for nobody else. Both stay empty otherwise, so these rules only ever fire on
+   real controls; without them the injected markup lands as unstyled browser
+   default in the middle of the footer. */
+.privacy-controls button,
+.privacy-controls a,
+.footer-nav #ncmp-consent-link button,
+.footer-nav #ncmp-consent-link a,
+.footer-nav [data-ccpa-link] button,
+.footer-nav [data-ccpa-link] a {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.privacy-controls button:hover,
+.privacy-controls a:hover,
+.footer-nav #ncmp-consent-link button:hover,
+.footer-nav #ncmp-consent-link a:hover,
+.footer-nav [data-ccpa-link] button:hover,
+.footer-nav [data-ccpa-link] a:hover {
+  color: var(--web-text);
+}
+
+/* The containers are flex children of .footer-nav; keep them from claiming a
+   gap slot while empty. */
+.footer-nav #ncmp-consent-link:empty,
+.footer-nav [data-ccpa-link]:empty {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .site-nav a:not(.button) {
+    display: none;
+  }
+
+  .hero {
+    min-height: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .hero-visual {
+    order: -1;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-card {
+    min-height: auto;
+  }
+
+  .feature-card h3 {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .brand-name {
+    font-size: 0.9rem;
+  }
+
+  .site-nav .button {
+    min-height: 2.5rem;
+    padding-inline: 0.85rem;
+  }
+
+  .stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .stat:nth-child(3) {
+    border-left: 0;
+  }
+
+  .stat:nth-child(n + 3) {
+    border-top: 1px solid var(--web-border);
+  }
+
+  .fact-list {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-panel,
+  .footer-inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .button {
+    transition: none;
+  }
+}

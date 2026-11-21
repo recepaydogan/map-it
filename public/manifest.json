@@ -1,0 +1,839 @@
+{
+  "manifest_version": 1,
+  "type": "WebApp",
+  "meta": {
+    "name": "Map It",
+    "version": "1.0.0",
+    "minimum-overwolf-version": "0.240.0",
+    "author": "rastudio",
+    "icon": "icon.png",
+    "icon_gray": "icon_gray.png",
+    "launcher_icon": "launcher_icon.ico",
+    "tray_icon": "launcher_icon.ico",
+    "window_icon": "icon.png",
+    "description": "Map It brings our game map applications together in one central app."
+  },
+  "permissions": [
+    "DesktopStreaming",
+    "Extensions",
+    "FileSystem",
+    "GameInfo",
+    "Hotkeys",
+    "Media",
+    "Profile",
+    "Streaming",
+    "Tray",
+    "Web"
+  ],
+  "data": {
+    "developer": {
+      "enable_auto_refresh": true,
+      "reload_delay": 1000
+    },
+    "start_window": "background",
+    "force_browser": "user",
+    "url_protocol": {
+      "scheme": "mapit"
+    },
+    "uninstall_window": {
+      "file": "uninstall.html",
+      "required_runtime": 5000
+    },
+    "game_targeting": {
+      "type": "dedicated",
+      "game_ids": [
+        8032,
+        10598,
+        21668,
+        21866,
+        22088,
+        22176,
+        23946,
+        25918,
+        26092,
+        28260,
+        28268,
+        28310,
+        28318
+      ]
+    },
+    "launch_events": [
+      {
+        "event": "GameLaunch",
+        "event_data": {
+          "game_ids": [
+            8032,
+            10598,
+            21668,
+            21866,
+            22088,
+            22176,
+            23946,
+            25918,
+            26092,
+            28260,
+            28268,
+            28310,
+            28318
+          ]
+        },
+        "start_minimized": false
+      }
+    ],
+    "hotkeys": {
+      "toggle_overlay": {
+        "title": "Toggle Minimap",
+        "action-type": "custom",
+        "default": "Ctrl+Shift+M"
+      },
+      "toggle_desktop_app": {
+        "title": "Toggle Desktop App",
+        "action-type": "custom",
+        "default": "Ctrl+A"
+      },
+      "toggle_app": {
+        "title": "Toggle App",
+        "action-type": "custom",
+        "default": "Ctrl+D"
+      },
+      "mi_elden-ring_toggle_companion": {
+        "title": "Elden Ring / Nightreign: Toggle Roundtable",
+        "action-type": "custom",
+        "default": "Ctrl+Shift+B"
+      },
+      "mi_elden-ring_dismiss_overlay": {
+        "title": "Elden Ring / Nightreign: Hide Map Overlay",
+        "action-type": "custom",
+        "default": "Ctrl+Shift+H"
+      },
+      "mi_minecraft_pin_current_position": {
+        "title": "Minecraft: Pin Current Position",
+        "action-type": "custom",
+        "default": "Ctrl+Alt+P"
+      },
+      "mi_minecraft_zoom_minimap_in": {
+        "title": "Minecraft: Zoom Minimap In",
+        "action-type": "custom",
+        "default": "Ctrl+Alt+I"
+      },
+      "mi_minecraft_zoom_minimap_out": {
+        "title": "Minecraft: Zoom Minimap Out",
+        "action-type": "custom",
+        "default": "Ctrl+Alt+O"
+      },
+      "mi_project-zomboid_move_overlay_up": {
+        "title": "Project Zomboid: Move Map Overlay Up",
+        "action-type": "custom",
+        "default": "Shift+Up",
+        "passthrough": true,
+        "hold": true
+      },
+      "mi_project-zomboid_move_overlay_down": {
+        "title": "Project Zomboid: Move Map Overlay Down",
+        "action-type": "custom",
+        "default": "Shift+Down",
+        "passthrough": true,
+        "hold": true
+      },
+      "mi_project-zomboid_move_overlay_left": {
+        "title": "Project Zomboid: Move Map Overlay Left",
+        "action-type": "custom",
+        "default": "Shift+Left",
+        "passthrough": true,
+        "hold": true
+      },
+      "mi_project-zomboid_move_overlay_right": {
+        "title": "Project Zomboid: Move Map Overlay Right",
+        "action-type": "custom",
+        "default": "Shift+Right",
+        "passthrough": true,
+        "hold": true
+      },
+      "mi_valheim_toggle_craft_overlay": {
+        "title": "Valheim: Toggle Craft Overlay",
+        "action-type": "custom",
+        "default": "Ctrl+Alt+C"
+      },
+      "mi_valheim_toggle_companion": {
+        "title": "Valheim: Toggle Craft Companion",
+        "action-type": "custom",
+        "default": "Ctrl+Shift+C"
+      }
+    },
+    "windows": {
+      "background": {
+        "file": "background.html",
+        "background_optimization": false,
+        "is_background_page": true
+      },
+      "main": {
+        "file": "index.html",
+        "size": {
+          "width": 1560,
+          "height": 900
+        },
+        "min_size": {
+          "width": 1300,
+          "height": 900
+        },
+        "transparent": true,
+        "resizable": true,
+        "desktop_only": true,
+        "native_window": true,
+        "grab_focus_on_desktop": false,
+        "override_on_update": true,
+        "block_top_window_navigation": true,
+        "popup_blocker": true,
+        "mute": true
+      },
+      "mi_aion-2_overlay_map": {
+        "file": "windows/mi_aion-2_overlay_map.html",
+        "size": {
+          "width": 360,
+          "height": 360
+        },
+        "min_size": {
+          "width": 180,
+          "height": 180
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "restrict_to_game_bounds": true,
+        "disable_restore_animation": true,
+        "background_optimization": false,
+        "override_on_update": true,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true
+      },
+      "mi_aion-2_in_game": {
+        "file": "windows/mi_aion-2_in_game.html",
+        "size": {
+          "width": 1560,
+          "height": 900
+        },
+        "min_size": {
+          "width": 1300,
+          "height": 840
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "restrict_to_game_bounds": true,
+        "disable_restore_animation": true,
+        "background_optimization": false,
+        "override_on_update": true,
+        "block_top_window_navigation": true,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true,
+        "focus_game_takeover": "ReleaseOnHidden",
+        "focus_game_takeover_release_hotkey": "toggle_app"
+      },
+      "mi_baldurs-gate-3_in_game": {
+        "file": "windows/mi_baldurs-gate-3_in_game.html",
+        "size": {
+          "width": 1560,
+          "height": 900
+        },
+        "min_size": {
+          "width": 1300,
+          "height": 780
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "restrict_to_game_bounds": true,
+        "disable_restore_animation": true,
+        "background_optimization": false,
+        "override_on_update": true,
+        "block_top_window_navigation": true,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true,
+        "focus_game_takeover": "ReleaseOnHidden",
+        "focus_game_takeover_release_hotkey": "toggle_app"
+      },
+      "mi_baldurs-gate-3_overlay_map": {
+        "file": "windows/mi_baldurs-gate-3_overlay_map.html",
+        "size": {
+          "width": 360,
+          "height": 280
+        },
+        "min_size": {
+          "width": 260,
+          "height": 200
+        },
+        "max_size": {
+          "width": 640,
+          "height": 520
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "ignore_keyboard_events": true,
+        "disable_hardware_acceleration": true,
+        "background_optimization": false,
+        "disable_restore_animation": true,
+        "restrict_to_game_bounds": true,
+        "override_on_update": false,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true
+      },
+      "mi_elden-ring_companion": {
+        "file": "windows/mi_elden-ring_companion.html",
+        "transparent": true,
+        "resizable": true,
+        "native_window": true,
+        "desktop_only": true,
+        "override_on_update": true,
+        "block_top_window_navigation": true,
+        "popup_blocker": true,
+        "mute": true,
+        "size": {
+          "width": 440,
+          "height": 739
+        },
+        "min_size": {
+          "width": 440,
+          "height": 739
+        }
+      },
+      "mi_elden-ring_overlay": {
+        "file": "windows/mi_elden-ring_overlay.html",
+        "transparent": true,
+        "in_game_only": true,
+        "override_on_update": true,
+        "size": {
+          "width": 380,
+          "height": 168
+        },
+        "min_size": {
+          "width": 60,
+          "height": 60
+        },
+        "popup_blocker": true,
+        "resizable": false,
+        "mute": true
+      },
+      "mi_elden-ring_overlay_map": {
+        "file": "windows/mi_elden-ring_overlay_map.html",
+        "transparent": true,
+        "in_game_only": true,
+        "focus_game_takeover": "ReleaseOnLostFocus",
+        "override_on_update": true,
+        "size": {
+          "width": 1120,
+          "height": 780
+        },
+        "min_size": {
+          "width": 640,
+          "height": 460
+        },
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true
+      },
+      "mi_enshrouded_in_game": {
+        "file": "windows/mi_enshrouded_in_game.html",
+        "size": {
+          "width": 1560,
+          "height": 900
+        },
+        "min_size": {
+          "width": 1300,
+          "height": 780
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "restrict_to_game_bounds": true,
+        "disable_restore_animation": true,
+        "background_optimization": false,
+        "override_on_update": true,
+        "block_top_window_navigation": true,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true,
+        "focus_game_takeover": "ReleaseOnHidden",
+        "focus_game_takeover_release_hotkey": "toggle_app"
+      },
+      "mi_enshrouded_overlay_map": {
+        "file": "windows/mi_enshrouded_overlay_map.html",
+        "size": {
+          "width": 360,
+          "height": 360
+        },
+        "min_size": {
+          "width": 180,
+          "height": 180
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "restrict_to_game_bounds": true,
+        "disable_restore_animation": true,
+        "background_optimization": false,
+        "override_on_update": true,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true
+      },
+      "mi_gta-6_overlay_map": {
+        "file": "windows/mi_gta-6_overlay_map.html",
+        "size": {
+          "width": 360,
+          "height": 360
+        },
+        "min_size": {
+          "width": 180,
+          "height": 180
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "restrict_to_game_bounds": true,
+        "disable_restore_animation": true,
+        "background_optimization": false,
+        "override_on_update": true,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true
+      },
+      "mi_gta-6_in_game": {
+        "file": "windows/mi_gta-6_in_game.html",
+        "size": {
+          "width": 1560,
+          "height": 900
+        },
+        "min_size": {
+          "width": 1300,
+          "height": 780
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "restrict_to_game_bounds": true,
+        "disable_restore_animation": true,
+        "background_optimization": false,
+        "override_on_update": true,
+        "block_top_window_navigation": true,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true,
+        "focus_game_takeover": "ReleaseOnHidden",
+        "focus_game_takeover_release_hotkey": "toggle_app"
+      },
+      "mi_minecraft_in_game": {
+        "file": "windows/mi_minecraft_in_game.html",
+        "size": {
+          "width": 1560,
+          "height": 900
+        },
+        "min_size": {
+          "width": 1300,
+          "height": 780
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "restrict_to_game_bounds": true,
+        "disable_restore_animation": true,
+        "background_optimization": false,
+        "override_on_update": true,
+        "block_top_window_navigation": true,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true,
+        "focus_game_takeover": "ReleaseOnHidden",
+        "focus_game_takeover_release_hotkey": "toggle_app"
+      },
+      "mi_minecraft_overlay_map": {
+        "file": "windows/mi_minecraft_overlay_map.html",
+        "size": {
+          "width": 360,
+          "height": 280
+        },
+        "min_size": {
+          "width": 260,
+          "height": 200
+        },
+        "max_size": {
+          "width": 640,
+          "height": 520
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "ignore_keyboard_events": true,
+        "disable_hardware_acceleration": true,
+        "background_optimization": false,
+        "disable_restore_animation": true,
+        "restrict_to_game_bounds": true,
+        "override_on_update": false,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true
+      },
+      "mi_minecraft_overlay_marker_details": {
+        "file": "windows/mi_minecraft_overlay_marker_details.html",
+        "size": {
+          "width": 360,
+          "height": 360
+        },
+        "min_size": {
+          "width": 260,
+          "height": 180
+        },
+        "max_size": {
+          "width": 520,
+          "height": 720
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "disable_hardware_acceleration": true,
+        "background_optimization": false,
+        "disable_restore_animation": true,
+        "restrict_to_game_bounds": true,
+        "override_on_update": false,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true
+      },
+      "mi_peak_overlay": {
+        "file": "windows/mi_peak_overlay.html",
+        "size": {
+          "width": 360,
+          "height": 280
+        },
+        "min_size": {
+          "width": 260,
+          "height": 200
+        },
+        "max_size": {
+          "width": 640,
+          "height": 520
+        },
+        "transparent": true,
+        "resizable": true,
+        "in_game_only": true,
+        "ignore_keyboard_events": true,
+        "disable_hardware_acceleration": true,
+        "background_optimization": false,
+        "disable_restore_animation": true,
+        "restrict_to_game_bounds": true,
+        "override_on_update": false,
+        "popup_blocker": true,
+        "mute": true
+      },
+      "mi_phantom-blade_overlay_map": {
+        "file": "windows/mi_phantom-blade_overlay_map.html",
+        "size": {
+          "width": 360,
+          "height": 360
+        },
+        "min_size": {
+          "width": 180,
+          "height": 180
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "restrict_to_game_bounds": true,
+        "disable_restore_animation": true,
+        "background_optimization": false,
+        "override_on_update": true,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true
+      },
+      "mi_phantom-blade_in_game": {
+        "file": "windows/mi_phantom-blade_in_game.html",
+        "size": {
+          "width": 1560,
+          "height": 900
+        },
+        "min_size": {
+          "width": 1300,
+          "height": 780
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "restrict_to_game_bounds": true,
+        "disable_restore_animation": true,
+        "background_optimization": false,
+        "override_on_update": true,
+        "block_top_window_navigation": true,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true,
+        "focus_game_takeover": "ReleaseOnHidden",
+        "focus_game_takeover_release_hotkey": "toggle_app"
+      },
+      "mi_project-zomboid_in_game": {
+        "file": "windows/mi_project-zomboid_in_game.html",
+        "size": {
+          "width": 1560,
+          "height": 900
+        },
+        "min_size": {
+          "width": 1300,
+          "height": 780
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "restrict_to_game_bounds": true,
+        "disable_restore_animation": true,
+        "background_optimization": false,
+        "override_on_update": true,
+        "block_top_window_navigation": true,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true,
+        "focus_game_takeover": "ReleaseOnHidden",
+        "focus_game_takeover_release_hotkey": "toggle_app"
+      },
+      "mi_project-zomboid_overlay_map": {
+        "file": "windows/mi_project-zomboid_overlay_map.html",
+        "size": {
+          "width": 360,
+          "height": 280
+        },
+        "min_size": {
+          "width": 260,
+          "height": 200
+        },
+        "max_size": {
+          "width": 640,
+          "height": 520
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "ignore_keyboard_events": true,
+        "disable_hardware_acceleration": true,
+        "background_optimization": false,
+        "disable_restore_animation": true,
+        "restrict_to_game_bounds": true,
+        "override_on_update": false,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true
+      },
+      "mi_rob-run_overlay_map": {
+        "file": "windows/mi_rob-run_overlay_map.html",
+        "size": {
+          "width": 360,
+          "height": 280
+        },
+        "min_size": {
+          "width": 240,
+          "height": 200
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "ignore_keyboard_events": true,
+        "grab_keyboard_focus": false,
+        "restrict_to_game_bounds": true,
+        "disable_restore_animation": true,
+        "background_optimization": false,
+        "override_on_update": true,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true
+      },
+      "mi_rob-run_in_game": {
+        "file": "windows/mi_rob-run_in_game.html",
+        "size": {
+          "width": 1680,
+          "height": 840
+        },
+        "min_size": {
+          "width": 1300,
+          "height": 840
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "restrict_to_game_bounds": true,
+        "disable_restore_animation": true,
+        "background_optimization": false,
+        "override_on_update": true,
+        "block_top_window_navigation": true,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true,
+        "focus_game_takeover": "ReleaseOnHidden",
+        "focus_game_takeover_release_hotkey": "toggle_app"
+      },
+      "mi_valheim_in_game": {
+        "file": "windows/mi_valheim_in_game.html",
+        "size": {
+          "width": 1300,
+          "height": 840
+        },
+        "min_size": {
+          "width": 1100,
+          "height": 840
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "restrict_to_game_bounds": true,
+        "disable_restore_animation": true,
+        "background_optimization": false,
+        "override_on_update": true,
+        "block_top_window_navigation": true,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true,
+        "focus_game_takeover": "ReleaseOnHidden",
+        "focus_game_takeover_release_hotkey": "toggle_app"
+      },
+      "mi_valheim_craft_overlay": {
+        "is_alt_f4_blocked": true,
+        "file": "windows/mi_valheim_craft_overlay.html",
+        "size": {
+          "width": 640,
+          "height": 460
+        },
+        "min_size": {
+          "width": 340,
+          "height": 80
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "restrict_to_game_bounds": true,
+        "disable_restore_animation": true,
+        "background_optimization": false,
+        "override_on_update": true,
+        "popup_blocker": true,
+        "resizable": false,
+        "mute": true
+      },
+      "mi_valheim_craft_hint": {
+        "file": "windows/mi_valheim_craft_hint.html",
+        "size": {
+          "width": 420,
+          "height": 88
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "restrict_to_game_bounds": true,
+        "clickthrough": true,
+        "ignore_keyboard_events": true,
+        "grab_keyboard_focus": false,
+        "disable_restore_animation": true,
+        "background_optimization": false,
+        "show_in_taskbar": false,
+        "popup_blocker": true,
+        "resizable": false,
+        "mute": true
+      },
+      "mi_valheim_overlay": {
+        "file": "windows/mi_valheim_overlay.html",
+        "size": {
+          "width": 360,
+          "height": 360
+        },
+        "min_size": {
+          "width": 180,
+          "height": 180
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "restrict_to_game_bounds": true,
+        "disable_restore_animation": true,
+        "background_optimization": false,
+        "override_on_update": true,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true
+      },
+      "mi_valheim_companion": {
+        "is_alt_f4_blocked": true,
+        "file": "windows/mi_valheim_companion.html",
+        "transparent": true,
+        "resizable": true,
+        "native_window": true,
+        "desktop_only": true,
+        "enable_top_isolation": true,
+        "override_on_update": true,
+        "block_top_window_navigation": true,
+        "popup_blocker": true,
+        "mute": true,
+        "size": {
+          "width": 440,
+          "height": 739
+        },
+        "min_size": {
+          "width": 440,
+          "height": 739
+        }
+      },
+      "mi_wow-forever_overlay_map": {
+        "file": "windows/mi_wow-forever_overlay_map.html",
+        "size": {
+          "width": 360,
+          "height": 280
+        },
+        "min_size": {
+          "width": 240,
+          "height": 200
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "ignore_keyboard_events": true,
+        "grab_keyboard_focus": false,
+        "restrict_to_game_bounds": true,
+        "disable_restore_animation": true,
+        "background_optimization": false,
+        "override_on_update": true,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true
+      },
+      "mi_wow-forever_in_game": {
+        "file": "windows/mi_wow-forever_in_game.html",
+        "size": {
+          "width": 1680,
+          "height": 840
+        },
+        "min_size": {
+          "width": 1300,
+          "height": 840
+        },
+        "transparent": true,
+        "in_game_only": true,
+        "restrict_to_game_bounds": true,
+        "disable_restore_animation": true,
+        "background_optimization": false,
+        "override_on_update": true,
+        "block_top_window_navigation": true,
+        "popup_blocker": true,
+        "resizable": true,
+        "mute": true,
+        "focus_game_takeover": "ReleaseOnHidden",
+        "focus_game_takeover_release_hotkey": "toggle_app"
+      }
+    },
+    "extra-objects": {
+      "access-probe": {
+        "file": "apps/aion-2/plugins/access-probe-plugin-1ea9ac7fcfb3e2fa.dll",
+        "class": "OverwolfAccessProbe.AccessProbe"
+      },
+      "elden-ring-save-reader": {
+        "file": "apps/elden-ring/plugins/elden-ring-save-reader-be52bd488725.dll",
+        "class": "EldenRingAtlas.SaveReader"
+      },
+      "enshrouded-position-reader": {
+        "file": "apps/enshrouded/plugins/enshrouded-position-reader-7ced8b3eb68f.dll",
+        "class": "EnshroudedCompanion.PositionReader"
+      },
+      "phantom-blade-position-reader": {
+        "class": "PhantomBladeCompanion.PositionReader",
+        "file": "apps/phantom-blade/plugins/phantom-blade-position-reader-76b1d9fa45a6.dll"
+      },
+      "process-manager-plugin": {
+        "file": "apps/project-zomboid/plugins/process-manager.dll",
+        "class": "com.overwolf.net.ProcessManager"
+      }
+    },
+    "game_events": [
+      8032,
+      22088,
+      22176,
+      25918,
+      26092,
+      28268
+    ]
+  }
+}

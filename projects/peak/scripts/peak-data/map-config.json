@@ -1,0 +1,17 @@
+{
+  "calderaMapRevision": "lava-v1",
+  "rotation": {
+    "anchorUtc": "2025-06-14T17:00:00Z",
+    "durationHours": 24
+  },
+  "projection": {
+    "worldXMin": -1445.492,
+    "worldXMax": 1455.492,
+    "worldZMin": -529.869,
+    "worldZMax": 2371.116,
+    "mapXMin": 4,
+    "mapXMax": 96,
+    "mapYMin": 4,
+    "mapYMax": 96
+  }
+}

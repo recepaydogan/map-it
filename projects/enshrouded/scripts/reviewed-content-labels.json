@@ -1,0 +1,64 @@
+{
+  "Archer Chest": {
+    "context": "Upper Body Armor",
+    "translations": {
+      "en": "Archer Chest",
+      "de": "Brustschutz des Bogenschützen",
+      "fr": "Plastron d'archer",
+      "it": "Corazza dell'arciere",
+      "es": "Peto de arquero",
+      "ru": "Нагрудник лучника",
+      "pl": "Napierśnik łucznika",
+      "ja": "弓使いの胸当て",
+      "ko": "궁수 흉갑",
+      "pt-BR": "Peitoral de Arqueiro",
+      "th": "เกราะอกนักธนู",
+      "tr": "Okçu Göğüslüğü",
+      "zh-Hans": "弓箭手胸甲",
+      "zh-Hant": "弓箭手胸甲",
+      "uk": "Нагрудник лучника"
+    }
+  },
+  "Cyclops Skeleton": {
+    "context": "map-category",
+    "uiKey": "map.enshrouded.groups.CyclopsSkeleton",
+    "translations": {
+      "en": "Cyclops Skeleton",
+      "de": "Zyklopenskelett",
+      "fr": "Squelette de cyclope",
+      "it": "Scheletro di ciclope",
+      "es": "Esqueleto de cíclope",
+      "ru": "Скелет циклопа",
+      "pl": "Szkielet cyklopa",
+      "ja": "サイクロプスの骨格",
+      "ko": "키클롭스 골격",
+      "pt-BR": "Esqueleto de ciclope",
+      "th": "โครงกระดูกไซคล็อปส์",
+      "tr": "Tepegöz İskeleti",
+      "zh-Hans": "独眼巨人骨架",
+      "zh-Hant": "獨眼巨人骨架",
+      "uk": "Скелет циклопа"
+    }
+  },
+  "Alchemist's Wall Hanging": {
+    "context": "map-category",
+    "uiKey": "map.enshrouded.groups.AlchemistWallHanging",
+    "translations": {
+      "en": "Alchemist's Wall Hanging",
+      "de": "Wandbehang des Alchemisten",
+      "fr": "Tenture de l’alchimiste",
+      "it": "Arazzo dell’alchimista",
+      "es": "Tapiz del alquimista",
+      "ru": "Гобелен алхимика",
+      "pl": "Gobelin alchemika",
+      "ja": "錬金術師のタペストリー",
+      "ko": "연금술사의 벽걸이",
+      "pt-BR": "Tapeçaria do alquimista",
+      "th": "ผ้าแขวนผนังของนักเล่นแร่แปรธาตุ",
+      "tr": "Simyacının Duvar Süsü",
+      "zh-Hans": "炼金术士壁挂",
+      "zh-Hant": "鍊金術士壁掛",
+      "uk": "Гобелен алхіміка"
+    }
+  }
+}

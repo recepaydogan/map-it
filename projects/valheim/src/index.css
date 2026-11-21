@@ -1,0 +1,185 @@
+@import "tailwindcss";
+@import "./features/support/support-theme.css";
+@import "./features/crafting-planner/craft-tracker.css";
+
+/* Elden Ring's warm, aged-tome neutral ramp. Keep these values in sync with
+   the sibling ER app so utilities such as text-zinc-400 never reintroduce the
+   cold blue-grey palette into Valheim's UI chrome. */
+@theme {
+  --color-zinc-50: #faf7f0;
+  --color-zinc-100: #f1ebdd;
+  --color-zinc-200: #e0d7c4;
+  --color-zinc-300: #cbbfa6;
+  --color-zinc-400: #a39882;
+  --color-zinc-500: #9b917b;
+  --color-zinc-600: #948a75;
+  --color-zinc-700: #403b30;
+  --color-zinc-800: #272018;
+  --color-zinc-900: #1a1611;
+  --color-zinc-950: #0e0c0a;
+}
+
+:root {
+  --font-sans: "Inter", system-ui, "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Noto Sans CJK SC", sans-serif;
+  --font-display: "Cinzel", "Inter", "Microsoft YaHei", "PingFang SC", "Noto Serif SC", "Noto Sans SC", serif;
+  font-family: var(--font-sans);
+  --background: #0e0c0a;
+  --surface: #1a1611;
+  --surface-raised: #272018;
+  --surface-hover: #272018;
+  --overlay-background: rgba(26, 22, 17, 0.96);
+  --panel-background: rgba(26, 22, 17, 0.90);
+  --ad-rail: #0e0c0a;
+  --border: rgba(216, 203, 176, 0.10);
+  --border-strong: #403b30;
+  --text: #e6dcc4;
+  --muted: #8a8068;
+  --accent: #d4af37;
+  --accent-soft: rgba(212, 175, 55, 0.16);
+  --accent-surface: color-mix(in srgb, var(--accent) 19%, var(--panel-background));
+  --accent-text: #d4af37;
+  --accent-contrast: #1a1407;
+  --accent-glow: rgba(212, 175, 55, 0.30);
+  --danger: #f43f5e;
+  --danger-text: #fda4af;
+  --danger-soft: rgba(244, 63, 94, 0.15);
+  --warning: #fbbf24;
+  --warning-text: #fcd34d;
+  --warning-soft: rgba(251, 191, 36, 0.15);
+  --success: #34d399;
+  --success-text: #6ee7b7;
+  --success-soft: rgba(52, 211, 153, 0.15);
+  --map-background: #0a1110;
+  --map-unexplored: #10171c;
+  --map-water: #172c2c;
+  --map-deep: #0c1c20;
+  --map-land: #667755;
+  --map-forest: #273f34;
+  --map-line: rgba(229, 218, 184, 0.2);
+  --map-marker-border: #ede4cc;
+  --map-structure-wood: #d28a3f;
+  --map-structure-stone: #d8d0b8;
+  --map-structure-metal: #9db5ba;
+  --map-structure-marble: #f0eadb;
+  --map-structure-ash: #c49578;
+  --map-structure-other: #d2b875;
+  --map-structure-outline: rgba(40, 26, 13, 0.68);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-full: 999px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Overwolf's CEF can paint translucent backgrounds one anti-aliased pixel
+   beyond rounded borders. Clipping the paint to the padding box keeps corners
+   continuous without clipping focus rings or card shadows. */
+:where(button, label, div, section, article, aside, nav)[class*="rounded-"][class*="border"] {
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: transparent;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Keep the desktop UI feeling native: artwork is not downloadable content and
+   interface labels should not highlight during map, panel, or window drags. */
+img {
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Text editing and intentional copy surfaces must retain normal selection. */
+input,
+textarea,
+[contenteditable="true"],
+.select-text {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--accent-text);
+  outline-offset: 2px;
+}
+
+input:focus-visible {
+  outline: 2px solid var(--accent-text);
+  outline-offset: 2px;
+}
+
+select:focus-visible,
+textarea:focus-visible,
+a:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--accent-text);
+  outline-offset: 2px;
+}
+
+.outline-none:focus-visible {
+  outline: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: var(--radius-full);
+  background: rgba(216, 203, 176, 0.24);
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Compact menus need a lighter scrollbar than full-page panels. Keeping this
+   scoped avoids making the map and database rails harder to grab. */
+.operations-type-menu::-webkit-scrollbar {
+  width: 2px !important;
+  height: 0 !important;
+}
+
+.operations-type-menu::-webkit-scrollbar-thumb {
+  border-radius: var(--radius-full);
+  background: rgba(216, 203, 176, 0.30) !important;
+}
+
+.operations-type-menu::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}

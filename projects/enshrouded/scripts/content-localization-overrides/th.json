@@ -1,0 +1,824 @@
+{
+  "3ce9cc4b63ddb5765dcc38e2": {
+    "english": "A resplendent white-and-gold interwoven with iridescent threads. Worn by the \"Scholars of the Young Flame\", it sybolizes the burning desire to illuminate the unknown.",
+    "templateSha256": "27156a896dc2da28184a4f111a7afc58fe64b429cf90ab9f7c4800fa72b1b969",
+    "translation": "สีขาวทองอันเจิดจรัสผสมผสานกับเส้นด้ายสีรุ้ง สวมใส่โดย \"เหล่านักปราชญ์แห่ง{{EMTERM_0}}อันเยาว์วัย\" ซึ่งสื่อถึงความปรารถนาอันแรงกล้าที่จะส่องสว่างในสิ่งที่ไม่รู้",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "6854ebb02cbcd23b871df526": {
+    "english": "Alchemist Needs Shelter will only appear in worlds made before Forging The Path Update , it is no longer accessible in the current version.",
+    "templateSha256": "72334e15e5bf576dd2f551b1554c25bf6ab5d57ac0db521737a9a58345f2ea2f",
+    "translation": "{{EMTERM_0}} จะปรากฏเฉพาะในโลกที่สร้างขึ้นก่อน อัปเดตบุกเบิกเส้นทาง เท่านั้น ซึ่งไม่สามารถเข้าถึงได้ในเวอร์ชันปัจจุบันอีกต่อไป",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "c80a323657e11b61084b4849": {
+    "english": "Baby Round-Billed Sailers are fleeting creatures.",
+    "templateSha256": "c80a323657e11b61084b484969d46b7031286d942bce35ffeaba2850e10899cf",
+    "translation": "ลูก เรือใบหัวกลม เป็นสิ่งมีชีวิตที่หายวับไป",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "d4d00c2e1427821dc2b858ce": {
+    "english": "Baby Round-Billed Sailers are not found in wild form, therefore they cannot be tamed.",
+    "templateSha256": "d4d00c2e1427821dc2b858ce45e88c0575db231e0f6250bfdf414043eaf2b1be",
+    "translation": "ลูก เรือใบหัวกลม ไม่พบในรูปแบบธรรมชาติ ดังนั้นจึงไม่สามารถเลี้ยงให้เชื่องได้",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "526fe4dbaab95c128e46985c": {
+    "english": "Baby Round-Billed Sailers can be upgraded to their adult form by pressing the interact key E after they have been fed and have slept. Otherwise, they will remain in their baby form indefinitely.",
+    "templateSha256": "526fe4dbaab95c128e46985c3a0b227dad8643af4ed26db9accec7020abccd92",
+    "translation": "ลูก เรือใบหัวกลม สามารถอัปเกรดเป็นรูปแบบผู้ใหญ่ได้โดยการกดปุ่มโต้ตอบ E หลังจากที่พวกเขาได้รับอาหารและนอนหลับแล้ว มิฉะนั้นพวกเขาจะยังคงอยู่ในร่างของทารกตลอดไป",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "95d965234d4eb430500e2762": {
+    "english": "Baby Round-Billed Sailers cannot be found in the wild and can only be obtained through breeding.",
+    "templateSha256": "95d965234d4eb430500e27623d20a1f752de36075986ab3aa5ff7a5a16c8e470",
+    "translation": "ลูก เรือใบหัวกลม ไม่สามารถพบเห็นได้ในป่าและสามารถหาได้จากการผสมพันธุ์เท่านั้น",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "14a4e9502786af755b9f664c": {
+    "english": "Baby Round-Billed Sailers cannot reproduce until upgraded to their adult form.",
+    "templateSha256": "14a4e9502786af755b9f664c50702b7ec6208a54b6014bcca88c6a9632f948ed",
+    "translation": "ลูก เรือใบหัวกลม ไม่สามารถสืบพันธุ์ได้จนกว่าจะอัปเกรดเป็นรูปแบบผู้ใหญ่",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "edafc11b3e40de34a1dae21b": {
+    "english": "Baby Round-Billed Sailers do not produce until upgraded to their adult form.",
+    "templateSha256": "edafc11b3e40de34a1dae21b286955c913f51f55733d73c6c9b27cf096b1973c",
+    "translation": "ลูก เรือใบหัวกลม ไม่สามารถผลิตได้จนกว่าจะอัพเกรดเป็นรูปแบบผู้ใหญ่",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "8d9599d318ce98fbb47b3d71": {
+    "english": "Baby Round-Billed Sailers will turn and flee if the player or any hostile creature is close enough and within line of sight.",
+    "templateSha256": "8d9599d318ce98fbb47b3d717fdc8742d241b5c0f10a3724c60b7fea94ba9025",
+    "translation": "ลูก เรือใบหัวกลม จะหันหลังหนีหากผู้เล่นหรือสิ่งมีชีวิตที่ไม่เป็นมิตรอยู่ใกล้พอและอยู่ในระยะมองเห็น",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "f8f7879167921c9dd388c8ab": {
+    "english": "Bard Needs Shelter will only appear in worlds made before Forging The Path Update , it is no longer accessible in the current version.",
+    "templateSha256": "72334e15e5bf576dd2f551b1554c25bf6ab5d57ac0db521737a9a58345f2ea2f",
+    "translation": "{{EMTERM_0}} จะปรากฏเฉพาะในโลกที่สร้างขึ้นก่อน อัปเดตบุกเบิกเส้นทาง เท่านั้น ซึ่งไม่สามารถเข้าถึงได้ในเวอร์ชันปัจจุบันอีกต่อไป",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "7dfa30d04c4967713d613239": {
+    "english": "Carpenter Needs Shelter will only appear in worlds made before Forging The Path Update , it is no longer accessible in the current version.",
+    "templateSha256": "72334e15e5bf576dd2f551b1554c25bf6ab5d57ac0db521737a9a58345f2ea2f",
+    "translation": "{{EMTERM_0}} จะปรากฏเฉพาะในโลกที่สร้างขึ้นก่อน อัปเดตบุกเบิกเส้นทาง เท่านั้น ซึ่งไม่สามารถเข้าถึงได้ในเวอร์ชันปัจจุบันอีกต่อไป",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "4d37eb4403dc4267c8a80b3e": {
+    "english": "Collector Needs Shelter will only appear in worlds made before Forging The Path Update , it is no longer accessible in the current version.",
+    "templateSha256": "72334e15e5bf576dd2f551b1554c25bf6ab5d57ac0db521737a9a58345f2ea2f",
+    "translation": "{{EMTERM_0}} จะปรากฏเฉพาะในโลกที่สร้างขึ้นก่อน อัปเดตบุกเบิกเส้นทาง เท่านั้น ซึ่งไม่สามารถเข้าถึงได้ในเวอร์ชันปัจจุบันอีกต่อไป",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "10299a0ba3b875f1b2886ddd": {
+    "english": "Crystalwater Staff is obtained randomly from Lootable Chests or Bosses in the Albaneve Summits. C:Souls Of The Frozen Frontier Update",
+    "templateSha256": "7714d1d615b4dc655480b62926c9c11f350950ce5a69d692de5c51be3208494a",
+    "translation": "{{EMTERM_0}} สุ่มได้จากหีบสมบัติหรือบอสใน {{EMTERM_1}} อัพเดต C:วิญญาณแห่งพรมแดนเยือกแข็ง",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "5a1465cbc33b318e80125ad9": {
+    "english": "Do not complete Making A Home after Forging The Path Update .",
+    "templateSha256": "1e3af92a8f1ef989fb300f830efdb2f1f044965d1e600f88b6382c3e0cffac1d",
+    "translation": "อย่าทำ {{EMTERM_0}} ให้เสร็จสิ้นหลังจาก อัปเดตบุกเบิกเส้นทาง",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "1ab558d2d05f2cc7ea9661f3": {
+    "english": "Eternal Fireball II is found during the quest A Glimpse Of Eternity after finding the Spell you will unlock the ability to craft it at the Alchemist.",
+    "templateSha256": "30294ac16cef6efd3462fc01b5c37fcd854a86921c8bfe5325428378bc128796",
+    "translation": "พบ {{EMTERM_0}} ในระหว่างภารกิจ แวบหนึ่งของความเป็นนิรันดร์ หลังจากค้นหาคาถาแล้ว คุณจะปลดล็อกความสามารถในการประดิษฐ์มันได้ที่ {{EMTERM_1}}",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "c4a7c3f7cf255cb05ed39ed2": {
+    "english": "Eternal Heal Beam Channel is found during the quest A Glimpse Of Eternity.",
+    "templateSha256": "c4a7c3f7cf255cb05ed39ed24338fea181a8996f00e2d8e444c16fcaa3bcde4d",
+    "translation": "ลำแสงรักษานิรันดร์แบบร่ายต่อเนื่อง พบได้ระหว่างภารกิจ แวบหนึ่งของความเป็นนิรันดร์",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "0aa17b3af188891969cc2e86": {
+    "english": "Eternal Ice Bolt II is found during the quest A Glimpse Of Eternity after finding the Spell you will unlock the ability to craft it at the Alchemist.",
+    "templateSha256": "30294ac16cef6efd3462fc01b5c37fcd854a86921c8bfe5325428378bc128796",
+    "translation": "พบ {{EMTERM_0}} ในระหว่างภารกิจ แวบหนึ่งของความเป็นนิรันดร์ หลังจากค้นหาคาถาแล้ว คุณจะปลดล็อกความสามารถในการประดิษฐ์มันได้ที่ {{EMTERM_1}}",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "d7a53c0fd01f6896b43b1d7e": {
+    "english": "Eternal Lightning Channel is found during the quest A Glimpse Of Eternity after finding the Spell you will unlock the ability to craft it at the Alchemist.",
+    "templateSha256": "afa6e9d951fdeb0fd88a7097db01911b152552976d2b700eb0fb08df0713bb4b",
+    "translation": "พบ สายฟ้านิรันดร์แบบร่ายต่อเนื่อง ในระหว่างภารกิจ แวบหนึ่งของความเป็นนิรันดร์ หลังจากค้นหาคาถาแล้ว คุณจะปลดล็อคความสามารถในการประดิษฐ์มันได้ที่ {{EMTERM_0}}",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "4956536f2f6d83e47e77ecec": {
+    "english": "Farmer Needs Shelter will only appear in worlds made before Forging The Path Update , it is no longer accessible in the current version.",
+    "templateSha256": "72334e15e5bf576dd2f551b1554c25bf6ab5d57ac0db521737a9a58345f2ea2f",
+    "translation": "{{EMTERM_0}} จะปรากฏเฉพาะในโลกที่สร้างขึ้นก่อน อัปเดตบุกเบิกเส้นทาง เท่านั้น ซึ่งไม่สามารถเข้าถึงได้ในเวอร์ชันปัจจุบันอีกต่อไป",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "c60590b1090021eac6651a43": {
+    "english": "File:Alpine Rose Plant Pot.png Alpine Rose Plant Pot x4",
+    "templateSha256": "c60590b1090021eac6651a433d711858f62a3709f294d7d83ff75ed90c2469ff",
+    "translation": "ไฟล์:กระถางกุหลาบอัลไพน์.png กระถางกุหลาบอัลไพน์ x4",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "53ed12feea7b7748cd890752": {
+    "english": "Flaming Gauntlets is found at Gateway Outpost \"Endflame\", Forging A Flaming Gauntlet lore note on the west side next to a repair station will guide you to find this item.",
+    "templateSha256": "82911c6829dc4e3387e83b76954f44f6fc90f0fc3db71076c35b9403fd4dacd7",
+    "translation": "{{EMTERM_0}} พบได้ที่ {{EMTERM_1}}, หลอมถุงมือเพลิง บันทึกเรื่องราว ทางฝั่งตะวันตกถัดจากสถานีซ่อมจะแนะนำให้คุณพบรายการนี้",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "94dcd96cb929b91b5bba3756": {
+    "english": "Fortified is a quest in Enshrouded , started by reading I Will Defend My House! .",
+    "templateSha256": "38eb9faf47b2f59bf90ad1d0ca71831e9d797e785d48738187d94878769414e9",
+    "translation": "เสริมแนวป้องกัน เป็นภารกิจใน {{EMTERM_0}} เริ่มโดยการอ่าน ข้าจะปกป้องบ้านของข้า! .",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "8401d71bc103801e33e6ae2d": {
+    "english": "Gormander's Imperial Gardens is a quest in Enshrouded , started by reading The Pike Weekly: Nothing Grand About Gormander .",
+    "templateSha256": "37a3136258baa076daa2c4b6716de2d63ab76d969b568f3df57024be5088591d",
+    "translation": "{{EMTERM_0}} เป็นภารกิจใน {{EMTERM_2}} เริ่มต้นด้วยการอ่าน {{EMTERM_1}} รายสัปดาห์: กอร์แมนเดอร์ไม่ได้ยิ่งใหญ่อะไร",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "33ee62eeb139b85684e4b4d7": {
+    "english": "Hostile creatures from other factions will attack Baby Round-Billed Sailers if they enter their detection range.",
+    "templateSha256": "33ee62eeb139b85684e4b4d71f3cf80c527e5e50b949bfeaf9e14414cd3fd60f",
+    "translation": "สิ่งมีชีวิตที่ไม่เป็นมิตรจากฝ่ายอื่นจะโจมตี ลูก เรือใบหัวกลม หากพวกมันเข้าสู่ระยะการตรวจจับ",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "25bca98cf154a9c1fd334d4f": {
+    "english": "Hunter Needs Shelter will only appear in worlds made before Forging The Path Update , it is no longer accessible in the current version.",
+    "templateSha256": "72334e15e5bf576dd2f551b1554c25bf6ab5d57ac0db521737a9a58345f2ea2f",
+    "translation": "{{EMTERM_0}} จะปรากฏเฉพาะในโลกที่สร้างขึ้นก่อน อัปเดตบุกเบิกเส้นทาง เท่านั้น ซึ่งไม่สามารถเข้าถึงได้ในเวอร์ชันปัจจุบันอีกต่อไป",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "b01de2ab77e011c84db50a39": {
+    "english": "Mannequin Here I Come is crafted at the Carpenter. The crafting recipe requires discovering the Ancient Spire - Revelwood to unlock.",
+    "templateSha256": "e902aa00fd8571d26ec6e37eec2ae2427b2497b1a0dadcb223823ed22a60d937",
+    "translation": "หุ่นโชว์ท่า ฉันมาแล้ว ประดิษฐ์ขึ้นที่ {{EMTERM_0}} สูตรการประดิษฐ์ต้องค้นหา {{EMTERM_1}} - {{EMTERM_2}} เพื่อปลดล็อค",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "e9de910a890b6958d649efc0": {
+    "english": "Mannequin Let Me Serve You is crafted at the Carpenter. The crafting recipe requires discovering the Ancient Spire - Revelwood to unlock.",
+    "templateSha256": "bf8c2de51a5cc73519f258b671d965ac1a0575e9100b42f85cd55c68df27c122",
+    "translation": "หุ่นโชว์ท่า ให้ฉันรับใช้คุณ ประดิษฐ์ขึ้นที่ {{EMTERM_0}} สูตรการประดิษฐ์ต้องค้นหา {{EMTERM_1}} - {{EMTERM_2}} เพื่อปลดล็อค",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "2198f526fcf28f920884f020": {
+    "english": "Mannequin Strike A Pose is crafted at the Carpenter. The crafting recipe requires discovering the Ancient Spire - Revelwood to unlock.",
+    "templateSha256": "13f8f078dc8ab28f4286645fcdfcbd5db24ae4cc6da0cad48ee59963f793789f",
+    "translation": "หุ่นโชว์ท่า โพสท่า สร้างขึ้นที่ {{EMTERM_0}} สูตรการประดิษฐ์ต้องค้นหา {{EMTERM_1}} - {{EMTERM_2}} เพื่อปลดล็อค",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "6db38224e6e2485ec9523f15": {
+    "english": "Playing Pranks is a quest in Enshrouded , started by reading He'll Be Fine Down There .",
+    "templateSha256": "c861236698b75294fac6d2ac81a6b929f3f4e8ce5f304b93397657ae2ef01524",
+    "translation": "{{EMTERM_0}} เป็นภารกิจใน {{EMTERM_1}} เริ่มโดยการอ่าน อยู่ข้างล่างนั่น เขาไม่เป็นอะไรหรอก!",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "0a00b41b2da8cf73196cfd29": {
+    "english": "The Albaneve Summits is a frozen mountainous biome added in the Souls Of The Frozen Frontier Update. It is dominated by Howling Peak - the highest point in Embervale - where a dangerous corrupted beast lurks.",
+    "templateSha256": "5a9ac051e59a68dc474659d8a70d2a7e61a8b6bacebef9eb5a16d9c70fabfe70",
+    "translation": "{{EMTERM_0}} เป็นชีวนิเวศภูเขาน้ำแข็งที่ถูกเพิ่มเข้ามาในการอัพเดต วิญญาณแห่งพรมแดนเยือกแข็ง มันถูกครอบงำโดย ฮาวลิ่งพีก ซึ่งเป็นจุดสูงสุดใน {{EMTERM_1}} ซึ่งเป็นที่ที่สัตว์ร้ายที่เป็นอันตรายแฝงตัวอยู่",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "1502956113a4c8a278a87653": {
+    "english": "The Alchemy Of Bean And Water is a quest in Enshrouded , started by reading The Worst Has Occured!",
+    "templateSha256": "5b15a6257ed9405b74cd542d98517637eaff439be0fb0235ecfd3cd05ea31346",
+    "translation": "{{EMTERM_0}} เป็นภารกิจใน {{EMTERM_1}} เริ่มโดยการอ่าน เรื่องแย่ที่สุดเกิดขึ้นแล้ว!",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "1dc14b556de4d52e7f88b551": {
+    "english": "The Blacksmith Needs A Shop will only appear in worlds made before Forging The Path Update , it is no longer accessible in the current version.",
+    "templateSha256": "72334e15e5bf576dd2f551b1554c25bf6ab5d57ac0db521737a9a58345f2ea2f",
+    "translation": "{{EMTERM_0}} จะปรากฏเฉพาะในโลกที่สร้างขึ้นก่อน อัปเดตบุกเบิกเส้นทาง เท่านั้น ซึ่งไม่สามารถเข้าถึงได้ในเวอร์ชันปัจจุบันอีกต่อไป",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "73909d32049632ee0c3141fb": {
+    "english": "The Luscious Drakonian Maid (1/2), behind a bookshelf.",
+    "templateSha256": "73909d32049632ee0c3141fbad72c0b818426bd74cb65c859fbaa92e6f658574",
+    "translation": "สาวใช้ดราโคเนียนผู้น่าหลงใหล (1/2) หลังชั้นหนังสือ",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "e3ade5c8f98266d6bfcd16fd": {
+    "english": "The Luscious Drakonian Maid, Chapter 3: Beneath Cloth.",
+    "templateSha256": "e3ade5c8f98266d6bfcd16fd98725b9c4039c6fd3a01aa7e3b1f46e7d07be251",
+    "translation": "สาวใช้ดราโคเนียนผู้น่าหลงใหล ตอนที่ 3: ใต้ผ้า",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "a5872d169b236060e64e1fdf": {
+    "english": "The item was added as part of the Souls of the Frozen Frontier update so the shroud areas in Albaneve Summits contain this item. Specifically, many Chanterelle can be found close to the Watchtower point of interest in the shroud directly north of the Nomad Heights spire.",
+    "templateSha256": "3fbe8e01d4d6a897f699cf2f3a277c6ed4068b4496f9bfec34afb6544106763d",
+    "translation": "ไอเท็มนี้เพิ่มเข้ามาในอัปเดตวิญญาณแห่งพรมแดนเยือกแข็ง จึงพบได้ในพื้นที่ชราวด์ของ {{EMTERM_0}} โดยเฉพาะ {{EMTERM_1}} จำนวนมากที่อยู่ใกล้หอสังเกตการณ์ในชราวด์ ตรงไปทางเหนือของหอคอยโนแมดไฮแลนด์",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "2e088cf3ff068f5a668bcc17": {
+    "english": "You'll find the lore note Ice Mages And Their Gear in a building in the center of Goldrock Saddle on the second floor, that will guide you to find the Frozen Gauntlets located at the bottom of Lacemaker Pond from a corpse. You will need armor with Frost Resistance to reach the corpse.",
+    "templateSha256": "83ace4c04c08d3bf445a578723dd883a8d3b3b823de8fefad6e39721ad61af99",
+    "translation": "คุณจะพบบันทึกเกี่ยวกับตำนาน จอมเวทน้ำแข็งกับอุปกรณ์ของพวกเขา ในอาคารใจกลาง {{EMTERM_0}} บนชั้นสอง ซึ่งจะนำคุณไปพบกับ {{EMTERM_1}} ที่ด้านล่างของ Lacemaker Pond จากศพ คุณจะต้องมีชุดเกราะที่มีความต้านทานฟรอสต์เพื่อเข้าถึงศพ",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "9f88e6e6c27e1184bda5c420": {
+    "english": "Ingredients : Conifer Logs x1, Wool x10, Indigo Plant x1, Mint Mushroom Meat x1, Saffron x1, Sulfur x1, Mauveine x1 Workstation : Bard Craft Time : Instant Product : Wall Tapestry I x1",
+    "templateSha256": "c3b956b82a7216bbd82546158a3bcf936ad46a11808f3b5431dc584fe9496f7f",
+    "translation": "วัสดุ : {{EMTERM_0}} x1, {{EMTERM_1}} x10, ต้นคราม x1, {{EMTERM_2}} x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1, {{EMTERM_5}} x1 สถานีผลิต : {{EMTERM_6}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_7}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "637a01616e4cc2c01be004be": {
+    "english": "Ingredients : Conifer Logs x1, Wool x10, Indigo Plant x1, Mint Mushroom Meat x1, Saffron x1, Sulfur x1, Mauveine x1 Workstation : Bard Craft Time : Instant Product : Wall Tapestry II x1",
+    "templateSha256": "c3b956b82a7216bbd82546158a3bcf936ad46a11808f3b5431dc584fe9496f7f",
+    "translation": "วัสดุ : {{EMTERM_0}} x1, {{EMTERM_1}} x10, ต้นคราม x1, {{EMTERM_2}} x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1, {{EMTERM_5}} x1 สถานีผลิต : {{EMTERM_6}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_7}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "3010584aeabaa6b540e77539": {
+    "english": "Ingredients : Conifer Logs x1, Wool x10, Indigo Plant x1, Mint Mushroom Meat x1, Saffron x1, Sulfur x1, Mauveine x1 Workstation : Bard Craft Time : Instant Product : Wall Tapestry III x1",
+    "templateSha256": "c3b956b82a7216bbd82546158a3bcf936ad46a11808f3b5431dc584fe9496f7f",
+    "translation": "วัสดุ : {{EMTERM_0}} x1, {{EMTERM_1}} x10, ต้นคราม x1, {{EMTERM_2}} x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1, {{EMTERM_5}} x1 สถานีผลิต : {{EMTERM_6}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_7}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "9af84f76badcb8cac32324b3": {
+    "english": "Ingredients : Drak Teeth x2, Drak Claws x2, String x2, Aquamarine Dust x1, Feather x2 Workstation : Bard Craft Time : Instant Product : Skull Trophy I x1",
+    "templateSha256": "cf1b5a1881526699c6baba6f29861b8870ab9cf32f8bf20b9c5f2fc82813acac",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1, {{EMTERM_4}} x2 สถานีผลิต : {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "3a64a3e3536d6cb7e83ce2fd": {
+    "english": "Ingredients : Drak Teeth x2, Drak Claws x2, String x2, Daylily x1, Feather x2 Workstation : Bard Craft Time : Instant Product : Skull Trophy II x1",
+    "templateSha256": "cf1b5a1881526699c6baba6f29861b8870ab9cf32f8bf20b9c5f2fc82813acac",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1, {{EMTERM_4}} x2 สถานีผลิต : {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "79316294f96980a761c56819": {
+    "english": "Ingredients : Drak Teeth x2, Drak Claws x2, String x2, Daylily x1, Feather x2 Workstation : Bard Craft Time : Instant Product : Skull Trophy III x1",
+    "templateSha256": "cf1b5a1881526699c6baba6f29861b8870ab9cf32f8bf20b9c5f2fc82813acac",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1, {{EMTERM_4}} x2 สถานีผลิต : {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "df94e7fd56881e871d28807e": {
+    "english": "Ingredients : Drak Teeth x2, Drak Claws x2, String x2, Daylily x1, Feather x2 Workstation : Bard Craft Time : Instant Product : Skull Trophy IV x1",
+    "templateSha256": "cf1b5a1881526699c6baba6f29861b8870ab9cf32f8bf20b9c5f2fc82813acac",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1, {{EMTERM_4}} x2 สถานีผลิต : {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "648014f90e0e74828fa9affb": {
+    "english": "Ingredients : Drak Teeth x2, Drak Claws x2, String x2, Daylily x1, Feather x2 Workstation : Bard Craft Time : Instant Product : Skull Trophy V x1",
+    "templateSha256": "cf1b5a1881526699c6baba6f29861b8870ab9cf32f8bf20b9c5f2fc82813acac",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1, {{EMTERM_4}} x2 สถานีผลิต : {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "bb8183a8deeb41552c452030": {
+    "english": "Ingredients : Drak Teeth x2, Drak Claws x2, String x2, Daylily x1, Feather x2 Workstation : Bard Craft Time : Instant Product : Skull Trophy VI x1",
+    "templateSha256": "cf1b5a1881526699c6baba6f29861b8870ab9cf32f8bf20b9c5f2fc82813acac",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1, {{EMTERM_4}} x2 สถานีผลิต : {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "a3e023f61bcb22ccfc97c0fa": {
+    "english": "Ingredients : Iron Bars x3, Charcoal x3, Nails x3, Scrappy Sword x4 Workstation : Bard Craft Time : Instant Product : Diamond Wall Emblem (Swords) x1",
+    "templateSha256": "e7c9a65249550454c202273e14ae7f8a29ee98e1635a27a7f1046cb01132550b",
+    "translation": "วัสดุ : {{EMTERM_0}} x3, {{EMTERM_1}} x3, {{EMTERM_2}} x3, {{EMTERM_3}} x4 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} ตราประดับผนัง (ดาบ) x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "2cbe99d99e8ae3af1c1cdd76": {
+    "english": "Ingredients : Iron Bars x5, Charcoal x5, Nails x3, Scrappy Sword x2 Workstation : Bard Craft Time : Instant Product : Diamond Wall Emblem (Maces) x1",
+    "templateSha256": "c0f8e20ff2ffd900a933a46e9a659c50a6649cacafaeba76ba36583c2ab48401",
+    "translation": "วัสดุ : {{EMTERM_0}} x5, {{EMTERM_1}} x5, {{EMTERM_2}} x3, {{EMTERM_3}} x2 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} ตราประดับผนัง (กระบอง) x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "56fc1755e3a46d636dfd9ead": {
+    "english": "Ingredients : Iron Bars x5, Charcoal x5, Nails x3, Scrappy Sword x2 Workstation : Bard Craft Time : Instant Product : Shield Wall Emblem (Maces) x1",
+    "templateSha256": "c0f8e20ff2ffd900a933a46e9a659c50a6649cacafaeba76ba36583c2ab48401",
+    "translation": "วัสดุ : {{EMTERM_0}} x5, {{EMTERM_1}} x5, {{EMTERM_2}} x3, {{EMTERM_3}} x2 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} ตราประดับผนัง (กระบอง) x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "8d9096c363fb668d9c15239b": {
+    "english": "Ingredients : Iron Bars x5, Charcoal x5, Nails x3, Scrappy Sword x2 Workstation : Bard Craft Time : Instant Product : Shield Wall Emblem (Swords) x1",
+    "templateSha256": "55f0e820cfd514650bedd751b6f30cec47b591643bde6acf02eac0261c7d9ad8",
+    "translation": "วัสดุ : {{EMTERM_0}} x5, {{EMTERM_1}} x5, {{EMTERM_2}} x3, {{EMTERM_3}} x2 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} ตราประดับผนัง (ดาบ) x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "3ddb2edd65cb0bdeda050ef8": {
+    "english": "Ingredients : Palm Wood Logs x1, Fabric x1, Saffron x1, Indigo Plant x1, Mint Mushroom Meat x1, Sulfur x1 Workstation : Bard Craft Time : Instant Product : Boar At Home x1",
+    "templateSha256": "26e4744ae0da5e6930e8d0b840f34ed59190c1ec94b01b7992f3e8096aab612b",
+    "translation": "วัสดุ : {{EMTERM_0}} x1, {{EMTERM_1}} x1, {{EMTERM_2}} x1, ต้นคราม x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1 สถานีผลิต : {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : หมูป่าที่บ้าน x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "371355ede3ad6645729ddda5": {
+    "english": "Ingredients : Palm Wood Logs x1, Fabric x1, Saffron x1, Indigo Plant x1, Mint Mushroom Meat x1, Sulfur x1 Workstation : Bard Craft Time : Instant Product : Flower Snake x1",
+    "templateSha256": "542523c85c851bbfb71be272c19762745eaa4e3ae949482315eb53ce860b940c",
+    "translation": "วัสดุ : {{EMTERM_0}} x1, {{EMTERM_1}} x1, {{EMTERM_2}} x1, ต้นคราม x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1 สถานีผลิต : {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : งูดอกไม้ x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "26bb0c57d0f40d460ddfb00a": {
+    "english": "Ingredients : Palm Wood Logs x1, Fabric x1, Saffron x1, Indigo Plant x1, Mint Mushroom Meat x1, Sulfur x1 Workstation : Bard Craft Time : Instant Product : Flower Vase x1",
+    "templateSha256": "0deeb72ccc209a409c541988b1484469f09147f23beba8b6dd080a7c88d59f16",
+    "translation": "วัสดุ : {{EMTERM_0}} x1, {{EMTERM_1}} x1, {{EMTERM_2}} x1, ต้นคราม x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1 สถานีผลิต : {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : แจกันดอกไม้ x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "ed5157c10e9a5e072e8e07ab": {
+    "english": "Ingredients : Palm Wood Logs x1, Fabric x1, Saffron x1, Indigo Plant x1, Mint Mushroom Meat x1, Sulfur x1 Workstation : Bard Craft Time : Instant Product : Scabird On One Leg x1",
+    "templateSha256": "3785a42a905193df5b39cae30db50457d8edc68e791778e495558de5a8c7370b",
+    "translation": "วัสดุ : {{EMTERM_0}} x1, {{EMTERM_1}} x1, {{EMTERM_2}} x1, ต้นคราม x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1 สถานีผลิต : {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : นกยืนขาเดียว x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "49ca3b722b9339225e6a1d7f": {
+    "english": "Ingredients : Palm Wood Logs x1, Fabric x1, Saffron x1, Indigo Plant x1, Mint Mushroom Meat x1, Sulfur x1 Workstation : Bard Craft Time : Instant Product : Still Life x1",
+    "templateSha256": "86a0ffb5c569175245fd0b834335cc625e6ba6f7ecc1861d81750d41fb8d7190",
+    "translation": "วัสดุ : {{EMTERM_0}} x1, {{EMTERM_1}} x1, {{EMTERM_2}} x1, ต้นคราม x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1 สถานีผลิต : {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : ภาพหุ่นนิ่ง x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "9cc48ef7c667f48b2b3d7d36": {
+    "english": "Ingredients : Palm Wood Logs x1, Fabric x1, Saffron x1, Indigo Plant x1, Mint Mushroom Meat x1, Sulfur x1 Workstation : Bard Craft Time : Instant Product : Temple Landscape x1",
+    "templateSha256": "c5959e3dc66927dd7eb5f69b4422541f840989c46801176017c2d256e2eec728",
+    "translation": "วัสดุ : {{EMTERM_0}} x1, {{EMTERM_1}} x1, {{EMTERM_2}} x1, ต้นคราม x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1 สถานีผลิต : {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : ทิวทัศน์วิหาร x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "b9ad7c12015d5fe0242d4d57": {
+    "english": "Ingredients : Palm Wood Logs x1, Fabric x1, Saffron x1, Indigo Plant x1, Mint Mushroom Meat x1, Sulfur x1 Workstation : Bard Craft Time : Instant Product : Tower In The Night x1",
+    "templateSha256": "3b79d9d49509a85977b47c7efcf7a3a59ac25b6fae06089ef3703f8d0a285a84",
+    "translation": "วัสดุ : {{EMTERM_0}} x1, {{EMTERM_1}} x1, {{EMTERM_2}} x1, ต้นคราม x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1 สถานีผลิต : {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : หอคอยยามค่ำคืน x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "f47d58d8e38702d5bcb2105f": {
+    "english": "Ingredients : Palm Wood Logs x1, Fabric x1, Saffron x1, Indigo Plant x1, Mint Mushroom Meat x1, Sulfur x1 Workstation : Bard Craft Time : Instant Product : Wolf's Choir x1",
+    "templateSha256": "aa29829027bed07293ce6ab276db722b7d9a995eaec037b07ed04237b2865139",
+    "translation": "วัสดุ : {{EMTERM_0}} x1, {{EMTERM_1}} x1, {{EMTERM_2}} x1, ต้นคราม x1, {{EMTERM_3}} x1, {{EMTERM_4}} x1 สถานีผลิต : {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : คณะประสานเสียงหมาป่า x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "a166c18e3a04920158c8e8f0": {
+    "english": "Ingredients : Sulfur x2, Conifer Logs x2, Wool x18, Saffron x2, Indigo Plant x2, Mauveine x2, Mint Mushroom Meat x2 Workstation : Bard Craft Time : Instant Product : Wall Tapestry IV x1",
+    "templateSha256": "581e87682e2e3d30df1d8b2bcaba467d40c4b0cdb08a2d61642a83db484eda0f",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x18, {{EMTERM_3}} x2, ต้นคราม x2, {{EMTERM_4}} x2, {{EMTERM_5}} x2 สถานีผลิต : {{EMTERM_6}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_7}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "9e42a951b86cd3244110694f": {
+    "english": "Ingredients : Sulfur x2, Conifer Logs x2, Wool x18, Saffron x2, Indigo Plant x2, Mauveine x2, Mint Mushroom Meat x2 Workstation : Bard Craft Time : Instant Product : Wall Tapestry V x1",
+    "templateSha256": "581e87682e2e3d30df1d8b2bcaba467d40c4b0cdb08a2d61642a83db484eda0f",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x18, {{EMTERM_3}} x2, ต้นคราม x2, {{EMTERM_4}} x2, {{EMTERM_5}} x2 สถานีผลิต : {{EMTERM_6}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_7}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "119bb5dc82b282f106ea8e3c": {
+    "english": "Ingredients : Wood Planks x2, Cyclops Head x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Cyclops Trophy x1",
+    "templateSha256": "adb21d50e981639de6974574c237450bd75460246a80969b7c5944a0536f35aa",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x1, {{EMTERM_2}} x2 สถานีผลิต : {{EMTERM_3}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "05f4902783a3e91521ad33c1": {
+    "english": "Ingredients : Wood Planks x2, Cyclops Head x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Cyclops Trophy x1",
+    "templateSha256": "afbbe082b69d4a1ca93f7aaad7ee2acff527ae16d7560fced81991aeadf8e19f",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "71379ef4c3c08b666d77bfca": {
+    "english": "Ingredients : Wood Planks x2, Cyclops Head x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Cyclops Trophy x1",
+    "templateSha256": "8d0c7aefb679a9a699a1df06514f641f380ae47ee144231492d796c1d73f1456",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "b96db1e4090fddc0cad4df49": {
+    "english": "Ingredients : Wood Planks x2, Cyclops Head x4, Nails x2, Gold Bars x1 Workstations : Hunter + Table Saw Craft Time : Instant Product : Gold Cyclops Trophy x1",
+    "templateSha256": "7b16e14bd744b2286248242cdae885e516c63bbb349e7f7e2affd3d9c912883f",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} + {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "6f49915e9c720daf1422074d": {
+    "english": "Ingredients : Wood Planks x2, Fell Cyclops Head x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Fell Cyclops Trophy x1",
+    "templateSha256": "adb21d50e981639de6974574c237450bd75460246a80969b7c5944a0536f35aa",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x1, {{EMTERM_2}} x2 สถานีผลิต : {{EMTERM_3}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "493c9ef5c5c5ed7006f085bb": {
+    "english": "Ingredients : Wood Planks x2, Fell Cyclops Head x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Fell Cyclops Trophy x1",
+    "templateSha256": "afbbe082b69d4a1ca93f7aaad7ee2acff527ae16d7560fced81991aeadf8e19f",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "f86634fe727f811e7e1392f9": {
+    "english": "Ingredients : Wood Planks x2, Fell Cyclops Head x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Fell Cyclops Trophy x1",
+    "templateSha256": "8d0c7aefb679a9a699a1df06514f641f380ae47ee144231492d796c1d73f1456",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "0252c1cce4128d92a251a40d": {
+    "english": "Ingredients : Wood Planks x2, Fell Cyclops Head x4, Nails x2, Gold Bars x1 Workstations : Hunter + Table Saw Craft Time : Instant Product : Gold Fell Cyclops Trophy x1",
+    "templateSha256": "7b16e14bd744b2286248242cdae885e516c63bbb349e7f7e2affd3d9c912883f",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} + {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "2ea18ac94bda24bdc824dbf5": {
+    "english": "Ingredients : Wood Planks x2, Fell Dragon Youngling Head x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Fell Dragon Youngling Trophy x1",
+    "templateSha256": "adb21d50e981639de6974574c237450bd75460246a80969b7c5944a0536f35aa",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x1, {{EMTERM_2}} x2 สถานีผลิต : {{EMTERM_3}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "d76f8dda9754716c5e3b7ab6": {
+    "english": "Ingredients : Wood Planks x2, Fell Dragon Youngling Head x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Fell Dragon Youngling Trophy x1",
+    "templateSha256": "afbbe082b69d4a1ca93f7aaad7ee2acff527ae16d7560fced81991aeadf8e19f",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "e49b23ce7ce2dd69a4b358f5": {
+    "english": "Ingredients : Wood Planks x2, Fell Dragon Youngling Head x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Fell Dragon Youngling Trophy x1",
+    "templateSha256": "8d0c7aefb679a9a699a1df06514f641f380ae47ee144231492d796c1d73f1456",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "45a30ddc2489a91a050cc7d6": {
+    "english": "Ingredients : Wood Planks x2, Fell Dragon Youngling Head x4, Nails x2, Gold Bars x1 Workstations : Hunter + Table Saw Craft Time : Instant Product : Gold Fell Dragon Youngling Trophy x1",
+    "templateSha256": "7b16e14bd744b2286248242cdae885e516c63bbb349e7f7e2affd3d9c912883f",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} + {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "c220d68cdc77a720f22aa4a1": {
+    "english": "Ingredients : Wood Planks x2, Fell Monstrosity Head x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Fell Monstrosity Trophy x1",
+    "templateSha256": "adb21d50e981639de6974574c237450bd75460246a80969b7c5944a0536f35aa",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x1, {{EMTERM_2}} x2 สถานีผลิต : {{EMTERM_3}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "70dfc13f80d3b2844ebf2204": {
+    "english": "Ingredients : Wood Planks x2, Fell Monstrosity Head x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Fell Monstrosity Trophy x1",
+    "templateSha256": "afbbe082b69d4a1ca93f7aaad7ee2acff527ae16d7560fced81991aeadf8e19f",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "039244e51fcc0dfb2928d0a5": {
+    "english": "Ingredients : Wood Planks x2, Fell Monstrosity Head x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Fell Monstrosity Trophy x1",
+    "templateSha256": "8d0c7aefb679a9a699a1df06514f641f380ae47ee144231492d796c1d73f1456",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "2830e7c0ff1f44e7c1822533": {
+    "english": "Ingredients : Wood Planks x2, Fell Monstrosity Head x4, Nails x2, Gold Bars x1 Workstations : Hunter + Table Saw Craft Time : Instant Product : Gold Fell Monstrosity Trophy x1",
+    "templateSha256": "7b16e14bd744b2286248242cdae885e516c63bbb349e7f7e2affd3d9c912883f",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} + {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "1285b7fe6f1401f40ef3e25f": {
+    "english": "Ingredients : Wood Planks x2, Fell Sicklescythe Head x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Fell Sicklescythe Trophy x1",
+    "templateSha256": "adb21d50e981639de6974574c237450bd75460246a80969b7c5944a0536f35aa",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x1, {{EMTERM_2}} x2 สถานีผลิต : {{EMTERM_3}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "e092ab51484aab44a2fdc619": {
+    "english": "Ingredients : Wood Planks x2, Fell Sicklescythe Head x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Fell Sicklescythe Trophy x1",
+    "templateSha256": "afbbe082b69d4a1ca93f7aaad7ee2acff527ae16d7560fced81991aeadf8e19f",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "050324ba4f229a1d4cb032c8": {
+    "english": "Ingredients : Wood Planks x2, Fell Sicklescythe Head x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Fell Sicklescythe Trophy x1",
+    "templateSha256": "8d0c7aefb679a9a699a1df06514f641f380ae47ee144231492d796c1d73f1456",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "86c62d14addcc50d36336033": {
+    "english": "Ingredients : Wood Planks x2, Fell Sicklescythe Head x4, Nails x2, Gold Bars x1 Workstation : Hunter Craft Time : Instant Product : Gold Fell Sicklescythe Trophy x1",
+    "templateSha256": "1b47bb52d631224e7601ddfb7d37882c5d9cc7e387ccbc74c824445fe2211fd9",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "3e2342d1ac99c225ee3be5fe": {
+    "english": "Ingredients : Wood Planks x2, Fell Thunderbrute Head x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Fell Thunderbrute Trophy x1",
+    "templateSha256": "adb21d50e981639de6974574c237450bd75460246a80969b7c5944a0536f35aa",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x1, {{EMTERM_2}} x2 สถานีผลิต : {{EMTERM_3}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "87cef2dd3d69b82f5ea35cbc": {
+    "english": "Ingredients : Wood Planks x2, Fell Thunderbrute Head x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Fell Thunderbrute Trophy x1",
+    "templateSha256": "afbbe082b69d4a1ca93f7aaad7ee2acff527ae16d7560fced81991aeadf8e19f",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "6007446055c31000f50f1ccc": {
+    "english": "Ingredients : Wood Planks x2, Fell Thunderbrute Head x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Fell Thunderbrute Trophy x1",
+    "templateSha256": "8d0c7aefb679a9a699a1df06514f641f380ae47ee144231492d796c1d73f1456",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "686d52388ec25ae390e9d2f2": {
+    "english": "Ingredients : Wood Planks x2, Fell Thunderbrute Head x4, Nails x2, Gold Bars x1 Workstation : Hunter Craft Time : Instant Product : Gold Fell Thunderbrute Trophy x1",
+    "templateSha256": "1b47bb52d631224e7601ddfb7d37882c5d9cc7e387ccbc74c824445fe2211fd9",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "51a8d4b064d33b9cb4887727": {
+    "english": "Ingredients : Wood Planks x2, Fell Wispwyvern Head x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Fell Wispwyvern Trophy x1",
+    "templateSha256": "adb21d50e981639de6974574c237450bd75460246a80969b7c5944a0536f35aa",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x1, {{EMTERM_2}} x2 สถานีผลิต : {{EMTERM_3}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "df1439ba38d34c0c33252bcf": {
+    "english": "Ingredients : Wood Planks x2, Fell Wispwyvern Head x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Fell Wispwyvern Trophy x1",
+    "templateSha256": "afbbe082b69d4a1ca93f7aaad7ee2acff527ae16d7560fced81991aeadf8e19f",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "45ad15bc5efad7efa79dba30": {
+    "english": "Ingredients : Wood Planks x2, Fell Wispwyvern Head x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Fell Wispwyvern Trophy x1",
+    "templateSha256": "8d0c7aefb679a9a699a1df06514f641f380ae47ee144231492d796c1d73f1456",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "9d572546be1b5ea7cc09f0e9": {
+    "english": "Ingredients : Wood Planks x2, Fell Wispwyvern Head x4, Nails x2, Gold Bars x1 Workstations : Hunter + Table Saw Craft Time : Instant Product : Gold Fell Wispwyvern Trophy x1",
+    "templateSha256": "7b16e14bd744b2286248242cdae885e516c63bbb349e7f7e2affd3d9c912883f",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} + {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "a752d949d197d02e6f307457": {
+    "english": "Ingredients : Wood Planks x2, Hollow Cyclops Head x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Hollow Cyclops Trophy x1",
+    "templateSha256": "adb21d50e981639de6974574c237450bd75460246a80969b7c5944a0536f35aa",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x1, {{EMTERM_2}} x2 สถานีผลิต : {{EMTERM_3}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "489470772b3b4e433ce5722a": {
+    "english": "Ingredients : Wood Planks x2, Hollow Cyclops Head x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Hollow Cyclops Trophy x1",
+    "templateSha256": "afbbe082b69d4a1ca93f7aaad7ee2acff527ae16d7560fced81991aeadf8e19f",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "3e432114e7d246eec7e3507c": {
+    "english": "Ingredients : Wood Planks x2, Hollow Cyclops Head x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Hollow Cyclops Trophy x1",
+    "templateSha256": "8d0c7aefb679a9a699a1df06514f641f380ae47ee144231492d796c1d73f1456",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "c0e6955db2ce942f910ac77f": {
+    "english": "Ingredients : Wood Planks x2, Hollow Cyclops Head x4, Nails x2, Gold Bars x1 Workstations : Hunter + Table Saw Craft Time : Instant Product : Gold Hollow Cyclops Trophy x1",
+    "templateSha256": "7b16e14bd744b2286248242cdae885e516c63bbb349e7f7e2affd3d9c912883f",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} + {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "732a3761273cc5cf1d7e475b": {
+    "english": "Ingredients : Wood Planks x2, Hydrak'Dal Head x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Hydrak'Dal Trophy x1",
+    "templateSha256": "adb21d50e981639de6974574c237450bd75460246a80969b7c5944a0536f35aa",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x1, {{EMTERM_2}} x2 สถานีผลิต : {{EMTERM_3}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "db4f943a0613f15a79ec268f": {
+    "english": "Ingredients : Wood Planks x2, Hydrak'Dal Head x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Hydrak'Dal Trophy x1",
+    "templateSha256": "afbbe082b69d4a1ca93f7aaad7ee2acff527ae16d7560fced81991aeadf8e19f",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "cc58ce4b875bc2c5c485c1ca": {
+    "english": "Ingredients : Wood Planks x2, Hydrak'Dal Head x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Hydrak'Dal Trophy x1",
+    "templateSha256": "8d0c7aefb679a9a699a1df06514f641f380ae47ee144231492d796c1d73f1456",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "f4a330a2f51146cd08b52a4a": {
+    "english": "Ingredients : Wood Planks x2, Hydrak'Dal Head x4, Nails x2, Gold Bars x1 Workstations : Hunter + Table Saw Craft Time : Instant Product : Gold Hydrak'Dal Trophy x1",
+    "templateSha256": "7b16e14bd744b2286248242cdae885e516c63bbb349e7f7e2affd3d9c912883f",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} + {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "9bc4bb61bd36b6d7c3915a54": {
+    "english": "Ingredients : Wood Planks x2, Scavenger Matron Helmet x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Scavenger Matron Trophy x1",
+    "templateSha256": "adb21d50e981639de6974574c237450bd75460246a80969b7c5944a0536f35aa",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x1, {{EMTERM_2}} x2 สถานีผลิต : {{EMTERM_3}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "dff0a12d06314952fbf4fe80": {
+    "english": "Ingredients : Wood Planks x2, Scavenger Matron Helmet x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Scavenger Matron Trophy x1",
+    "templateSha256": "afbbe082b69d4a1ca93f7aaad7ee2acff527ae16d7560fced81991aeadf8e19f",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "c48d3f20a982153183c86500": {
+    "english": "Ingredients : Wood Planks x2, Scavenger Matron Helmet x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Scavenger Matron Trophy x1",
+    "templateSha256": "8d0c7aefb679a9a699a1df06514f641f380ae47ee144231492d796c1d73f1456",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "dae8a23c716f900c9171384a": {
+    "english": "Ingredients : Wood Planks x2, Scavenger Matron Helmet x4, Nails x2, Gold Bars x1 Workstation : Hunter Craft Time : Instant Product : Gold Scavenger Matron Trophy x1",
+    "templateSha256": "1b47bb52d631224e7601ddfb7d37882c5d9cc7e387ccbc74c824445fe2211fd9",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "0400b7058fb4e83ebd669545": {
+    "english": "Ingredients : Wood Planks x2, Vukah Brawler Head x1, Nails x2 Workstation : Hunter Craft Time : Instant Product : Vukah Brawler Trophy x1",
+    "templateSha256": "404728f1dee13db9aabfc64c86857f385069e6e24633365b6e9c889347b6edcc",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} หัว x1, {{EMTERM_2}} x2 สถานีผลิต : {{EMTERM_3}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_4}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "971fc368d836a9abe428d5dc": {
+    "english": "Ingredients : Wood Planks x2, Vukah Brawler Head x2, Nails x2, Bronze Bars x1 Workstation : Hunter Craft Time : Instant Product : Bronze Vukah Brawler Trophy x1",
+    "templateSha256": "2514ab89ed1ff3898775a12609db98cbb4afefdafe6b830be2497c135a90ae6f",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} หัว x2, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "2b2cd4d8cb7cd5725b192059": {
+    "english": "Ingredients : Wood Planks x2, Vukah Brawler Head x3, Nails x2, Iron Bars x1 Workstation : Hunter Craft Time : Instant Product : Iron Vukah Brawler Trophy x1",
+    "templateSha256": "5b73f78c69cd9c8c3ded2bb08d7f34c9a9a13b7a07a7d83d2c491ae90a0f9271",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} หัว x3, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_5}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "1ade0cf224a52320ec05ec38": {
+    "english": "Ingredients : Wood Planks x2, Vukah Brawler Head x4, Nails x2, Gold Bars x1 Workstations : Hunter + Table Saw Craft Time : Instant Product : Gold Vukah Brawler Trophy x1",
+    "templateSha256": "d0c57f45cac11508a27d29ac348c63cb90f231f5c7c2e44ce6cefac7c16a8e42",
+    "translation": "วัสดุ : {{EMTERM_0}} x2, {{EMTERM_1}} หัว x4, {{EMTERM_2}} x2, {{EMTERM_3}} x1 สถานีผลิต : {{EMTERM_4}} + {{EMTERM_5}} เวลาผลิต : ทันที ผลผลิต : {{EMTERM_6}} x1",
+    "reviewNote": "Reviewed Thai recipe-field grammar; preserve every material, quantity, workstation and native name."
+  },
+  "e5313a462112a130978d14cf": {
+    "english": "Flame Altar And Base Improvements (1) is a quest in Enshrouded , given to you by the The Flame .",
+    "templateSha256": "5891ac07973d3e388fe22c387f8f919f8ca05e1cac68c63cf49d06511cb47cf6",
+    "translation": "«{{EMTERM_0}} และการปรับปรุงฐาน (1)» เป็นภารกิจใน {{EMTERM_2}} ซึ่งได้รับจาก{{EMTERM_1}}",
+    "reviewNote": "Full contextual correction. Where the original source omits the location, state that it is unknown instead of inventing a location."
+  },
+  "9436e2741fdf1c327d00670a": {
+    "english": "Flame Altar And Base Improvements (2) is a quest in Enshrouded , given to you by the The Flame .",
+    "templateSha256": "390cae1db59bc8b8a1de762e605feed597bba958a69e2ff59344d2c6c58c1d82",
+    "translation": "«{{EMTERM_0}} และการปรับปรุงฐาน (2)» เป็นภารกิจใน {{EMTERM_2}} ซึ่งได้รับจาก{{EMTERM_1}}",
+    "reviewNote": "Full contextual correction. Where the original source omits the location, state that it is unknown instead of inventing a location."
+  },
+  "4198f5e927bb84d43735b1c0": {
+    "english": "Greater Golden Twinflame Sword is located at .",
+    "templateSha256": "c75512dbfe36b6055820f86412d8f37f2f72feaff85d71988e3f172cfa8ef797",
+    "translation": "{{EMTERM_0}}: ยังไม่มีข้อมูลตำแหน่งที่แน่ชัด",
+    "reviewNote": "Full contextual correction. Where the original source omits the location, state that it is unknown instead of inventing a location."
+  },
+  "9b043c78a465807eeff81c08": {
+    "english": "Greater Golden Twinflame Sword is located at.",
+    "templateSha256": "a0e6f72186cd777a50b9ee9638881977194656e141c30335015e6b0b058f5ec1",
+    "translation": "{{EMTERM_0}}: ยังไม่มีข้อมูลตำแหน่งที่แน่ชัด",
+    "reviewNote": "Full contextual correction. Where the original source omits the location, state that it is unknown instead of inventing a location."
+  },
+  "873816aea3b228d84766f259": {
+    "english": "Archer Trousers is a world drop and obtained randomly from Lootable Chests or Bosses in the Revelwood.",
+    "templateSha256": "b4214cca1e93ddb680a3a2c6a39d4441d3f5e5b20f53e2906ec365e4aa62f647",
+    "translation": "กางเกงนักธนูเป็นไอเท็มดรอปในโลกที่สุ่มได้รับจากหีบที่เปิดเก็บของได้หรือบอสใน{{EMTERM_0}}",
+    "reviewNote": "Contextual review: retain every source gameplay clause and protected game term; repair untranslated or malformed text."
+  },
+  "b28d57ccaff2da95475885fe": {
+    "english": "Lighting Ancient Spires unlocks their Fast Travel points. Once their Fast Travel point is unlocked, the Flame atop the tower will offer you knowledge about the surrounding area. Open the map and select the Ancient Spire to Fast Travel to this location.",
+    "templateSha256": "8d3963862c4c994f59af4ce31b09bc1397249786281ba828cf076f0de5a89b54",
+    "translation": "การจุดไฟที่หอคอยแหลมเก่าแก่จะปลดล็อกจุด{{EMTERM_0}} เมื่อปลดล็อกจุด{{EMTERM_1}}แล้ว {{EMTERM_2}}บนยอดหอคอยจะให้ข้อมูลเกี่ยวกับพื้นที่โดยรอบ เปิดแผนที่แล้วเลือก{{EMTERM_3}}เพื่อ{{EMTERM_4}}มายังตำแหน่งนี้",
+    "reviewNote": "Contextual review: retain every source gameplay clause and protected game term; repair untranslated or malformed text."
+  },
+  "f0558f666350fed646a8480a": {
+    "english": "You sucessfully set foot in a new area - the Veilwater Basin. The Flame said that traversing these lands and fighting the brewing threat within woll require aid, You feel called to investigate a nearby settlement for clues towards a pure soul that can steer you on the right path.",
+    "templateSha256": "ad9efd8830b345788437a5a00ccaf27c0b5497dc49344d009f8dfd9fa426cb1a",
+    "translation": "คุณเดินทางมาถึงพื้นที่ใหม่แล้ว นั่นคือแอ่งเวลวอเตอร์ {{EMTERM_0}}บอกว่าการเดินทางผ่านดินแดนนี้และต่อสู้กับภัยคุกคามที่กำลังก่อตัวจะต้องอาศัยความช่วยเหลือ คุณรู้สึกว่าต้องสำรวจชุมชนใกล้เคียงเพื่อหาเบาะแสเกี่ยวกับดวงวิญญาณอันบริสุทธิ์ที่จะนำทางคุณไปในทิศทางที่ถูกต้อง",
+    "reviewNote": "Contextual review: retain every source gameplay clause and protected game term; repair untranslated or malformed text."
+  },
+  "24c469f36c793833984e788b": {
+    "english": "You've entered the lighthouse and found half of a wall hanging. Its imagery depicts the makeup of complex alchemical solutions... or so you think. Without the other half, you can't fully decipher the meaning, but combining both pieces will reveal many new crafting recipes , including purple fabric for crafting better mage armor! The lighthouse was seemingly attacked by vultures. Perhaps they took part of the wall hanging to their nests. Reach the vulture nests to find the second half of the schematic!",
+    "templateSha256": "24c469f36c793833984e788b9ca21b657a94dfde47178756c515275c7fbe14c4",
+    "translation": "คุณเข้าไปในประภาคารและพบผ้าแขวนผนังครึ่งหนึ่ง ภาพบนนั้นดูเหมือนจะแสดงส่วนประกอบของสารละลายเล่นแร่แปรธาตุที่ซับซ้อน อย่างน้อยคุณก็คิดเช่นนั้น หากไม่มีอีกครึ่งหนึ่ง คุณยังถอดความหมายได้ไม่ครบ แต่เมื่อนำทั้งสองชิ้นมารวมกัน จะเผยสูตรคราฟต์ใหม่มากมาย รวมถึงผ้าสีม่วงสำหรับคราฟต์ชุดเกราะนักเวทที่ดีกว่า! ดูเหมือนประภาคารจะถูกแร้งโจมตี พวกมันอาจนำผ้าแขวนผนังบางส่วนไปไว้ที่รัง เดินทางไปยังรังแร้งเพื่อค้นหาอีกครึ่งหนึ่งของแผนผัง!",
+    "reviewNote": "Contextual review: retain every source gameplay clause and protected game term; repair untranslated or malformed text."
+  },
+  "c6107edc1fbcb93f7ae62f90": {
+    "english": "Shroud Weaver pickup associated with The Mysterious Wanderer Appears.",
+    "templateSha256": "ae4649874821b659f456c87c97db1db1be97f675e44032572eebfdb87eb47ded",
+    "translation": "การได้รับ{{EMTERM_0}}เกี่ยวข้องกับภารกิจ «คนพเนจรลึกลับปรากฏตัว»",
+    "reviewNote": "Pickup denotes obtaining a weapon, not a vehicle or recording device. Use the native associated quest title without changing navigation."
+  },
+  "f4820827f00f49f975f5a4b4": {
+    "english": "Sulfur is mined from yellow sulfur deposits in the Kindlewastes. {| class=\"wikitable sortable\" |+ Recipes |- ! Items Produced !! Workshop !! Other Requirements !! Crafting Time !! Materials |- | 5 Enshrouded Oil || Laboratory || None || 2:00 || * 5 Shroud Spores * 5 Coal Powder * 5 Shroud Liquid * 1 Sulfur |- | 1 Black Powder || Laboratory || None || 3:00 || * 7 Nitrate * 1 Sulfur * 2 Coal Powder |- | 1 Shroud Meteor || Alchemist || Laboratory || N/A || * 2 Alchemical Base * 20 Nitrate * 20 Coal Powder * 20 Stone * 20 Sulfur |- | 1 Eternal Light Burst || Alchemist || Laboratory || N/A || * 5 Iron Bars * 10 Charcoal * 30 Sulfur * 20 Flintstone |- | 1 Eternal Acid Bite || Alchemist || Laboratory || N/A || * 20 Glass * 10 Charcoal * 30 Sulfur * 20 Ammonia Gland * 20 Poison Sack |}",
+    "templateSha256": "795ea26bae6019cee6b14640f7cbdeb217d53022ad0eadb85394b863722ac864",
+    "translation": "กำมะถัน ถูกขุดจากการสะสมของกำมะถันสีเหลืองใน คินเดิลเวสต์ สูตรอาหาร สินค้าที่ผลิต: 5 น้ำมันชราวด์; เวิร์กชอป: ห้องทดลอง; ข้อกำหนดอื่นๆ: ไม่มี; เวลาสร้าง: 2:00; วัสดุ: 5 ละอองชราวด์, 5 ผงถ่านหิน, 5 ของเหลวชราวด์, 1 กำมะถัน สินค้าที่ผลิต: 1 ผงสีดำ; เวิร์กชอป: ห้องทดลอง; ข้อกำหนดอื่นๆ: ไม่มี; เวลาสร้าง: 3:00; วัสดุ: 7 ไนเตรต, 1 กำมะถัน, 2 ผงถ่านหิน สินค้าที่ผลิต: 1 ดาวตกชราวด์; เวิร์กชอป: นักเล่นแร่แปรธาตุ; ข้อกำหนดอื่นๆ: ห้องทดลอง; เวลาประดิษฐ์: N/A; วัสดุ: 2 สารตั้งต้นการแปรธาตุ, 20 ไนเตรต, 20 ผงถ่านหิน, 20 หิน, 20 กำมะถัน สินค้าที่ผลิต: 1 นิรันดร์ ระเบิดแสง; เวิร์กชอป: นักเล่นแร่แปรธาตุ; ข้อกำหนดอื่นๆ: ห้องทดลอง; เวลาประดิษฐ์: N/A; วัสดุ: 5 แท่งเหล็ก, 10 ถ่านไม้, 30 กำมะถัน, 20 หินเหล็กไฟ สินค้าที่ผลิต: 1 นิรันดร์ คมเขี้ยวกรด; เวิร์กชอป: นักเล่นแร่แปรธาตุ; ข้อกำหนดอื่นๆ: ห้องทดลอง; เวลาประดิษฐ์: N/A; วัสดุ: 20 กระจก, 10 ถ่านไม้, 30 กำมะถัน, 20 ต่อมแอมโมเนีย, 20 ต่อมพิษ",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "58f65388fbae1b3765ef9ba1": {
+    "english": "Sulfur is mined from yellow sulfur deposits in the Kindlewastes. {| class=\"wikitable sortable\" |+ Recipes |-! Items Produced!! Workshop!! Other Requirements!! Crafting Time!! Materials |- | 5 Enshrouded Oil || Laboratory || None || 2:00 || * 5 Shroud Spores * 5 Coal Powder * 5 Shroud Liquid * 1 Sulfur |- | 1 Black Powder || Laboratory || None || 3:00 || * 7 Nitrate * 1 Sulfur * 2 Coal Powder |- | 1 Shroud Meteor || Alchemist || Laboratory || N/A || * 2 Alchemical Base * 20 Nitrate * 20 Coal Powder * 20 Stone * 20 Sulfur |- | 1 Eternal Light Burst || Alchemist || Laboratory || N/A || * 5 Iron Bars * 10 Charcoal * 30 Sulfur * 20 Flintstone |- | 1 Eternal Acid Bite || Alchemist || Laboratory || N/A || * 20 Glass * 10 Charcoal * 30 Sulfur * 20 Ammonia Gland * 20 Poison Sack |}",
+    "templateSha256": "795ea26bae6019cee6b14640f7cbdeb217d53022ad0eadb85394b863722ac864",
+    "translation": "กำมะถัน ถูกขุดจากการสะสมของกำมะถันสีเหลืองใน คินเดิลเวสต์ สูตรอาหาร สินค้าที่ผลิต: 5 น้ำมันชราวด์; เวิร์กชอป: ห้องทดลอง; ข้อกำหนดอื่นๆ: ไม่มี; เวลาสร้าง: 2:00; วัสดุ: 5 ละอองชราวด์, 5 ผงถ่านหิน, 5 ของเหลวชราวด์, 1 กำมะถัน สินค้าที่ผลิต: 1 ผงสีดำ; เวิร์กชอป: ห้องทดลอง; ข้อกำหนดอื่นๆ: ไม่มี; เวลาสร้าง: 3:00; วัสดุ: 7 ไนเตรต, 1 กำมะถัน, 2 ผงถ่านหิน สินค้าที่ผลิต: 1 ดาวตกชราวด์; เวิร์กชอป: นักเล่นแร่แปรธาตุ; ข้อกำหนดอื่นๆ: ห้องทดลอง; เวลาประดิษฐ์: N/A; วัสดุ: 2 สารตั้งต้นการแปรธาตุ, 20 ไนเตรต, 20 ผงถ่านหิน, 20 หิน, 20 กำมะถัน สินค้าที่ผลิต: 1 นิรันดร์ ระเบิดแสง; เวิร์กชอป: นักเล่นแร่แปรธาตุ; ข้อกำหนดอื่นๆ: ห้องทดลอง; เวลาประดิษฐ์: N/A; วัสดุ: 5 แท่งเหล็ก, 10 ถ่านไม้, 30 กำมะถัน, 20 หินเหล็กไฟ สินค้าที่ผลิต: 1 นิรันดร์ คมเขี้ยวกรด; เวิร์กชอป: นักเล่นแร่แปรธาตุ; ข้อกำหนดอื่นๆ: ห้องทดลอง; เวลาประดิษฐ์: N/A; วัสดุ: 20 กระจก, 10 ถ่านไม้, 30 กำมะถัน, 20 ต่อมแอมโมเนีย, 20 ต่อมพิษ",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "99800159176aaf6eee0ac5cb": {
+    "english": "A Shroud Root. Guarded by a Fell Striker .",
+    "templateSha256": "c375a7b8b98110cc74bdab0f7656e3e1133574a0faa8ca5d3a5a3f56908413c2",
+    "translation": "เหง้าชราวด์ มีผู้พิทักษ์ สไตรเกอร์ เฟลล์",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "8722e76604b48c78370f1950": {
+    "english": "A miniature piece that shows the Revelwood, part of Meldore. It used to be a vibrant area where the rivers flowed with wine, and the trees would shade the weary. Eventually, though, abuse of the Elixir spread, and the roots that once brought life to the Kingdom began to rot.",
+    "templateSha256": "39b93ff9bfef2c2e82cf84c97cdae50129e35d98764b69666c31ff0eaa07c2d9",
+    "translation": "ชิ้นส่วนจิ๋วที่แสดง รีเวลวูด ซึ่งเป็นส่วนหนึ่งของ เมลโดร์ เคยเป็นพื้นที่ที่มีชีวิตชีวาซึ่งมีแม่น้ำไหลเอื่อยไปด้วยไวน์ และต้นไม้จะให้ร่มเงาแก่ผู้เหนื่อยล้า แม้ว่าในที่สุด การใช้ น้ำอมฤต ในทางที่ผิดก็แพร่กระจายไป และรากที่เคยนำชีวิตมาสู่อาณาจักรก็เริ่มเน่าเปื่อย",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "c07beece8f59f3ac374caa61": {
+    "english": "An Elixir Well. Guarded by a Fell Striker .",
+    "templateSha256": "6ebdf0ddead240929c7b654dcf248015395f81b949a3ed98cc2e21a1a4807a99",
+    "translation": "บ่อน้ำอมฤต มีผู้พิทักษ์ สไตรเกอร์ เฟลล์",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "8a451fdad09c9ff157da837f": {
+    "english": "Former research camp used by Loraine Crim.",
+    "templateSha256": "8a451fdad09c9ff157da837f1d3b4f99b1eb5add83200c2c7fa84866e1de08cb",
+    "translation": "อดีตค่ายวิจัยที่ ลอเรนน์ คริม ใช้",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "d877d4ae27b6857c199a2b4a": {
+    "english": "Hearing Voices — Vorgoth Notes",
+    "templateSha256": "d877d4ae27b6857c199a2b4a6da7880f87ea098b67246fe345e544793737cec1",
+    "translation": "เสียงแว่ว — บันทึกของวอร์กอธ",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "ba339acc497a47614a4a7de7": {
+    "english": "In a silver chest underground, guarded by a two Hollow Damned .",
+    "templateSha256": "d22d0acd0a860b686d681f3366f5006b041f1961124c644dce940091f24b9a09",
+    "translation": "ในหีบสีเงินใต้ดิน มี ฮอลโลว์แดมด์ สองตัวเฝ้าอยู่",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "5e2ba77613a42186b53766f6": {
+    "english": "Northern Caravan — acquisition location. Enemy loot source at the Fell Wispwyvern encounter.",
+    "templateSha256": "a36984b0aa11b25aab4be2455c7d92efd69a144c2bc70d30244e1a3b5f0945dd",
+    "translation": "คาราวานทางเหนือ — สถานที่เข้าซื้อกิจการ แหล่งปล้นของศัตรูในการเผชิญหน้า วิสป์ไวเวิร์นน์เฟลล์",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "0069b28c1aa9238dfd979a34": {
+    "english": "Reading \"Citywall Blocks\" (Fortification 1/2) adds a hint to the Set List. This block is then obtained by looting the Castle Wall Stone Block in the Mining Rift. It is found in a silver chest on a platform hanging over the Rift.",
+    "templateSha256": "36a9c26bafc01b4580433fad946f98dec8e1d7475afcb92cba98102ad93cc711",
+    "translation": "การอ่าน \"บล็อกกำแพงเมือง\" (ป้อมปราการ 1/2) จะเพิ่มคำใบ้ให้กับ ตั้งค่า รายการ จากนั้นจะได้รับบล็อกนี้โดยการปล้น บล็อกหินกำแพงปราสาท ใน รอยแยกของเหมือง พบอยู่ในหีบสีเงินบนแท่นที่แขวนอยู่เหนือรอยแยก",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "3195ca96035ee7aa3dff3704": {
+    "english": "Research camp used by Loraine Crim.",
+    "templateSha256": "3195ca96035ee7aa3dff37042fa3eb2072a5ee03f1f23dc7caf5f49c994dd447",
+    "translation": "ค่ายวิจัยที่ ลอเรนน์ คริม ใช้",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "8081e20854b178bd8db0e918": {
+    "english": "Southern Caravan — acquisition location. Enemy loot source for Jezmina's Apotheosis.",
+    "templateSha256": "44e73b481ba927b2844587eefe996fc0c22d3a32deb4fa753a0baf5085d35288",
+    "translation": "คาราวานทางใต้ — สถานที่เข้าซื้อกิจการ แหล่งปล้นของศัตรูสำหรับ การยกย่องบูชาแห่งเยซมิน่า",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "b932094847efa5b3cf77c403": {
+    "english": "The Dungeon is where the Hall Of Founders is located",
+    "templateSha256": "b932094847efa5b3cf77c4035213e2b1a821085d295c6a8ff67f856041d93c15",
+    "translation": "ดันเจี้ยนคือที่ตั้งของ หอแห่งผู้ก่อตั้ง",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "27ba781b6ade2d27b094d97d": {
+    "english": "The Dungeon is where the Library Foyeris located",
+    "templateSha256": "1aaf66da4f9a164987da42304c4d68fe848ea9b917163c3cbdfe2cc75da732fe",
+    "translation": "โถงทางเข้าห้องสมุดตั้งอยู่ในดันเจี้ยนนี้",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "f049d47288ac7a14a2a074da": {
+    "english": "The Final Trial (1/1), Need to drink Drak Soulward Flaskto read.",
+    "templateSha256": "f049d47288ac7a14a2a074da46a6da536ae2da514bf32bf925fa9ce7e9c0e2be",
+    "translation": "บททดสอบสุดท้าย (1/1) ต้องดื่มขวดยาปกป้องจิตวิญญาณเดรกเพื่ออ่าน",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "8fa3e5f9a2e1b546d46f3f6e": {
+    "english": "This block is found in the Albaneve Hollow Halls.",
+    "templateSha256": "a636ce8b209945ca12ea27821517958cd2f1d8659372e4c4be5a4a3f0905282e",
+    "translation": "บล็อกนี้มีอยู่ใน ยอดอัลบานีฟ โถงร้าง",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "8cdd9638e0eb5f80691b56ca": {
+    "english": "This model of the Kindlewastes shows sandy dunes and rugged cliffs, but Orindell wasn't always like this. Perhaps this scorching expanse would have looked different if water hadn't stopped flowing through its veins.",
+    "templateSha256": "84a3a5ec241cc710133fa4f3a943ac2d8c23015d0d4ba9104ec822d15b411c3e",
+    "translation": "คินเดิลเวสต์ รุ่นนี้แสดงให้เห็นเนินทรายและหน้าผาขรุขระ แต่ โอรินเดลล์ ไม่ได้เป็นเช่นนั้นเสมอไป บางทีพื้นที่อันกว้างใหญ่ที่แผดเผานี้อาจดูแตกต่างออกไปหากน้ำไม่หยุดไหลผ่านเส้นเลือดของมัน",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "41c7c1a551a86dd757a8efe1": {
+    "english": "Vorgoth's Ruminations — Vorgoth Notes",
+    "templateSha256": "41c7c1a551a86dd757a8efe1caf6f9fdffee0111e5f794adba8ce6d8e8d81bcc",
+    "translation": "การครุ่นคิดของวอร์กอธ — บันทึกของวอร์กอธ",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "dafc94358f91d8a1d387a815": {
+    "english": "A dense chunk of nickel and iron. The slow cooling over millions of years formed its crystal bands. the Widmanstätten structure.",
+    "templateSha256": "dafc94358f91d8a1d387a815619ef123bb72afc37525d49c416ae3f0551eed5e",
+    "translation": "ก้อนนิกเกิลและเหล็กหนาแน่น การเย็นลงอย่างช้าๆ ตลอดหลายล้านปีทำให้เกิดแถบคริสตัล โครงสร้าง วิดมันสเตตเทน",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "1a4e9e7d293c1bf3b367e279": {
+    "english": "A hint appears in the Set List after reading \"It Crawls Beneath My Flesh\" (A Rumble in the Catacombs 2/2). This block is then obtained by looting the Weathered Stone Block in Bramblespine Boneyard. It is found in a silver chest towards the end of the Catacomb, before the Fell Thunderbrute.",
+    "templateSha256": "6b9ea77f0d6944e0fef8bfe6ef5c3726225a0d47d6e9a8a94860a03ce0d9a33a",
+    "translation": "คำใบ้ปรากฏใน ตั้งค่า รายการ หลังจากอ่าน \"มันคลานอยู่ใต้เนื้อหนังข้า\" (เสียงที่ดังก้องในสุสานใต้ดิน 2/2) จากนั้นจะได้รับบล็อกนี้โดยการปล้น บล็อกหินผุกร่อน ใน ป่าช้าพุ่มหนาม พบอยู่ในหีบสีเงินตรงปลายสุสานใต้ดิน ก่อนถึง ธันเดอร์บรูตเฟลล์",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "bc0c6f6662d825ca66b50e9e": {
+    "english": "A model of the Veilwater Basin, complete with glistening lakes, bloodthirsty Drak, and Coconana smoothies. A treacherous paradise. what could you want more from life?",
+    "templateSha256": "bc0c6f6662d825ca66b50e9e3e64943d5541c99d9c6d26559652add40547e9e1",
+    "translation": "แบบจำลองของแอ่งเวลวอเตอร์ พร้อมทะเลสาบระยิบระยับ เหล่าเดรกกระหายเลือด และสมูทตี้โคโคนาน่า สวรรค์อันแสนอันตราย ชีวิตยังต้องการอะไรอีก?",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "27ec8576dffcf1f1c829307d": {
+    "english": "An Ancient Temple in the Revelwoods",
+    "templateSha256": "27ec8576dffcf1f1c829307d367522d8b70d2e7288b8fc833623510a8ab3f046",
+    "translation": "วัดโบราณใน รีเวลวูด",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "7a1da1cc828cd506a3b60eac": {
+    "english": "Coal is obtained by mining Coal Ore with a pickaxe. Coal ore can be easily found in the Rothstep Mining Settlement, northwest of the Albaneve Summits Ancient Spire.",
+    "templateSha256": "5b019a9f3371e7907df7efdc8492547176b43c8c8517c243f90ccb1c1b97ad2d",
+    "translation": "ถ่าน ได้มาจากการขุดแร่ ถ่าน ด้วยพลั่ว แร่ ถ่าน สามารถพบได้ง่ายใน รอธสเต็ป ชุมชนเหมืองแร่ ทางตะวันตกเฉียงเหนือของ ยอดอัลบานีฟ หอคอยแหลมเก่าแก่",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "09687080f26f5dc109f90a80": {
+    "english": "Helping Hands — Lost Soul — Carpentry Assistant",
+    "templateSha256": "d847fdca8f4357286584b615d821413ac48518d1c75d97e4a3c78902e8f50562",
+    "translation": "มือช่วย — วิญญาณที่หลงทาง — ผู้ช่วยช่างไม้",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "c96b2b2a91f65e27e1a1715b": {
+    "english": "Reading \"About The Goods\" (Lunar New Year Bandit Notes 1/1) adds a hint to the Set List. This block is then obtained by looting the Roughly Cut Stone Block in Netherton. It is found in a large glowing crate on top of a ruined building in Netherton. The crate can be spotted from the nearby Ancient Obelisk.",
+    "templateSha256": "9ac050b16f8b96abd2c2e64cce446b837f8b3eae1db19a38b942257469cd7242",
+    "translation": "การอ่าน \"เกี่ยวกับสินค้า\" (บันทึกของโจรในวันตรุษจีน 1/1) จะเพิ่มคำใบ้ให้กับ ตั้งค่า รายการ จากนั้นจะได้รับบล็อกนี้โดยการปล้น บล็อกหินตัดหยาบ ใน เนเธอร์ตัน พบอยู่ในลังเรืองแสงขนาดใหญ่บนซากอาคารใน เนเธอร์ตัน ลังนี้สามารถมองเห็นได้จากเสาโอเบลิสก์โบราณที่อยู่ใกล้ๆ",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  }
+}

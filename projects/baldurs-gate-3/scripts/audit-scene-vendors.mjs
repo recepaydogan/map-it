@@ -1,0 +1,117 @@
+import fs from "node:fs";
+import path from "node:path";
+import assert from "node:assert/strict";
+import { readRegisteredMapIds } from "./lib/map-registry-source.mjs";
+import { createStoryRuleLookup } from "./lib/story-rule-context.mjs";
+import { writeGeneratedFile } from "./lib/write-generated-file.mjs";
+import { readItemProgression } from "./lib/item-progression.mjs";
+
+const root = path.resolve(import.meta.dirname, "..");
+const read = (file) => JSON.parse(fs.readFileSync(path.resolve(root, file), "utf8"));
+const profiles = read("map-sources/catalog/scene-vendors.json").profiles;
+const treasures = read("map-sources/catalog/treasure-tables.json").tables;
+const items = read("public/data/item-database.json").items;
+const generatorRoots = new Map(read("map-sources/catalog/treasure-item-resolution.json").entries.map((entry) => [entry.statsId, entry]));
+const gameplayStats = read("map-sources/catalog/gameplay-stats.json").entries;
+const generatedFrom = (item, statsId) => {
+  const source = generatorRoots.get(statsId);
+  if (source?.candidateRootTemplateIds && source.mode === "requires-progression-review") {
+    const native = readItemProgression([path.resolve(root, source.progression.sourcePath)], root).get(source.itemGroup);
+    assert.deepEqual(native, source.progression);
+    const allowed = new Set([gameplayStats[statsId]?.rootTemplate?.toLowerCase(), ...native.levels.flatMap((level) => level.roots.map(({ rootTemplateId }) => rootTemplateId))]);
+    assert.deepEqual([...allowed].sort(), [...source.candidateRootTemplateIds].sort());
+    return item.statsId === statsId && item.templateIds.some((id) => allowed.has(id));
+  }
+  if (!["explicit-root", "matching-progression-root"].includes(source?.mode)) return item.statsId === statsId;
+  assert.equal(source.rootTemplateId, gameplayStats[statsId]?.rootTemplate?.toLowerCase(), `Inconsistent generating root: ${statsId}`);
+  return item.statsId === statsId && item.templateIds.includes(source.rootTemplateId);
+};
+const maps = readRegisteredMapIds(fs.readFileSync(path.join(root, "src/features/map/map-registry.ts"), "utf8"));
+const sourceCache = new Map();
+const sourceEvidence = (evidence) => {
+  if (!sourceCache.has(evidence.sourcePath)) {
+    const source = fs.readFileSync(path.join(root, evidence.sourcePath), "utf8");
+    sourceCache.set(evidence.sourcePath, { lines: source.split(/\r?\n/), rule: createStoryRuleLookup(source) });
+  }
+  const { lines, rule } = sourceCache.get(evidence.sourcePath);
+  const line = lines[evidence.sourceLine - 1].trim().replace(/^NOT\s+/, "");
+  assert.equal(line.slice(0, line.lastIndexOf(")") + 1).replace(/\s+/g, " "), evidence.statement);
+  assert.notEqual(rule(evidence.sourceLine)?.debugOnly, true, `${evidence.sourcePath}:${evidence.sourceLine}`);
+};
+const entries = [];
+let conditionalAcquisitions = 0;
+for (const profile of profiles) {
+  profile.evidence.forEach(sourceEvidence);
+  for (const variant of profile.conditionalStock) for (const group of variant.conditionGroups) group.evidence.forEach(sourceEvidence);
+  const base = new Set(profile.tradeTables.flatMap((id) => treasures[id].namedStockIds).map((id) => id.replace(/^I_/, "")));
+  const conditional = new Map(profile.conditionalStock.flatMap((variant) => variant.stockIds.map((id) => [id.replace(/^I_/, ""), variant])));
+  let appearances = 0;
+  for (const mapId of maps) {
+    const entities = Object.values(read(`public/maps/${mapId}/content.json`).entities);
+    const matches = entities.filter(({ storyDestination: d }) => d?.characterContentId === profile.characterContentId && d.anchorContentId === profile.anchorContentId);
+    for (const entity of matches) {
+      appearances += 1;
+      assert.equal(entity.kind, "vendor");
+      assert.deepEqual(entity.vendor.tradeTables, profile.tradeTables);
+      assert.equal(entity.vendor.sceneContext.id, profile.id);
+      assert.deepEqual(entity.vendor.sceneContext.evidence, profile.evidence);
+      assert.equal(entity.vendor.conditionalStock.length, profile.conditionalStock.length);
+      for (const variant of entity.vendor.conditionalStock) {
+        const expected = profile.conditionalStock.find(({ id }) => id === variant.id);
+        assert.deepEqual(variant.stockIds, expected.stockIds);
+        assert.deepEqual(variant.localizedConditions, expected.localizedConditions);
+        assert(variant.namedStock.every((name) => !entity.vendor.namedStock.includes(name)), "Conditional stock leaked into default display");
+      }
+      const location = read(`public/maps/${mapId}/locations.json`).locations.find(({ contentId }) => contentId === entity.id);
+      assert(location, `No location for ${entity.id}`);
+      const linked = items.flatMap((item) => item.acquisitions.filter((a) => a.kind === "vendor" && a.mapId === mapId && a.locationId === location.id)
+        .map((acquisition) => ({ item, acquisition })));
+      for (const { item, acquisition } of linked) {
+        assert(generatedFrom(item, item.statsId), `Template sibling is not generated by this stock entry: ${mapId}/${item.name}`);
+        if (base.has(item.statsId)) assert.equal(acquisition.certainty, "stock");
+        else {
+          const variant = conditional.get(item.statsId);
+          assert(variant, `Obsolete stock acquisition: ${mapId}/${item.name}`);
+          assert.equal(acquisition.certainty, "story");
+          assert.deepEqual(acquisition.localizedDetails, variant.localizedConditions);
+          assert.deepEqual(acquisition.localizedLocationDetails, variant.localizedConditions);
+          conditionalAcquisitions += 1;
+        }
+      }
+      for (const item of items.filter((item) => (base.has(item.statsId) || conditional.has(item.statsId)) && generatedFrom(item, item.statsId))) {
+        assert(linked.some((entry) => entry.item.id === item.id), `Missing stock acquisition: ${mapId}/${item.name}`);
+      }
+      entries.push({ mapId, contentId: entity.id, title: entity.title, baseStockNames: entity.vendor.namedStock.length,
+        conditionalStockNames: entity.vendor.conditionalStock.flatMap(({ namedStock }) => namedStock).length,
+        acquisitions: linked.length, unresolvedNativeStockIds: entity.vendor.unresolvedStockIds ?? [] });
+    }
+  }
+  assert(appearances > 0, `Scene vendor not published: ${profile.id}`);
+}
+let preservedAppearances = 0;
+if (process.argv[2]) {
+  const baseline = path.resolve(process.argv[2]);
+  const oldItems = read(path.join(baseline, "public/data/item-database.json")).items;
+  const omit = (value, fields) => Object.fromEntries(Object.entries(value).filter(([key]) => !fields.includes(key)));
+  const currentById = new Map(items.map((item) => [item.id, item]));
+  for (const item of oldItems) {
+    assert(currentById.has(item.id), `Lost item ${item.id}`);
+    assert.deepEqual(omit(currentById.get(item.id), ["acquisitions", "crafting"]), omit(item, ["acquisitions", "crafting"]));
+  }
+  for (const mapId of fs.readdirSync(path.join(baseline, "public/maps"), { withFileTypes: true }).filter((entry) => entry.isDirectory()).map(({ name }) => name)) {
+    const before = read(path.join(baseline, `public/maps/${mapId}/content.json`));
+    const after = read(`public/maps/${mapId}/content.json`);
+    assert.deepEqual(after.entities.map((entity) => omit(entity, ["vendor"])), before.entities.map((entity) => omit(entity, ["vendor"])));
+    assert.deepEqual(after.relationships, before.relationships);
+    const oldLocations = read(path.join(baseline, `public/maps/${mapId}/locations.json`)).locations;
+    const newLocations = read(`public/maps/${mapId}/locations.json`).locations;
+    assert.deepEqual(newLocations.map((location) => omit(location, ["searchTerms", "categoryFacets"])), oldLocations.map((location) => omit(location, ["searchTerms", "categoryFacets"])));
+    preservedAppearances += after.entities.length;
+  }
+}
+const stats = { profiles: profiles.length, publishedAppearances: entries.length, conditionalAcquisitions,
+  unresolvedNativeStockReferences: entries.reduce((sum, entry) => sum + entry.unresolvedNativeStockIds.length, 0), preservedAppearances };
+writeGeneratedFile(path.join(root, "map-sources/catalog/scene-vendor-audit.json"), `${JSON.stringify({
+  scope: "Reviewed scene stock and linked acquisitions; unresolved native table references and unreviewed scenes remain open.", stats, entries,
+}, null, 2)}\n`);
+console.log("Scene vendor source/conservation audit:", stats);

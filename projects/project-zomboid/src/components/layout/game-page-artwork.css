@@ -1,0 +1,39 @@
+.game-page-artwork {
+  --game-page-background: var(--color-background, var(--background, #151719));
+  --game-page-surface: var(--color-surface, var(--surface, #1c1f23));
+  --game-page-scrim: color-mix(in srgb, var(--game-page-background) 67%, transparent);
+  --game-page-backdrop:
+    linear-gradient(175deg, rgb(8 10 13 / 68%), rgb(8 10 13 / 80%) 52%, var(--game-page-background)),
+    var(--game-page-image, url("/item-catalog-art.webp"));
+  background-color: var(--game-page-background);
+  background-image: var(--game-page-backdrop);
+  background-position: center 36%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game-page-artwork .map-viewport:not(.map-viewport-atlas, .map-viewport-minimap) {
+  background-image: var(--game-page-backdrop);
+  background-position: center;
+  background-size: cover;
+}
+
+.game-page-artwork[data-game-artwork="leonida"] {
+  --catalog-hero-mask: radial-gradient(ellipse 49% 52% at right top, transparent 58%, #000 100%);
+  --game-page-backdrop:
+    radial-gradient(ellipse 43% 49% at right top, var(--game-page-background) 51%, transparent 100%),
+    linear-gradient(175deg, rgb(8 10 13 / 65%), rgb(8 10 13 / 82%) 52%, var(--game-page-background)),
+    var(--game-page-image);
+}
+
+/* Let the page backdrop show in the main surfaces while keeping popovers and
+   controls on their original solid colors. */
+.game-page-artwork :is([data-updates-page], [data-whats-new-page], [data-reference-page], .flat-reference),
+.game-page-artwork > :is(.bg-background, .bg-support-background, [class~="bg-[var(--background)]"]):not([role="dialog"]),
+.game-page-artwork > :where(.flex, .h-full) > :is(.bg-background, [class~="bg-[var(--background)]"]):not([role="dialog"]) {
+  background-color: var(--game-page-scrim);
+}
+
+.game-page-artwork :is(.item-catalog-frame, .items-browser-frame) {
+  background-color: color-mix(in srgb, var(--game-page-surface) 70%, transparent);
+}

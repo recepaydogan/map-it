@@ -1,0 +1,35 @@
+:root,
+:root :not(:where(.scroll-none, .scrollbar-hide, .app-navigation-list, .app-navigation-footer, .app-navigation-host-footer, .item-catalog-category-list, .enshrouded-entry-scroll, .multi-craft-slots)) {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(255 255 255 / 14%) transparent;
+}
+
+@supports selector(::-webkit-scrollbar) {
+  :root,
+  :root :not(:where(.scroll-none, .scrollbar-hide, .app-navigation-list, .app-navigation-footer, .app-navigation-host-footer, .item-catalog-category-list, .enshrouded-entry-scroll, .multi-craft-slots)) {
+    scrollbar-width: auto;
+    scrollbar-color: auto;
+  }
+
+  :root ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  :root ::-webkit-scrollbar-track,
+  :root ::-webkit-scrollbar-corner { background: transparent; }
+
+  :root ::-webkit-scrollbar-thumb {
+    border: 0;
+    border-radius: 999px;
+    background: rgb(255 255 255 / 14%);
+  }
+
+  :root ::-webkit-scrollbar-thumb:hover { background: rgb(255 255 255 / 28%); }
+
+  :root ::-webkit-scrollbar-button {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+}

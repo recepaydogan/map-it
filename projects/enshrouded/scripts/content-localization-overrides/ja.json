@@ -1,0 +1,266 @@
+{
+  "a189fbe850c0885c597007a6": {
+    "english": "Shroud Pellet - The vulture can attack the player from a distance by spitting a Shroud projectile at them. It explodes on impact for moderate Shroud damage and leaves behind a small area of dense Shroud. Talon Swipe - Once close, the vulture will swipe at the player with its razor-sharp talons. This deals heavy cutting damage and can do bonus Backstab damage (e.g. if the player is attempting to flee)",
+    "templateSha256": "fbc732e73656a16dab538063a420c914f96eea1dd6d2022046c8c84482d1f8b4",
+    "translation": "{{EMTERM_0}}弾 — ハゲワシは{{EMTERM_1}}の弾を吐き、離れた位置からプレイヤーを攻撃する。着弾すると爆発して中程度の{{EMTERM_2}}ダメージを与え、その場に濃い{{EMTERM_3}}の小さな領域を残す。爪によるなぎ払い — 近づくと、鋭い爪でプレイヤーをなぎ払う。大きな斬撃ダメージを与え、プレイヤーが逃げようとしている場合などはバックスタブの追加ダメージが発生することもある。",
+    "reviewNote": "Restore every original gameplay clause and all distinct protected terms omitted by machine translation."
+  },
+  "6854ebb02cbcd23b871df526": {
+    "english": "Alchemist Needs Shelter will only appear in worlds made before Forging The Path Update , it is no longer accessible in the current version.",
+    "templateSha256": "72334e15e5bf576dd2f551b1554c25bf6ab5d57ac0db521737a9a58345f2ea2f",
+    "translation": "{{EMTERM_0}} は、「道を切り開く」アップデート より前に作成されたワールドにのみ表示されます。現在のバージョンではアクセスできなくなりました。",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "398a6978131de0f936b03aa2": {
+    "english": "Barber Needs Shelter will only appear in worlds made before Forging The Path Update , it is no longer accessible in the current version.",
+    "templateSha256": "72334e15e5bf576dd2f551b1554c25bf6ab5d57ac0db521737a9a58345f2ea2f",
+    "translation": "{{EMTERM_0}} は、「道を切り開く」アップデート より前に作成されたワールドにのみ表示され、現在のバージョンではアクセスできなくなります。",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "f8f7879167921c9dd388c8ab": {
+    "english": "Bard Needs Shelter will only appear in worlds made before Forging The Path Update , it is no longer accessible in the current version.",
+    "templateSha256": "72334e15e5bf576dd2f551b1554c25bf6ab5d57ac0db521737a9a58345f2ea2f",
+    "translation": "{{EMTERM_0}} は、「道を切り開く」アップデート より前に作成されたワールドにのみ表示されます。現在のバージョンではアクセスできなくなりました。",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "7dfa30d04c4967713d613239": {
+    "english": "Carpenter Needs Shelter will only appear in worlds made before Forging The Path Update , it is no longer accessible in the current version.",
+    "templateSha256": "72334e15e5bf576dd2f551b1554c25bf6ab5d57ac0db521737a9a58345f2ea2f",
+    "translation": "{{EMTERM_0}} は、「道を切り開く」アップデート より前に作成されたワールドにのみ表示されます。現在のバージョンではアクセスできなくなりました。",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "4d37eb4403dc4267c8a80b3e": {
+    "english": "Collector Needs Shelter will only appear in worlds made before Forging The Path Update , it is no longer accessible in the current version.",
+    "templateSha256": "72334e15e5bf576dd2f551b1554c25bf6ab5d57ac0db521737a9a58345f2ea2f",
+    "translation": "{{EMTERM_0}} は、「道を切り開く」アップデート より前に作成されたワールドにのみ表示されます。現在のバージョンではアクセスできなくなりました。",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "10299a0ba3b875f1b2886ddd": {
+    "english": "Crystalwater Staff is obtained randomly from Lootable Chests or Bosses in the Albaneve Summits. C:Souls Of The Frozen Frontier Update",
+    "templateSha256": "7714d1d615b4dc655480b62926c9c11f350950ce5a69d692de5c51be3208494a",
+    "translation": "{{EMTERM_0}} は、{{EMTERM_1}} の戦利品チェストまたはボスからランダムに取得されます。 C:「凍てつく辺境の魂」 アップデート",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "1ab558d2d05f2cc7ea9661f3": {
+    "english": "Eternal Fireball II is found during the quest A Glimpse Of Eternity after finding the Spell you will unlock the ability to craft it at the Alchemist.",
+    "templateSha256": "30294ac16cef6efd3462fc01b5c37fcd854a86921c8bfe5325428378bc128796",
+    "translation": "{{EMTERM_0}} は、クエスト「永遠の閃き」中に見つかり、呪文を見つけた後、{{EMTERM_1}} でそれを作成する機能のロックが解除されます。",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "c4a7c3f7cf255cb05ed39ed2": {
+    "english": "Eternal Heal Beam Channel is found during the quest A Glimpse Of Eternity.",
+    "templateSha256": "c4a7c3f7cf255cb05ed39ed24338fea181a8996f00e2d8e444c16fcaa3bcde4d",
+    "translation": "エターナル・ヒール・ビーム・チャンネルはクエスト「永遠の閃き」中に見つかります。",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "0aa17b3af188891969cc2e86": {
+    "english": "Eternal Ice Bolt II is found during the quest A Glimpse Of Eternity after finding the Spell you will unlock the ability to craft it at the Alchemist.",
+    "templateSha256": "30294ac16cef6efd3462fc01b5c37fcd854a86921c8bfe5325428378bc128796",
+    "translation": "{{EMTERM_0}} は、クエスト 永遠の閃き で呪文を見つけた後、{{EMTERM_1}} で作成できるようになります。",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "d7a53c0fd01f6896b43b1d7e": {
+    "english": "Eternal Lightning Channel is found during the quest A Glimpse Of Eternity after finding the Spell you will unlock the ability to craft it at the Alchemist.",
+    "templateSha256": "afa6e9d951fdeb0fd88a7097db01911b152552976d2b700eb0fb08df0713bb4b",
+    "translation": "永遠の稲妻チャンネルは、{{EMTERM_0}} で呪文を作成できるようにする呪文を見つけた後、クエスト「永遠の閃き」中に見つかります。",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "4956536f2f6d83e47e77ecec": {
+    "english": "Farmer Needs Shelter will only appear in worlds made before Forging The Path Update , it is no longer accessible in the current version.",
+    "templateSha256": "72334e15e5bf576dd2f551b1554c25bf6ab5d57ac0db521737a9a58345f2ea2f",
+    "translation": "{{EMTERM_0}} は、「道を切り開く」アップデート より前に作成されたワールドにのみ表示されます。現在のバージョンではアクセスできなくなりました。",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "94dcd96cb929b91b5bba3756": {
+    "english": "Fortified is a quest in Enshrouded , started by reading I Will Defend My House! .",
+    "templateSha256": "38eb9faf47b2f59bf90ad1d0ca71831e9d797e785d48738187d94878769414e9",
+    "translation": "防備強化 は {{EMTERM_0}} のクエストで、「我が家を守る！」を読むことで始まります。 。",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "c888ffc50972728a6b1e4584": {
+    "english": "Golden Bulwark Chest Plate is crafted at the Blacksmith.",
+    "templateSha256": "ee830aa832006eb478cc6ddd5c7fdc1227de5cb14f6cce36d039f42b691e829b",
+    "translation": "黄金の砦胸当て は {{EMTERM_0}} で作成されます。",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "25bca98cf154a9c1fd334d4f": {
+    "english": "Hunter Needs Shelter will only appear in worlds made before Forging The Path Update , it is no longer accessible in the current version.",
+    "templateSha256": "72334e15e5bf576dd2f551b1554c25bf6ab5d57ac0db521737a9a58345f2ea2f",
+    "translation": "{{EMTERM_0}} は、 「道を切り開く」アップデート より前に作成されたワールドにのみ表示されます。現在のバージョンではアクセスできなくなりました。",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "c7befb30fdbc5a1b04e036ce": {
+    "english": "Incidents At The \"Maelstrom\" Construction Site (4/4). On a shelf next to Incidents At The Maelstrom Construction Site (2/4).",
+    "templateSha256": "c7befb30fdbc5a1b04e036ced30a089634015722dce624b08511a8c407a30f4f",
+    "translation": "「メイルストローム」建設現場での事件 (4/4)。 「メイルストローム」建設現場での事件 (2/4) の隣の棚にあります。",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "7b3f87a0304342ac00fae4c7": {
+    "english": "Lord Vorgoth’s Throneroom is a quest in Enshrouded , at Veilwater Basin .",
+    "templateSha256": "d83ae0a25bea39c571825b3c16fd02a12c38d10bbd1b6be33cda9252fe854bc5",
+    "translation": "ヴォルゴス卿の玉座の間 は、ヴェイルウォーター盆地 の {{EMTERM_0}} のクエストです。",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "6db38224e6e2485ec9523f15": {
+    "english": "Playing Pranks is a quest in Enshrouded , started by reading He'll Be Fine Down There .",
+    "templateSha256": "c861236698b75294fac6d2ac81a6b929f3f4e8ce5f304b93397657ae2ef01524",
+    "translation": "{{EMTERM_0}} は {{EMTERM_1}} のクエストで、あいつなら大丈夫だ！ を読むことで開始されます。",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "0a00b41b2da8cf73196cfd29": {
+    "english": "The Albaneve Summits is a frozen mountainous biome added in the Souls Of The Frozen Frontier Update. It is dominated by Howling Peak - the highest point in Embervale - where a dangerous corrupted beast lurks.",
+    "templateSha256": "5a9ac051e59a68dc474659d8a70d2a7e61a8b6bacebef9eb5a16d9c70fabfe70",
+    "translation": "{{EMTERM_0}} は、「凍てつく辺境の魂」 アップデートで追加された凍った山岳バイオームです。 {{EMTERM_1}}の最高点であるハウリングピークが支配しており、そこには危険な腐敗した獣が潜んでいます。",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "1dc14b556de4d52e7f88b551": {
+    "english": "The Blacksmith Needs A Shop will only appear in worlds made before Forging The Path Update , it is no longer accessible in the current version.",
+    "templateSha256": "72334e15e5bf576dd2f551b1554c25bf6ab5d57ac0db521737a9a58345f2ea2f",
+    "translation": "{{EMTERM_0}} は、「道を切り開く」アップデート より前に作成されたワールドにのみ表示され、現在のバージョンではアクセスできなくなります。",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "a5872d169b236060e64e1fdf": {
+    "english": "The item was added as part of the Souls of the Frozen Frontier update so the shroud areas in Albaneve Summits contain this item. Specifically, many Chanterelle can be found close to the Watchtower point of interest in the shroud directly north of the Nomad Heights spire.",
+    "templateSha256": "3fbe8e01d4d6a897f699cf2f3a277c6ed4068b4496f9bfec34afb6544106763d",
+    "translation": "このアイテムは 「凍てつく辺境の魂」 アップデートの一部として追加されたため、{{EMTERM_0}} のシュラウド領域にこのアイテムが含まれています。具体的には、多くの {{EMTERM_1}} は、ノマド ハイツの尖塔の真北にあるシュラウド内の監視塔の注目ポイントの近くで見つかります。",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "2e088cf3ff068f5a668bcc17": {
+    "english": "You'll find the lore note Ice Mages And Their Gear in a building in the center of Goldrock Saddle on the second floor, that will guide you to find the Frozen Gauntlets located at the bottom of Lacemaker Pond from a corpse. You will need armor with Frost Resistance to reach the corpse.",
+    "templateSha256": "83ace4c04c08d3bf445a578723dd883a8d3b3b823de8fefad6e39721ad61af99",
+    "translation": "{{EMTERM_0}} の中央にある建物の 2 階に伝承メモ「氷魔道士とその装備」があり、レースメーカーの池の底にある {{EMTERM_1}} を死体から見つけることができます。死体に到達するには耐寒性のある鎧が必要です。",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "24b27074964cbf343eb2b59b": {
+    "english": "The Hunter travelled through Revelwood to reach Westcott . Her Hand Spindle was left in a different camp.",
+    "templateSha256": "fb7b6b9258beb996cdea847837fe7098050daa5f9fffc2fdf8d2d648645afb61",
+    "translation": "{{EMTERM_0}}は{{EMTERM_1}}を通ってウェスコットに向かいました。紡錘は別の野営地に置き去りにされています。",
+    "reviewNote": "Complete contextual Japanese prose, preserving every location, quest, item, combat condition and variable."
+  },
+  "9494668aa3000617eea61214": {
+    "english": "The Improved Millstone is obtained in the Riverreach in Veilwater Basin, as part of the quest Obtaining A Mill for the Alchemist.",
+    "templateSha256": "f957fc1928fb945db0264e6c2ee569be10699f8ff4a882afcec39d10413bd250",
+    "translation": "{{EMTERM_3}}のクエスト「{{EMTERM_2}}」の一環として、ヴェイルウォーター盆地の{{EMTERM_1}}で{{EMTERM_0}}を入手できます。",
+    "reviewNote": "Complete contextual Japanese prose, preserving every location, quest, item, combat condition and variable."
+  },
+  "23b569383d8a42abf9a01a6f": {
+    "english": "The Kettle is obtained at the Flame Sanctum in Pikemead's Reach, as part of the quest Cooking Equipment For The Farmer for the Farmer.",
+    "templateSha256": "b5582887d761d5f72d82d171286d7b323f20ba17896273aacab2f97d2b9b0ded",
+    "translation": "{{EMTERM_4}}のクエスト「{{EMTERM_3}}」の一環として、{{EMTERM_2}}の{{EMTERM_1}}で{{EMTERM_0}}を入手できます。",
+    "reviewNote": "Complete contextual Japanese prose, preserving every location, quest, item, combat condition and variable."
+  },
+  "bd054cb4355f0e21a9ed4e5f": {
+    "english": "The Mortar is obtained from the Alchemist's Tower in, Revelwood, as part of The Alchemist's Mortar for the Alchemist.",
+    "templateSha256": "48fa4cb1953b733376c2a176e6fcf50ab6b783d7b914348abeb158ecc67cc539",
+    "translation": "{{EMTERM_4}}のクエスト「{{EMTERM_3}}」の一環として、{{EMTERM_2}}にある{{EMTERM_1}}の塔で{{EMTERM_0}}を入手できます。",
+    "reviewNote": "Complete contextual Japanese prose, preserving every location, quest, item, combat condition and variable."
+  },
+  "03183e36b4de8dc53a9676b3": {
+    "english": "While the Elixir Buff is active, dealing damage activates the \"Satisfied Battle Mania\" buff, granting X health, X stamina, and X mana regeneration for X. Each additional hit refreshes the duration of that buff; however, once it runs out, the \"Unsatisfied Battle Mania\" debuff will suspend any health, stamina, and mana regeneration for X.",
+    "templateSha256": "5498a4a84e62d9bb59effbbacd7691a057e821259fd4e6af9878bb6b5a21ba17",
+    "translation": "{{EMTERM_0}}のバフ中にダメージを与えると「満たされた戦闘狂」が発動し、Xの間、体力回復X、スタミナ回復X、マナ回復Xを得ます。さらに攻撃を当てるたびに効果時間が更新されます。効果が切れると「満たされぬ戦闘狂」のデバフにより、Xの間、体力・スタミナ・マナの回復がすべて停止します。",
+    "reviewNote": "Complete contextual Japanese prose, preserving every location, quest, item, combat condition and variable."
+  },
+  "6d5e0b560ecb76a78173fcc5": {
+    "english": "While the Elixir Buff is active, dealing damage activates the \"Satisfied Battle Mania\" buff, granting X health, X stamina, and X mana regeneration for Xs. Each additional hit refreshes the duration of that buff; however, once it runs out, the \"Unsatisfied Battle Mania\" debuff will suspend any health, stamina, and mana regeneration for Xs.",
+    "templateSha256": "28c2ed028fe3de277113eee06dc32451f8236ca95deb9fb60c54ca09ac485bf4",
+    "translation": "{{EMTERM_0}}のバフ中にダメージを与えると「満たされた戦闘狂」が発動し、X秒間、体力回復X、スタミナ回復X、マナ回復Xを得ます。さらに攻撃を当てるたびに効果時間が更新されます。効果が切れると「満たされぬ戦闘狂」のデバフにより、X秒間、体力・スタミナ・マナの回復がすべて停止します。",
+    "reviewNote": "Complete contextual Japanese prose, preserving every location, quest, item, combat condition and variable."
+  },
+  "c4a7d220a1296562e8a3c511": {
+    "english": "This collectible is found in the Nomad Highlands. C:Melodies Of The Mire Update",
+    "templateSha256": "a17f8798dac1ecc82d54eca0846e5c7b485074799f22970a46150a43cb6289a3",
+    "translation": "この収集品は{{EMTERM_0}}にあります。分類：「沼地の旋律」アップデート。",
+    "reviewNote": "Full contextual prose repair; preserve every item, place, quest and gameplay fact."
+  },
+  "863221c25093528dd8b49f22": {
+    "english": "You've reached the Albaneve Summits! Extend the Flame's presence by igniting the Ancient Spire here so the light can guide you on your quest into these unknown lands!",
+    "templateSha256": "ed8bb8893f75507c92eec3dc4db7fe0c3bbf8e35d5d4d6da419f63f98a80cc74",
+    "translation": "{{EMTERM_0}}に到達しました！ここにある{{EMTERM_2}}を灯して{{EMTERM_1}}の力を広げましょう。その光が、この未知の地を探求するあなたを導いてくれます。",
+    "reviewNote": "Full contextual prose repair; preserve every item, place, quest and gameplay fact."
+  },
+  "822262939086cb72d8363f85": {
+    "english": "Spiritual Cane is crafted by the Alchemist. The crafting recipe requires either obtaining Shroud Wood or accepting the quest Staffs And Spells to unlock.",
+    "templateSha256": "7664426a437c47150229962d570416768f5cb4d906561401677302811fffeb53",
+    "translation": "{{EMTERM_0}}は{{EMTERM_1}}でクラフトできます。レシピを解放するには、{{EMTERM_2}}を入手するか、「杖と{{EMTERM_3}}」のクエストを受けてください。",
+    "reviewNote": "Full contextual correction. Where the original source omits the location, state that it is unknown instead of inventing a location."
+  },
+  "8401d71bc103801e33e6ae2d": {
+    "english": "Gormander's Imperial Gardens is a quest in Enshrouded , started by reading The Pike Weekly: Nothing Grand About Gormander .",
+    "templateSha256": "37a3136258baa076daa2c4b6716de2d63ab76d969b568f3df57024be5088591d",
+    "translation": "{{EMTERM_0}}は{{EMTERM_2}}のクエストです。「{{EMTERM_1}}週報：ゴーマンダーに大したものはない」を読むと開始します。",
+    "reviewNote": "Contextual review: retain every source gameplay clause and protected game term; repair untranslated or malformed text."
+  },
+  "b01de2ab77e011c84db50a39": {
+    "english": "Mannequin Here I Come is crafted at the Carpenter. The crafting recipe requires discovering the Ancient Spire - Revelwood to unlock.",
+    "templateSha256": "e902aa00fd8571d26ec6e37eec2ae2427b2497b1a0dadcb223823ed22a60d937",
+    "translation": "マネキン「参上」は{{EMTERM_0}}で作成できます。レシピを解放するには、{{EMTERM_2}}の{{EMTERM_1}}を発見する必要があります。",
+    "reviewNote": "Contextual review: retain every source gameplay clause and protected game term; repair untranslated or malformed text."
+  },
+  "aec2d1cf133055b7cd66ebb3": {
+    "english": "You've found a hidden crafting recipe inside the Hollow Halls. Obtain all recipes scattered throughout the Halls in each biome to decorate your home with a new mysterious flair!",
+    "templateSha256": "c76300948e109a6bee0aab2b4f64cf0288818e81b38951e919088ff0f99adaea",
+    "translation": "{{EMTERM_0}}で隠されたクラフトレシピを発見しました。各バイオームの広間に散らばるレシピをすべて集め、家を神秘的な雰囲気で飾りましょう！",
+    "reviewNote": "Contextual review: retain every source gameplay clause and protected game term; repair untranslated or malformed text."
+  },
+  "c6107edc1fbcb93f7ae62f90": {
+    "english": "Shroud Weaver pickup associated with The Mysterious Wanderer Appears.",
+    "templateSha256": "ae4649874821b659f456c87c97db1db1be97f675e44032572eebfdb87eb47ded",
+    "translation": "{{EMTERM_0}}の入手は、クエスト「謎の放浪者が姿を現す」に関連しています。",
+    "reviewNote": "Pickup denotes obtaining a weapon, not a vehicle or recording device. Use the native associated quest title without changing navigation."
+  },
+  "1d6a0544a82e00ce54ee15d1": {
+    "english": "“You’ve returned with my staff and sword. You’ve earned my gratitude, and more importantly, my respect. Maybe I can trust you with another task… but first, I need to be sure you’re ready to withstand the Nomad Highlands Shroud. Return to me once you’ve upgraded your Flame.”",
+    "templateSha256": "35af7f0c96cd0e3257bb1db3d0460821ea427c45c0f84ecf6e1ab326c7b684b4",
+    "translation": "私の杖と剣を取り戻してくれたんだな。君に感謝している。それ以上に、君の働きに敬意を抱いている。次の任務も任せられるかもしれない……だがその前に、君がノマド高地のシュラウドに耐えられる準備ができているか、確かめる必要がある。焔をアップグレードしたら、私のところに戻ってきなさい。",
+    "reviewNote": "Correct the direction of earned respect and replace the retained English Flame with the native term; preserve all dialogue conditions."
+  },
+  "e73a9b375f2917a64e265536": {
+    "english": "Claim A Spot For Your Base is a Springlands Quest given by The Flame .",
+    "templateSha256": "74a52a2f1d1762b4fde9483b9889de200f3c51093aa6047dc80c40189d06f25c",
+    "translation": "拠点となる場所を確保する は、 焔 によって与えられた スプリングランド クエストです。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "72161d1e7a329e45e372455c": {
+    "english": "Follow The Melody is a Revelwood Quest given by The Flame .",
+    "templateSha256": "74a52a2f1d1762b4fde9483b9889de200f3c51093aa6047dc80c40189d06f25c",
+    "translation": "調べを追う は、 焔 によって与えられた レベルウッド クエストです。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "d877d4ae27b6857c199a2b4a": {
+    "english": "Hearing Voices — Vorgoth Notes",
+    "templateSha256": "d877d4ae27b6857c199a2b4a6da7880f87ea098b67246fe345e544793737cec1",
+    "translation": "声が聞こえる — ヴォルゴスのメモ",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "ba339acc497a47614a4a7de7": {
+    "english": "In a silver chest underground, guarded by a two Hollow Damned .",
+    "templateSha256": "d22d0acd0a860b686d681f3366f5006b041f1961124c644dce940091f24b9a09",
+    "translation": "地下の銀の箱の中で、2 つの ホローダムド によって守られています。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "417e6ff4b93e13135abb57b0": {
+    "english": "Reading \"Imagine This\" (Searching For Hidden Tombs 1/3) adds a hint into the Set List. This block is then obtained by looting the Bone Block in the Hidden Tomb northwest of the Ancient Spire - Springlands.",
+    "templateSha256": "cc64080fa8f099b46407fe9390815e8b856f3c5d9fa842aa927c27e22f57bf40",
+    "translation": "「想像してみてほしい：」(隠された墓を探す 1/3) を読むと、セットリストにヒントが追加されます。このブロックは、古の尖塔 - スプリングランド の北西にある 隠された墓 の 骨ブロック を略奪することで取得されます。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "f049d47288ac7a14a2a074da": {
+    "english": "The Final Trial (1/1), Need to drink Drak Soulward Flaskto read.",
+    "templateSha256": "f049d47288ac7a14a2a074da46a6da536ae2da514bf32bf925fa9ce7e9c0e2be",
+    "translation": "最後の試練（1/1）。読むには「ドラクソウルワードのフラスコ」を飲む必要があります。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "07ef06d432c4cdbe7dcdbda9": {
+    "english": "The Hollow's Eve Set is a Cosmetic Armor set that can be found in Spooky Grave.",
+    "templateSha256": "90cda16ba999422ab643e1a488adb520ddf60c03b485d1a9e8d5b9e1152c63a3",
+    "translation": "ホローズイブセット は、不気味な墓 で見つかるコスメティック アーマー セットです。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "8fa3e5f9a2e1b546d46f3f6e": {
+    "english": "This block is found in the Albaneve Hollow Halls.",
+    "templateSha256": "a636ce8b209945ca12ea27821517958cd2f1d8659372e4c4be5a4a3f0905282e",
+    "translation": "このブロックは アルバネヴ山頂 虚ろの広間 にあります。",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  }
+}

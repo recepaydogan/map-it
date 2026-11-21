@@ -1,0 +1,11 @@
+node_modules
+dist
+releases
+.env
+*.log
+/artifacts/peak-data/
+/artifacts/peak-data-v4/
+/artifacts/peak-maintenance.lock
+/artifacts/map-capture-loader/
+/artifacts/lava-preview/
+/artifacts/peak-stage-*/

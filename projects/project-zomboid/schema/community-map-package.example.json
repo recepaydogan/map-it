@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "packageType": "pzim-community-map",
+  "id": "example-self-authored-map",
+  "version": "1.0.0",
+  "displayName": "Example Self-Authored Map",
+  "description": "Validation fixture for the community map package format.",
+  "creator": {
+    "name": "Example Creator",
+    "sourceUrl": "https://example.com/project-zomboid-map"
+  },
+  "rights": {
+    "license": "Example redistribution license",
+    "licenseUrl": "https://example.com/project-zomboid-map/license",
+    "permissionStatus": "self-authored",
+    "attribution": "Map data and imagery by Example Creator."
+  },
+  "supportedGameBuilds": ["42"],
+  "map": {
+    "coordinateOffset": { "x": 0, "y": 0 },
+    "bounds": { "minX": 1000, "minY": 1000, "maxX": 1999, "maxY": 1999 },
+    "tileSize": 512,
+    "detailLevels": [0, 1, 2],
+    "tilePattern": "tiles/{level}/tile{x}x{y}.webp",
+    "locationsFile": "data/locations.json"
+  }
+}

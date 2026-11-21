@@ -1,0 +1,161 @@
+.map-it-account-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 1fr));
+  gap: 16px;
+  align-items: stretch;
+}
+
+.map-it-account-form,
+.map-it-account-brand,
+.map-it-profile-identity,
+.map-it-profile-session {
+  padding: clamp(18px, 4%, 30px);
+  border-radius: var(--radius-lg);
+}
+
+.map-it-account-form {
+  display: grid;
+  align-content: start;
+  gap: 22px;
+  min-width: 0;
+}
+
+.map-it-account-form-heading h2 {
+  font-size: 24px;
+  font-weight: 650;
+  line-height: 1.25;
+  letter-spacing: -.55px;
+}
+
+.map-it-account-form-heading p {
+  margin-top: 6px;
+  color: var(--map-it-secondary);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.map-it-account-form .map-it-field:not(textarea) { min-height: 44px; }
+
+.map-it-account-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 6px 12px;
+}
+
+.map-it-auth-link {
+  display: inline-flex;
+  min-height: 36px;
+  align-items: center;
+  padding: 6px 10px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  color: var(--map-it-secondary);
+  font-size: 13px;
+  font-weight: 550;
+  text-align: start;
+  cursor: pointer;
+}
+
+.map-it-auth-link:hover {
+  border-color: var(--map-it-border);
+  background: var(--map-it-elevated);
+  color: var(--map-it-text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.map-it-auth-link:focus-visible {
+  outline: 2px solid var(--map-it-text);
+  outline-offset: 2px;
+  background: var(--map-it-elevated);
+}
+
+.map-it-account-notice {
+  padding: 12px;
+  border: 1px solid var(--map-it-border);
+  border-radius: var(--radius-sm);
+  background: var(--map-it-background);
+  color: var(--map-it-secondary);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.map-it-account-brand {
+  display: grid;
+  align-content: center;
+  justify-items: start;
+  gap: 20px;
+  background: color-mix(in srgb, var(--map-it-background) 55%, var(--map-it-surface));
+}
+
+.map-it-account-logo {
+  padding: 10px;
+  border: 1px solid var(--map-it-border);
+  border-radius: var(--radius-md);
+  background: var(--map-it-surface);
+  object-fit: contain;
+}
+
+.map-it-account-brand p {
+  max-width: 18ch;
+  font-size: clamp(20px, 2.15vw, 30px);
+  font-weight: 620;
+  line-height: 1.18;
+  letter-spacing: -.55px;
+  text-wrap: balance;
+}
+
+.map-it-account-game-icons {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 36px));
+  gap: 8px;
+  width: 100%;
+  max-width: 256px;
+}
+
+.map-it-account-game-icons img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  padding: 5px;
+  border: 1px solid var(--map-it-border);
+  border-radius: var(--radius-sm);
+  background: var(--map-it-surface);
+  object-fit: contain;
+}
+
+.map-it-profile { display: grid; gap: 16px; }
+
+.map-it-profile-identity {
+  display: flex;
+  align-items: flex-start;
+  gap: clamp(12px, 4%, 22px);
+}
+
+.map-it-profile-avatar {
+  display: grid;
+  flex: none;
+  width: clamp(44px, 8vw, 68px);
+  aspect-ratio: 1;
+  place-items: center;
+  border: 1px solid var(--map-it-border);
+  border-radius: var(--radius-md);
+  background: var(--map-it-elevated);
+  font-size: clamp(20px, 3vw, 30px);
+  font-weight: 620;
+}
+
+.map-it-profile-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin-top: 8px;
+  color: var(--map-it-secondary);
+  font-size: 13px;
+}
+
+.map-it-profile-meta span { display: inline-flex; align-items: center; gap: 6px; overflow-wrap: anywhere; }
+.map-it-profile-meta svg { flex: none; color: var(--map-it-muted); }
+.map-it-profile-session { display: grid; gap: 12px; }
+.map-it-profile-session-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }

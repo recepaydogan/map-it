@@ -1,0 +1,70 @@
+{
+  "de": {
+    "onboarding.step_welcome_body_one": "Erkunde die Karte und die verknüpften Enshrouded-Leitfäden in {{count}} kurzen Schritt.",
+    "onboarding.step_welcome_body_other": "Erkunde die Karte und die verknüpften Enshrouded-Leitfäden in {{count}} kurzen Schritten."
+  },
+  "fr": {
+    "onboarding.step_welcome_body_one": "Explorez la carte et les guides Enshrouded associés en {{count}} étape rapide.",
+    "onboarding.step_welcome_body_many": "Explorez la carte et les guides Enshrouded associés en {{count}} étapes rapides.",
+    "onboarding.step_welcome_body_other": "Explorez la carte et les guides Enshrouded associés en {{count}} étapes rapides."
+  },
+  "it": {
+    "onboarding.step_welcome_body_one": "Esplora la mappa e le guide collegate di Enshrouded in {{count}} rapido passaggio.",
+    "onboarding.step_welcome_body_many": "Esplora la mappa e le guide collegate di Enshrouded in {{count}} rapidi passaggi.",
+    "onboarding.step_welcome_body_other": "Esplora la mappa e le guide collegate di Enshrouded in {{count}} rapidi passaggi."
+  },
+  "es": {
+    "onboarding.step_welcome_body_one": "Explora el mapa y las guías de Enshrouded relacionadas en {{count}} paso rápido.",
+    "onboarding.step_welcome_body_many": "Explora el mapa y las guías de Enshrouded relacionadas en {{count}} pasos rápidos.",
+    "onboarding.step_welcome_body_other": "Explora el mapa y las guías de Enshrouded relacionadas en {{count}} pasos rápidos.",
+    "map.saved.gatheringDescription_one": "Planifica una ruta hasta tu {{count}} marcador personal de recursos."
+  },
+  "pt-BR": {
+    "onboarding.step_welcome_body_one": "Explore o mapa e os guias relacionados de Enshrouded em {{count}} passo rápido.",
+    "onboarding.step_welcome_body_many": "Explore o mapa e os guias relacionados de Enshrouded em {{count}} passos rápidos.",
+    "onboarding.step_welcome_body_other": "Explore o mapa e os guias relacionados de Enshrouded em {{count}} passos rápidos."
+  },
+  "ru": {
+    "onboarding.step_welcome_body_one": "Исследуйте карту и связанные руководства по Enshrouded за {{count}} короткий шаг.",
+    "onboarding.step_welcome_body_few": "Исследуйте карту и связанные руководства по Enshrouded за {{count}} коротких шага.",
+    "onboarding.step_welcome_body_many": "Исследуйте карту и связанные руководства по Enshrouded за {{count}} коротких шагов.",
+    "onboarding.step_welcome_body_other": "Исследуйте карту и связанные руководства по Enshrouded за {{count}} короткого шага.",
+    "map.saved.gatheringDescription_one": "Спланируйте маршрут через {{count}} личный ресурсный маркер.",
+    "map.saved.gatheringDescription_few": "Спланируйте маршрут через {{count}} личных ресурсных маркера.",
+    "map.saved.gatheringDescription_many": "Спланируйте маршрут через {{count}} личных ресурсных маркеров.",
+    "map.saved.gatheringDescription_other": "Спланируйте маршрут через {{count}} личного ресурсного маркера."
+  },
+  "pl": {
+    "onboarding.step_welcome_body_one": "Poznaj mapę i powiązane poradniki Enshrouded w {{count}} krótkim kroku.",
+    "onboarding.step_welcome_body_few": "Poznaj mapę i powiązane poradniki Enshrouded w {{count}} krótkich krokach.",
+    "onboarding.step_welcome_body_many": "Poznaj mapę i powiązane poradniki Enshrouded w {{count}} krótkich krokach.",
+    "onboarding.step_welcome_body_other": "Poznaj mapę i powiązane poradniki Enshrouded w {{count}} krótkich krokach."
+  },
+  "uk": {
+    "onboarding.step_welcome_body_one": "Дослідіть карту й пов’язані посібники Enshrouded за {{count}} короткий крок.",
+    "onboarding.step_welcome_body_few": "Дослідіть карту й пов’язані посібники Enshrouded за {{count}} короткі кроки.",
+    "onboarding.step_welcome_body_many": "Дослідіть карту й пов’язані посібники Enshrouded за {{count}} коротких кроків.",
+    "onboarding.step_welcome_body_other": "Дослідіть карту й пов’язані посібники Enshrouded за {{count}} короткого кроку."
+  },
+  "tr": {
+    "onboarding.step_welcome_body_one": "Haritayı ve bağlantılı Enshrouded rehberlerini {{count}} kısa adımda keşfet.",
+    "onboarding.step_welcome_body_other": "Haritayı ve bağlantılı Enshrouded rehberlerini {{count}} kısa adımda keşfet."
+  },
+  "ja": {
+    "onboarding.step_welcome_body_other": "{{count}}の簡単なステップで、マップと関連するEnshroudedガイドを見てみましょう。"
+  },
+  "ko": {
+    "onboarding.step_welcome_body_other": "{{count}}개의 간단한 단계로 지도와 연결된 Enshrouded 가이드를 살펴보세요."
+  },
+  "th": {
+    "onboarding.step_welcome_body_other": "สำรวจแผนที่และคู่มือ Enshrouded ที่เชื่อมโยงกันใน {{count}} ขั้นตอนสั้น ๆ"
+  },
+  "zh-Hans": {
+    "onboarding.step_welcome_body_other": "通过{{count}}个简短步骤探索地图及相关的Enshrouded指南。",
+    "map.questGroup.description_other": "附近有{{count}}个任务。"
+  },
+  "zh-Hant": {
+    "onboarding.step_welcome_body_other": "透過{{count}}個簡短步驟探索地圖及相關的Enshrouded指南。",
+    "map.questGroup.description_other": "附近有{{count}}個任務。"
+  }
+}

@@ -1,0 +1,159 @@
+@import "./game-page-artwork.css";
+
+.app-navigation-sidebar {
+  --app-nav-rail: 54px;
+  --app-nav-width: min(232px, calc(100vw - 8px));
+  --app-nav-motion: 240ms cubic-bezier(.22, 1, .36, 1);
+  --app-nav-bg: var(--color-background, var(--background, #151719));
+  --app-nav-surface: var(--color-surface, var(--surface, #24282d));
+  --app-nav-raised: var(--color-surface-hover, var(--surface-hover, #282d33));
+  --app-nav-line: var(--color-border, var(--border, #30343a));
+  --app-nav-muted: var(--map-it-secondary, var(--color-subtle, var(--muted, #adb5bf)));
+  --app-nav-text: var(--map-it-text, var(--color-primary, var(--text, #edf0f4)));
+  --app-nav-accent: var(--color-accent, var(--accent-text, #c9d0d9));
+  position: relative;
+  z-index: 1550;
+  align-self: stretch;
+  flex: 0 0 auto;
+  width: var(--app-nav-rail);
+  min-height: 0;
+  transition: width var(--app-nav-motion);
+}
+
+.app-navigation-sidebar[data-pinned="true"] { width: var(--app-nav-width); }
+
+.app-navigation-panel {
+  position: absolute;
+  inset: 0 auto 0 0;
+  display: flex;
+  flex-direction: column;
+  width: var(--app-nav-rail);
+  overflow: hidden;
+  border-right: 1px solid var(--app-nav-line);
+  background: var(--app-nav-bg);
+  transition: width var(--app-nav-motion), box-shadow var(--app-nav-motion);
+}
+
+.app-navigation-panel[data-expanded="true"] { width: var(--app-nav-width); }
+.app-navigation-sidebar[data-pinned="false"] .app-navigation-panel[data-expanded="true"] {
+  box-shadow: 12px 0 28px #0006;
+}
+
+.app-navigation-list,
+.app-navigation-footer,
+.app-navigation-host-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-height: 0;
+  padding: 7px 6px;
+  overflow: hidden auto;
+  scrollbar-width: none;
+}
+
+.app-navigation-list { flex: 1; }
+.app-navigation-return { flex: none; padding: 7px 6px; }
+.app-navigation-footer { max-height: 55%; border-top: 1px solid var(--app-nav-line); }
+.app-navigation-footer[data-popup-groups="true"] { flex: none; max-height: none; overflow: visible; }
+.app-navigation-host-footer { flex: none; border-top: 1px solid var(--app-nav-line); }
+
+.app-navigation-item {
+  position: relative;
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  min-width: 0;
+  min-height: 39px;
+  padding: 0 5px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--app-nav-muted);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease;
+}
+
+.app-navigation-item:hover { background: var(--app-nav-surface); color: var(--app-nav-text); }
+.app-navigation-item[aria-current="page"] { background: var(--app-nav-raised); color: var(--app-nav-text); font-weight: 650; }
+.app-navigation-item[data-support-entry][aria-current="page"] { background: transparent; }
+.app-navigation-item[aria-current="page"] .app-navigation-icon { color: var(--app-nav-accent); }
+.app-navigation-item[aria-current="page"]::before {
+  position: absolute;
+  inset: 9px auto 9px 0;
+  width: 2px;
+  border-radius: 2px;
+  background: var(--app-nav-accent);
+  content: "";
+}
+
+.app-navigation-item:focus-visible { outline: 2px solid var(--app-nav-accent); outline-offset: -2px; }
+.app-navigation-item[data-tour-highlighted] {
+  border-color: var(--app-nav-accent);
+  color: var(--app-nav-text);
+  font-weight: 650;
+}
+.app-navigation-item[data-tour-highlighted] .app-navigation-icon { color: var(--app-nav-accent); }
+.app-navigation-icon { display: grid; flex: 0 0 28px; place-items: center; }
+.app-navigation-icon img { width: 22px; height: 22px; border-radius: 4px; object-fit: contain; }
+.app-navigation-label {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateX(-5px);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: opacity 160ms ease, transform var(--app-nav-motion);
+}
+
+.app-navigation-toggle {
+  width: calc(100% - 12px);
+  min-height: 41px;
+  margin: 6px;
+  color: var(--app-nav-text);
+}
+
+.app-navigation-pin { flex: none; margin-right: 5px; opacity: 0; transition: opacity 160ms ease, transform var(--app-nav-motion); }
+.app-navigation-toggle[aria-pressed="true"] .app-navigation-pin { transform: rotate(30deg); }
+.app-navigation-panel[data-expanded="true"] :is(.app-navigation-label, .app-navigation-pin) { opacity: 1; }
+.app-navigation-panel[data-expanded="true"] .app-navigation-label { transform: none; }
+.app-navigation-indicator { position: absolute; top: 5px; left: 26px; display: grid; place-items: center; }
+
+@media (max-width: 680px) {
+  .app-navigation-sidebar[data-pinned="true"] { width: var(--app-nav-rail); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app-navigation-sidebar, .app-navigation-sidebar * { transition: none; }
+}
+.app-navigation-entry { flex: none; min-width: 0; }
+.app-navigation-submenu { padding-left: 12px; }
+.app-navigation-footer > .app-navigation-entry { position: relative; }
+.app-navigation-footer > .app-navigation-entry > .app-navigation-submenu {
+  position: absolute;
+  z-index: 1;
+  inset: auto 0 calc(100% + 6px);
+  max-height: min(360px, var(--app-nav-submenu-space, 50vh));
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 4px;
+  border: 1px solid var(--app-nav-line);
+  border-radius: 6px;
+  background: var(--app-nav-bg);
+  box-shadow: 0 6px 18px #0006;
+}
+.app-navigation-submenu .app-navigation-item { min-height: 34px; }
+.app-navigation-chevron { flex: none; margin-right: 5px; opacity: 0; transition: opacity 160ms ease, transform var(--app-nav-motion); }
+.app-navigation-item[aria-expanded="true"] .app-navigation-chevron { transform: rotate(180deg); }
+.app-navigation-panel[data-expanded="true"] .app-navigation-chevron { opacity: 1; }
+@media (prefers-reduced-motion: reduce) {
+  .app-navigation-chevron { transition: none; }
+}
+.app-navigation-dot { display: block; width: 6px; height: 6px; border-radius: 50%; background: var(--app-nav-accent); }
+.app-navigation-count { padding-inline: 3px; border-radius: 4px; background: var(--app-nav-raised); color: var(--app-nav-text); font-size: 9px; font-weight: 700; }

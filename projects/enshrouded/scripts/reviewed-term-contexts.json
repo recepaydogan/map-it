@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "sourcePattern": "\\bboss(?:es)?\\b",
+      "reviewNote": "In authored game enemy descriptions, boss denotes an enemy leader, not an employer. Native paragraphs are kept verbatim.",
+      "languages": {
+        "zh-Hans": [
+          [
+            "老板",
+            "首领"
+          ]
+        ],
+        "zh-Hant": [
+          [
+            "老闆",
+            "首領"
+          ]
+        ],
+        "ja": [
+          [
+            "上司",
+            "ボス"
+          ]
+        ],
+        "th": [
+          [
+            "เจ้านาย",
+            "บอส"
+          ]
+        ]
+      }
+    },
+    {
+      "sourcePattern": "shroud",
+      "reviewNote": "In authored game-environment descriptions Shroud denotes the native game phenomenon, not a burial cloth or textile. Preserve native paragraphs.",
+      "languages": {
+        "de": [
+          [
+            "Leichentuchbereiche",
+            "Miasmagebiete"
+          ],
+          [
+            "Leichentuchs",
+            "Miasmas"
+          ],
+          [
+            "Leichentuch",
+            "Miasma"
+          ],
+          [
+            "Schleier",
+            "Miasma"
+          ],
+          [
+            "verschleierten",
+            "vom Miasma erfassten"
+          ],
+          [
+            "verschleiert",
+            "vom Miasma erfasst"
+          ]
+        ],
+        "fr": [
+          [
+            "du linceul",
+            "de la Brume"
+          ],
+          [
+            "le linceul",
+            "la Brume"
+          ],
+          [
+            "au linceul",
+            "à la Brume"
+          ],
+          [
+            "un linceul",
+            "une Brume"
+          ],
+          [
+            "linceul",
+            "Brume"
+          ]
+        ],
+        "it": [
+          [
+            "sudario",
+            "Manto"
+          ]
+        ],
+        "es": [
+          [
+            "sudario",
+            "Velo"
+          ],
+          [
+            "amortajados",
+            "cubiertos por el Velo"
+          ],
+          [
+            "amortajada",
+            "cubierta por el Velo"
+          ]
+        ],
+        "ru": [
+          [
+            "савану",
+            "Пелене"
+          ],
+          [
+            "саване",
+            "Пелене"
+          ],
+          [
+            "савана",
+            "Пелены"
+          ],
+          [
+            "саваном",
+            "Пеленой"
+          ]
+        ],
+        "pl": [
+          [
+            "w całunie",
+            "we Mgle"
+          ],
+          [
+            "całunowi",
+            "Mgle"
+          ],
+          [
+            "całunie",
+            "Mgle"
+          ],
+          [
+            "całunu",
+            "Mgły"
+          ],
+          [
+            "całunem",
+            "Mgłą"
+          ],
+          [
+            "\\bcałun\\b",
+            "Mgła"
+          ],
+          [
+            "zasłony",
+            "Mgły"
+          ],
+          [
+            "\\bzasłon\\b",
+            "Mgły"
+          ]
+        ],
+        "tr": [
+          [
+            "örtüdeki",
+            "Pus'taki"
+          ],
+          [
+            "örtüye",
+            "Pus'a"
+          ],
+          [
+            "örtülü",
+            "Puslu"
+          ],
+          [
+            "örtüde",
+            "Pus'ta"
+          ],
+          [
+            "örtü",
+            "Pus"
+          ]
+        ]
+      }
+    }
+  ]
+}

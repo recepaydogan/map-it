@@ -1,0 +1,11 @@
+.rob-run-rarity-common { --rob-run-rarity: #f1f1f1; }
+.rob-run-rarity-uncommon { --rob-run-rarity: #63dd50; }
+.rob-run-rarity-rare { --rob-run-rarity: #65a8ee; }
+.rob-run-rarity-epic { --rob-run-rarity: var(--color-grade-epic); }
+.rob-run-rarity-legendary { --rob-run-rarity: #ff9b37; }
+.rob-run-rarity-exotic { --rob-run-rarity: var(--color-grade-special); }
+
+.rob-run-rarity-text { color: var(--rob-run-rarity); }
+.rob-run-rarity-frame {
+  border-color: color-mix(in srgb, var(--rob-run-rarity) 44%, var(--color-border));
+}

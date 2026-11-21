@@ -1,0 +1,38 @@
+{
+  "19391673f9984953a92ac552": {
+    "english": "Sunny Loungewear Pants is a unique drop looted from an Ornate Chest buried in the Shroud west of the .",
+    "templateSha256": "6f0ac612b6de34f33850c6df319f2153b761e61dd39dfa659a16ad0312ecc6bb",
+    "translation": "{{EMTERM_0}}, {{EMTERM_1}} içindeki gömülü bir Süslü Sandıktan elde edilen özel bir ganimettir.",
+    "reviewNote": "The source has an incomplete west-of reference. Retain the verifiable buried-chest acquisition facts without inventing the absent place name."
+  },
+  "02ef65360b2f0fd480472ec8": {
+    "english": "Crafting the Alchemy Station completes A Black Cauldron For The Alchemist, after obtaining a Cauldron during the quest. Additional Alchemy Stations can be crafted at the Alchemist after completing the quest.",
+    "templateSha256": "5ed268e62695488cf5cf630dff5b411bad20f4069cafbde7738883bff65ef82d",
+    "translation": "Görev sırasında {{EMTERM_2}} elde ettikten sonra {{EMTERM_0}} üretmek, «{{EMTERM_1}}» görevini tamamlar. Görevi tamamladıktan sonra {{EMTERM_3}} üzerinden ek simya tezgâhları üretilebilir.",
+    "reviewNote": "Use Turkish crafting and acquisition grammar without guessing case suffixes on opaque native names; retain every quest, item, enemy and region reference."
+  },
+  "c358e6f75bfb03a0ac134f68": {
+    "english": "The Cauldron is obtained from a Fell Monstrosity at Cradle of Dusk in the Nomad Highlands, as part of the quest A Black Cauldron For The Alchemist for the Alchemist.",
+    "templateSha256": "9d3524d68c465a276623a8f6a848f3feb0c4d6ff5c2bb3ee9d6659cd97b89f88",
+    "translation": "{{EMTERM_5}} için verilen «{{EMTERM_4}}» görevi kapsamında, {{EMTERM_3}} bölgesindeki {{EMTERM_2}} konumunda bulunan {{EMTERM_1}} yenilerek {{EMTERM_0}} elde edilir.",
+    "reviewNote": "Use Turkish crafting and acquisition grammar without guessing case suffixes on opaque native names; retain every quest, item, enemy and region reference."
+  },
+  "6f47629cd0e505f96848a181": {
+    "english": "The Cauldron is obtained from a Fell Monstrosity at in the Nomad Highlands, as part of A Black Cauldron For The Alchemist for the Alchemist.",
+    "templateSha256": "b0c71182a77c0a5e5d064537081646ef0abb17dd4dd86fd8a620c3e82f9aa807",
+    "translation": "{{EMTERM_4}} için verilen «{{EMTERM_3}}» görevi kapsamında, {{EMTERM_2}} bölgesinde bulunan {{EMTERM_1}} yenilerek {{EMTERM_0}} elde edilir.",
+    "reviewNote": "Use Turkish crafting and acquisition grammar without guessing case suffixes on opaque native names; retain every quest, item, enemy and region reference."
+  },
+  "ba07a83178cc7af5e38f7793": {
+    "english": "No one has ever cut one from rock. only found where the Ancients have passed. Maybe they've brought it to Embervale from wherever they originated.",
+    "templateSha256": "997b20647d01205ab538377d88c1da7936128e11976870b00a2780e23a1d3cef",
+    "translation": "Bu taşı bugüne dek kimse kayalardan çıkaramadı. Yalnızca {{EMTERM_0}} halkının geçtiği yerlerde bulunur. Belki de onu geldikleri diyardan {{EMTERM_1}} topraklarına getirmişlerdir.",
+    "reviewNote": "Restore the source gameplay meaning, remove mixed English, and omit unresolved empty source fragments or foreign interwiki annotations without inventing facts."
+  },
+  "c6107edc1fbcb93f7ae62f90": {
+    "english": "Shroud Weaver pickup associated with The Mysterious Wanderer Appears.",
+    "templateSha256": "ae4649874821b659f456c87c97db1db1be97f675e44032572eebfdb87eb47ded",
+    "translation": "{{EMTERM_0}} edinmek, “Gizemli Gezgin Ortaya Çıkar” göreviyle bağlantılıdır.",
+    "reviewNote": "Pickup denotes obtaining a weapon, not a vehicle or recording device. Use the native associated quest title without changing navigation."
+  }
+}

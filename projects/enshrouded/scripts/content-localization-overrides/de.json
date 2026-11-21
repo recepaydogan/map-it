@@ -1,0 +1,68 @@
+{
+  "3888fb674079596d4dedcd8d": {
+    "english": "Fell Berserkers are common Fell enemies that can be encountered in the Shroud of all biomes in Embervale They are fast-moving and vicious, rushing to assault any nearby players with their broadswords and maces",
+    "templateSha256": "93250b20b2442308d0b4832c47d832b3e8229cfc40f06f96f846deaa4050ed83",
+    "translation": "Berserker der {{EMTERM_0}} sind häufige Gegner, die im {{EMTERM_2}} aller Biome in {{EMTERM_3}} anzutreffen sind. Sie sind schnell und brutal und stürmen mit Breitschwertern und Streitkolben auf Spieler in ihrer Nähe zu.",
+    "reviewNote": "Mention the Fell faction once; its redundant second mention is unnecessary in German."
+  },
+  "e952c06ba4d5f034278c86e6": {
+    "english": "Fell Rangers are common Fell enemies that can be encountered in the Shroud of all biomes in Embervale They prefer to attack the player from a distance, firing arrows and throwing Shroud bombs while their melee counterparts fight up close",
+    "templateSha256": "6e7e9f63cb4aa0dc91b30ded7fe514121894354b6fb48ae0da5353109fa374f4",
+    "translation": "Waldläufer der {{EMTERM_0}} sind häufige Gegner, die im {{EMTERM_2}} aller Biome in {{EMTERM_3}} anzutreffen sind. Sie greifen bevorzugt aus der Ferne an, schießen Pfeile und werfen {{EMTERM_4}}-Bomben, während ihre Nahkämpfer aus nächster Nähe kämpfen.",
+    "reviewNote": "Mention the Fell faction once; retain both separate Shroud references and the contrast with melee fighters."
+  },
+  "69303e72ff9536b5486bb380": {
+    "english": "Hold to deal continuous Shroud damage in a beam of up to 20 meters range.",
+    "templateSha256": "b0757dabaf4c2629d0ed205217a8b53f443890fa1ce46b28b53de263987dfb7d",
+    "translation": "Gedrückt halten, um mit einem Strahl mit bis zu 20 Metern Reichweite kontinuierlichen {{EMTERM_0}}-Schaden zu verursachen.",
+    "reviewNote": "Restore the Shroud damage type omitted by machine translation."
+  },
+  "fff3b371a3fa6dc95eb5719e": {
+    "english": "“To do my best work, I really need a Smelter, but crafting a Smelter requires a Crucible! I used to have one… I’ ll bet the Scavengers got to it. It’s probably at their mine, way up north in the Revelwood.”",
+    "templateSha256": "39092fba0ab9bf6dedd7e8756410ab6dcf53521c8e86cd89b3b478d2b214bcac",
+    "translation": "„Für meine beste Arbeit brauche ich unbedingt einen {{EMTERM_0}}. Aber um einen {{EMTERM_1}} herzustellen, benötige ich einen {{EMTERM_2}}! Früher hatte ich einen … Ich wette, die {{EMTERM_3}} haben ihn an sich genommen. Wahrscheinlich ist er in ihrer Mine, weit im Norden von {{EMTERM_4}}.“",
+    "reviewNote": "Restore all dialogue clauses and each distinct game term omitted by machine translation."
+  },
+  "c92f1dfd183de604d6f2827b": {
+    "english": "“You brought back some Circular Sawblades! Huh? Scavengers gave ya trouble? …So Thornhold didn’t hold. A shame. Well, let’s craft that Table Saw in their honor. Put it where I can see it!”",
+    "templateSha256": "a474d64a3ed0bebe01d7813fe8d6bf18850355cb4eb1eaeb0ef99de25adb4083",
+    "translation": "„Du hast ein paar {{EMTERM_0}} mitgebracht! Wie bitte? Die {{EMTERM_1}} haben dir Ärger gemacht? …Dann hat {{EMTERM_2}} also nicht standgehalten. Wie schade. Nun, stellen wir ihnen zu Ehren eine {{EMTERM_3}} her. Stell sie so auf, dass ich sie sehen kann!“",
+    "reviewNote": "Restore all dialogue clauses and each distinct game term omitted by machine translation."
+  },
+  "4c56c42d36c1e03ac5c08189": {
+    "english": "“An equipment chest?...Keep it down, will ya! Yes, yes, I borrowed it. Wanted to finish some old projects, ya know? But err, if you tell ol’Oswald, I might lose me other hand! Get this: I’ll tell you where to find it if you keep quiet, alright?”",
+    "templateSha256": "4c56c42d36c1e03ac5c08189c6ec765eabf15d1911c2f25aacf5bc767fa2a557",
+    "translation": "„Eine Ausrüstungstruhe? …Nicht so laut! Ja, ja, ich habe sie mir ausgeliehen. Ich wollte ein paar alte Projekte fertigstellen, weißt du? Aber wenn du es dem alten Oswald erzählst, verliere ich womöglich auch noch meine andere Hand! Hör zu: Wenn du stillhältst, sage ich dir, wo du sie findest. Abgemacht?“",
+    "reviewNote": "Restore the complete contextual description; the prior supplementary draft was truncated or untranslated."
+  },
+  "c6107edc1fbcb93f7ae62f90": {
+    "english": "Shroud Weaver pickup associated with The Mysterious Wanderer Appears.",
+    "templateSha256": "ae4649874821b659f456c87c97db1db1be97f675e44032572eebfdb87eb47ded",
+    "translation": "Der Fund von {{EMTERM_0}} gehört zur Quest „Der Mysteriöse Reisende erscheint“.",
+    "reviewNote": "Pickup denotes obtaining a weapon, not a vehicle or recording device. Use the native associated quest title without changing navigation."
+  },
+  "2faf939a1724da85594ad47e": {
+    "english": "A statue of the late queen Pikemead. An engraving on the bottom reads:Gather'round, we're drinkin'!An ode to the Queen, once young!3 babes on 'er arm, cup filled to the brim.Thinkin' out loud, she'd sung!",
+    "templateSha256": "2faf939a1724da85594ad47edf702653da60118bf1e15905ff2d3cd1e0e145d7",
+    "translation": "Eine Statue der verstorbenen Königin Ehrlanz. Auf der Unterseite ist eingraviert: \n\nKommt zusamm', wir trinken! \nEine Ode der Königin, einst von den Jungen! \n3 Kinder auf dem Arm, der Becher voll,\nUnd wenn sie laut dachte, dann hat sie gesungen!",
+    "reviewNote": "Use native complete statue inscription, including Queen Ehrlanz and all three children, instead of the truncated machine sentence."
+  },
+  "ce3a1ee87a13707700b4ddbc": {
+    "english": "Damaging an enemy puts a mark on them for X. Marked enemies spawn a soul phial on death that can be destroyed to heal you and your allies for X in a 5m radius and also counts as an enemy kill for other effects.",
+    "templateSha256": "ce3a1ee87a13707700b4ddbcb6a7e7bb2ddbb669069a617744f82557cceff5f1",
+    "translation": "Wenn du einem Gegner Schaden zufügst, markierst du ihn für X. Markierte Gegner hinterlassen beim Tod eine Seelenphiole. Zerstörst du sie, werden du und deine Verbündeten im Umkreis von 5 m um X geheilt. Für andere Effekte zählt dies außerdem als getöteter Gegner.",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "1a02b331e93aacdbdb20fadc": {
+    "english": "Blocking or aiming for a short time grants X physical and X magical resistance, but slows the movement by X. Getting hit or attacking while buffed creates an ice explosion that deals X ice damage and slows enemies, after which the buff gets removed.",
+    "templateSha256": "1a02b331e93aacdbdb20fadce612e7ae4dbc388cd3dfded8ce385fc34336de5c",
+    "translation": "Kurzes Blocken oder Zielen gewährt X physischen und X magischen Widerstand, verringert aber die Bewegungsgeschwindigkeit um X. Wirst du während dieses Stärkungseffekts getroffen oder greifst du an, entsteht eine Eisexplosion, die X Eisschaden verursacht und Gegner verlangsamt. Anschließend wird der Stärkungseffekt entfernt.",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "994261764a4edf3626ba8f28": {
+    "english": "Learning how to create basic structures with the Construction Hammer and Building Blocks has enabled you to build Shelter. Being sheltered fulfills one of the 3 conditions needed to become Rested: Shelter , (or sitting, lying down), warmth , and comfort. The next major condition you need to understand is warmth. You’ve warmed by spending time near a fire, such as a Flame Alter, campfire, or fireplace. The latter two are also necessary for cooking food, which provides helpful buffs. Craft or obtain a fireplace to proceed!",
+    "templateSha256": "dcdee7466c2808e730e34f8d20602c679de559164c5aaf1eacca5d43f8df74b8",
+    "translation": "Mit dem {{EMTERM_0}} und Baublöcken hast du gelernt, einfache Gebäude zu errichten und Schutz zu schaffen. Schutz – oder Sitzen beziehungsweise Liegen –, Wärme und Komfort sind die 3 Voraussetzungen für den Zustand „Ausgeruht“. Als Nächstes geht es um Wärme: Halte dich in der Nähe eines Feuers auf, etwa bei einem Altar der {{EMTERM_1}}, einem Lagerfeuer oder einem Kamin. An den beiden letzteren kannst du auch Nahrung zubereiten, die hilfreiche Stärkungseffekte verleiht. Stelle einen Kamin her oder beschaffe einen, um fortzufahren!",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  }
+}

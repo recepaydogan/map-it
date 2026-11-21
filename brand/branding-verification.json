@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "icons": [
+    {
+      "name": "icon.png",
+      "size": 256,
+      "bytes": 2403,
+      "padding": 0,
+      "publicDistPixelsMatch": true
+    },
+    {
+      "name": "icon_gray.png",
+      "size": 256,
+      "bytes": 2403,
+      "padding": 0,
+      "publicDistPixelsMatch": true
+    },
+    {
+      "name": "appstore-icon.png",
+      "size": 55,
+      "bytes": 1195,
+      "padding": 0,
+      "publicDistPixelsMatch": true
+    }
+  ],
+  "ico": {
+    "frames": [
+      16,
+      32,
+      48,
+      256
+    ],
+    "bytes": 3918
+  },
+  "homeBrandUsesSelectedIcon": true,
+  "master": "brand/icon-master.svg",
+  "hero": "v3 retained; 10 obsolete hero files removed",
+  "nativeOverwolfSessionTested": false
+}

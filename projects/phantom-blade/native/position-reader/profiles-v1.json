@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "profiles": [
+    {
+      "build": "26266538",
+      "sha256": "7b4fcd286a350780faf0824d73aa150b21cbf1bccde883e6a96386cbe09973b4",
+      "peTimestamp": 1793170810,
+      "namePoolRva": 231807680,
+      "gameEngineRva": 234308040,
+      "worldSubsystemsOffset": 2528,
+      "mapEntriesOffset": 440,
+      "mapIdOffset": 680,
+      "mapLayerOffset": 688
+    },
+    {
+      "build": "26367565",
+      "sha256": "4415933ce33476f14c837abb61a1b60af8b78cd81783896501913a7aac69e423",
+      "peTimestamp": 1793568319,
+      "namePoolRva": 232286912,
+      "gameEngineRva": 234787448,
+      "worldSubsystemsOffset": 2528,
+      "mapEntriesOffset": 440,
+      "mapIdOffset": 680,
+      "mapLayerOffset": 688
+    }
+  ]
+}

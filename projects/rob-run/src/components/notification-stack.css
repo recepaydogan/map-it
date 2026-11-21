@@ -1,0 +1,41 @@
+.notification-stack {
+  display: grid;
+  isolation: isolate;
+  width: 100%;
+}
+
+.notification-stack[data-stacked] {
+  padding-top: calc(var(--notification-stack-depth) * 14px);
+  padding-right: calc(var(--notification-stack-depth) * 10px);
+}
+
+.notification-stack-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  grid-area: 1 / 1;
+  min-width: 0;
+  padding: 16px;
+  border: 1px solid var(--panel-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  box-shadow: 0 8px 24px rgb(0 0 0 / 30%);
+  pointer-events: auto;
+  transform-origin: center bottom;
+  animation: notification-promote 180ms ease-out;
+}
+
+.notification-stack-card-rear {
+  pointer-events: none;
+  transform: translate(calc(var(--notification-depth) * 10px), calc(var(--notification-depth) * -14px)) scale(.98);
+  animation: none;
+}
+
+@keyframes notification-promote {
+  from { opacity: .7; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .notification-stack-card { animation: none; }
+}

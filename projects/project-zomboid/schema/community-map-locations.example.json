@@ -1,0 +1,23 @@
+{
+  "towns": [
+    {
+      "id": "example-town",
+      "name": "Example Town",
+      "x": 1500,
+      "y": 1500
+    }
+  ],
+  "locations": [
+    {
+      "id": "example-medical",
+      "name": "Example Medical Center",
+      "category": "medical",
+      "label": "Medical Facility",
+      "subtype": "clinic",
+      "townId": "example-town",
+      "town": "Example Town",
+      "x": 1510,
+      "y": 1490
+    }
+  ]
+}

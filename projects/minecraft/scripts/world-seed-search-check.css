@@ -1,0 +1,12 @@
+@import "../src/index.css";
+@source "./world-seed-search-check.tsx";
+
+body { background: var(--color-map-surface); }
+.seed-search-shell { display: flex; width: 1280px; min-height: 800px; }
+.seed-search-map { position: relative; width: 840px; min-height: 800px; flex-shrink: 0; overflow: hidden; background: radial-gradient(circle at 60% 35%, #193431, var(--color-map-surface) 58%); }
+.seed-search-panel { position: absolute; top: 16px; left: 12px; width: 304px; max-height: 768px; overflow-y: auto; border: 1px solid var(--color-border); border-radius: var(--radius-lg); background: var(--color-surface); }
+.seed-search-rail { width: 440px; flex-shrink: 0; padding: 16px; overflow: auto; border-left: 1px solid var(--color-border); background: var(--color-background); }
+.seed-search-rail h1 { font-size: 14px; font-weight: 600; }
+.seed-search-rail p { margin: 12px 0; color: var(--color-subtle); font-size: 12px; line-height: 1.5; }
+.seed-search-rail button { cursor: pointer; border: 1px solid var(--color-border); border-radius: var(--radius-sm); background: var(--color-surface); padding: 8px 12px; font-size: 12px; }
+.seed-search-rail pre { margin-top: 16px; white-space: pre-wrap; overflow-wrap: anywhere; font-size: 12px; line-height: 1.5; }

@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "planSha256": "d8e77babbd28daff49947b8f9d8373dbb40af5c30e3a389d3057d04f7314c346",
+  "receipts": {
+    "baldurs-gate-3": {
+      "version": 1,
+      "app": "baldurs-gate-3",
+      "fingerprint": "7b628c127c0b6a253d82f493",
+      "baseUrl": "https://bg3.ingredientassets.com/map-it/v1/baldurs-gate-3/releases/7b628c127c0b6a253d82f493",
+      "urlSuffix": "?map-it=1",
+      "origin": "https://bg3.ingredientassets.com",
+      "objectsVerified": 344,
+      "publicSamplesVerified": 169,
+      "manifestSha256": "e9e157e8b4d62aae4fda19223a125cabed4855e9fd36e09283ec2111700afd6f"
+    },
+    "elden-ring": {
+      "version": 1,
+      "app": "elden-ring",
+      "fingerprint": "9f723711583aa02669b70677",
+      "baseUrl": "https://eldenring.ingredientassets.com/map-it/v1/elden-ring/releases/9f723711583aa02669b70677",
+      "urlSuffix": "",
+      "origin": "https://eldenring.ingredientassets.com",
+      "objectsVerified": 3011,
+      "publicSamplesVerified": 70,
+      "manifestSha256": "052b4eb8704e7d6d794c86b1283cc49f8391a9223c2db400948b82d56f40c316"
+    },
+    "minecraft": {
+      "version": 1,
+      "app": "minecraft",
+      "fingerprint": "faf2bf61ec080bea2e36f026",
+      "baseUrl": "https://minecraft.ingredientassets.com/map-it/v1/minecraft/releases/faf2bf61ec080bea2e36f026",
+      "urlSuffix": "",
+      "origin": "https://minecraft.ingredientassets.com",
+      "objectsVerified": 2887,
+      "publicSamplesVerified": 14,
+      "manifestSha256": "cb2e69eedaed65a1354401a3f619af29349c11d31ef4a8c32d5a1e8700e72269"
+    },
+    "project-zomboid": {
+      "version": 1,
+      "app": "project-zomboid",
+      "fingerprint": "c9395fb186d10d52d213d97c",
+      "baseUrl": "https://pz.ingredientassets.com/map-it/v1/project-zomboid/releases/c9395fb186d10d52d213d97c",
+      "urlSuffix": "",
+      "origin": "https://pz.ingredientassets.com",
+      "objectsVerified": 114,
+      "publicSamplesVerified": 3,
+      "manifestSha256": "5c1a176b1002475fdecf9654b5764d01b9240072c930ad93424cc5d3f0a75ff6"
+    },
+    "rob-run": {
+      "version": 1,
+      "app": "rob-run",
+      "fingerprint": "d0f8df0131612df7cffa8b4c",
+      "baseUrl": "https://pz.ingredientassets.com/map-it/v1/rob-run/releases/d0f8df0131612df7cffa8b4c",
+      "urlSuffix": "",
+      "origin": "https://pz.ingredientassets.com",
+      "objectsVerified": 2219,
+      "publicSamplesVerified": 8,
+      "manifestSha256": "65c6aaf73526f5477e7b22eee5c4fb05ee712236099a245ff5c214b231cf44cb"
+    },
+    "valheim": {
+      "version": 1,
+      "app": "valheim",
+      "fingerprint": "cf58d6da9a5a01e1df1aa4f5",
+      "baseUrl": "https://pz.ingredientassets.com/map-it/v1/valheim/releases/cf58d6da9a5a01e1df1aa4f5",
+      "urlSuffix": "",
+      "origin": "https://pz.ingredientassets.com",
+      "objectsVerified": 232,
+      "publicSamplesVerified": 5,
+      "manifestSha256": "e62c9769507c20f41bdc59c0ce1c714d23a3b1423f4b7e6a567017e53853feb2"
+    }
+  },
+  "generated": {
+    "apps/aion-2/content-config.js": {
+      "file": "C:\\Users\\recep\\OneDrive\\Masaüstü\\map-it\\.content-cache\\configs\\aion-2.js",
+      "sha256": "6916674bf2c26ee10afdbf04b509201ed7294f3631b0ac50414a9c1d5e0569d3",
+      "size": 4551
+    },
+    "apps/baldurs-gate-3/content-config.js": {
+      "file": "C:\\Users\\recep\\OneDrive\\Masaüstü\\map-it\\.content-cache\\configs\\baldurs-gate-3.js",
+      "sha256": "c0b19953d36248e573913f7d30d8e8be902232a753b3a37431d1d84450eea69f",
+      "size": 44380
+    },
+    "apps/elden-ring/content-config.js": {
+      "file": "C:\\Users\\recep\\OneDrive\\Masaüstü\\map-it\\.content-cache\\configs\\elden-ring.js",
+      "sha256": "a8a8b34788e8eb1247535e58e9a415bfe768b3264a0f0265c901a8fc9e3de1c1",
+      "size": 345545
+    },
+    "apps/enshrouded/content-config.js": {
+      "file": "C:\\Users\\recep\\OneDrive\\Masaüstü\\map-it\\.content-cache\\configs\\enshrouded.js",
+      "sha256": "d4906a4a4be633b6cbf8f080a0168adc565b2b3a8f268214f5ad972054f01d4d",
+      "size": 4555
+    },
+    "apps/gta-6/content-config.js": {
+      "file": "C:\\Users\\recep\\OneDrive\\Masaüstü\\map-it\\.content-cache\\configs\\gta-6.js",
+      "sha256": "ba64dfbb124bd9890dbbbddd9a4fccbcc5e81de10966656b1995d1991355e368",
+      "size": 4002
+    },
+    "apps/minecraft/content-config.js": {
+      "file": "C:\\Users\\recep\\OneDrive\\Masaüstü\\map-it\\.content-cache\\configs\\minecraft.js",
+      "sha256": "8e7caf680132474d6e07161f5580dd0d312fddffc074a69a8c365f2b7a1c3015",
+      "size": 330043
+    },
+    "apps/peak/content-config.js": {
+      "file": "C:\\Users\\recep\\OneDrive\\Masaüstü\\map-it\\.content-cache\\configs\\peak.js",
+      "sha256": "fc1931f0e5c760562b28c56b4631557bd803bc971ae66912e1ad9c2c8ecb55dd",
+      "size": 4549
+    },
+    "apps/phantom-blade/content-config.js": {
+      "file": "C:\\Users\\recep\\OneDrive\\Masaüstü\\map-it\\.content-cache\\configs\\phantom-blade.js",
+      "sha256": "c89f7283671806d5f960644a95329fdae354a0b62215768de039c7730f834f0f",
+      "size": 4558
+    },
+    "apps/project-zomboid/content-config.js": {
+      "file": "C:\\Users\\recep\\OneDrive\\Masaüstü\\map-it\\.content-cache\\configs\\project-zomboid.js",
+      "sha256": "29b003cb2169714901fed2a6be73c174e5b9e691a2cc1e85c49f5e2a093c20f1",
+      "size": 18793
+    },
+    "apps/rob-run/content-config.js": {
+      "file": "C:\\Users\\recep\\OneDrive\\Masaüstü\\map-it\\.content-cache\\configs\\rob-run.js",
+      "sha256": "56dd3372792b03b461986f5dded24d62f0b07c59f6a357e47b168b5af9287fb7",
+      "size": 253333
+    },
+    "apps/valheim/content-config.js": {
+      "file": "C:\\Users\\recep\\OneDrive\\Masaüstü\\map-it\\.content-cache\\configs\\valheim.js",
+      "sha256": "238ce865f1cd467dd2af018daf1363dd872ab506c30c11bfa1f9959e0a709a94",
+      "size": 36170
+    },
+    "apps/wow-forever/content-config.js": {
+      "file": "C:\\Users\\recep\\OneDrive\\Masaüstü\\map-it\\.content-cache\\configs\\wow-forever.js",
+      "sha256": "db9f14677072d5d182afe1b9b3fb5253239e669ebf723cd77dc88118bec5bbbb",
+      "size": 4556
+    }
+  }
+}

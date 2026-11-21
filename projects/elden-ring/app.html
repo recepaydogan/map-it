@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/icon.png" />
+    <!-- Item icons + boss/enemy portraits stream from the jsDelivr CDN (see
+         VITE_ASSET_BASE). Warm the connection up front so the FIRST image doesn't
+         also pay the DNS + TLS handshake. Harmless offline (the fetch just fails
+         quietly and the local fallbacks show). -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+    <!-- Full-screen map app: lock page-level pinch-zoom so the chrome never
+         scales (Leaflet handles map pinch/zoom on its own container), cover the
+         notch/safe-area, and tint the mobile browser bar to the app background. -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#09090b" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <!-- Fonts are self-hosted via @fontsource (imported in main.tsx) so the app
+         works fully offline; no Google Fonts CDN dependency. -->
+    <title>Elden Ring Atlas</title>
+  </head>
+  <body class="bg-transparent overflow-hidden h-screen w-screen">
+    <div id="root" class="h-full w-full"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

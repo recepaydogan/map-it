@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Terrain ingestion diagnostic</title></head>
+<body>
+  <h1>Terrain ingestion diagnostic</h1>
+  <p>Development-only synthetic fixtures. No game saves, storage, or uploads are accessed.</p>
+  <pre id="result" role="status">Running browser worker checks…</pre>
+  <script type="module">
+    const result = document.getElementById("result");
+    const worker = new Worker(new URL("./terrain-browser-worker.js", import.meta.url), { type: "module" });
+    const deadline = setTimeout(() => {
+      result.textContent = "FAIL: worker exceeded the 15-second diagnostic deadline";
+      worker.terminate();
+    }, 15000);
+    worker.onmessage = event => {
+      clearTimeout(deadline);
+      result.textContent = event.data;
+      worker.terminate();
+    };
+    worker.onerror = event => {
+      clearTimeout(deadline);
+      result.textContent = `FAIL: ${event.message}`;
+      worker.terminate();
+    };
+    worker.postMessage("run");
+  </script>
+</body>
+</html>

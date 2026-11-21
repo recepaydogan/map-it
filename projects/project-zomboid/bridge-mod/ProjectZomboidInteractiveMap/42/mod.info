@@ -1,0 +1,3 @@
+name=Project Zomboid Map Bridge
+id=ProjectZomboidInteractiveMapBridge
+description=Shares the local player's coordinates and opened container contents with the Project Zomboid Map companion.

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head><meta charset="utf-8"><title>World storage browser check</title></head>
+  <body>
+    <h1>World storage browser check</h1>
+    <p>Development-only check. Uses a new isolated diagnostic database, never the application library.</p>
+    <button id="run" type="button">Run isolated storage checks</button>
+    <pre id="output" role="status">Not run</pre>
+    <script type="module">
+      import { createWorldRepository } from "/src/features/worlds/world-repository.ts";
+      import { savePointNote } from "/src/features/worlds/world-personal-actions.ts";
+      import { createRuntimeId } from "/src/lib/runtime-id.ts";
+
+      const button = document.querySelector("#run");
+      const output = document.querySelector("#output");
+      button.addEventListener("click", async () => {
+        button.disabled = true;
+        output.textContent = "Running";
+        const options = { name: `world-storage-diagnostic-${createRuntimeId()}`, factory: indexedDB };
+        const first = createWorldRepository(options);
+        const second = createWorldRepository(options);
+        const assert = (condition, message) => { if (!condition) throw new Error(message); };
+        try {
+          const world = await first.create({ name: "Diagnostic fixture", edition: "fixture",
+            generation: { version: "fixture-version", seed: "9223372036854775807", preset: "default", settings: {} } });
+          await Promise.all(Array.from({ length: 30 }, (_, i) => (i % 2 ? first : second)
+            .updatePersonal(world.id, state => savePointNote(state, "surface", `point-${i}`, `Fixture ${i}`))));
+          assert(Object.keys((await first.get(world.id)).personal.notes).length === 30, "Concurrent writes lost data");
+          let rejected = false;
+          try { await second.rename(world.id, ""); } catch { rejected = true; }
+          assert(rejected, "Invalid write was not rejected");
+          assert((await first.get(world.id)).name === "Diagnostic fixture", "Failed write was not rolled back");
+          first.close();
+          const reopened = createWorldRepository(options);
+          try {
+            const snapshot = await reopened.snapshot();
+            assert(snapshot.worlds.length === 1 && snapshot.selection.worldId === world.id, "Selection was not retained");
+            assert(snapshot.worlds[0].generation.seed === "9223372036854775807", "Seed precision changed");
+          } finally { reopened.close(); }
+          output.textContent = "PASS: native IndexedDB concurrent writes, transaction rollback, reopen, selection, and seed precision.\n"
+            + `Isolated diagnostic database: ${options.name}`;
+        } catch (error) {
+          console.error("World storage browser check failed", error);
+          output.textContent = `FAIL: ${error instanceof Error ? error.message : String(error)}`;
+        } finally { first.close(); second.close(); button.disabled = false; }
+      });
+    </script>
+  </body>
+</html>

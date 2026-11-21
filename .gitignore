@@ -1,0 +1,66 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+.dev-build/
+dist-ssr
+.release-dist/
+*.local
+.env
+.env.*
+!.env.example
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+nul
+
+# Build artifacts
+*.opk
+*.zip
+
+# Full-resolution source images for real game maps are inputs to a tiling
+# script only; the shipped artifact is the generated pyramid under public/maps.
+map-sources/
+
+# Local import interpreter cache
+__pycache__/
+*.pyc
+
+.dev-cache/
+/.content-cache/
+/.sync-cache/
+
+# Locally imported runtimes, receipts and review outputs
+/public/apps/
+/projects/*/snapshot.json
+/projects/import-report.json
+/base-copy-manifest.json
+/base-copy-verification.json
+/artifacts/
+/brand/concepts/
+/docs/*.png
+/docs/map-it-*.json
+/docs/*-verification.json
+
+# Local preview build directories
+/.*-build-*/
+/.map-it-dist-refresh-*/
+/.shared-ui-build/
+/.sidebar-hover-dist/
+/.ui-dist-*/
+/.window-chrome-*/

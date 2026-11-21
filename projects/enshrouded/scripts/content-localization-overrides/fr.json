@@ -1,0 +1,164 @@
+{
+  "c6107edc1fbcb93f7ae62f90": {
+    "english": "Shroud Weaver pickup associated with The Mysterious Wanderer Appears.",
+    "templateSha256": "ae4649874821b659f456c87c97db1db1be97f675e44032572eebfdb87eb47ded",
+    "translation": "L’obtention de {{EMTERM_0}} est liée à la quête « Le Vagabond étrange apparaît ».",
+    "reviewNote": "Pickup denotes obtaining a weapon, not a vehicle or recording device. Use the native associated quest title without changing navigation."
+  },
+  "df8758f0b4798bef692b26f3": {
+    "english": "+ 15% Damage against Fell + 5:00 Time in the Shroud",
+    "templateSha256": "a7feaf42a6e1c4181aeffe0408bd1723e094ec1d45c2a9c3875b1051b9771133",
+    "translation": "+ 15% de dégâts contre Déchu + 5:00 de temps dans la Brume",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "4e9f32e75dc321d35a0eb1ef": {
+    "english": "+ 15% Magic Damage + 2:00 Time in the Shroud",
+    "templateSha256": "2632b5a7c47f6802b0d9ba6a09bb37eaafd1d46438f0548dbde0ccc1ec2eb634",
+    "translation": "+ 15% de dégâts magiques + 2:00 de temps dans la Brume",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "84a854cc1f64956d4a1a38ae": {
+    "english": "+ 160 Health + 4:00 Time in the Shroud",
+    "templateSha256": "3ea5eca5f6bad3fdcf1cc88e1befcfc82929c2c67355b1a394dd701eb6dc7c27",
+    "translation": "+ 160 Santé + 4:00 de temps dans la Brume",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "b7c23402e11b414e2d2372c8": {
+    "english": "+ 1:30 min. Wet Duration Reduction",
+    "templateSha256": "b7c23402e11b414e2d2372c863817b1b753f09cbb020f2becb6d95d3b434375b",
+    "translation": "+ 1:30 mn. Réduction de la durée humide",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "b88988e77111830a2691d757": {
+    "english": "+ 20 percent Damage against Fell - 2:00 Time in the Shroud",
+    "templateSha256": "128be5a8a7e4613d7622f09ce8205c8f49b5a2001eaf689f329d5c68eb893321",
+    "translation": "+ 20 pour cent de dégâts contre Déchu - 2:00 de temps dans la Brume",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "ac7206fced8edb5a7ef69829": {
+    "english": "+ 3 Health Regeneration + 1:00 Time in the Shroud",
+    "templateSha256": "c87bd7b15a62d7226eeb9aa052601e1107e9a15bc27de2ba91f4514fcf5c3e74",
+    "translation": "+ 3 régénérations de santé + 1:00 de temps dans la Brume",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "32c876f64d7150116d53e212": {
+    "english": "+ 40 Mana + 6 Mana Regeneration + 3:00 Time in the Shroud",
+    "templateSha256": "32252318e293e3094ec8b20180232665c64f73a22af3910a9a2a0f1ca59a1e63",
+    "translation": "+ 40 Mana + 6 Régénération de Mana + 3:00 de temps dans la Brume",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "6ad3d111b1997aaee9f24c07": {
+    "english": "+ 4:00 Time in the Shroud",
+    "templateSha256": "97b04a3c0995cbc56115db965098194f7ab305aec82b278c7eb1a3d69fca70de",
+    "translation": "+ 4:00 de temps dans la Brume",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "31c46d2cdb5e0b309917e2ab": {
+    "english": "+ 6 Health Regeneration + 2:00 Time in the Shroud",
+    "templateSha256": "4a268c9d827e99307db64bf910b1508a62faa01964855424dbcb5423a9f7a48b",
+    "translation": "+ 6 régénérations de santé + 2:00 de temps dans la Brume",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "efdf3a4569510a5201131ffc": {
+    "english": "+ 6% Shroud Resistance 1:00 Time In The Shroud",
+    "templateSha256": "789a8abcbeeab953e291d8bcb6c323a478c04d8c5871803788547195919018d9",
+    "translation": "+ 6% Résistance Brume 1:00 dans la Brume",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "224d4f1ddfd25c7da01160b5": {
+    "english": "+ 8 Health Regeneration + 6% Increased Shroud Damage + 10% Shroud Resistance 2:00 Time In The Shroud + 2 Frost Resistance",
+    "templateSha256": "7606b3dbe64696049f6202bac03202a6dbb7fe83491b461261c2e5572c60da24",
+    "translation": "+ 8 régénération de santé + 6 % d'augmentation des dégâts de la Brume + 10 % de résistance à la Brume 2:00 de temps dans la Brume + 2 résistance au gel",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "063ab9d2cb4fb5a5d140d541": {
+    "english": "+10% Shock Resistance 2:00 Wet Duration Reduction",
+    "templateSha256": "063ab9d2cb4fb5a5d140d5419f908d37a8bf9cf98961636c04dc46e2194ca317",
+    "translation": "+10 % de résistance aux chocs 2:00 de réduction de la durée humide",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "632ca8c5d0826a2b5e40a43d": {
+    "english": "+10% Shroud Resistance 2:00 Time In The Shroud",
+    "templateSha256": "52e9a89c83037b95e844355a838630afb35c778d9b1826f75e269821acc44df8",
+    "translation": "+10% Résistance Brume 2:00 dans la Brume",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "f252ef755793b0fbcce5e075": {
+    "english": "+1:30 min. Wet Duration Reduction",
+    "templateSha256": "f252ef755793b0fbcce5e0752857b4937bfc384154bb315d39e271845fdc57cf",
+    "translation": "+1:30 mn. Réduction de la durée humide",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "5ee12fc2e3a1dbf70f2e92ea": {
+    "english": "+6% Shroud Resistance 1:00 Time In The Shroud",
+    "templateSha256": "81fa51be0f9f330dff3f0ac289dfa9c19d1c7d75cd2e819bed42cec7a6d8d64b",
+    "translation": "+6% Résistance Brume 1:00 dans la Brume",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "b32e76525a728b612815a1ee": {
+    "english": "-2:00 Time in the Shroud",
+    "templateSha256": "eb55e0818a2526615fd01d9b1f739809dd4e9637c3f2116ee3e1196aa12298de",
+    "translation": "-2:00 de temps dans la Brume",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "9cea41fc5429b4759b7b1bac": {
+    "english": "1:00 Wet Duration Reduction",
+    "templateSha256": "9cea41fc5429b4759b7b1baccabcdfaa6beb918f43e560a985b75914dc0c9f6e",
+    "translation": "1:00 Réduction de la durée humide",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "cd9f4f0778635f1bf08e39e0": {
+    "english": "1:30 min Wet Duration Reduction",
+    "templateSha256": "cd9f4f0778635f1bf08e39e071a81c384804f2999a05e8a3fa991ef1402dae7d",
+    "translation": "Réduction de la durée humide de 1:30 min",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "76d26bc80c0a7bfd374ba2e8": {
+    "english": "2:00 Time In The Shroud",
+    "templateSha256": "08f18516f0551c00c5a88fdf84745f6ba9a67dba8d47d1ce93affec0122b3fd2",
+    "translation": "2:00 dans la Brume",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "b8b3a9b9dd41da589777f53e": {
+    "english": "2:00 Wet Duration Reduction",
+    "templateSha256": "b8b3a9b9dd41da589777f53e476ef1f164e8c3f3f0f494c0fec927d15c669fc2",
+    "translation": "2:00 Réduction de la durée humide",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "787f9744b1af9af44f6311df": {
+    "english": "3:00 Wet Duration Reduction",
+    "templateSha256": "787f9744b1af9af44f6311dfac96dc259c456b79d0e08efc2282880c0a445965",
+    "translation": "3:00 Réduction de la durée humide",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "6ba169807aa54e34a74f03c1": {
+    "english": "Shroud Resistance 1:00 Time In The Shroud",
+    "templateSha256": "e08718ca122235d74cdc5945c12ccbd94a38bea130bf280f8ffcecf67e37ebe3",
+    "translation": "Résistance Brume 1:00 dans la Brume",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "9d1428b3c4303e4286898fa9": {
+    "english": "Shroud Resistance 2:00 Time In The Shroud",
+    "templateSha256": "c0fe79c8232fcc94fa8c11bd30bab944a1e9a82cfb66b69fb699f7b6dd08aea8",
+    "translation": "Résistance Brume 2:00 dans la Brume",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "f4820827f00f49f975f5a4b4": {
+    "english": "Sulfur is mined from yellow sulfur deposits in the Kindlewastes. {| class=\"wikitable sortable\" |+ Recipes |- ! Items Produced !! Workshop !! Other Requirements !! Crafting Time !! Materials |- | 5 Enshrouded Oil || Laboratory || None || 2:00 || * 5 Shroud Spores * 5 Coal Powder * 5 Shroud Liquid * 1 Sulfur |- | 1 Black Powder || Laboratory || None || 3:00 || * 7 Nitrate * 1 Sulfur * 2 Coal Powder |- | 1 Shroud Meteor || Alchemist || Laboratory || N/A || * 2 Alchemical Base * 20 Nitrate * 20 Coal Powder * 20 Stone * 20 Sulfur |- | 1 Eternal Light Burst || Alchemist || Laboratory || N/A || * 5 Iron Bars * 10 Charcoal * 30 Sulfur * 20 Flintstone |- | 1 Eternal Acid Bite || Alchemist || Laboratory || N/A || * 20 Glass * 10 Charcoal * 30 Sulfur * 20 Ammonia Gland * 20 Poison Sack |}",
+    "templateSha256": "795ea26bae6019cee6b14640f7cbdeb217d53022ad0eadb85394b863722ac864",
+    "translation": "Soufre est extrait des gisements de soufre jaune du Regs exaltés. Recettes. Articles produits : 5 Huile embrumée ; Atelier : Laboratoire ; Autres exigences : Aucune ; Temps de fabrication : 2:00 ; Matériaux : 5 Spores de Brume, 5 Poudre de charbon, 5 Brume liquide, 1 Soufre. Articles produits : 1 Poudre noire ; Atelier : Laboratoire ; Autres exigences : Aucune ; Temps de fabrication : 3:00 ; Matériaux : 7 Nitrate, 1 Soufre, 2 Poudre de charbon. Articles produits : 1 Brume Météore ; Atelier : Alchimiste ; Autres exigences : Laboratoire ; Temps de fabrication : N/A ; Matériaux : 2 Base alchimique, 20 Nitrate, 20 Poudre de charbon, 20 Pierre, 20 Soufre. Articles produits : 1 éternel Éclat de lumière ; Atelier : Alchimiste ; Autres exigences : Laboratoire ; Temps de fabrication : N/A ; Matériaux : 5 Barres de fer, 10 Charbon de bois, 30 Soufre, 20 Pierre de silex. Articles produits : 1 éternel Morsure d'acide ; Atelier : Alchimiste ; Autres exigences : Laboratoire ; Temps de fabrication : N/A ; Matériaux : 20 Verre, 10 Charbon de bois, 30 Soufre, 20 Glande d'ammoniac, 20 Sac à poisons.",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "58f65388fbae1b3765ef9ba1": {
+    "english": "Sulfur is mined from yellow sulfur deposits in the Kindlewastes. {| class=\"wikitable sortable\" |+ Recipes |-! Items Produced!! Workshop!! Other Requirements!! Crafting Time!! Materials |- | 5 Enshrouded Oil || Laboratory || None || 2:00 || * 5 Shroud Spores * 5 Coal Powder * 5 Shroud Liquid * 1 Sulfur |- | 1 Black Powder || Laboratory || None || 3:00 || * 7 Nitrate * 1 Sulfur * 2 Coal Powder |- | 1 Shroud Meteor || Alchemist || Laboratory || N/A || * 2 Alchemical Base * 20 Nitrate * 20 Coal Powder * 20 Stone * 20 Sulfur |- | 1 Eternal Light Burst || Alchemist || Laboratory || N/A || * 5 Iron Bars * 10 Charcoal * 30 Sulfur * 20 Flintstone |- | 1 Eternal Acid Bite || Alchemist || Laboratory || N/A || * 20 Glass * 10 Charcoal * 30 Sulfur * 20 Ammonia Gland * 20 Poison Sack |}",
+    "templateSha256": "795ea26bae6019cee6b14640f7cbdeb217d53022ad0eadb85394b863722ac864",
+    "translation": "Soufre est extrait des gisements de soufre jaune du Regs exaltés. Recettes. Articles produits : 5 Huile embrumée ; Atelier : Laboratoire ; Autres exigences : Aucune ; Temps de fabrication : 2:00 ; Matériaux : 5 Spores de Brume, 5 Poudre de charbon, 5 Brume liquide, 1 Soufre. Articles produits : 1 Poudre noire ; Atelier : Laboratoire ; Autres exigences : Aucune ; Temps de fabrication : 3:00 ; Matériaux : 7 Nitrate, 1 Soufre, 2 Poudre de charbon. Articles produits : 1 Brume Météore ; Atelier : Alchimiste ; Autres exigences : Laboratoire ; Temps de fabrication : N/A ; Matériaux : 2 Base alchimique, 20 Nitrate, 20 Poudre de charbon, 20 Pierre, 20 Soufre. Articles produits : 1 éternel Éclat de lumière ; Atelier : Alchimiste ; Autres exigences : Laboratoire ; Temps de fabrication : N/A ; Matériaux : 5 Barres de fer, 10 Charbon de bois, 30 Soufre, 20 Pierre de silex. Articles produits : 1 éternel Morsure d'acide ; Atelier : Alchimiste ; Autres exigences : Laboratoire ; Temps de fabrication : N/A ; Matériaux : 20 Verre, 10 Charbon de bois, 30 Soufre, 20 Glande d'ammoniac, 20 Sac à poisons.",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "c96b2b2a91f65e27e1a1715b": {
+    "english": "Reading \"About The Goods\" (Lunar New Year Bandit Notes 1/1) adds a hint to the Set List. This block is then obtained by looting the Roughly Cut Stone Block in Netherton. It is found in a large glowing crate on top of a ruined building in Netherton. The crate can be spotted from the nearby Ancient Obelisk.",
+    "templateSha256": "9ac050b16f8b96abd2c2e64cce446b837f8b3eae1db19a38b942257469cd7242",
+    "translation": "La lecture de \"À propos des marchandises\" (Notes sur les bandits du Nouvel An lunaire 1/1) ajoute un indice à la Set List. Ce bloc est ensuite obtenu en pillant le Bloc de pierre grossièrement taillé dans Netherton. Il se trouve dans une grande caisse lumineuse au sommet d'un bâtiment en ruine à Netherton. La caisse peut être repérée depuis l’obélisque antique à proximité.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  }
+}

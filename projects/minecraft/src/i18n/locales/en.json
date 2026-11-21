@@ -1,0 +1,3249 @@
+{
+  "itemCatalog": {
+    "categories": "Categories",
+    "browseByCategory": "Browse by category",
+    "viewAll": "View all",
+    "category": "Category",
+    "clearSearch": "Clear search",
+    "backToList": "Back to list"
+  },
+  "structureMap": {
+    "zoomFiltered": "Some markers are hidden at this zoom level. Zoom in to show them.",
+    "search": {
+      "label": "Search map",
+      "placeholder": "Search item or location",
+      "close": "Close search",
+      "noResults": "No matching locations.",
+      "loading": "Loading locations…"
+    },
+    "descriptions": {
+      "village": "A cluster of homes, farms and workstations. Meet villagers, trade supplies and look for a place to rest.",
+      "desert-pyramid": "A sandstone landmark with a concealed treasure chamber. Explore carefully: the lower chamber is trapped.",
+      "jungle-temple": "A moss-covered temple hidden in dense jungle. Watch for tripwires and search its redstone passages.",
+      "swamp-hut": "A small wooden hut above the swamp. Witches make these secluded structures dangerous places to approach.",
+      "igloo": "A snow shelter in cold landscapes. Some hide a basement beneath the floor.",
+      "ocean-ruin": "Submerged ruins scattered across the seabed. Bring air and light before exploring their remains.",
+      "shipwreck": "The remains of a wooden ship, underwater or along the shore. Search the surviving hull and cabins.",
+      "monument": "A large prismarine fortress beneath the ocean, guarded by guardians. Prepare for a sustained underwater expedition.",
+      "mansion": "A sprawling woodland home occupied by illagers. Its many rooms reward careful exploration.",
+      "outpost": "A pillager watchtower with a hostile patrol presence. Approach with cover and a clear escape route.",
+      "ruined-portal": "A broken portal surrounded by scattered obsidian. Inspect the frame before attempting to rebuild it.",
+      "ruined-portal-nether": "A ruined portal in the Nether. Its damaged frame may help you plan a route between dimensions.",
+      "ancient-city": "A vast underground ruin in the deep dark. Move quietly around sculk sensors and shriekers.",
+      "trail-ruins": "Buried remnants of an old settlement. A brush lets you investigate suspicious gravel without breaking it.",
+      "trial-chambers": "An underground copper-and-tuff complex with combat trials. Explore its chambers prepared for repeated encounters.",
+      "abandoned-camp": "A deserted campsite in the Overworld. Search its chests and barrels for supplies and explorer maps.",
+      "fortress": "A network of dark bridges and corridors in the Nether. Look for blazes and watch the exposed walkways.",
+      "bastion": "A massive blackstone remnant occupied by piglins. Its broken halls and lava make navigation hazardous.",
+      "end-city": "Tall purpur towers on the outer End islands. Watch for shulkers and dangerous falls.",
+      "stronghold": "A buried stone-brick complex containing the portal route to the End. Search its corridors carefully.",
+      "mineshaft": "An abandoned underground network of timber supports, rails and minecart chests. Watch for cave spiders and sudden drops.",
+      "buried-treasure": "A hidden chest buried beneath coastal sand or gravel. The marker identifies its seed-based candidate location."
+    },
+    "highlights": {
+      "abandoned-camp": {
+        "title": "At the camp",
+        "supplies": "Supplies in chests and barrels",
+        "maps": "Explorer maps to other structures",
+        "rest": "Straw beds and cushions"
+      }
+    },
+    "groupDescriptions": {
+      "settlements": "Homes, strongholds and watchtowers: places to meet inhabitants, trade or face hostile occupants.",
+      "exploration": "Temples, buried ruins and underground challenges. Each landmark offers a different kind of expedition.",
+      "ocean": "Shipwrecks, submerged ruins and guardian fortresses. Prepare for limited air and underwater travel.",
+      "portals": "Damaged gateways between dimensions. Inspect their surroundings and plan your route.",
+      "nether": "Fortified structures among lava and hostile terrain. Bring supplies and keep a safe return path.",
+      "end": "Remote towers beyond the central island. Plan for long crossings, shulkers and falls."
+    },
+    "actions": {
+      "markFound": "Mark found",
+      "found": "Found",
+      "favorite": "Favorite",
+      "track": "Track",
+      "tracked": "Tracked",
+      "note": "Personal note",
+      "notePlaceholder": "Add a note for this world…",
+      "saveNote": "Save note",
+      "saveFailed": "Personal changes could not be saved."
+    },
+    "destinations": {
+      "title": "Tracked destinations",
+      "mapLayer": "Tracked destination markers",
+      "coordinates": "X {{x}}, Z {{z}}",
+      "distance": "{{count}} blocks",
+      "mapMarker": "{{name}} — tracked destination · {{coordinates}} {{distance}}",
+      "edgeMarker": "{{name}} — outside this view · {{coordinates}} {{distance}}",
+      "center": "Center on {{name}}",
+      "otherDimension": "{{name}} is in {{dimension}}",
+      "row": "{{dimension}} · X {{x}}, Z {{z}} {{distance}}",
+      "remove": "Stop tracking {{name}}",
+      "overflow": "{{count}} older destinations are not rendered. Remove destinations to show them.",
+      "limit": "You can track up to {{count}} destinations."
+    },
+    "portalPlan": {
+      "ghostMarker": "{{name}} — portal coordinate projection · {{coordinates}}",
+      "savedMarker": "{{name}} — planned portal · {{coordinates}}",
+      "preview": "Project {{name}} from {{dimension}} into this dimension",
+      "title": "Portal projection for {{name}}",
+      "transform": "{{source}} → {{target}} · X/Z × {{scale}}",
+      "coordinates": "Exact X {{exactX}}, Z {{exactZ}} · block X {{blockX}}, Z {{blockZ}}",
+      "disclaimer": "This is an X/Z planning projection, not a guaranteed portal link. The game may search for or create a different portal, and you still need to choose a safe Y level in-game.",
+      "centerGhost": "Show ghost",
+      "save": "Save portal plan",
+      "saved": "Plan saved",
+      "savedName": "Portal plan: {{name}}",
+      "close": "Close portal projection"
+    },
+    "filters": {
+      "title": "Filters",
+      "visibleCount": "Visible candidates in the queried view",
+      "expand": "Expand filters",
+      "collapse": "Collapse filters",
+      "showAll": "Show all",
+      "hideAll": "Hide all",
+      "hideFound": "Hide found",
+      "favoritesOnly": "Favorites only",
+      "search": "Find a category",
+      "clear": "Clear category search",
+      "hideGroup": "Hide {{group}}",
+      "showGroup": "Show {{group}}",
+      "only": "Only",
+      "unavailable": "Unavailable for this version and dimension",
+      "hideCategory": "Hide {{category}}",
+      "showCategory": "Show {{category}}",
+      "scope": "Counts cover loaded candidates for active categories in the current view. A plus sign means loading is incomplete.",
+      "saveFailed": "Filter preferences could not be saved."
+    },
+    "groups": {
+      "settlements": "Settlements",
+      "exploration": "Exploration structures",
+      "ocean": "Ocean structures",
+      "portals": "Portals",
+      "nether": "Nether structures",
+      "end": "End structures"
+    },
+    "idle": "Structure queries have not started.",
+    "loading": "Structure candidates: {{completed}} / {{total}} region checks.",
+    "ready": "Structure candidates: {{completed}} / {{total}} region checks complete.",
+    "paused": "Structure queries paused.",
+    "limited": "Zoom in to query structures. This view exceeds the region budget.",
+    "error": "Structure queries failed. Coverage may be incomplete.",
+    "retry": "Retry structure queries",
+    "markers": "Structure markers",
+    "marker": "{{name}} — predicted candidate · X {{x}}, Z {{z}}",
+    "savedMarker": "{{name}} — verified in the selected world · X {{x}}, Z {{z}}",
+    "cluster": "{{name}} — {{count}} candidates",
+    "candidate": "Predicted structure candidate",
+    "savedOccurrence": "Saved-world structure occurrence",
+    "coordinates": "X: {{x}} · Y: unknown · Z: {{z}}",
+    "savedCoordinates": "Bounding-box anchor · X: {{x}} · Y: {{y}} · Z: {{z}}",
+    "savedProvenance": "This occurrence comes from structure-start metadata in the explicitly selected read-only world snapshot. Its bounding box is source-backed; the displayed marker anchor is derived from that box. Exact loot and current entity state remain unknown.",
+    "savedBoundingBox": "Saved bounding box",
+    "savedSourceId": "Saved structure identity",
+    "copy": "Copy",
+    "copyXyz": "Copy",
+    "copied": "Coordinates copied.",
+    "failed": "Coordinates could not be copied.",
+    "center": "Center on this candidate",
+    "centerOccurrence": "Center on this saved occurrence",
+    "map": "Map",
+    "types": {
+      "village": "Village",
+      "desert-pyramid": "Desert pyramid",
+      "jungle-temple": "Jungle temple",
+      "swamp-hut": "Swamp hut",
+      "igloo": "Igloo",
+      "ocean-ruin": "Ocean ruin",
+      "shipwreck": "Shipwreck",
+      "monument": "Ocean monument",
+      "mansion": "Woodland mansion",
+      "outpost": "Pillager outpost",
+      "ruined-portal": "Ruined portal",
+      "ruined-portal-nether": "Ruined portal",
+      "ancient-city": "Ancient city",
+      "trail-ruins": "Trail ruins",
+      "trial-chambers": "Trial chambers",
+      "abandoned-camp": "Abandoned camp",
+      "fortress": "Nether fortress",
+      "bastion": "Bastion remnant",
+      "end-city": "End city",
+      "stronghold": "Stronghold",
+      "mineshaft": "Mineshaft",
+      "buried-treasure": "Buried treasure"
+    }
+  },
+  "worldRoute": {
+    "title": "Route planner",
+    "subtitle": "Choose a start and destination",
+    "description": "Build one active route from your position, a map point or a personal marker.",
+    "start": "Start",
+    "destination": "Destination",
+    "selectStart": "Choose a start",
+    "selectDestination": "Choose a destination",
+    "currentPosition": "My current position",
+    "chooseOnMap": "Choose on map",
+    "selectedMapPoint": "X {{x}}, Z {{z}}",
+    "nearestStructure": "Nearest {{structure}}",
+    "searchOptions": "Search route options",
+    "noOptions": "No route options found.",
+    "pickStartOnMap": "Click map to set start · Esc to cancel",
+    "pickDestinationOnMap": "Click map to set destination · Esc to cancel",
+    "findingNearest": "Finding the nearest matching structure candidate…",
+    "calculating": "Finding a practical route across the generated biomes…",
+    "calculate": "Build route",
+    "recalculate": "Recalculate",
+    "distance": "{{count}} blocks",
+    "biomeAware": "Biome-aware estimate. It favors easier land and avoids water or rough terrain where practical.",
+    "directFallback": "Long-distance overview. Zoomed terrain detail is unavailable for this route.",
+    "focus": "Fit route on map",
+    "clear": "Clear route",
+    "close": "Close route planner",
+    "mapLayer": "Planned route",
+    "errors": {
+      "endpoint-unavailable": "Choose two available points in this dimension.",
+      "same-point": "Start and destination must be different.",
+      "structure-unavailable": "That structure is not available in this version or dimension.",
+      "structure-not-found": "No matching structure candidate was found within the bounded search area.",
+      "calculation-failed": "The route could not be calculated. Please try again."
+    }
+  },
+  "mapPlayer": {
+    "awaitingFirstPosition": "Your live location will appear shortly.",
+    "position": "Player · X {{x}} · Y {{y}} · Z {{z}}",
+    "unavailable": "No fresh player position for this world.",
+    "following": "Following player",
+    "paused": "Follow paused · explore freely",
+    "otherDimension": "Player is in another dimension. Use return to player.",
+    "offscreen": "Player is outside this view. Use return to player.",
+    "pause": "Pause player follow",
+    "follow": "Return to player and follow"
+  },
+  "worldHotkeys": {
+    "currentPositionName": "Current position",
+    "pinSaved": "Position pinned · X {{x}}, Y {{y}}, Z {{z}}",
+    "pinUnavailable": "Link a world and wait for a fresh position before adding a pin.",
+    "pinLimit": "The tracked-destination limit has been reached. Remove one before adding another pin.",
+    "pinFailed": "The current position could not be pinned.",
+    "minimapUnavailable": "Open the in-game minimap before using its zoom hotkeys."
+  },
+  "worldDeathPin": {
+    "name": "Death {{count}} · {{date}}"
+  },
+  "journey": {
+    "title": "Journeys",
+    "mapLayer": "Current or latest player journey",
+    "points": "{{count}} points",
+    "start": "Record",
+    "stop": "Stop",
+    "show": "Show",
+    "hide": "Hide",
+    "clear": "Clear",
+    "off": "Recording is off. Start it after linking the current game session to this world.",
+    "waiting": "Recording is on and waiting for a fresh linked player position.",
+    "recording": "Recording fresh local-player movement on this device.",
+    "ready": "Recorded journeys are stored on this device.",
+    "storageError": "Journey data could not be read safely. Existing data was not overwritten.",
+    "commandFailed": "The journey setting could not be changed.",
+    "clearConfirm": "Clear every stored journey for this world? If recording stays on, a new journey begins with the next fresh position."
+  },
+  "liveSession": {
+    "title": "Live game session",
+    "status": {
+      "disconnected": "Disconnected",
+      "registering": "Connecting",
+      "waiting": "Waiting for position",
+      "live": "Live",
+      "stale": "Position stale",
+      "error": "Tracking unavailable",
+      "unassociated": "Confirm world",
+      "different-world": "Different world"
+    },
+    "message": {
+      "disconnected": "No connected game session is available.",
+      "registering": "Connecting to the game's live data provider.",
+      "waiting": "Waiting for a complete player position and dimension.",
+      "live": "Fresh player coordinates are linked to the selected world.",
+      "stale": "Position updates have stopped or the clock changed. The old position is hidden until fresh data arrives.",
+      "error": "Live data could not be read or synchronized. No player position is shown.",
+      "unassociated": "Choose the matching saved world and confirm before showing the player.",
+      "different-world": "This view is not linked to the active session. Select the matching world or explicitly confirm a new link."
+    },
+    "commandFailed": "The link could not be changed. The world or session may have changed; check the details and try again.",
+    "unknown": "Not reported",
+    "reportedWorld": "Reported world",
+    "server": "Server",
+    "realm": "Realm",
+    "gameVersion": "Running game version",
+    "selectedWorld": "Selected app world",
+    "editionMismatch": "The running game and selected world use different editions. Choose a world with the matching edition.",
+    "versionMismatch": "The running version differs from the saved generation version. An upgraded world may contain terrain from several versions.",
+    "suggested": "This world matches a remembered association. Confirmation is still required.",
+    "confirmNotice": "Confirm that this is the world you are playing. The reported identity does not verify its seed or terrain.",
+    "remember": "Remember this association as a suggestion for later sessions",
+    "confirm": "Link session to this world",
+    "coordinates": "Player position · X / Y / Z",
+    "dimension": "Dimension",
+    "biome": "Biome",
+    "facing": "Facing · yaw",
+    "bindingTarget": "Stored session link: {{name}}",
+    "unlink": "Unlink session"
+  },
+  "inspector": {
+    "game": "Game",
+    "catalogPreparing": "Catalog preparing",
+    "games": {
+      "minecraft": "Minecraft"
+    },
+    "stations": "Production stations",
+    "stationNote": "Configured station; other crafting contexts may also apply.",
+    "knownMembers": "Known group members",
+    "historyLimit": "The detail history is full. Go Back before opening another relationship; your current selection is preserved.",
+    "guide": "Guide",
+    "openGuide": "Open game guide",
+    "closeGuide": "Close game guide",
+    "collapseGuideSidebar": "Collapse guide list",
+    "expandGuideSidebar": "Expand guide list",
+    "catalogUnavailable": "No knowledge source is configured for this exact edition and version.",
+    "catalogImportTitle": "Load exact-version game knowledge",
+    "catalogImportDetail": "A verified starter catalog may be included for this exact version. You can also choose up to one recipe catalog and one mechanics catalog for {{edition}} {{version}}; both are validated and read only on this device.",
+    "catalogChoose": "Choose catalog files",
+    "catalogLoading": "Validating catalog…",
+    "catalogError": "These catalogs could not be validated for the selected world’s exact edition, version and source identity.",
+    "catalogReady": "{{subjects}} subjects indexed from {{recipes}} recipes and {{mechanics}} mechanics.",
+    "catalogReplace": "Choose different catalogs",
+    "catalogResultCount": "Showing {{shown}} of {{total}} subjects",
+    "catalogNoResults": "No subjects match this search.",
+    "search": "Search the guide",
+    "subjectFilter": "Filter guide subjects",
+    "itemTypeFilter": "Filter item types",
+    "itemTypes": {
+      "all": "All item types",
+      "blocks": "Blocks",
+      "equipment": "Equipment",
+      "food": "Food & drink",
+      "brewing": "Brewing",
+      "spawnEggs": "Spawn eggs",
+      "other": "Materials & misc."
+    },
+    "itemGuide": {
+      "nameOverrides": {
+        "poplar_trapdoor": "Poplar Trapdoor",
+        "poplar_pressure_plate": "Poplar Pressure Plate",
+        "poplar_sign": "Poplar Sign",
+        "poplar_hanging_sign": "Poplar Hanging Sign",
+        "poplar_shelf": "Poplar Shelf",
+        "poplar_sapling": "Poplar Sapling",
+        "shelf_mushroom": "Shelf Mushroom",
+        "magenta_concrete_stairs": "Magenta Concrete Stairs",
+        "magenta_concrete_slab": "Magenta Concrete Slab",
+        "lime_cushion": "Lime Cushion",
+        "lime_wool_stairs": "Lime Wool Stairs",
+        "lime_wool_slab": "Lime Wool Slab",
+        "lime_concrete_stairs": "Lime Concrete Stairs",
+        "lime_concrete_slab": "Lime Concrete Slab",
+        "gray_concrete_stairs": "Gray Concrete Stairs",
+        "gray_concrete_slab": "Gray Concrete Slab",
+        "light_gray_concrete_stairs": "Light Gray Concrete Stairs",
+        "light_gray_concrete_slab": "Light Gray Concrete Slab",
+        "cyan_concrete_stairs": "Cyan Concrete Stairs",
+        "cyan_concrete_slab": "Cyan Concrete Slab"
+      },
+      "featured": "Key items",
+      "catalog": "Browse all items",
+      "type": "Type",
+      "obtain": "How to get it",
+      "uses": "What to use it for",
+      "details": "Gameplay details",
+      "related": "Explore next",
+      "catalogOnly": "This item exists in the selected version, but its acquisition and uses are not verified in the available game data.",
+      "spawnEggMob": "Mob guide",
+      "spawnEggDescription": "This egg spawns {{mob}} when used. Open the mob guide for its behavior, drops and where it appears naturally.",
+      "usesCategories": {
+        "upgrades": "Equipment upgrades",
+        "crafting": "Crafting and cutting",
+        "cooking": "Cooking",
+        "brewing": "Brewing",
+        "trims": "Armor trim patterns"
+      },
+      "highlights": {
+        "ancient_debris": "A rare Nether ore. Smelt it into netherite scrap to begin making netherite equipment.",
+        "netherite_scrap": "Smelt ancient debris to get scrap. Four scraps and four gold ingots make one netherite ingot.",
+        "netherite_ingot": "Combine four netherite scraps with four gold ingots. Use the ingot at a smithing table to upgrade diamond gear.",
+        "diamond": "Mine diamond ore or find diamonds in loot. Diamonds make strong equipment and an enchanting table.",
+        "emerald": "The main currency for villager trading. Get emeralds from trades, emerald ore or loot.",
+        "iron_ingot": "Smelt raw iron for this versatile material used in tools, armor and utility blocks.",
+        "gold_ingot": "Smelt raw gold or find ingots in loot. Gold makes equipment, powered rails, golden food and netherite.",
+        "redstone": "Redstone dust carries signals between components and is an ingredient in many circuit parts.",
+        "blaze_rod": "Blazes in Nether fortresses drop rods. Turn them into blaze powder or craft a brewing stand.",
+        "ender_pearl": "Throw an ender pearl to teleport, or use it to craft an Eye of Ender for finding a stronghold.",
+        "elytra": "Wings found in End ships that let you glide. Firework rockets can extend your flight.",
+        "totem_of_undying": "Hold a totem in either hand to survive otherwise fatal damage. Evokers drop them.",
+        "shulker_shell": "A shulker drop. Combine two shells with a chest to craft a portable shulker box.",
+        "nether_star": "Defeat the Wither to obtain this rare ingredient for a beacon.",
+        "cushion": "Place this cushion on a flat surface to sit on it. Craft it from three matching wool slabs; it breaks if its support is removed.",
+        "woolStairs": "A colored wool stair for building and decoration. Craft it from matching wool blocks.",
+        "woolSlab": "A colored wool slab for building and decoration. It can also be crafted into a matching cushion.",
+        "concreteStairs": "A colored concrete stair for building and decoration. Craft it from matching concrete blocks or use a stonecutter.",
+        "concreteSlab": "A colored concrete slab for building and decoration. Craft it from matching concrete blocks or use a stonecutter.",
+        "poplarWood": "Poplar wood comes from the Dappled Forest and can be crafted into a full set of wooden building blocks and items.",
+        "poplarSapling": "Poplar saplings grow into red, orange or yellow poplar trees. They can also be offered by wandering traders.",
+        "strawBed": "Sleep through the night without setting your respawn point. A straw bed is used once and is destroyed if used in the Nether or End.",
+        "redShrub": "A plant found in the Dappled Forest. Bone meal can spread it to a nearby space, and it can be composted.",
+        "shelfMushroom": "Grows on poplar trees in the Dappled Forest. Bone meal grows the small form; the large form drops two mushrooms. It can be used in stew."
+      }
+    },
+    "diagnosticNotice": "Development diagnostic — no world terrain",
+    "diagnosticRail": "Reserved advertising rail · 440px",
+    "diagnosticSources": "Local pinned recipe sources. Raw identifiers and fallback icons are intentional; artwork, names and redistribution are not yet verified.",
+    "runChecks": "Run browser checks",
+    "recipePattern": "Crafting pattern",
+    "shapelessPlacement": "Place these ingredients in any crafting slot; their order does not matter.",
+    "brewingFuel": "Fuel",
+    "brewingPlacement": "Top: {{ingredient}}. Bottom: up to 3 × {{input}}. Fuel slot: {{fuel}}.",
+    "brewingTime": "After {{seconds}} seconds",
+    "brewingBatchNote": "Amounts below are for one potion. One brew can process up to three bottles with the same reagent.",
+    "showMore": "See more",
+    "showMoreCount": "Show {{count}} more",
+    "showLess": "Show less",
+    "brewingTitle": "Brewing",
+    "brewingPath": "Brewing path",
+    "brewingStep": "Step {{step}}",
+    "brewingUnavailable": "No brewing recipes for this version.",
+    "enchantmentUnavailable": "No verified enchantment data for this version.",
+    "smithingTitle": "Smithing",
+    "craftingGuide": {
+      "filter": "Crafting type",
+      "filters": {
+        "all": "All crafting",
+        "inventory": "2×2 inventory",
+        "table": "3×3 table recipes",
+        "shaped": "Shaped",
+        "shapeless": "Shapeless"
+      },
+      "unavailable": "No crafting recipes for this version.",
+      "process": "Crafting recipe",
+      "description": "Use the shown grid and ingredients for this version.",
+      "inventoryGrid": "2×2 inventory",
+      "tableGrid": "3×3 crafting table",
+      "matchPattern": "Place the ingredients in the shown pattern.",
+      "variants": "{{count}} recipes",
+      "recipeOption": "{{index}} · {{method}} — {{ingredients}}",
+      "anyGroup": "Any {{group}}",
+      "validItems": "{{count}} valid items"
+    },
+    "smeltingGuide": {
+      "filter": "Cooking station",
+      "all": "All stations",
+      "unavailable": "No cooking recipes for this version.",
+      "process": "At the cooking station",
+      "description": "Choose a station to see its ingredients, time and experience when available.",
+      "methods": "{{count}} methods",
+      "methodOption": "{{station}} · {{input}}",
+      "input": "Input",
+      "station": "Station",
+      "alternatives": "{{count}} alternatives",
+      "time": "Cooking time",
+      "seconds": "{{value}} s",
+      "defaultFuelSpeed": "At default fuel speed",
+      "experience": "Experience"
+    },
+    "redstoneGuide": {
+      "obtain": "Where to get it",
+      "sculkSource": "Find sculk sensors in the deep dark; mine one with Silk Touch to collect the block.",
+      "all": "All redstone",
+      "filter": "Component type",
+      "unavailable": "No redstone components are available for this version.",
+      "groups": {
+        "fundamentals": "Signal basics",
+        "inputs": "Inputs & sensors",
+        "outputs": "Outputs & actions",
+        "automation": "Item automation"
+      },
+      "groupIntro": {
+        "fundamentals": "These parts create, carry, change or measure a redstone signal.",
+        "inputs": "Inputs turn player actions or world events into a redstone signal.",
+        "outputs": "Outputs react when a redstone signal reaches them.",
+        "automation": "These blocks move or craft items and can be controlled by redstone."
+      },
+      "role": "Circuit role",
+      "tryIt": "Try it",
+      "inCircuit": "In a circuit",
+      "range": "Signal range",
+      "distance": "Distance from source",
+      "blocks_one": "{{count}} block",
+      "blocks_many": "{{count}} blocks",
+      "blocks_other": "{{count}} blocks",
+      "signalStrength": "Signal strength",
+      "lineIntro": "Switch the lever and change the line length. Add a repeater after 15 dust segments to see when the lamp lights.",
+      "powerOn": "Power on",
+      "powerOff": "Power off",
+      "repeaterAt": "Repeater after {{count}} blocks",
+      "lampLit": "Lamp lit",
+      "lampDark": "Lamp off",
+      "rangeNote": "The first dust segment has strength 15. Each additional segment loses one; add a repeater before it reaches zero.",
+      "craft": "Crafting recipe",
+      "related": "Connect with",
+      "parts": {
+        "redstone": {
+          "behavior": "Place redstone dust to carry a signal between components. A full-strength signal reaches up to 15 dust segments.",
+          "example": "Connect a lever to a lamp with dust. Extend the line and add a repeater when the lamp stops lighting."
+        },
+        "redstone_block": {
+          "behavior": "A redstone block supplies constant power to neighboring components without a switch.",
+          "example": "Place it beside a piston or powered rail to keep that component active."
+        },
+        "redstone_torch": {
+          "behavior": "A redstone torch normally supplies power, but turns off when the block it is attached to is powered.",
+          "example": "Power its supporting block with a lever to invert the lever's on/off state."
+        },
+        "repeater": {
+          "behavior": "A repeater carries a signal in one direction, restores its strength and adds an adjustable delay.",
+          "example": "Point a repeater toward a lamp after a long dust line to extend the circuit."
+        },
+        "comparator": {
+          "behavior": "A comparator reads signal strength or block state, then compares or subtracts its side input.",
+          "example": "Place one facing away from a chest to read how full the chest is."
+        },
+        "lever": {
+          "behavior": "A lever gives a steady signal until a player switches it off again.",
+          "example": "Use it as the on/off control for a redstone lamp."
+        },
+        "stone_button": {
+          "behavior": "A stone button gives a short signal when pressed, then releases automatically.",
+          "example": "Connect it to a dispenser for one activation per press."
+        },
+        "stone_pressure_plate": {
+          "behavior": "A stone pressure plate sends a signal while an entity stands on it.",
+          "example": "Put one at an entrance to trigger a lamp or door as you pass."
+        },
+        "daylight_detector": {
+          "behavior": "A daylight detector changes its output with skylight; its mode can be switched to react to darkness.",
+          "example": "Connect it to a lamp for lighting that follows the day and night cycle."
+        },
+        "target": {
+          "behavior": "A target block gives a redstone signal when hit by a projectile; hits nearer the center are stronger.",
+          "example": "Aim at the target to trigger a dispenser or open a practice-range gate."
+        },
+        "observer": {
+          "behavior": "An observer watches the block in front of its face and emits a short pulse from its back when that block changes.",
+          "example": "Face it toward a growing crop and send its pulse to a piston."
+        },
+        "sculk_sensor": {
+          "behavior": "A sculk sensor detects nearby vibrations and turns them into a redstone signal.",
+          "example": "Connect one to a lamp to make a movement-sensitive indicator."
+        },
+        "calibrated_sculk_sensor": {
+          "behavior": "A calibrated sculk sensor uses a signal on its input side to listen for a chosen vibration frequency.",
+          "example": "Feed its calibration side from a comparator, then connect its output to an alarm."
+        },
+        "tripwire_hook": {
+          "behavior": "Two tripwire hooks joined by string emit a signal when something crosses the line.",
+          "example": "Run the tripwire across a passage and connect a hook to a dispenser."
+        },
+        "detector_rail": {
+          "behavior": "A detector rail sends a signal while a minecart is on it.",
+          "example": "Place it before a junction to trigger a powered rail or station light."
+        },
+        "piston": {
+          "behavior": "A piston extends when powered and pushes blocks in front of it.",
+          "example": "Power it through a lever to move a block into or out of a doorway."
+        },
+        "sticky_piston": {
+          "behavior": "A sticky piston pushes a block when extending and can pull that block back when retracting.",
+          "example": "Use it with an observer to build a moving gate."
+        },
+        "redstone_lamp": {
+          "behavior": "A redstone lamp lights up while it receives power.",
+          "example": "Connect one to a lever, daylight detector or sensor for visible feedback."
+        },
+        "dispenser": {
+          "behavior": "A dispenser activates an item from its inventory when it receives a pulse.",
+          "example": "Load arrows and trigger it with a button or tripwire."
+        },
+        "dropper": {
+          "behavior": "A dropper ejects one item on a pulse or inserts it into a facing container.",
+          "example": "Face it into a chest and pulse it to move items from a hopper-fed line."
+        },
+        "note_block": {
+          "behavior": "A note block plays a tuned note when it receives a redstone pulse.",
+          "example": "Set its pitch, then pulse it with a repeater for a simple rhythm."
+        },
+        "tnt": {
+          "behavior": "A redstone signal primes TNT, starting its fuse before the explosion.",
+          "example": "Use a button and a dust line to trigger it from a distance."
+        },
+        "powered_rail": {
+          "behavior": "A powered rail accelerates a minecart while powered and slows it when unpowered.",
+          "example": "Power a rail segment with a redstone block to keep a route moving."
+        },
+        "activator_rail": {
+          "behavior": "An activator rail triggers a minecart's special behavior while the rail is powered.",
+          "example": "Connect it to a detector rail to activate a passing minecart."
+        },
+        "hopper": {
+          "behavior": "A hopper moves items between inventories; a redstone signal locks it and stops transfers.",
+          "example": "Use a lever to pause a hopper line while you change the receiving container."
+        },
+        "crafter": {
+          "behavior": "A crafter makes and ejects its current recipe when it receives a redstone pulse. Its input slots can be disabled.",
+          "example": "Feed ingredients through hoppers and pulse the crafter with a button or clock."
+        }
+      }
+    },
+    "effectGuide": {
+      "fatalPoisonName": "Fatal Poison",
+      "all": "All effects",
+      "filter": "Effect type",
+      "unavailable": "No effects are available for this version.",
+      "inPlay": "In play",
+      "obtain": "How to get it",
+      "items": "Items and blocks",
+      "entities": "Mobs",
+      "potions": "Potion forms",
+      "related": "Related effects",
+      "groups": {
+        "movement": "Movement",
+        "health": "Health & protection",
+        "combat": "Combat",
+        "food": "Hunger & food",
+        "mining": "Mining",
+        "spawns": "On-hit & death",
+        "underwater": "Underwater",
+        "visibility": "Vision & concealment",
+        "omens": "Ominous events",
+        "other": "Other"
+      },
+      "parts": {
+        "speed": {
+          "behavior": "Increases movement speed while the effect lasts.",
+          "obtain": "Brew a Potion of Swiftness or choose Speed as a beacon power.",
+          "tip": "Useful for travel and dodging; higher levels make precise movement harder."
+        },
+        "slowness": {
+          "behavior": "Reduces movement speed while the effect lasts.",
+          "obtain": "Brew a Potion of Slowness or be hit by a stray's arrow.",
+          "tip": "A milk bucket removes this effect, along with your other active effects."
+        },
+        "jump_boost": {
+          "behavior": "Raises jump height and reduces some fall damage.",
+          "obtain": "Brew a Potion of Leaping or choose Jump Boost as a beacon power.",
+          "tip": "Use it to cross taller gaps; check your landing because it does not prevent all fall damage."
+        },
+        "slow_falling": {
+          "behavior": "Slows falling and prevents fall damage while active.",
+          "obtain": "Brew a Potion of Slow Falling with phantom membrane.",
+          "tip": "Drink before gliding into a dangerous landing or dropping into a deep cave."
+        },
+        "levitation": {
+          "behavior": "Forces the affected entity upward.",
+          "obtain": "A shulker projectile applies Levitation on hit.",
+          "tip": "Get beneath cover before it ends; the fall afterward can still hurt."
+        },
+        "dolphins_grace": {
+          "behavior": "Makes swimming much faster near a dolphin in Java Edition.",
+          "obtain": "Swim near a dolphin to receive the effect briefly.",
+          "tip": "Combine it with underwater breathing for quicker ocean travel."
+        },
+        "absorption": {
+          "behavior": "Adds temporary extra hearts that absorb damage before regular health.",
+          "obtain": "Eat a golden apple or an enchanted golden apple.",
+          "tip": "The extra hearts do not regenerate naturally; use them before a dangerous fight."
+        },
+        "regeneration": {
+          "behavior": "Restores health gradually over time.",
+          "obtain": "Brew a Potion of Regeneration, eat a golden apple, or use a beacon's secondary power.",
+          "tip": "It helps between hits but cannot replace an instant heal during a burst of damage."
+        },
+        "instant_health": {
+          "behavior": "Heals living targets immediately; it damages undead targets instead.",
+          "obtain": "Brew a Potion of Healing. Splash and lingering forms can affect other entities.",
+          "tip": "Throw a splash version at yourself for an immediate heal in combat."
+        },
+        "instant_damage": {
+          "behavior": "Damages living targets immediately; it heals undead targets instead.",
+          "obtain": "Brew a Potion of Harming from a healing or poison potion.",
+          "tip": "Check the target: this effect is a poor choice against undead mobs."
+        },
+        "poison": {
+          "behavior": "Deals damage over time but normally stops before killing the target.",
+          "obtain": "Brew a Potion of Poison, eat a spider eye or pufferfish, or take a cave spider hit.",
+          "tip": "Poison leaves you vulnerable at low health; recover before the next hit."
+        },
+        "wither": {
+          "behavior": "Deals damage over time and can kill the affected entity.",
+          "obtain": "Wither skeleton attacks, the Wither boss, and wither roses can apply it.",
+          "tip": "Keep healing available: unlike ordinary Poison, Wither can finish you."
+        },
+        "resistance": {
+          "behavior": "Reduces most incoming damage while the effect lasts.",
+          "obtain": "Use a beacon, an enchanted golden apple, or a Potion of the Turtle Master.",
+          "tip": "The Turtle Master potion also slows you heavily; plan your position first."
+        },
+        "fire_resistance": {
+          "behavior": "Prevents damage from fire and lava while active.",
+          "obtain": "Brew a Potion of Fire Resistance or eat an enchanted golden apple.",
+          "tip": "Carry one when mining near lava; it will not prevent drowning or suffocation."
+        },
+        "health_boost": {
+          "behavior": "Raises maximum health for the effect's duration.",
+          "obtain": "Health Boost has no standard survival source; it is available through commands.",
+          "tip": "When the effect ends, the extra maximum hearts disappear."
+        },
+        "fatal_poison": {
+          "behavior": "A Bedrock-only poison variant that continues damaging until it can kill.",
+          "obtain": "Fatal Poison has no standard survival source; it can be applied with commands.",
+          "tip": "Treat it like Wither rather than ordinary Poison: it can reduce health to zero."
+        },
+        "strength": {
+          "behavior": "Increases melee attack damage.",
+          "obtain": "Brew a Potion of Strength or choose Strength as a beacon power.",
+          "tip": "Use it before close-range fights; it does not make a bow shot stronger."
+        },
+        "weakness": {
+          "behavior": "Reduces melee attack damage.",
+          "obtain": "Brew a Potion of Weakness. A splash version is used when curing a zombie villager.",
+          "tip": "Apply it to a zombie villager before giving a golden apple to begin the cure."
+        },
+        "hunger": {
+          "behavior": "Makes the hunger bar drain faster during activity.",
+          "obtain": "Eating rotten flesh, raw chicken or pufferfish can cause Hunger.",
+          "tip": "Keep spare food nearby; the effect does not directly remove health."
+        },
+        "saturation": {
+          "behavior": "Instantly restores food and hidden saturation points.",
+          "obtain": "Certain suspicious stew recipes grant a brief Saturation effect.",
+          "tip": "The effect is instant, so a short duration is enough to refill food."
+        },
+        "haste": {
+          "behavior": "Increases mining speed.",
+          "obtain": "Choose Haste as a beacon's primary power.",
+          "tip": "Combine Haste with a suitable tool and Efficiency for faster mining."
+        },
+        "mining_fatigue": {
+          "behavior": "Greatly reduces mining speed.",
+          "obtain": "An elder guardian applies Mining Fatigue around an ocean monument.",
+          "tip": "Bring milk for a short removal window, then deal with the elder guardian."
+        },
+        "infested": {
+          "behavior": "Gives a chance to spawn silverfish when the affected entity is hurt.",
+          "obtain": "Brew a Potion of Infestation or encounter an ominous trial effect.",
+          "tip": "Repeated hits can create extra threats around the target."
+        },
+        "oozing": {
+          "behavior": "Spawns slimes when the affected entity dies.",
+          "obtain": "Brew a Potion of Oozing or encounter an ominous trial effect.",
+          "tip": "Leave space around the target before defeating it."
+        },
+        "weaving": {
+          "behavior": "Spreads cobwebs when the affected entity dies and lets it move through webs faster.",
+          "obtain": "Brew a Potion of Weaving or encounter an ominous trial effect.",
+          "tip": "Webs can trap nearby players and mobs after the target dies."
+        },
+        "wind_charged": {
+          "behavior": "Releases a wind burst when the affected entity dies.",
+          "obtain": "Brew a Potion of Wind Charging or encounter an ominous trial effect.",
+          "tip": "Keep your distance from the death burst and nearby ledges."
+        },
+        "water_breathing": {
+          "behavior": "Prevents the air bar from running out underwater.",
+          "obtain": "Brew a Potion of Water Breathing or wear a turtle helmet for a brief effect on entry.",
+          "tip": "Use it for long dives; it does not improve swimming speed."
+        },
+        "conduit_power": {
+          "behavior": "Provides underwater breathing, improved underwater mining and clearer vision near a conduit.",
+          "obtain": "Activate a conduit in a prismarine frame and stay within its range.",
+          "tip": "The conduit needs a valid surrounding frame to keep the effect active."
+        },
+        "breath_of_the_nautilus": {
+          "behavior": "Pauses air consumption while riding a nautilus; it does not refill air.",
+          "obtain": "Ride a nautilus or zombie nautilus underwater.",
+          "tip": "Surface to refill your air before it runs out, then dive again."
+        },
+        "night_vision": {
+          "behavior": "Brightens dark areas and improves visibility underwater.",
+          "obtain": "Brew a Potion of Night Vision with a golden carrot.",
+          "tip": "Useful in caves and oceans, but it does not protect against hostile mobs."
+        },
+        "invisibility": {
+          "behavior": "Hides the affected entity's body, but held items and armor can remain visible.",
+          "obtain": "Brew a Potion of Invisibility from a night vision potion.",
+          "tip": "Remove visible equipment if you need to avoid being spotted."
+        },
+        "blindness": {
+          "behavior": "Limits vision to a short area around the affected player.",
+          "obtain": "Some suspicious stew recipes apply Blindness.",
+          "tip": "Stop near cover rather than running into unseen terrain."
+        },
+        "darkness": {
+          "behavior": "Pulses the player's vision dark around the deep dark's threats.",
+          "obtain": "A sculk shrieker or Warden can apply Darkness nearby.",
+          "tip": "Move quietly and use the pulse to find cover instead of rushing forward."
+        },
+        "nausea": {
+          "behavior": "Distorts the screen while the effect lasts.",
+          "obtain": "Eating a pufferfish can apply Nausea.",
+          "tip": "Pause movement until your view settles; the visual distortion can hide hazards."
+        },
+        "glowing": {
+          "behavior": "Shows an outline of the affected entity through blocks in Java Edition.",
+          "obtain": "Hit an entity with a spectral arrow.",
+          "tip": "Mark a moving target so you can track it behind cover."
+        },
+        "bad_omen": {
+          "behavior": "Prepares an ominous event when the affected player reaches the right location.",
+          "obtain": "Drink an ominous bottle in current releases; older releases grant it after defeating a raid captain.",
+          "tip": "Entering a village or trial chamber while affected can change the encounter."
+        },
+        "raid_omen": {
+          "behavior": "Counts down to an ominous raid after entering a village with Bad Omen.",
+          "obtain": "Gain Bad Omen from an ominous bottle, then enter a village.",
+          "tip": "Leave the village or clear the effect before the countdown ends if you are unprepared."
+        },
+        "trial_omen": {
+          "behavior": "Makes a trial chamber's spawners and vaults ominous.",
+          "obtain": "Enter a trial chamber with Bad Omen, usually from an ominous bottle.",
+          "tip": "Expect a harder trial and prepare before activating spawners."
+        },
+        "hero_of_the_village": {
+          "behavior": "Grants villager trade discounts after a successful raid defense.",
+          "obtain": "Defeat a raid to gain Hero of the Village.",
+          "tip": "Trade while the effect lasts to use the discounts."
+        },
+        "luck": {
+          "behavior": "Raises the luck attribute used by some loot calculations in Java Edition.",
+          "obtain": "Luck has no standard survival source; commands or creative-only items can apply it.",
+          "tip": "It does not directly increase every drop rate."
+        },
+        "unluck": {
+          "behavior": "Lowers the luck attribute used by some loot calculations in Java Edition.",
+          "obtain": "Bad Luck has no standard survival source; commands can apply it.",
+          "tip": "It affects only systems that consult the luck attribute."
+        }
+      }
+    },
+    "smithingGuide": {
+      "all": "All smithing",
+      "upgrades": "Netherite upgrades",
+      "trims": "Armor trims",
+      "filter": "Smithing type",
+      "unavailable": "No smithing recipes for this version.",
+      "templateSlot": "Template",
+      "gearSlot": "Gear",
+      "materialSlot": "Material",
+      "resultSlot": "Result",
+      "dynamicResult": "Trimmed armor",
+      "tablePreview": "Smithing table preview",
+      "trimmedWith": "Trim material: {{material}}",
+      "dynamicPreview": "The result uses your chosen armor. The pattern and material change its appearance only.",
+      "changeSelection": "Change",
+      "copyNote": "Find your first template in the world; this recipe only copies one you already have. Copy it before smithing consumes your last one.",
+      "process": "At the smithing table",
+      "findTemplate": "Where to find the template",
+      "sourceUnavailable": "No verified source location is available for this version.",
+      "compatibleArmor": "Compatible armor",
+      "compatibleOptions": "Compatible options",
+      "trimMaterials": "Trim materials",
+      "copyTemplate": "Copy the template",
+      "trimDescription": "Apply this pattern to armor for a cosmetic trim. Choose the armor and material below; the template is consumed.",
+      "upgradeDescription": "Upgrade the matching diamond gear with a Netherite Upgrade template and a Netherite Ingot. The template is consumed.",
+      "legacyUpgradeDescription": "In this version, combine matching diamond gear and a Netherite Ingot directly at the smithing table. No template is required.",
+      "upgradeTemplateDescription": "Use this template with diamond gear and a Netherite Ingot to make Netherite equipment. The template is consumed."
+    },
+    "emptySlot": "Empty slot",
+    "outputs": "Produces",
+    "ingredients": "Ingredients to craft",
+    "chooseOne": "Choose one alternative",
+    "variant": "Data variant: {{value}}",
+    "conditionalOutput": "Output has variant or component conditions.",
+    "guideOnly": "Recipe reference only — not a world location.",
+    "item": "Item",
+    "noCraftingRecipe": "No crafting recipe exists for this item in the selected version.",
+    "partialCoverage": "This guide is still being verified. Missing recipes or uses are not proof that none exist.",
+    "madeWith": "How to craft",
+    "usedIn": "Used in",
+    "ingredientGroup": "Ingredient group",
+    "unresolvedGroup": "Group membership is not verified for this edition and version.",
+    "groupDescription": "Recipes accept members of this ingredient group.",
+    "localMechanicsData": "Exact-version mechanics data. Missing relationships do not prove that none exist.",
+    "enchantmentAppliesTo": "This enchantment can be applied to these item types:",
+    "enchantmentDetails": "Enchantment details",
+    "enchantmentConflicts": "Incompatible enchantments",
+    "enchantmentEquipmentFilter": "Filter by equipment",
+    "enchantmentAllEquipment": "All equipment",
+    "enchantmentMaximumLevel": "Maximum level",
+    "enchantmentSelectionWeight": "Selection weight",
+    "enchantmentAnvilMultiplier": "Anvil multiplier",
+    "enchantmentCompatibleEquipment": "Compatible equipment",
+    "enchantmentActiveSlots": "Active slots",
+    "enchantmentEffects": "Effects",
+    "enchantmentSummaries": {
+      "aqua_affinity": "Mine underwater without the usual speed penalty.",
+      "bane_of_arthropods": "Deals extra damage to arthropods and slows them.",
+      "binding_curse": "An equipped item cannot be removed normally.",
+      "blast_protection": "Reduces damage and knockback from explosions.",
+      "breach": "Reduces the target's effective armor against mace strikes.",
+      "channeling": "A thrown trident summons lightning on a hit during thunderstorms.",
+      "density": "Increases mace smash damage as falling distance grows.",
+      "depth_strider": "Move faster through water.",
+      "efficiency": "Mine blocks faster.",
+      "feather_falling": "Take less fall damage.",
+      "fire_aspect": "Sets targets on fire with melee attacks.",
+      "fire_protection": "Reduces fire damage and burning duration.",
+      "flame": "Arrows set targets on fire.",
+      "fortune": "Increases drops from eligible blocks.",
+      "frost_walker": "Freezes water beneath your feet into temporary ice.",
+      "impaling": "Deals extra trident damage to affected mobs.",
+      "infinity": "Firing normal arrows does not consume them.",
+      "knockback": "Pushes targets farther with melee hits.",
+      "looting": "Improves eligible drops from defeated mobs.",
+      "loyalty": "A thrown trident returns to its wielder.",
+      "luck_of_the_sea": "Improves the chance of fishing up treasure.",
+      "lunge": "A spear jab propels you forward while consuming hunger.",
+      "lure": "Fish bite sooner.",
+      "mending": "Uses collected experience to repair the item.",
+      "multishot": "Fires three projectiles from a crossbow at once.",
+      "piercing": "Crossbow arrows pass through multiple targets.",
+      "power": "Increases arrow damage.",
+      "projectile_protection": "Reduces damage from projectiles.",
+      "protection": "Reduces most incoming damage.",
+      "punch": "Arrows knock targets back farther.",
+      "quick_charge": "Reloads a crossbow faster.",
+      "respiration": "Stay underwater longer before losing air.",
+      "riptide": "Launches you with a trident in water or rain.",
+      "sharpness": "Increases melee damage.",
+      "silk_touch": "Eligible mined blocks drop themselves.",
+      "smite": "Deals extra damage to undead mobs.",
+      "soul_speed": "Move faster across soul sand and soul soil.",
+      "sweeping_edge": "Increases damage to nearby targets of a sword sweep.",
+      "swift_sneak": "Move faster while sneaking.",
+      "thorns": "Attackers may take damage when they hit you.",
+      "unbreaking": "Gives the item a chance to avoid durability loss.",
+      "vanishing_curse": "The item disappears when its owner dies.",
+      "wind_burst": "A mace smash launches you upward."
+    },
+    "enchantmentEquipmentTypes": {
+      "boots": "Boots",
+      "leggings": "Leggings",
+      "chestplates": "Chestplates",
+      "helmets": "Helmets",
+      "swords": "Swords",
+      "spears": "Spears",
+      "axes": "Axes",
+      "pickaxes": "Pickaxes",
+      "shovels": "Shovels",
+      "hoes": "Hoes",
+      "headwear": "Headwear"
+    },
+    "quantityRange": "{{min}}–{{max}}",
+    "chance": "Chance: {{value}}",
+    "tradeOffers": "Offers",
+    "tradeMaxUses": "Up to {{count}} uses before restocking",
+    "tradeExperience": "+{{count}} villager XP",
+    "tradeLevel": "Profession level",
+    "tradeProfession": "Profession",
+    "tutorialGuide": {
+      "route": "Step-by-step route",
+      "topics": {
+        "first-night": {
+          "title": "Survive your first night",
+          "summary": "A practical route from your first log to tools, shelter, light, and food.",
+          "steps": {
+            "wood": {
+              "title": "Start with wood",
+              "body": "Break a tree, turn logs into planks, then make a crafting table. The table opens the larger grid needed for most early tools."
+            },
+            "tools": {
+              "title": "Make basic tools",
+              "body": "Craft a wooden pickaxe to collect stone. Upgrade to a stone pickaxe before mining iron ore and keep spare blocks for a quick shelter."
+            },
+            "shelter": {
+              "title": "Secure the night",
+              "body": "Close off a small shelter before dark and light the area with torches. A bed lets you skip the night and sets your respawn point when used."
+            },
+            "food": {
+              "title": "Build a food supply",
+              "body": "Keep food on your hotbar. A furnace cooks raw meat, while bread gives you a renewable option once you have wheat."
+            }
+          }
+        },
+        "mining": {
+          "title": "From stone to diamond",
+          "summary": "Gather ore safely, upgrade your pickaxe, and prepare for obsidian.",
+          "steps": {
+            "prepare": {
+              "title": "Pack for the cave",
+              "body": "Take a pickaxe, torches, food, and spare blocks. Light passages as you go and avoid digging straight down into unseen space."
+            },
+            "iron": {
+              "title": "Collect and smelt iron",
+              "body": "Mine raw iron with a suitable pickaxe, then smelt it in a furnace. Iron ingots unlock stronger tools and useful gear."
+            },
+            "upgrade": {
+              "title": "Reach diamond",
+              "body": "Use an iron pickaxe to collect diamond ore. Craft a diamond pickaxe before attempting to mine obsidian."
+            },
+            "obsidian": {
+              "title": "Collect obsidian",
+              "body": "Water meeting a lava source creates obsidian. Mine it with a diamond pickaxe and keep the water nearby to control exposed lava."
+            }
+          }
+        },
+        "nether": {
+          "title": "Explore the Nether",
+          "summary": "Open a portal, prepare for hazards, and find the materials needed for brewing and the End.",
+          "steps": {
+            "portal": {
+              "title": "Open a portal",
+              "body": "Build an obsidian frame and light its interior with flint and steel. Bring the means to relight it if your return portal goes out."
+            },
+            "prepare": {
+              "title": "Prepare for danger",
+              "body": "Carry food and fire protection. Wearing one piece of gold armor keeps ordinary piglins neutral unless you provoke them; piglin brutes remain hostile."
+            },
+            "fortress": {
+              "title": "Find a Nether fortress",
+              "body": "Explore carefully around exposed bridges. Blazes drop rods that become blaze powder for brewing stands and Eyes of Ender."
+            },
+            "wart": {
+              "title": "Bring back Nether wart",
+              "body": "Look for Nether wart in fortress stairwell gardens. Grow it on soul sand at home to maintain a brewing supply."
+            }
+          }
+        },
+        "brewing": {
+          "title": "Brew your first potion",
+          "summary": "Set up a brewing stand, make an Awkward Potion, then choose and modify an effect.",
+          "steps": {
+            "stand": {
+              "title": "Fuel the stand",
+              "body": "Place a brewing stand and load blaze powder into its fuel slot. Up to three bottles can be brewed together with one ingredient."
+            },
+            "base": {
+              "title": "Make an Awkward Potion",
+              "body": "Fill glass bottles with water. Brew Nether wart into the water bottles to make the base used by many useful potions."
+            },
+            "effect": {
+              "title": "Choose an effect",
+              "body": "Brew an effect ingredient into the Awkward Potion. A glistering melon slice, for example, produces a Potion of Healing."
+            },
+            "modify": {
+              "title": "Adjust the result",
+              "body": "Gunpowder turns a compatible potion into a throwable splash potion. Depending on the potion, redstone can extend duration or glowstone can strengthen its effect."
+            }
+          }
+        },
+        "enchanting": {
+          "title": "Enchant your equipment",
+          "summary": "Use experience and lapis lazuli to improve gear, then combine useful enchantments.",
+          "steps": {
+            "table": {
+              "title": "Set up the table",
+              "body": "Place an enchanting table and bring lapis lazuli and experience levels. The offered enchantments depend on the item and the available enchanting power."
+            },
+            "bookshelves": {
+              "title": "Add bookshelves",
+              "body": "Place bookshelves around the table with clear space between them. More valid shelves unlock stronger enchantment offers."
+            },
+            "enchant": {
+              "title": "Pick a useful enchantment",
+              "body": "Try an eligible tool and compare its offers. Efficiency improves mining speed; Unbreaking can reduce durability loss."
+            },
+            "combine": {
+              "title": "Use an anvil",
+              "body": "Combine compatible enchanted gear or apply an enchanted book at an anvil. Check the experience cost before accepting the result."
+            }
+          }
+        },
+        "trading": {
+          "title": "Trade with villagers",
+          "summary": "Find a village, choose a profession, earn emeralds, and unlock higher trade levels.",
+          "steps": {
+            "village": {
+              "title": "Find villagers",
+              "body": "Villages are a natural starting point. Keep villagers safe and check each villager's profession before planning a trade route."
+            },
+            "profession": {
+              "title": "Match a workstation",
+              "body": "An unemployed villager can take a profession from an available job site. A lectern creates a librarian, whose offers are shown in the trade guide."
+            },
+            "emeralds": {
+              "title": "Earn emeralds",
+              "body": "Sell materials a villager wants, such as a farmer's crops. Prices and available offers can vary between villagers and change with demand or reputation."
+            },
+            "advance": {
+              "title": "Unlock and restock",
+              "body": "Trading grants villager experience and unlocks higher levels. A villager needs access to its workstation to restock a used offer."
+            }
+          }
+        },
+        "redstone": {
+          "title": "Build a redstone circuit",
+          "summary": "Connect a power source to a device, then add timing and simple item movement.",
+          "steps": {
+            "power": {
+              "title": "Start with a switch",
+              "body": "Use a lever as an on/off power source. Lay redstone dust to carry its signal toward a device."
+            },
+            "output": {
+              "title": "Connect an output",
+              "body": "Power a redstone lamp for an obvious test, then try a piston to move a block. Check how each component faces when placed."
+            },
+            "timing": {
+              "title": "Control the signal",
+              "body": "A repeater can refresh a signal and add a delay. A comparator reads or compares signal strength for more selective circuits."
+            },
+            "automation": {
+              "title": "Move and dispense items",
+              "body": "Use a hopper to transfer items between containers. A dispenser acts when powered and behaves differently depending on its contents."
+            }
+          }
+        },
+        "the-end": {
+          "title": "Reach the End",
+          "summary": "Gather Eyes of Ender, find a stronghold, and prepare for the Ender Dragon.",
+          "steps": {
+            "pearls": {
+              "title": "Gather Ender Pearls",
+              "body": "Endermen are one source of Ender Pearls. Bring food and suitable gear before gathering what you need."
+            },
+            "powder": {
+              "title": "Get blaze powder",
+              "body": "Find a Nether fortress and collect blaze rods. Turn them into blaze powder to combine with Ender Pearls."
+            },
+            "stronghold": {
+              "title": "Locate the stronghold",
+              "body": "Craft Eyes of Ender and follow their direction toward a stronghold. Bring extra eyes to activate any empty End portal frames."
+            },
+            "dragon": {
+              "title": "Prepare for the dragon",
+              "body": "Take ranged and melee weapons, food, and fall protection. Destroy the End Crystals that heal the dragon before focusing on the fight."
+            }
+          }
+        },
+        "wither": {
+          "title": "Defeat the Wither",
+          "summary": "Collect summoning materials, prepare an arena, and turn the Nether Star into a beacon.",
+          "steps": {
+            "skulls": {
+              "title": "Collect three skulls",
+              "body": "Fight Wither Skeletons in Nether fortresses until you have three skulls. Bring four blocks of soul sand or soul soil for the body."
+            },
+            "summon": {
+              "title": "Choose an arena",
+              "body": "Build the T-shaped body and place the three skulls last. Summon the Wither away from valuable builds and stand clear while it charges."
+            },
+            "fight": {
+              "title": "Survive the fight",
+              "body": "Bring strong weapons, healing, and a way to remove the Wither effect. Watch for the Wither's second phase, when ranged attacks become ineffective."
+            },
+            "beacon": {
+              "title": "Use the Nether Star",
+              "body": "Defeating the Wither drops a Nether Star. Craft a beacon and place it above a valid mineral-block pyramid to activate its effects."
+            }
+          }
+        }
+      }
+    },
+    "tradeGuide": {
+      "availableOffers": "Possible offers",
+      "findTrader": "Trader and workstation",
+      "professionIntro": "Possible base offers for this profession in the selected edition and version. Each villager has a selection; prices can change.",
+      "wanderingIntro": "Possible base trades for the wandering trader in this edition and version. Each trader offers a selection and does not restock.",
+      "offerIntro": "A base trade from the selected edition and version. Actual prices can vary.",
+      "exchange": "Exchange",
+      "availableFrom": "Offered by",
+      "search": "Search offers by item",
+      "showing": "{{shown}} / {{total}} offers",
+      "filter": "Offer direction",
+      "directions": {
+        "all": "All offers",
+        "spend": "Spend emeralds",
+        "earn": "Earn emeralds"
+      },
+      "noMatches": "No offers match these filters.",
+      "more": "Show {{count}} more",
+      "stock": "Up to {{count}} uses"
+    },
+    "tradeLevels": {
+      "1": "Novice",
+      "2": "Apprentice",
+      "3": "Journeyman",
+      "4": "Expert",
+      "5": "Master"
+    },
+    "mechanicSubject": "Applies to",
+    "previousAdvancement": "Previous advancement",
+    "nextAdvancements": "Unlocks next",
+    "requiredForAdvancements": "Required for advancements",
+    "spawnsIn": "Spawns in",
+    "blockGuide": {
+      "filter": "Block type",
+      "featured": "Key blocks",
+      "catalog": "Browse all blocks",
+      "filters": {
+        "all": "All blocks",
+        "surface": "Biome-linked",
+        "crafted": "Craftable",
+        "redstone": "Redstone",
+        "other": "Other blocks"
+      },
+      "obtain": "How to get it",
+      "naturalOccurrence": "Natural surfaces",
+      "surfaceCaveat": "These biomes feature this block in natural terrain; it can occur elsewhere too.",
+      "surfaceSummary": "This block occurs naturally in some biomes. Explore where it appears below.",
+      "craft": "Crafting pattern",
+      "familyUses": "More things to craft",
+      "ore": {
+        "summary": "Mine this ore for {{resource}}.",
+        "mine": "Mining",
+        "processing": "Processing",
+        "processingNote": "An intact ore block can also be smelted; see the result below.",
+        "smeltedProcessingNote": "Smelt the mined block to obtain the result. Open it for stations and timing.",
+        "location": "Found in",
+        "tool": "Minimum tool",
+        "locations": {
+          "underground": "Overworld, underground",
+          "mountains": "Overworld mountain regions",
+          "nether": "The Nether"
+        },
+        "tools": {
+          "wood": "Wooden pickaxe or better",
+          "stone": "Stone pickaxe or better",
+          "iron": "Iron pickaxe or better",
+          "diamond": "Diamond pickaxe or better"
+        },
+        "miningTip": "Mine with a suitable pickaxe. Fortune can increase the resource yield; Silk Touch collects the ore block instead.",
+        "smeltedMiningTip": "Mine the buried block with a suitable pickaxe. The block itself drops; Fortune does not increase it.",
+        "deepslateTip": "The deepslate variant takes longer to break.",
+        "yield": "Drops when mined",
+        "yieldNote": "Without Silk Touch"
+      },
+      "woodFamilies": {
+        "summary": {
+          "button": "A wooden switch made from matching planks.",
+          "pressurePlate": "A wooden floor switch made from matching planks.",
+          "trapdoor": "A hinged wooden hatch made from matching planks."
+        },
+        "behavior": {
+          "button": "Press it to send a brief redstone signal. Wooden buttons can also be activated by arrows.",
+          "pressurePlate": "Entities and dropped items on the plate power it. The signal stops after they leave.",
+          "trapdoor": "Open or close it by hand, or control it with a redstone signal."
+        }
+      },
+      "profileTitles": {
+        "location": "Where it appears",
+        "survival": "Survival access",
+        "use": "How it works"
+      },
+      "profiles": {
+        "bedrock": {
+          "location": "Forms the bottom boundary of the Overworld and both the floor and ceiling of the Nether.",
+          "survival": "It cannot be mined or collected in Survival. Creative mode can place and break it."
+        },
+        "end_portal_frame": {
+          "location": "Generates in the portal room of a stronghold. The frame itself cannot be collected in Survival.",
+          "use": "Fill the empty frame blocks with Eyes of Ender to activate the End portal."
+        },
+        "budding_amethyst": {
+          "location": "Found inside underground amethyst geodes. Breaking it destroys the block, even with Silk Touch.",
+          "use": "Amethyst buds grow on exposed sides and mature into clusters. Harvest the clusters for amethyst shards."
+        }
+      },
+      "highlights": {
+        "grass_block": "Grass spreads over nearby dirt when conditions allow. Breaking this block without Silk Touch drops dirt; Silk Touch preserves it.",
+        "sand": "A falling terrain block found in dry and coastal areas. Smelt it into glass or craft sandstone.",
+        "red_sand": "The red sand of the badlands. It falls when unsupported and can be smelted into glass.",
+        "mycelium": "The ground cover of mushroom fields. It can spread to nearby dirt; Silk Touch collects the block itself.",
+        "sculk": "Sculk grows around sculk catalysts in the deep dark. Mining it without Silk Touch yields experience instead of the block.",
+        "crafting_table": "Opens a 3×3 crafting grid for recipes that do not fit in your inventory.",
+        "furnace": "Smelts items using fuel. Blast furnaces process ores faster, while smokers cook food faster.",
+        "smithing_table": "Combines templates, gear and materials for netherite upgrades and armor trims.",
+        "brewing_stand": "Brews potions from bottles and ingredients, using blaze powder as fuel.",
+        "enchanting_table": "Uses experience and lapis lazuli to enchant equipment. Nearby bookshelves unlock higher enchantment levels.",
+        "obsidian": "A hard block used to build Nether portals. Collect it with a diamond or netherite pickaxe.",
+        "ancient_debris": "A rare Nether ore that smelts into netherite scrap. It resists normal explosions.",
+        "bedrock": "An unbreakable Survival boundary block. It defines the bottom of the Overworld and the floor and roof of the Nether.",
+        "end_portal_frame": "The stronghold portal frame that opens a path to the End when filled with Eyes of Ender.",
+        "budding_amethyst": "A geode block that grows amethyst buds and clusters; leave it intact to keep harvesting crystals."
+      }
+    },
+    "biomeGuide": {
+      "all": "All biomes",
+      "filter": "Biome family",
+      "unavailable": "Biome data is unavailable for this edition and version.",
+      "environment": "Environment",
+      "resources": "Useful resources",
+      "dimension": "Dimension",
+      "temperature": "Temperature",
+      "downfall": "Downfall",
+      "climateNote": "Temperature and downfall are game data values, not °C or a rain percentage.",
+      "hasPrecipitation": "Precipitation is enabled here.",
+      "noPrecipitation": "This biome has no precipitation.",
+      "terrainMaterials": "Surface materials",
+      "landmarks": "Places to explore",
+      "landmarkNote": "These structures can generate in this biome; terrain and world generation still affect their placement.",
+      "wildlife": "Mobs that can spawn",
+      "spawnDetail": "Group {{group}} · weight {{weight}}",
+      "related": "Related biomes",
+      "highlights": {
+        "badlands": "Red sand and layered terracotta shape this dry biome. Look for plentiful gold ore and exposed mineshafts.",
+        "deep_dark": "Sculk covers this underground biome. Ancient cities can generate here; noise can alert the Warden.",
+        "dappled_forest": "A forest of red, orange and yellow poplars near cold biomes. Look for shelf mushrooms, red shrubs and abandoned camps."
+      },
+      "families": {
+        "forests": "A forest or wooded biome with its own climate, terrain and mob spawns.",
+        "meadows": "An open landscape; climate and mob spawns vary across this biome family.",
+        "oceans": "A water or shore biome with its own climate and aquatic life.",
+        "mountains": "A mountain or cave biome shaped by its climate and terrain.",
+        "deserts": "A dry biome where terrain and generation create distinct landmarks.",
+        "nether": "A Nether biome with distinct terrain and hostile mob spawns.",
+        "end": "An End biome with terrain and structures unique to this dimension."
+      }
+    },
+    "biomeFamilies": {
+      "forests": "Forests",
+      "meadows": "Meadows",
+      "oceans": "Oceans",
+      "mountains": "Mountains",
+      "deserts": "Deserts",
+      "nether": "Nether",
+      "end": "The End"
+    },
+    "requiredAdvancementItems": "Required items",
+    "requiredAdvancementEntities": "Required entities",
+    "requirements": "Requires",
+    "inputs": "Inputs",
+    "outcomes": "Outcomes",
+    "mobDetails": {
+      "tabList": "Mob details",
+      "tabs": {
+        "overview": "Overview",
+        "behavior": "Behavior",
+        "combat": "Combat",
+        "drops": "Drops",
+        "spawning": "Spawning",
+        "related": "Related"
+      },
+      "summaries": {
+        "allay": "Give an allay an item and it will collect matching dropped items. A nearby note block can become its delivery point.",
+        "armadillo": "Armadillos curl up when startled. Brush one or wait for a shed scute to collect material for wolf armor.",
+        "axolotl": "Axolotls live in lush-cave water and attack many aquatic mobs. Helping one in a fight can give you a brief regeneration effect.",
+        "bat": "Bats fly through dark caves and rest upside down. They do not attack or provide a useful drop.",
+        "bee": "Bees collect pollen from flowers, pollinate crops and return to their nests to make honey.",
+        "blaze": "Blazes guard Nether fortresses and attack with volleys of fireballs. Their rods are needed for brewing and reaching the End.",
+        "bogged": "This swamp skeleton shoots poisonous arrows. Shearing it removes its mushrooms; defeat it for its usual skeleton loot.",
+        "breeze": "The breeze appears in trial chambers and attacks with wind charges that knock targets around and trigger some blocks.",
+        "camel_husk": "Camel husks roam deserts and may carry hostile undead riders. The mount itself is passive and can be claimed after its riders are defeated.",
+        "camel": "Camels are tall desert mounts that carry two players. Their dash crosses gaps, and their height keeps many short enemies out of reach.",
+        "cat": "Cats can be tamed with raw fish. They scare away creepers and phantoms, and a sleeping tamed cat may bring a morning gift.",
+        "cave_spider": "Cave spiders appear around mineshaft spawners. They fit through narrow gaps and can poison players they bite.",
+        "chicken": "Chickens lay eggs over time and drop feathers and meat when killed. Seeds can be used to breed them.",
+        "cod": "Cod swim in oceans and can be collected in buckets. They provide raw cod when caught or defeated.",
+        "copper_golem": "A copper golem moves items from copper chests into nearby ordinary chests. It slowly oxidizes unless waxed.",
+        "cow": "Cows graze in the Overworld. Use a bucket for milk, breed them with wheat, or obtain beef and leather on defeat.",
+        "creaking": "The creaking stalks players in pale gardens when they look away. Locate and break its connected creaking heart to stop it.",
+        "creeper": "Creepers approach quietly and explode after getting close. Keep your distance or interrupt the approach with knockback.",
+        "dolphin": "Dolphins swim in oceans and can boost a nearby swimmer's speed. Feeding one raw fish can lead you toward an underwater structure.",
+        "donkey": "Donkeys can be tamed and ridden. Equip a chest to carry items while travelling.",
+        "drowned": "Drowned are underwater zombies that may carry tridents or nautilus shells. Zombies can also convert after remaining submerged.",
+        "elder_guardian": "An elder guardian protects an ocean monument. Its laser and Mining Fatigue effect make underwater preparation important.",
+        "ender_dragon": "The Ender Dragon circles the central island and heals from end crystals. Destroy the crystals before finishing the fight.",
+        "enderman": "Endermen teleport and carry some blocks. Avoid looking directly at one unless you are ready to fight.",
+        "endermite": "An endermite can appear when an ender pearl is used. It attacks nearby players and attracts endermen.",
+        "evoker": "Evokers use fang attacks and summon vexes. They are encountered in woodland mansions and raids.",
+        "fox": "Foxes roam taiga biomes, pick up items and hunt small animals. Sweet berries or glow berries can be used to breed them.",
+        "frog": "Frogs eat small slimes and magma cubes. The magma cube meal creates a froglight whose color depends on the frog variant.",
+        "ghast": "Ghasts float through the Nether and fire explosive fireballs. A well-timed hit can send a fireball back.",
+        "giant": "The giant is an unused oversized zombie. It does not appear naturally and can only be summoned with commands.",
+        "glow_squid": "Glow squids swim in dark underground water and release glow ink sacs when defeated. The ink can make sign text glow.",
+        "goat": "Goats live on mountain slopes and may ram nearby mobs or players. A ram into a suitable hard block can leave a goat horn.",
+        "guardian": "Guardians patrol ocean monuments and fire a charging laser. Their spikes also punish close attacks while extended.",
+        "happy_ghast": "Raise a dried ghast into a happy ghast, then equip a harness for a flying mount that can carry several players.",
+        "hoglin": "Hoglins are aggressive Nether animals found in crimson forests. They fear warped fungi and can be bred with crimson fungi.",
+        "horse": "Horses can be tamed, saddled and ridden across the Overworld. Individuals vary in speed, jump height and health.",
+        "husk": "Husks are desert zombies that do not burn in sunlight. Their melee attacks can inflict Hunger.",
+        "illusioner": "The illusioner is a command-only illager. It attacks with a bow, uses blindness and creates decoy images.",
+        "iron_golem": "Iron golems defend villagers from hostile mobs. They can also be built by players using iron blocks and a carved pumpkin.",
+        "llama": "Llamas can carry chests and form caravans when led. They spit at attackers and can be bred with hay bales.",
+        "magma_cube": "Magma cubes jump through the Nether and split into smaller cubes when defeated. Their size changes the threat and drops.",
+        "mooshroom": "Mooshrooms live on mushroom fields. Use a bowl for mushroom stew, milk them with a bucket, or shear one into a cow.",
+        "mule": "A mule is bred from a horse and a donkey. It can be ridden and fitted with a chest, but cannot breed itself.",
+        "nautilus": "Nautiluses swim in oceans and can be tamed and bred with pufferfish. Riding one preserves your air supply underwater.",
+        "ocelot": "Ocelots live in jungles and flee from players. Raw fish can earn their trust, but they do not become pet cats.",
+        "panda": "Pandas roam bamboo jungles and eat bamboo. Their personalities affect behavior, and a sneeze can leave a slimeball.",
+        "parched": "The parched is a desert skeleton that stays active in sunlight. It attacks from range and can ride a camel husk.",
+        "parrot": "Parrots live in jungles and can be tamed with seeds. They mimic nearby hostile mobs and can perch on your shoulder.",
+        "phantom": "Phantoms swoop at players who have gone several in-game days without sleep. Sleeping prevents their natural appearance.",
+        "pig": "Pigs are passive farm animals that provide porkchops. Breed them with vegetables, or ride one with a saddle and carrot on a stick.",
+        "piglin_brute": "Piglin brutes guard bastion remnants. They attack on sight and cannot be distracted by gold.",
+        "piglin": "Piglins roam the Nether and become hostile toward players without gold armor. Offer a gold ingot to barter with an adult.",
+        "pillager": "Pillagers attack with crossbows. They appear in patrols, at outposts and during raids.",
+        "polar_bear": "Polar bears roam icy biomes. Adults retaliate when attacked and become dangerous near cubs.",
+        "pufferfish": "Pufferfish inflate when threatened and can poison nearby players. They can also be caught in a bucket.",
+        "rabbit": "Rabbits hop through several Overworld biomes and flee from players. Breed them with carrots, golden carrots or dandelions.",
+        "ravager": "Ravagers are powerful raid beasts that charge through obstacles and strike in melee. Keep space between yourself and their rider.",
+        "salmon": "Salmon swim in rivers and colder oceans. They can be caught in a bucket and provide raw salmon as food.",
+        "sheep": "Sheep grow wool that can be sheared repeatedly. Breed them with wheat to expand a flock.",
+        "shulker": "Shulkers hide as blocks in End cities and fire projectiles that cause Levitation. Their shells are used for shulker boxes.",
+        "silverfish": "Silverfish hide in infested blocks and emerge when those blocks break. Attacking one can call nearby silverfish.",
+        "skeleton_horse": "Skeleton horses can appear in a lightning-triggered trap. Once acquired, they can be saddled and ridden.",
+        "skeleton": "Skeletons attack from range with bows and burn in daylight. A shield or cover helps against their arrows.",
+        "slime": "Slimes jump in swamps and slime chunks. Large ones split when defeated; small ones provide slimeballs.",
+        "sniffer": "Sniffers hatch from eggs and dig ancient seeds out of the ground. Use torchflower seeds to breed them.",
+        "snow_golem": "Snow golems throw snowballs at hostile mobs and leave snow trails where the climate allows. They can be built from snow and a carved pumpkin.",
+        "spider": "Spiders climb walls and usually attack in darkness. In bright light they are normally neutral unless provoked.",
+        "squid": "Squids swim in rivers and oceans. They release ink sacs when defeated.",
+        "stray": "Strays are cold-biome skeletons whose arrows inflict Slowness. They can also result from a skeleton freezing in powder snow.",
+        "strider": "Striders walk across lava in the Nether. Saddle one and steer it with a warped fungus on a stick.",
+        "sulfur_cube": "Sulfur cubes absorb blocks and take on their physical properties, from bouncing or sliding to explosive behavior.",
+        "tadpole": "Tadpoles hatch from frogspawn and grow into frogs. The biome where they mature determines their frog variant.",
+        "trader_llama": "Trader llamas accompany wandering traders and defend themselves by spitting. They can later be equipped with chests.",
+        "tropical_fish": "Tropical fish swim in warm oceans in many color and pattern variants. They can be carried in buckets.",
+        "turtle": "Turtles return to their home beach to lay eggs. Their young leave scutes as they grow, and seagrass breeds adults.",
+        "vex": "Vexes are small flying attackers summoned by evokers. They can pass through blocks and pursue targets for a limited time.",
+        "villager": "Villagers live in villages and take jobs from workstations. Trade with them to exchange goods for emeralds and other items.",
+        "vindicator": "Vindicators are axe-wielding illagers found in woodland mansions and raids. They rush into close combat.",
+        "wandering_trader": "Wandering traders appear with two trader llamas and offer a rotating selection of items for emeralds.",
+        "warden": "The warden emerges in the deep dark when sculk shriekers are triggered. It tracks vibrations and scent, then attacks at close range or with a sonic boom.",
+        "witch": "Witches use harmful splash potions and drink defensive potions. They can appear in swamps, witch huts and raids.",
+        "wither_skeleton": "Wither skeletons patrol Nether fortresses with stone swords. Their hits inflict Wither, and their skulls are needed to summon the Wither.",
+        "wither": "The Wither is a player-summoned boss that fires explosive skulls and inflicts Wither. At half health it blocks projectiles.",
+        "wolf": "Wolves can be tamed with bones and will defend their owner. Breed tamed wolves with meat.",
+        "zoglin": "Zoglins result when hoglins enter the Overworld. They attack many nearby mobs and cannot be bred.",
+        "zombie_horse": "Zombie horses can appear in the Overworld at night. Defeat any hostile rider to claim and saddle the mount.",
+        "zombie_nautilus": "Zombie nautiluses appear underwater, often with a trident-wielding drowned rider. Remove the rider and use pufferfish to tame the mount.",
+        "zombie_villager": "Zombie villagers attack like zombies, but a Weakness effect and golden apple can cure one back into a villager.",
+        "zombie": "Zombies pursue players and villagers, can call reinforcements and usually burn in sunlight. Keep distance or use cover.",
+        "zombified_piglin": "Zombified piglins roam the Nether and remain neutral until attacked. Hitting one can anger others nearby."
+      },
+      "habitats": {
+        "allay": "Cages at pillager outposts and rooms in woodland mansions.",
+        "armadillo": "Warm savanna and badlands biomes.",
+        "axolotl": "Water in lush caves, above clay blocks.",
+        "bat": "Dark cave spaces in the Overworld.",
+        "bee": "Bee nests attached to trees in meadows, plains and forest biomes with flowers.",
+        "blaze": "Nether fortresses, especially near blaze spawners.",
+        "bogged": "Swamps and mangrove swamps; also some trial chamber encounters.",
+        "breeze": "Trial chamber spawners in the Overworld.",
+        "camel_husk": "Desert terrain, sometimes carrying husk or parched riders.",
+        "camel": "Desert villages and other suitable desert terrain.",
+        "cat": "Villages, with black cats also appearing around swamp huts.",
+        "cave_spider": "Mineshaft cave-spider spawners, usually behind cobwebs.",
+        "chicken": "Grassy Overworld biomes and player farms.",
+        "cod": "Ocean waters outside the warmest tropical areas.",
+        "copper_golem": "Created by players from a copper block and a carved pumpkin.",
+        "cow": "Grassy Overworld biomes and player farms.",
+        "creaking": "Pale gardens at night, linked to a nearby creaking heart.",
+        "creeper": "Dark Overworld areas and unlit caves.",
+        "dolphin": "Ocean waters, usually in groups near the surface.",
+        "donkey": "Open grassland biomes such as plains and savannas.",
+        "drowned": "Oceans and rivers; also created when a zombie stays underwater.",
+        "elder_guardian": "Inside ocean monuments, with a limited number per monument.",
+        "ender_dragon": "The central island of the End dimension.",
+        "enderman": "The End, plus dark areas of the Overworld and Nether.",
+        "endermite": "Occasionally created by a thrown ender pearl.",
+        "evoker": "Woodland mansions and some village raids.",
+        "fox": "Taiga and snowy taiga biomes.",
+        "frog": "Swamps and mangrove swamps; tadpoles can grow elsewhere.",
+        "ghast": "Open spaces throughout the Nether.",
+        "giant": "No natural spawn; available through commands.",
+        "glow_squid": "Dark underground water in the Overworld.",
+        "goat": "Mountain slopes and high peaks.",
+        "guardian": "Ocean monuments and the surrounding waters.",
+        "happy_ghast": "Raised from a dried ghast rather than found naturally as an adult.",
+        "hoglin": "Crimson forests and some bastion remnants in the Nether.",
+        "horse": "Open plains and savanna biomes.",
+        "husk": "Deserts and other hot, dry Overworld areas.",
+        "illusioner": "No natural spawn; available through commands.",
+        "iron_golem": "Villages or a player-built iron-block structure.",
+        "llama": "Windswept hills and savanna plateau terrain.",
+        "magma_cube": "Nether biomes, especially basalt deltas.",
+        "mooshroom": "Mushroom fields.",
+        "mule": "Bred from a horse and donkey; does not spawn naturally.",
+        "nautilus": "Ocean biomes, swimming underwater.",
+        "ocelot": "Jungle biomes.",
+        "panda": "Bamboo jungles and nearby jungle terrain.",
+        "parched": "Deserts, including camel-husk rider encounters.",
+        "parrot": "Jungle biomes, often among trees.",
+        "phantom": "Night skies above players who have not slept for several days.",
+        "pig": "Grassy Overworld biomes and player farms.",
+        "piglin_brute": "Bastion remnants in the Nether.",
+        "piglin": "Nether wastes, crimson forests and bastion remnants.",
+        "pillager": "Pillager outposts, patrols and village raids.",
+        "polar_bear": "Snowy plains and icy coastal biomes.",
+        "pufferfish": "Warm and lukewarm ocean waters.",
+        "rabbit": "Several Overworld biomes, including deserts and snowy areas.",
+        "ravager": "Later waves of village raids.",
+        "salmon": "Rivers and colder ocean waters.",
+        "sheep": "Grassy Overworld biomes and player farms.",
+        "shulker": "End cities, attached to purpur surfaces.",
+        "silverfish": "Infested blocks, often around strongholds.",
+        "skeleton_horse": "Lightning-triggered skeleton traps during thunderstorms.",
+        "skeleton": "Dark Overworld areas and unlit caves.",
+        "slime": "Swamps and special underground slime chunks.",
+        "sniffer": "Hatched from a sniffer egg found by brushing warm ocean ruins.",
+        "snow_golem": "Built by players from snow blocks and a carved pumpkin.",
+        "spider": "Dark Overworld areas and unlit caves.",
+        "squid": "Rivers and oceans in the Overworld.",
+        "stray": "Cold biomes; also created when a skeleton freezes in powder snow.",
+        "strider": "Lava seas across the Nether.",
+        "sulfur_cube": "Sulfur caves underground in the Overworld.",
+        "tadpole": "Hatched from frogspawn placed on water.",
+        "trader_llama": "Spawns alongside a wandering trader.",
+        "tropical_fish": "Warm and lukewarm oceans, often near coral reefs.",
+        "turtle": "Beaches and nearby ocean water.",
+        "vex": "Summoned by an evoker during combat.",
+        "villager": "Overworld villages, or bred by players with beds and food.",
+        "vindicator": "Woodland mansions and village raids.",
+        "wandering_trader": "Appears periodically near players with two trader llamas.",
+        "warden": "Deep dark areas after repeated sculk-shrieker warnings.",
+        "witch": "Dark Overworld spaces, swamp huts and some raids.",
+        "wither_skeleton": "Nether fortresses.",
+        "wither": "Summoned by placing wither-skeleton skulls on soul sand or soul soil.",
+        "wolf": "Forests, taigas, groves and other suitable Overworld biomes.",
+        "zoglin": "Created when a hoglin stays outside the Nether.",
+        "zombie_horse": "Can appear at night; older releases require commands.",
+        "zombie_nautilus": "Oceans, often with a drowned rider.",
+        "zombie_villager": "Dark Overworld areas or when a villager is infected by a zombie.",
+        "zombie": "Dark Overworld areas and unlit caves.",
+        "zombified_piglin": "Nether wastes and other Nether areas; also around Nether portals."
+      },
+      "interactions": {
+        "allay": "Hand it an item to set what it collects; use a note block to redirect deliveries.",
+        "armadillo": "Brush an armadillo for scutes, or wait for it to shed one naturally.",
+        "axolotl": "Carry one in a water bucket and release it near an underwater fight.",
+        "bat": "Bats cannot be tamed or bred and have no direct item drops.",
+        "bee": "Bees visit flowers for pollen and fertilize crops as they fly back to a nest or hive.",
+        "blaze": "Blaze rods fuel brewing stands and craft blaze powder; bring fire protection for a fortress trip.",
+        "bogged": "Shear a bogged to collect mushrooms before defeating it.",
+        "breeze": "Wind charges from a defeated breeze can be used for movement and activating compatible blocks.",
+        "camel_husk": "Remove its hostile riders before approaching; the remaining mount can be saddled and ridden.",
+        "camel": "Saddle a camel for up to two riders. Use its charged dash to cross gaps.",
+        "cat": "Approach carefully with raw cod or salmon to tame; a tamed cat may leave a gift after you sleep.",
+        "cave_spider": "Destroy or secure the mineshaft spawner to stop repeated cave-spider attacks.",
+        "chicken": "Use seeds to breed chickens; collect the eggs they lay without harming them.",
+        "cod": "Use a water bucket to move a live cod; raw cod can be cooked for food.",
+        "copper_golem": "Place items in a copper chest for sorting; wax the golem to prevent it becoming a statue.",
+        "cow": "Use a bucket for renewable milk, and wheat to breed more cows.",
+        "creaking": "Follow the particles between a struck creaking and its heart, then break the heart block.",
+        "creeper": "A cat can deter creepers; their explosion can be blocked or avoided by keeping distance.",
+        "dolphin": "Swim nearby for Dolphin's Grace; feed raw fish to make one lead you toward a structure.",
+        "donkey": "Tame by riding until it accepts you, then saddle it and add a chest for storage.",
+        "drowned": "Check what it is holding: a naturally spawned drowned can carry a trident or nautilus shell.",
+        "elder_guardian": "Bring water breathing and a plan for Mining Fatigue before entering the monument.",
+        "ender_dragon": "Break or shoot end crystals first so the dragon cannot heal from them.",
+        "enderman": "Avoid eye contact; a carved pumpkin prevents accidental provocation by looking.",
+        "endermite": "An endermite can be used to attract endermen in a controlled farm.",
+        "evoker": "Defeating an evoker yields a totem of undying; watch for summoned vexes.",
+        "fox": "Breed two foxes with berries; the baby trusts the player who bred it.",
+        "frog": "Feed small magma cubes to frogs for froglights; tadpoles grow into variants based on climate.",
+        "ghast": "Strike a ghast fireball to send it back toward the ghast.",
+        "giant": "This command-only mob has no normal survival encounter or regular AI behavior.",
+        "glow_squid": "Use glow ink sacs to make sign text and item-frame contents glow.",
+        "goat": "Stand near a suitable hard block, then dodge a goat's charge to obtain a horn.",
+        "guardian": "Clear the guardians before mining or exploring an ocean monument.",
+        "happy_ghast": "Equip a harness to carry several players through the air.",
+        "hoglin": "Use warped fungus to repel hoglins; crimson fungus breeds them.",
+        "horse": "Tame by riding, then saddle it; breed tamed horses with golden food.",
+        "husk": "Husks do not burn in sunlight, so daytime is not a safe escape.",
+        "illusioner": "This mob is available through commands rather than a normal survival encounter.",
+        "iron_golem": "Build one to defend a settlement, but avoid hitting a naturally spawned village golem.",
+        "llama": "A leashed llama can lead a caravan; equip chests for transport.",
+        "magma_cube": "Small magma cubes can provide magma cream for fire-resistance brewing.",
+        "mooshroom": "Use a bowl for stew or shear a mooshroom to obtain mushrooms and an ordinary cow.",
+        "mule": "Crossbreed a horse and a donkey, then equip the mule with a saddle and chest.",
+        "nautilus": "Tame and breed with pufferfish, then saddle it for underwater travel without using up your air.",
+        "ocelot": "Feed raw fish until it trusts you; trust stops it fleeing but does not make it a pet cat.",
+        "panda": "Provide bamboo near the pair to breed pandas; a sneezing baby may leave a slimeball.",
+        "parched": "Use cover against its bow, even during the day when ordinary skeletons would burn.",
+        "parrot": "Tame with seeds and listen for its mimicry as a warning of nearby hostile mobs.",
+        "phantom": "Sleep in a bed to reset the insomnia that allows phantoms to appear.",
+        "pig": "Breed pigs with carrots, potatoes or beetroots; use a saddle and carrot on a stick to ride one.",
+        "piglin_brute": "Gold armor and gold ingots do not pacify a piglin brute.",
+        "piglin": "Wear gold armor to avoid an immediate attack; offer gold ingots to barter with adults.",
+        "pillager": "A shield can stop crossbow bolts while you close the distance.",
+        "polar_bear": "Keep away from cubs and avoid striking adults to prevent a bear attack.",
+        "pufferfish": "Collect one with a water bucket while staying clear of its inflated poison radius.",
+        "rabbit": "Use carrots, golden carrots or dandelions to breed rabbits.",
+        "ravager": "Fight from cover or elevation and watch for an illager riding the ravager.",
+        "salmon": "Catch one in a water bucket, or cook its drop for food.",
+        "sheep": "Use shears for renewable wool; dye a sheep before shearing for colored wool.",
+        "shulker": "Collect shulker shells to craft shulker boxes with portable storage.",
+        "silverfish": "Mining infested blocks can release silverfish; secure the area before clearing them.",
+        "skeleton_horse": "After surviving the skeleton trap, saddle the horse for a rideable undead mount.",
+        "skeleton": "Use a shield to block arrows or force the skeleton into close combat.",
+        "slime": "Small slimes provide slimeballs for leads, sticky pistons and other recipes.",
+        "sniffer": "Plant its torchflower and pitcher seeds, and use torchflower seeds to breed sniffers.",
+        "snow_golem": "Build one for ranged distraction; keep it out of hot biomes where it melts.",
+        "spider": "Wait for daylight or light the area to stop an unprovoked spider from hunting you.",
+        "squid": "Ink sacs from squids can make black dye and writable-book materials.",
+        "stray": "Carry a shield or use cover to avoid Slowness arrows.",
+        "strider": "Saddle it, then steer with warped fungus on a stick to cross lava.",
+        "sulfur_cube": "Offer a block to change its physics; use shears to remove the block. Small cubes grow when fed slimeballs, and large ones fit in an empty bucket.",
+        "tadpole": "Move one in a water bucket and choose its maturation biome for the desired frog variant.",
+        "trader_llama": "Trader llamas can defend the trader and may be equipped with chests after separation.",
+        "tropical_fish": "Catch a preferred color variant in a water bucket for transport or an aquarium.",
+        "turtle": "Protect the eggs on their home beach; growing young turtles leave scutes.",
+        "vex": "Focus on the evoker summoning vexes, then keep moving to avoid their attacks through walls.",
+        "villager": "Place workstations for professions and trade repeatedly to unlock more offers.",
+        "vindicator": "Keep range or use a shield against its fast axe attacks.",
+        "wandering_trader": "Check the limited-time offers before the trader despawns.",
+        "warden": "Avoid triggering shriekers, crouch to reduce vibrations and leave instead of fighting.",
+        "witch": "Witches heal and resist damage with potions; close the gap between throws.",
+        "wither_skeleton": "Collect three skulls to summon the Wither; a shield helps against sword hits.",
+        "wither": "Prepare an open arena and fight with ranged weapons until its projectile shield activates.",
+        "wolf": "Tame with bones and breed tamed wolves with meat. Some newer versions also support wolf armor.",
+        "zoglin": "Keep a converted zoglin contained: it attacks most other mobs nearby.",
+        "zombie_horse": "Once the rider is removed, saddle the zombie horse for travel.",
+        "zombie_nautilus": "Remove the drowned rider, then use pufferfish to tame and saddle the mount.",
+        "zombie_villager": "Apply Weakness and feed a golden apple to start curing it.",
+        "zombie": "Keep villagers sheltered; zombies can infect them and may break doors on hard difficulty.",
+        "zombified_piglin": "Avoid striking one unless ready for nearby zombified piglins to join the fight."
+      },
+      "combatTips": {
+        "bee": "Hitting a bee, breaking its nest or taking honey without smoke can provoke nearby bees to swarm.",
+        "blaze": "Break line of sight during fireball volleys, then attack between bursts. Fire Resistance reduces the danger.",
+        "bogged": "Poison arrows are the main threat. Block them with a shield and close the gap.",
+        "breeze": "Watch for wind-charge knockback near ledges; time hits between its quick leaps.",
+        "cave_spider": "Block narrow passages and bring a way to deal with Poison before entering a mineshaft nest.",
+        "creaking": "Weapon hits do not end the encounter. Keep it in view while finding and breaking the connected heart.",
+        "creeper": "Back away as it begins to hiss. The explosion is strongest up close and can damage terrain.",
+        "dolphin": "Normally harmless, but a dolphin retaliates if struck and nearby dolphins may join in.",
+        "drowned": "A drowned holding a trident can attack at range underwater; use cover and close carefully.",
+        "elder_guardian": "Its laser needs time to charge. Break line of sight, then attack while avoiding spikes and Mining Fatigue.",
+        "enderman": "Eye contact or an attack provokes it. Water and low ceilings can protect you from its reach and teleporting.",
+        "endermite": "It is small and quick; clear it before fighting nearby endermen.",
+        "evoker": "Avoid the line of fang attacks and eliminate summoned vexes before they surround you.",
+        "ghast": "Use a bow or return its fireball; keep solid cover between volleys.",
+        "goat": "A goat may ram suddenly. Watch its charging stance and sidestep near a hard block.",
+        "guardian": "Interrupt its laser by moving behind cover; extended spikes hurt melee attackers.",
+        "hoglin": "Its charge and knockback are dangerous near lava. Warped fungus creates a safer gap.",
+        "husk": "A hit adds Hunger. Unlike a zombie, a husk will remain active in daylight.",
+        "illusioner": "Blindness and illusory copies make target selection difficult; track the real archer.",
+        "iron_golem": "Do not provoke a village golem at close range; its upward strike deals heavy damage.",
+        "llama": "A llama spits when attacked, so give it space if you accidentally hit it.",
+        "magma_cube": "Large cubes split into smaller attackers. Keep room to move and clear each wave.",
+        "nautilus": "A wild nautilus can dash at attackers; leave it alone or tame it with pufferfish.",
+        "panda": "A panda usually ignores players but can retaliate after being hit.",
+        "parched": "Arrows remain a threat in full sunlight; fight from cover or use a shield.",
+        "phantom": "Listen for its call, face the incoming swoop and hit as it descends.",
+        "piglin_brute": "Brutes attack even through gold armor and cannot barter. Keep a safe retreat route in bastions.",
+        "piglin": "Gold armor prevents ordinary aggression, but opening containers or mining gold nearby can anger piglins.",
+        "pillager": "Shield the crossbow shot, then advance during the reload.",
+        "polar_bear": "Adults near cubs can attack without being struck. Stay clear of the family group.",
+        "pufferfish": "Its inflated body poisons nearby players on contact; do not crowd it underwater.",
+        "ravager": "Its melee hits and knockback are strong. Use range or terrain to avoid a direct charge.",
+        "shulker": "Levitation bullets can lift you into dangerous falls. Keep a roof overhead and hit when the shell opens.",
+        "silverfish": "Damaging one can rouse others from infested blocks. Avoid breaking nearby blocks mid-fight.",
+        "skeleton": "A shield blocks arrows; nearby cover interrupts its line of sight.",
+        "slime": "Only the smallest slimes are harmless. Larger ones hit harder and split when defeated.",
+        "spider": "It can climb vertical walls and leap at you; bright conditions reduce unprovoked attacks.",
+        "stray": "Its arrows apply Slowness, making escape harder. Use a shield and close the distance.",
+        "sulfur_cube": "Normally passive, but absorbed TNT can ignite and an absorbed magma block can harm nearby entities.",
+        "trader_llama": "A trader llama may spit in retaliation after being attacked.",
+        "vex": "Vexes fly through blocks, so walls will not stop them. Keep moving and target the summoning evoker.",
+        "vindicator": "An axe hit is dangerous at close range. Use reach or knockback to keep distance.",
+        "warden": "Sneaking reduces vibration, but the warden can still smell you and use a sonic boom through obstacles.",
+        "witch": "Splash potions can poison or slow you. Attack between throws and avoid lingering near the witch.",
+        "wither_skeleton": "The Wither effect continues after a sword hit. Bring healing and keep enough room to retreat.",
+        "wolf": "A wild wolf fights back when struck and may draw nearby wolves into the attack.",
+        "zoglin": "A zoglin attacks many creatures around it. Contain it before it reaches a settlement.",
+        "zombie_nautilus": "Its drowned rider can throw tridents; separate or defeat the rider before approaching the mount.",
+        "zombie_villager": "It attacks like a zombie. Trap it safely before attempting the cure.",
+        "zombie": "Watch for groups and possible reinforcements; daylight usually burns exposed zombies.",
+        "zombified_piglin": "One accidental hit can turn a neutral group hostile. Avoid sweeping attacks near them."
+      },
+      "interaction": "What you can do",
+      "habitat": "Where to find it",
+      "safeHarvest": "Safe honey harvest",
+      "beeHarvest": "Place a lit campfire beneath the nest or hive before collecting honey. Smoke calms the bees.",
+      "beeBreedingLabel": "Breeding",
+      "beeBreeding": "Hold a flower to lure bees and feed an accepted flower to two adults to breed them.",
+      "beeScheduleLabel": "Daily routine",
+      "beeSchedule": "Bees leave during clear daytime, then return to their nest at night or when it rains.",
+      "beeStingLabel": "After a sting",
+      "beeSting": "The sting poisons the target. A bee loses its stinger and dies after attacking this way.",
+      "combatTip": "Threat and response",
+      "overview": "Mob overview",
+      "behavior": "Behavior",
+      "health": "Max health",
+      "healthValue": "{{value}} HP",
+      "behaviors": {
+        "passive": "Passive",
+        "neutral": "Neutral",
+        "hostile": "Hostile"
+      },
+      "triggers": {
+        "endermanStare": "Attacks when stared at or attacked.",
+        "retaliates": "Fights back when attacked."
+      },
+      "attack": "Attack",
+      "attacks": {
+        "explosion": "Explosion",
+        "ranged": "Ranged arrows"
+      },
+      "access": "How it appears",
+      "accessTypes": {
+        "hatched": "Hatched from an egg",
+        "summoned": "Summoned by players",
+        "bossEncounter": "Boss encounter",
+        "commandSummon": "Can be summoned with commands"
+      },
+      "biomeSpawnLabel": "Biome spawn data",
+      "biomeSpawnCount": "Listed in {{count}} biomes",
+      "spawnCategoryLabel": "Spawn group",
+      "spawnCategories": {
+        "ambient": "Ambient",
+        "axolotls": "Axolotls",
+        "creature": "Creatures",
+        "monster": "Monsters",
+        "underground_water_creature": "Underground aquatic",
+        "water_ambient": "Aquatic ambient",
+        "water_creature": "Aquatic creatures"
+      },
+      "spawnData": "Biome spawn entries",
+      "structureLocations": "Found in structures",
+      "entryStructure": "How to reach it",
+      "spawnEntry": "{{category}} · group {{group}} · weight {{weight}}",
+      "spawnCaveat": "Weights are relative within each biome spawn group, not percentages. Light, height, difficulty and other rules can still prevent a spawn.",
+      "biomeEntryCaveat": "These biomes list this mob as a spawn candidate; other spawn rules still apply.",
+      "dropCaveat": "Possible loot-table items and listed base amounts. Looting, conditions and random rolls can change the final drops.",
+      "dropPlayerKill": "Player kill required",
+      "dropBaseChance": "Base chance {{value}}",
+      "dropLootingChance": "Looting I {{value}}; +{{step}} per level after I",
+      "dropLootingCount": "Looting can increase the amount",
+      "dropSmelt": "Can drop cooked when burning or with smelting",
+      "dropOtherConditions": "Additional conditions apply"
+    },
+    "bossCombat": {
+      "damageTitle": "Health and damage",
+      "rawDamageNote": "Raw damage before armor and effects",
+      "attack": "Attack",
+      "difficulties": {
+        "easy": "Easy",
+        "normal": "Normal",
+        "hard": "Hard"
+      },
+      "damageHit": "{{value}} HP",
+      "damageSecond": "{{value}} HP/s",
+      "attacks": {
+        "witherSkull": "Wither skull",
+        "witherSkullExplosion": "Skull explosion",
+        "dragonMelee": "Body hit",
+        "dragonWing": "Wing hit",
+        "dragonBreath": "Dragon breath"
+      },
+      "preparation": "Bring to the fight",
+      "items": {
+        "rangedWeapon": "Bow and arrows",
+        "meleeWeapon": "Strong melee weapon",
+        "healing": "Healing and food",
+        "milk": "Milk for Wither",
+        "slowFalling": "Slow Falling or ender pearls"
+      },
+      "plan": "Fight plan",
+      "bosses": {
+        "wither": {
+          "java": {
+            "1": "Summon in an open area and move away before its initial explosion.",
+            "2": "Attack from range while it flies; avoid skulls and the Wither effect.",
+            "3": "At half health its armor blocks projectiles. Close in and finish with melee attacks."
+          },
+          "bedrock": {
+            "1": "Summon in an open area and move away before its initial explosion.",
+            "2": "Attack from range while it flies; avoid skulls and the Wither effect.",
+            "3": "At half health it explodes again, summons wither skeletons and blocks projectiles. Switch to melee."
+          }
+        },
+        "enderDragon": {
+          "java": {
+            "1": "Destroy the end crystals on the obsidian pillars to stop the dragon healing.",
+            "2": "Shoot the dragon while it flies and keep clear of breath clouds and fireballs.",
+            "3": "When it perches over the exit portal, attack its head with a melee weapon; arrows do not work there."
+          },
+          "bedrock": {
+            "1": "Destroy the end crystals on the obsidian pillars to stop the dragon healing.",
+            "2": "Shoot the dragon while it flies and keep clear of breath clouds and fireballs.",
+            "3": "When it perches over the exit portal, attack its head with a melee weapon; arrows do not work there."
+          }
+        }
+      },
+      "wikiSource": "Minecraft Wiki: boss data",
+      "wikiStrategy": "Minecraft Wiki: strategy"
+    },
+    "entityAcquisition": {
+      "specialRewards": "Special rewards",
+      "specialSources": "Special sources",
+      "defeat": "Defeat the Wither",
+      "firstDragonDefeat": "After the first Ender Dragon defeat, collect the egg from the exit portal",
+      "ram": "When a goat rams a suitable block",
+      "recoverWolfArmor": "Recover equipped wolf armor with shears or when the wolf dies",
+      "eatSlime": "When a frog eats a small slime",
+      "eatMagmaCube": "When a frog eats a small magma cube",
+      "actions": {
+        "brush": "Brush the armadillo",
+        "shed": "Armadillo sheds a scute",
+        "catGift": "Morning gift from a tamed cat",
+        "chickenLay": "Chicken lays an egg",
+        "pandaSneeze": "Panda sneezes",
+        "piglinBarter": "Barter with a piglin using gold",
+        "snifferDig": "Sniffer digs for seeds",
+        "turtleGrow": "Turtle grows up",
+        "chargedCreeper": "Killed by a charged creeper"
+      }
+    },
+    "related": "Related",
+    "involvedIn": "Involved in",
+    "relationshipGroups": {
+      "obtainedFrom": "How to obtain it — {{kind}}",
+      "usedFor": "Ways to use it — {{kind}}",
+      "requiredFor": "Needed for — {{kind}}",
+      "relatedTo": "Related {{kind}}"
+    },
+    "relationshipTitles": {
+      "availableEnchantments": "Available enchantments",
+      "droppedBy": "Dropped by",
+      "availableFromTrades": "Available from trades",
+      "usedInTrades": "Used in trades",
+      "obtainedByBreaking": "Obtained by breaking",
+      "obtainedByHarvesting": "Obtained by harvesting"
+    },
+    "structureGuide": {
+      "allGroups": "All categories",
+      "groupFilter": "Structure category",
+      "region": "Category",
+      "approach": "Approach",
+      "find": "Where to find it",
+      "locations": {
+        "village": "Search plains, deserts, savannas, snowy plains and taiga for settlements on the surface.",
+        "desert-pyramid": "Search desert biomes for a sandstone pyramid, sometimes partly buried.",
+        "jungle-temple": "Look for mossy stone among dense jungle foliage; the entrance may be hidden.",
+        "swamp-hut": "Search swamp waterways for a small wooden hut raised on stilts.",
+        "igloo": "Search snowy biomes for a small snow shelter; a basement is not guaranteed.",
+        "ocean-ruin": "Dive through warm or cold oceans for stone or sandstone remains on the seabed.",
+        "shipwreck": "Scan oceans and coastlines for a wooden hull, often partly submerged.",
+        "monument": "Search deep oceans for a large prismarine monument below the surface.",
+        "mansion": "Explore dark forests or follow a woodland explorer map from a cartographer.",
+        "outpost": "Search open Overworld terrain for a tall pillager watchtower and surrounding cages.",
+        "ruined-portal": "Look for broken obsidian frames in the Overworld or Nether, often surrounded by netherrack.",
+        "ancient-city": "Search the deep dark far below the Overworld surface, especially beneath mountains.",
+        "trail-ruins": "Watch for terracotta and gravel fragments protruding from heavily forested ground.",
+        "trial-chambers": "Search underground across the Overworld or follow a trial explorer map from a cartographer.",
+        "abandoned-camp": "Search forests, taiga, savannas, swamps and other supported Overworld biomes for a campsite.",
+        "fortress": "Look for long Nether brick bridges and corridors crossing the Nether.",
+        "bastion": "Search the Nether for large, broken blackstone buildings.",
+        "end-city": "Travel through an End gateway to the outer islands and look for purpur towers.",
+        "stronghold": "Follow Eyes of Ender across the Overworld, then explore underground for stone-brick corridors.",
+        "mineshaft": "Search caves and underground tunnels for wooden supports, rails and minecart chests.",
+        "buried-treasure": "Follow a buried treasure map from a shipwreck or ocean ruin to the marked coastal area."
+      },
+      "explore": "Overview",
+      "mobs": "Mobs you may encounter",
+      "loot": "Notable rewards",
+      "tips": {
+        "village": "Check workstations and farms first, then keep villagers safe before trading.",
+        "desert-pyramid": "Descend from the side and remove the stone pressure plate before entering the treasure chamber.",
+        "jungle-temple": "Watch for tripwires and hidden dispensers; the lever puzzle opens another compartment.",
+        "swamp-hut": "Fight the witch from cover or at range; a black cat may also live in the hut.",
+        "igloo": "Inspect the floor. Some igloos hide a basement with a villager and a zombie villager.",
+        "ocean-ruin": "Bring an air source and brush suspicious blocks before breaking them.",
+        "shipwreck": "Search the surviving compartments; a map chest can lead to buried treasure.",
+        "monument": "Prepare for underwater combat and Mining Fatigue from elder guardians.",
+        "mansion": "Clear rooms one by one and watch for evokers, which can drop totems.",
+        "outpost": "Approach from cover and handle crossbow pillagers before checking cages and chests.",
+        "ruined-portal": "Crying obsidian cannot complete a portal frame; replace it before lighting the portal.",
+        "ancient-city": "Carry wool to muffle vibrations while moving between the city's chests.",
+        "trail-ruins": "Brush suspicious gravel instead of breaking it to recover sherds and trim templates.",
+        "trial-chambers": "Defeat trial spawner waves for keys, then unlock vaults for their rewards.",
+        "abandoned-camp": "Inspect each tent and shelter; beds and cushions can provide a rest stop.",
+        "fortress": "Secure exposed bridges, then look for blaze spawners and nether wart.",
+        "bastion": "Gold armor calms ordinary piglins, but piglin brutes still attack.",
+        "end-city": "Bring fall protection for shulker levitation and search end ships for elytra.",
+        "stronghold": "Find the portal room through the corridors and watch for silverfish.",
+        "mineshaft": "Light the tunnels, check minecart chests and watch for cave spider spawners.",
+        "buried-treasure": "Use a treasure map to narrow your search, then dig near the marked spot."
+      }
+    },
+    "subjectKinds": {
+      "redstone": "Redstone",
+      "effect": "Effects",
+      "smithing": "Smithing",
+      "crafting": "Crafting",
+      "smelting": "Smelting",
+      "structures": "Structures",
+      "all": "All",
+      "item": "Items",
+      "brewing": "Brewing",
+      "entity": "Mobs",
+      "block": "Block",
+      "blocks": "Blocks",
+      "loot": "Loot",
+      "trade": "Trading",
+      "enchantment": "Enchantment",
+      "tutorial": "Tutorials",
+      "advancement": "Advancement",
+      "poi": "Location",
+      "biome": "Biome"
+    },
+    "mechanicKinds": {
+      "drop": "Drops",
+      "loot": "Loot contents",
+      "trade": "Trades",
+      "barter": "Bartering",
+      "interaction": "Interactions",
+      "equipment": "Equipment",
+      "taming": "Taming",
+      "breeding": "Breeding",
+      "feeding": "Accepted food",
+      "breaking": "Breaking",
+      "harvesting": "Harvesting",
+      "use": "Uses",
+      "enchanting": "Enchanting",
+      "generation": "World generation",
+      "progression": "Progression"
+    },
+    "methods": {
+      "brewing": "Brewing",
+      "shaped": "Shaped crafting",
+      "shapeless": "Shapeless crafting",
+      "cooking": "Cooking",
+      "cutting": "Cutting"
+    },
+    "backTo": "Back to {{label}}",
+    "closeDetails": "Close details",
+    "content": "Detail content",
+    "details": "Details",
+    "unavailable": "Details are unavailable for this edition and version."
+  },
+  "knowledge": {
+    "horse": {
+      "catalogTitle": "Official horse essentials",
+      "subjects": {
+        "horse": {
+          "name": "Horse",
+          "description": "A tameable mount. Health, movement speed and jump strength vary between individual horses."
+        },
+        "saddle": {
+          "name": "Saddle",
+          "description": "Equip a saddle on a tamed horse to ride and control it in these supported releases."
+        },
+        "leather": {
+          "name": "Leather",
+          "description": "A material that horses can drop when killed."
+        },
+        "goldenApple": {
+          "name": "Golden Apple",
+          "description": "Can be fed to horses and used to breed them."
+        },
+        "goldenCarrot": {
+          "name": "Golden Carrot",
+          "description": "Can be fed to horses and used to breed them."
+        },
+        "sugar": {
+          "name": "Sugar",
+          "description": "Can be fed to a horse to restore health and help with taming."
+        },
+        "wheat": {
+          "name": "Wheat",
+          "description": "Can be fed to a horse to restore health and help with taming."
+        },
+        "apple": {
+          "name": "Apple",
+          "description": "Can be fed to a horse to restore health and help with taming."
+        },
+        "plains": {
+          "name": "Plains",
+          "description": "One of the open biomes where horse herds can be found."
+        },
+        "savanna": {
+          "name": "Savanna",
+          "description": "A warm open biome where horse herds can be found."
+        },
+        "village": {
+          "name": "Village",
+          "description": "Horses can also appear around villages."
+        },
+        "goldIngot": {
+          "name": "Gold Ingot",
+          "description": "Eight gold ingots surround an apple in the supported golden-apple recipe."
+        },
+        "goldNugget": {
+          "name": "Gold Nugget",
+          "description": "Eight gold nuggets surround a carrot in the supported golden-carrot recipe."
+        },
+        "carrot": {
+          "name": "Carrot",
+          "description": "The center ingredient in the supported golden-carrot recipe."
+        },
+        "sugarCane": {
+          "name": "Sugar Cane",
+          "description": "One sugar cane can be crafted into one sugar."
+        },
+        "honeyBottle": {
+          "name": "Honey Bottle",
+          "description": "One honey bottle can be crafted into three sugar."
+        },
+        "craftingTable": {
+          "name": "Crafting Table",
+          "description": "Provides the full 3×3 crafting grid used by the golden-food recipes."
+        },
+        "ironIngot": {
+          "name": "Iron Ingot",
+          "description": "The lower middle ingredient in the Bedrock 1.21.120 saddle recipe."
+        },
+        "villager": {
+          "name": "Villager",
+          "description": "Villagers can take professions and offer profession-specific trades. Available offers depend on profession and level."
+        },
+        "emerald": {
+          "name": "Emerald",
+          "description": "The currency used for most villager trades."
+        }
+      },
+      "mechanics": {
+        "find": {
+          "name": "Where to find horses",
+          "description": "Look in plains and savannas, where horses usually appear in herds of two to six. Horses can also be found around villages."
+        },
+        "tame": {
+          "name": "Tame a horse",
+          "description": "Approach with an empty hand and mount repeatedly. The horse may throw you off; continue until heart particles show that it is tamed. Feeding can make the process faster."
+        },
+        "equip": {
+          "name": "Equip a saddle",
+          "description": "After taming the horse, equip one saddle to ride and control it."
+        },
+        "breedApple": {
+          "name": "Breed with golden apples",
+          "description": "Feed one golden apple to each of two eligible horses to start breeding."
+        },
+        "breedCarrot": {
+          "name": "Breed with golden carrots",
+          "description": "Feed one golden carrot to each of two eligible horses to start breeding."
+        },
+        "feed": {
+          "sugar": {
+            "name": "Feed sugar to a horse",
+            "description": "Feed one sugar to a horse to restore some health and help raise its temper toward taming."
+          },
+          "wheat": {
+            "name": "Feed wheat to a horse",
+            "description": "Feed one wheat to a horse to restore some health and help raise its temper toward taming."
+          },
+          "apple": {
+            "name": "Feed an apple to a horse",
+            "description": "Feed one apple to a horse to restore some health and help raise its temper toward taming."
+          }
+        },
+        "drop": {
+          "name": "Horse drops",
+          "description": "When killed, a horse drops zero to two leather before Looting. Each Looting level can add up to one more leather."
+        },
+        "saddle": {
+          "name": "Use a saddle on a horse",
+          "description": "A saddle lets you ride and control a horse after the horse has been tamed."
+        },
+        "farmerTrade": {
+          "name": "Sell wheat to a novice farmer",
+          "description": "A novice farmer can select an offer that exchanges 20 wheat for one emerald. The offer belongs to a one-of-four novice buy-offer pool, so it is not guaranteed on every farmer."
+        }
+      },
+      "notes": {
+        "tamingFood": "Optional: feeding can speed taming; sugar, wheat and apples also restore health.",
+        "tamedHorse": "The horse must already be tamed.",
+        "onePerHorse": "Give one item to each horse.",
+        "looting": "Looting can add up to one leather per level.",
+        "noviceFarmerOffer": "One of four novice farmer buy offers; the wheat offer is not guaranteed."
+      }
+    }
+  },
+  "mapSnapshot": {
+    "action": "Download map snapshot",
+    "unavailable": "Wait for every visible map tile before exporting",
+    "source": "Experimental seed biome preview",
+    "saving": "Preparing map snapshot…",
+    "saved": "Snapshot download started.",
+    "failed": "Snapshot could not be prepared."
+  },
+  "terrain3d": {
+    "seed": {
+      "source": "3D source",
+      "seed": "Seed preview",
+      "saved": "Saved world",
+      "unsupported": "Seed terrain is not available for this edition, version or preset. Use a saved world.",
+      "title": "Seed terrain preview",
+      "description": "Base terrain and fluids in a local 48 × 48 block area. Structures, surface decoration and player changes are not included. Open a saved world to inspect actual blocks.",
+      "loading": "Generating terrain…",
+      "ready": "Drag to orbit · Right-drag to pan · Scroll to zoom",
+      "error": "Terrain could not be generated. Retry or select a saved world.",
+      "canvas": "Seed terrain 3D preview"
+    },
+    "viewMode": "Map view",
+    "view2d": "2D",
+    "view3d": "3D",
+    "modeSaveFailed": "The map view could not be saved.",
+    "unsupported": "3D terrain is not available for this world",
+    "unsupportedDetail": "This build currently reads bounded Java region snapshots for the supported versions. Bedrock and other versions remain explicit unsupported states.",
+    "canvas": "Interactive 3D terrain",
+    "importTitle": "Open Java region snapshots",
+    "importDetail": "Choose up to {{max}} r.x.z.mca files from the same dimension of a world saved in {{version}}. Their combined size must be at most {{megabytes}} MiB. Only the selected files are read and they stay on this device.",
+    "bedrock": {
+      "importTitle": "Open a Bedrock world folder",
+      "importDetail": "Choose the folder for a world saved in Bedrock {{version}}. The app reads only bounded, camera-local subchunks from its LevelDB database. Files stay on this device and are never modified.",
+      "folderCoverage": "Read-only LevelDB connection · {{files}} database files available to the bounded loader.",
+      "folderViewport": "Camera chunk {{x}}, {{z}} · nearby subchunks refresh automatically from the selected folder snapshot.",
+      "coverage": "1 LevelDB world · {{sections}} subchunks loaded · {{partial}} subchunks contain deferred block models",
+      "coverageLayer": {
+        "checking": "Checking · {{count}} subchunks"
+      },
+      "phase": {
+        "empty": "Choose a Bedrock world folder to begin.",
+        "loading": "Reading {{decoded}} / {{total}} subchunks · {{sections}} accepted",
+        "ready": "Bedrock terrain ready",
+        "partial": "Bedrock terrain ready with clearly marked partial coverage",
+        "error": "The Bedrock LevelDB world could not be read safely for the selected version."
+      }
+    },
+    "chooseFile": "Choose region files",
+    "chooseWorldFolder": "Choose world folder",
+    "chooseAndRememberFolder": "Choose and remember folder",
+    "reconnectFolder": "Reconnect saved folder",
+    "rememberDetail": "When supported, the app stores only a read-only folder handle on this device so this exact world, version and dimension can reconnect after a restart.",
+    "checkingSavedFolder": "Checking for a saved folder connection…",
+    "reconnectDetail": "A saved folder connection exists, but the browser requires you to approve read access again.",
+    "folderRemembered": "Read-only folder access is remembered on this device.",
+    "forgetFolder": "Forget folder access",
+    "handleError": "The saved folder connection could not be used or updated. You can still choose individual region files.",
+    "replaceFile": "Choose other region files",
+    "replaceWorldFolder": "Choose another world folder",
+    "help": "Drag: orbit · Shift + drag: pan · wheel: zoom · click a block: inspect",
+    "cutaway": "Cutaway Y",
+    "all": "All",
+    "player": "Center on current player position",
+    "reset": "Return to loaded surface",
+    "resetUnavailable": "No loaded surface exists at the current X/Z",
+    "focusSelection": "Focus this block",
+    "inspectSelection": "Open block details",
+    "blockDetail": {
+      "description": "Exact block state selected from the read-only saved-world terrain.",
+      "location": "Saved-world location",
+      "properties": "Block-state properties",
+      "noProperties": "This block state has no additional properties.",
+      "source": "The coordinate and state come from the selected terrain snapshot. Any linked crafting or mechanics sections come from the separate exact-version guide catalog."
+    },
+    "markers": "Projected 3D markers",
+    "playerMarker": "Player · X {{x}}, Y {{y}}, Z {{z}}",
+    "playerPinMarker": "{{name}} — current-position pin · X {{x}}, Y {{y}}, Z {{z}}",
+    "destinationMarker": "{{name}} — projected tracked destination · X {{x}}, Y {{y}}, Z {{z}}",
+    "structureMarker": "{{name}} — terrain-anchored predicted candidate · X {{x}}, loaded top Y {{y}}, Z {{z}}",
+    "savedStructureMarker": "{{name}} — saved-world structure occurrence · bounding-box anchor X {{x}}, Y {{y}}, Z {{z}}",
+    "sharedPanelNotice": "Filters and details are shared with 2D. A checked marker comes from saved-world structure-start metadata and uses a bounding-box anchor. An unchecked predicted candidate only uses a loaded surface for display; that surface does not verify the structure or its actual height.",
+    "selection": "X {{x}} · Y {{y}} · Z {{z}}",
+    "coverage": "{{regions}} region files · {{sections}} sections loaded · {{partial}} sections contain deferred block models",
+    "coverageLayer": {
+      "title": "Terrain coverage",
+      "ready": "Ready · {{count}} sections",
+      "checking": "Checking · {{count}} columns",
+      "unknown": "Outside loaded files · unknown",
+      "partial": "Deferred models · {{count}} sections"
+    },
+    "guide": {
+      "action": "Open 3D controls guide",
+      "title": "3D controls",
+      "detail": "The terrain remains interactive while this guide is open.",
+      "orbit": "Drag or use the arrow keys to orbit.",
+      "panZoom": "Shift-drag to pan; use the wheel or +/− to zoom.",
+      "inspect": "Click a visible block to inspect its exact coordinate.",
+      "cutaway": "Set Cutaway Y to inspect retained underground blocks.",
+      "return": "Home returns to the real loaded surface; the locator returns to a fresh player.",
+      "close": "Close 3D controls guide"
+    },
+    "folderCoverage": "Using the {{selected}} nearest of {{matched}} matching region files from the selected folder.",
+    "folderViewport": "Camera region {{x}}, {{z}} · nearby files refresh automatically within this selected folder snapshot.",
+    "snapshotSource": "Imported saved-world 3D terrain",
+    "snapshotAltitude": "Camera target Y",
+    "snapshotFull": "Full loaded height",
+    "snapshotCutaway": "Cutaway Y {{y}}",
+    "phase": {
+      "empty": "Choose a region file to begin.",
+      "loading": "Reading {{decoded}} / {{total}} columns · {{sections}} sections accepted",
+      "ready": "Region terrain ready",
+      "partial": "Region terrain ready with clearly marked partial support",
+      "error": "The region could not be read safely for the selected version.",
+      "graphics-error": "3D graphics initialization failed. The 2D map remains available."
+    }
+  },
+  "biomeMap": {
+    "title": "Experimental biome preview",
+    "notice": "The map preview is generated immediately from the selected edition, version, world type and seed.",
+    "canvas": "Seed biome map",
+    "help": "Drag or arrow keys to pan · + / − to zoom · Home: coordinate origin · Click or Enter: inspect biome",
+    "coordinates": "X {{x}} · Z {{z}} · {{scale}} blocks per sample",
+    "loading": "Loading map: {{ready}} / {{total}} tiles",
+    "biomeLoading": "Biome loading…",
+    "ready": "Visible biome tiles ready",
+    "failed": "Map generation failed. Missing tiles remain unknown.",
+    "saveFailed": "Camera could not be saved.",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "origin": "Return to coordinate origin (not spawn)",
+    "altitude": "Sample Y",
+    "dimension": "Dimension",
+    "overworld": "Overworld",
+    "nether": "Nether",
+    "end": "The End",
+    "available": "This saved world's generation settings are invalid or are no longer supported.",
+    "legend": "Visible biomes",
+    "visibleBiomes": "Named biomes in the loaded map area",
+    "unknownBiome": "Unknown biome · engine ID {{id}}",
+    "detailDescription": "This name comes from the pinned seed engine at the selected sample altitude. It describes biome climate only, not terrain height, blocks, structures, loot or the player's spawn.",
+    "unknownDescription": "The pinned seed engine returned this numeric biome identity, but the app has no reviewed registry mapping for it. No biome name is inferred.",
+    "sampleCoordinates": "X {{x}} · Y {{y}} · Z {{z}}",
+    "sampleScale": "{{scale}} blocks per retained sample",
+    "registryIdentity": "Registry identity",
+    "engineIdentity": "Pinned engine ID",
+    "unmappedIdentity": "No reviewed registry mapping",
+    "biomes": {
+      "ocean": "Ocean",
+      "plains": "Plains",
+      "desert": "Desert",
+      "windsweptHills": "Windswept Hills",
+      "forest": "Forest",
+      "taiga": "Taiga",
+      "swamp": "Swamp",
+      "river": "River",
+      "netherWastes": "Nether Wastes",
+      "theEnd": "The End",
+      "frozenOcean": "Frozen Ocean",
+      "frozenRiver": "Frozen River",
+      "snowyPlains": "Snowy Plains",
+      "mushroomFields": "Mushroom Fields",
+      "beach": "Beach",
+      "jungle": "Jungle",
+      "sparseJungle": "Sparse Jungle",
+      "deepOcean": "Deep Ocean",
+      "stonyShore": "Stony Shore",
+      "snowyBeach": "Snowy Beach",
+      "birchForest": "Birch Forest",
+      "darkForest": "Dark Forest",
+      "snowyTaiga": "Snowy Taiga",
+      "oldGrowthPineTaiga": "Old Growth Pine Taiga",
+      "windsweptForest": "Windswept Forest",
+      "savanna": "Savanna",
+      "savannaPlateau": "Savanna Plateau",
+      "badlands": "Badlands",
+      "woodedBadlands": "Wooded Badlands",
+      "smallEndIslands": "Small End Islands",
+      "endMidlands": "End Midlands",
+      "endHighlands": "End Highlands",
+      "endBarrens": "End Barrens",
+      "warmOcean": "Warm Ocean",
+      "lukewarmOcean": "Lukewarm Ocean",
+      "coldOcean": "Cold Ocean",
+      "deepLukewarmOcean": "Deep Lukewarm Ocean",
+      "deepColdOcean": "Deep Cold Ocean",
+      "deepFrozenOcean": "Deep Frozen Ocean",
+      "sunflowerPlains": "Sunflower Plains",
+      "windsweptGravellyHills": "Windswept Gravelly Hills",
+      "flowerForest": "Flower Forest",
+      "iceSpikes": "Ice Spikes",
+      "oldGrowthBirchForest": "Old Growth Birch Forest",
+      "oldGrowthSpruceTaiga": "Old Growth Spruce Taiga",
+      "windsweptSavanna": "Windswept Savanna",
+      "erodedBadlands": "Eroded Badlands",
+      "bambooJungle": "Bamboo Jungle",
+      "soulSandValley": "Soul Sand Valley",
+      "crimsonForest": "Crimson Forest",
+      "warpedForest": "Warped Forest",
+      "basaltDeltas": "Basalt Deltas",
+      "dripstoneCaves": "Dripstone Caves",
+      "lushCaves": "Lush Caves",
+      "meadow": "Meadow",
+      "grove": "Grove",
+      "snowySlopes": "Snowy Slopes",
+      "jaggedPeaks": "Jagged Peaks",
+      "frozenPeaks": "Frozen Peaks",
+      "stonyPeaks": "Stony Peaks",
+      "deepDark": "Deep Dark",
+      "mangroveSwamp": "Mangrove Swamp",
+      "cherryGrove": "Cherry Grove",
+      "paleGarden": "Pale Garden",
+      "sulfurCaves": "Sulfur Caves",
+      "dappledForest": "Dappled Forest"
+    }
+  },
+  "worlds": {
+    "title": "Worlds",
+    "serverSeedNotice": "Seems like you're playing on a server. Create your world manually by entering its seed.",
+    "dismissServerSeedNotice": "Dismiss message",
+    "example": {
+      "name": "Example World",
+      "gameLoadNotice": "Your world will load automatically when you enter the game."
+    },
+    "preview": {
+      "linked": "Linked world",
+      "detached": "Detached preview",
+      "detachAction": "Open a detached world preview",
+      "attachAction": "Return to the linked world",
+      "detachDetail": "Browse another world in this window without changing the live-linked world in other windows.",
+      "attachDetail": "Reconnect this window to the shared selected world and live session.",
+      "liveDisabled": "Live tracking is paused in this preview"
+    },
+    "add": "Create new world",
+    "exploreSeeds": "Explore best seeds",
+    "recent": "Recent",
+    "favorites": "Favorites",
+    "search": "Search worlds",
+    "empty": "No worlds saved yet.",
+    "noResults": "No matching worlds.",
+    "name": "World name",
+    "edition": "Edition",
+    "version": "Generation version",
+    "preset": "World type",
+    "defaultPreset": "Default",
+    "largeBiomesPreset": "Large biomes",
+    "amplifiedPreset": "Amplified",
+    "flatPreset": "Flat",
+    "singleBiomePreset": "Single biome",
+    "biome": "Biome",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "biomes": {
+      "plains": "Plains",
+      "forest": "Forest",
+      "cherryGrove": "Cherry grove",
+      "snowyPlains": "Snowy plains",
+      "snowySlopes": "Snowy slopes",
+      "jaggedPeaks": "Jagged peaks",
+      "frozenPeaks": "Frozen peaks",
+      "desert": "Desert",
+      "savanna": "Savanna",
+      "jungle": "Jungle",
+      "swamp": "Swamp",
+      "badlands": "Badlands",
+      "mushroomFields": "Mushroom fields",
+      "deepDark": "Deep dark",
+      "ocean": "Ocean"
+    },
+    "blocks": {
+      "dirt": "Dirt",
+      "stone": "Stone",
+      "sandstone": "Sandstone",
+      "sand": "Sand",
+      "deepslate": "Deepslate",
+      "snowBlock": "Snow block",
+      "packedIce": "Packed ice",
+      "whiteConcrete": "White concrete",
+      "grassBlock": "Grass block",
+      "glass": "Glass"
+    },
+    "flatSettings": {
+      "title": "Custom flat layers",
+      "baseBlock": "Base material",
+      "baseHeight": "Base depth",
+      "surfaceBlock": "Surface material",
+      "surfaceHeight": "Surface depth",
+      "structures": "Generate villages and strongholds",
+      "features": "Generate biome decorations",
+      "lakes": "Generate lakes",
+      "heightError": "Each layer must be at least 1 block and the configured layers may total at most 383 blocks above the bedrock foundation.",
+      "layerSummary": "Layers: {{baseHeight}} × {{baseBlock}} · {{surfaceHeight}} × {{surfaceBlock}}"
+    },
+    "seed": "Seed",
+    "seedMode": "Seed source",
+    "seedModes": {
+      "manual": "Manual seed",
+      "search": "Find a seed",
+      "curated": "Curated"
+    },
+    "seedSearch": {
+      "profile": "World preference",
+      "action": "Find matching seed",
+      "searching": "Searching verified candidates…",
+      "cancel": "Cancel search",
+      "unavailable": "Seed search is unavailable for this edition, version, and world type.",
+      "found": "Match found after {{attempts}} candidates",
+      "distance": "within {{distance}} blocks of origin",
+      "directionCoverage": "detected in {{count}} directions",
+      "none": "No match was found in {{attempts}} candidates. Search again for a new bounded sample.",
+      "unsupported": "This search profile is not supported by the selected engine context.",
+      "error": "The seed search could not finish. No world was saved.",
+      "honesty": "Search checks seeded structure placement and biome viability around coordinate origin. It does not calculate player spawn, terrain, loot, or guarantee that a candidate exists in-game.",
+      "previousSeed": "A previous valid seed remains visible, but Search mode cannot save it until a new match succeeds.",
+      "profiles": {
+        "villageOrigin": "Village near origin",
+        "villagePortal": "Village and ruined portal",
+        "oceanAdventure": "Shipwreck and ocean ruins",
+        "netherFortress": "Nether fortress near origin",
+        "snowyCherryVillage": "Village, snowy mountains and cherry grove"
+      },
+      "profileDescriptions": {
+        "villageOrigin": "Find a biome-viable village candidate within 1,024 blocks of coordinate origin.",
+        "villagePortal": "Find biome-viable village and ruined-portal candidates within 1,536 blocks of coordinate origin.",
+        "oceanAdventure": "Find biome-viable shipwreck and ocean-ruin candidates within 1,536 blocks of coordinate origin.",
+        "netherFortress": "Find a fortress candidate within 1,536 blocks of the Nether coordinate origin.",
+        "snowyCherryVillage": "Find a village, cherry-grove biome and snowy mountain biomes in several directions around coordinate origin. This samples biome climate, not terrain height or player spawn."
+      },
+      "biomes": {
+        "snowy-mountains": "Snowy mountain biomes",
+        "cherry-grove": "Cherry grove biome"
+      }
+    },
+    "curated": {
+      "label": "Curated world",
+      "search": "Search curated worlds",
+      "previewAlt": "Biome preview for {{name}}, {{edition}} {{version}}",
+      "tagsLabel": "Verified candidate features",
+      "seed": "Seed {{seed}}",
+      "verified": "Packaged-engine candidate · {{profile}}",
+      "unavailable": "No curated worlds are verified for this exact edition, version, and world type.",
+      "honesty": "Curated picks are rechecked against the pinned packaged engine for this exact context. They describe candidates around coordinate origin, not player spawn, terrain height, loot, or in-game certification.",
+      "tags": {
+        "village": "Village",
+        "ruinedPortal": "Ruined portal",
+        "shipwreck": "Shipwreck",
+        "oceanRuin": "Ocean ruin",
+        "cherryGrove": "Cherry grove",
+        "snowyMountains": "Snowy mountains"
+      },
+      "entries": {
+        "snowyCherryVillage": {
+          "name": "Snowbound cherry village",
+          "description": "A village candidate with cherry-grove climate and snowy mountain biomes detected in several directions."
+        },
+        "villagePortalRoute": {
+          "name": "Village portal route",
+          "description": "Biome-viable village and ruined-portal candidates inside the bounded origin search."
+        },
+        "oceanExpedition": {
+          "name": "Ocean expedition",
+          "description": "Biome-viable shipwreck and ocean-ruin candidates inside the bounded origin search."
+        }
+      }
+    },
+    "random": "Random seed",
+    "save": "Save world",
+    "copySeed": "Copy seed",
+    "copied": "Copied",
+    "copyFailed": "Copy failed",
+    "customExport": {
+      "action": "Download generator datapack",
+      "createNotice": "After saving this world, its action menu can export the exact Java generator datapack. The map opens with the selected uniform biome surface.",
+      "unavailable": "Generator export is unavailable for this exact edition and generation version.",
+      "downloaded": "Generator datapack downloaded. Follow README.txt before creating the world.",
+      "failed": "The generator datapack could not be created.",
+      "packDescription": "Single-biome generator: {{biome}} · Java {{version}}",
+      "instructions": "Generator datapack for {{world}}\n\nTarget: {{edition}} {{version}}\nWorld type: Single Biome\nBiome: {{biome}}\nSeed: {{seed}}\n\nInstall before creating the world:\n1. In Create New World, open Data Packs and place this ZIP in the pack folder.\n2. Enable the pack and return to the world settings.\n3. Choose Single Biome as the world type and enter the exact seed above.\n4. Create a new world. Do not add this pack to an existing save as a migration.\n\nThis archive configures the Overworld biome. It does not contain generated chunks or modify saves automatically.",
+      "flatPackDescription": "Custom flat generator: {{biome}} · Java {{version}}",
+      "flatInstructions": "Generator datapack for {{world}}\n\nTarget: {{edition}} {{version}}\nWorld type: Flat\nBiome: {{biome}}\nSeed: {{seed}}\nFoundation: 1 × Bedrock\nBase: {{baseHeight}} × {{baseBlock}}\nSurface: {{surfaceHeight}} × {{surfaceBlock}}\nStructures: {{structures}}\nBiome decorations: {{features}}\nLakes: {{lakes}}\n\nInstall before creating the world:\n1. In Create New World, open Data Packs and place this ZIP in the pack folder.\n2. Enable the pack and return to the world settings.\n3. Choose Flat as the world type and enter the exact seed above.\n4. Create a new world. Do not add this pack to an existing save as a migration.\n\nThis archive configures the Overworld flat generator. It does not contain generated chunks or modify saves automatically."
+    },
+    "rename": "Rename",
+    "moveBottom": "Move to bottom",
+    "forget": "Forget world",
+    "forgetBody": "Remove this app entry and all its markers, notes, destinations, journeys, progress and view settings? The game save will not be deleted.",
+    "loadFailed": "The world library could not be read. Your saved data has not been reset.",
+    "writeFailed": "The change could not be saved. Please try again.",
+    "seedInvalid": "Enter a whole-number seed between −9223372036854775808 and 9223372036854775807. Text-seed conversion is not available yet.",
+    "versionNotice": "The latest stable generation release is selected by default; older supported releases remain available.",
+    "sourceUnavailable": "This saved world's generation settings are invalid or are no longer supported.",
+    "selectionPrompt": "Open Worlds to add or choose a saved world.",
+    "back": "Back",
+    "loading": "Loading worlds…",
+    "retry": "Try again",
+    "actions": "Actions for {{name}}",
+    "editions": {
+      "java": "Java Edition",
+      "bedrock": "Bedrock Edition"
+    }
+  },
+  "app": {
+    "name": "{{appName}}",
+    "shortName": "{{appName}}"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "chrome": {
+    "toggleWith": "Toggle with {{hotkey}}",
+    "close": "Close",
+    "minimize": "Minimize",
+    "maximize": "Maximize",
+    "restore": "Restore",
+    "map": "Map",
+    "followLivePosition": "Follow live position",
+    "stopFollowingLivePosition": "Stop following live position",
+    "discord": "Discord"
+  },
+  "map": {
+    "clusterCategory": "{{category}} group with {{count}} locations",
+    "placementHint": "Click the map to place your marker · Esc to cancel",
+    "sidebar": {
+      "menu": "Menu",
+      "collapse": "Collapse map filters",
+      "closeTool": "Close {{tool}} panel"
+    },
+    "saved": {
+      "title": "Saved",
+      "description": "Your saved and completed locations on this map.",
+      "count": "{{count}} places",
+      "empty": "Save a location or mark one as completed to find it here.",
+      "filterAll": "All",
+      "filterSaved": "Saved",
+      "filterCompleted": "Completed"
+    },
+    "search": {
+      "label": "Search map",
+      "clear": "Clear map search",
+      "placeholder": "Search locations",
+      "coordinateFormat": "X, Y",
+      "shortcut": "Ctrl K",
+      "results": "Search results",
+      "noResults": "No location matches that search.",
+      "coordinateName": "Go to {{x}}, {{y}}",
+      "coordinateResult": "Coordinate search",
+      "coordinate": "Coordinates",
+      "sectionLocations": "Places",
+      "matchCount": "{{count}} place",
+      "matchCount_one": "{{count}} place",
+      "matchCount_many": "{{count}} places",
+      "matchCount_other": "{{count}} places"
+    },
+    "filters": {
+      "categories": "Map layers",
+      "showGroup": "Show all {{group}} layers",
+      "hideGroup": "Hide all {{group}} layers",
+      "only": "Only",
+      "onlyLayer": "Show only {{layer}}"
+    },
+    "categories": {
+      "medical": "Medical",
+      "police": "Police",
+      "fire": "Fire stations",
+      "fuel": "Fuel",
+      "vehicle": "Vehicles",
+      "supplies": "Supplies",
+      "food": "Food & drink",
+      "military": "Military",
+      "weapons": "Weapons",
+      "industrial": "Industrial",
+      "community": "Community",
+      "lodging": "Lodging",
+      "custom": "Personal"
+    },
+    "categoryGroups": {
+      "essentials": "Essentials",
+      "places": "Places & services",
+      "personal": "Map activity"
+    },
+    "regions": {
+      "label": "Regions",
+      "travel": "Jump to a region",
+      "search": "Search regions",
+      "noSearchResults": "No regions match your search."
+    },
+    "maps": {
+      "label": "Maps",
+      "pick": "Choose a map",
+      "search": "Search maps",
+      "noSearchResults": "No maps match your search."
+    },
+    "controls": {
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out",
+      "zoomLevel": "Zoom {{value}}%",
+      "zoomControls": "Map zoom controls",
+      "coordinates": "Coordinates {{x}}, {{y}}",
+      "addMarker": "Place personal marker",
+      "centerLivePosition": "Center on live position"
+    },
+    "performanceWarning": {
+      "body": "Zoom in or refine filters for a smoother map.",
+      "dismiss": "Got it"
+    },
+    "details": {
+      "back": "Back to locations",
+      "coordinates": "Map coordinates",
+      "copyCoordinates": "Copy coordinates",
+      "coordinatesCopied": "Copied",
+      "coordinatesCopyFailed": "Copy failed",
+      "notes": "Notes",
+      "notesPlaceholder": "Anything worth remembering about this place…",
+      "addFavorite": "Save location",
+      "removeFavorite": "Remove from saved",
+      "completed": "Completed",
+      "saveAsMarker": "Save as personal marker",
+      "deleteMarker": "Delete personal marker",
+      "markerName": "Marker name",
+      "openInApp": "Open in the app"
+    },
+    "custom": {
+      "defaultName": "Marker {{count}}",
+      "coordinateName": "Marker {{x}}, {{y}}",
+      "personal": "Personal",
+      "chooseLocation": "Choose location on map",
+      "edit": "Edit marker",
+      "save": "Save marker",
+      "saveFailed": "Could not save the marker. Please try again."
+    },
+    "markerStyle": {
+      "title": "Marker style",
+      "iconLabel": "Marker icon",
+      "colorLabel": "Marker color",
+      "colors": {
+        "sage": "Sage",
+        "amber": "Amber",
+        "red": "Red",
+        "blue": "Blue",
+        "violet": "Violet"
+      },
+      "icons": {
+        "pin": "Pin",
+        "home": "Home",
+        "flag": "Waypoint",
+        "vehicle": "Vehicle",
+        "supplies": "Supplies",
+        "danger": "Danger"
+      }
+    },
+    "markerGroups": {
+      "title": "Personal markers",
+      "group": "Marker group",
+      "general": "General",
+      "base": "Bases",
+      "resources": "Mines & resources",
+      "travel": "Portals & travel",
+      "danger": "Danger zones",
+      "addCustom": "Add custom group"
+    },
+    "data": {
+      "loadingTitle": "Preparing the map",
+      "loadingBody": "Loading map tiles and searchable locations.",
+      "errorTitle": "Map data is not available",
+      "errorBody": "The map data could not be loaded. Check the map's data URL, then reload the app."
+    }
+  },
+  "crafting": {
+    "sourcePrefix": "obtain by",
+    "addItem": "Add item",
+    "added": "Added",
+    "backToList": "Back to crafting list",
+    "browseTitle": "Add craftable items",
+    "browseHint": "Search the recipe catalog and add only the items you want to craft.",
+    "emptyList": "Your crafting list is empty",
+    "emptyListHint": "Add the items you want to craft. Their recipes and required materials will stay together here.",
+    "noResults": "No craftable items match this search.",
+    "removeItem": "Remove {{item}} from crafting list",
+    "title": "Crafting",
+    "catalog": "{{edition}} {{version}} recipes",
+    "catalogUnavailable": "Recipes are unavailable for this exact edition and version.",
+    "search": "Search craftable items",
+    "empty": "Choose a craftable item to start a plan.",
+    "loading": "Loading recipes…",
+    "quantity": "Quantity",
+    "pattern": "Crafting placement",
+    "patternHint": "Place the ingredients in the slots shown below. Shapeless recipes can use any slot in the crafting area.",
+    "materials": "Required materials",
+    "materialsHint": "Each material includes its required amount and known ways to obtain it in this edition.",
+    "howToGet": "How to obtain",
+    "sourceTabs": {
+      "crafting": "crafting",
+      "mob": "mobs",
+      "chest": "chests",
+      "fishing": "fishing"
+    },
+    "sourceUnavailable": "No acquisition source is documented for this material in the selected edition.",
+    "acquisition": {
+      "fillWaterBottle": "Use a Glass Bottle on a water source."
+    },
+    "inventoryCrafting": "Player crafting grid",
+    "noInventory": "Connect a local world folder to compare this recipe with your inventory and scanned containers.",
+    "missingSummary": "Your connected world is missing {{count}} material units.",
+    "readySummary": "All required materials were found in the connected world snapshot.",
+    "need": "Need {{count}}",
+    "complete": "Complete",
+    "alternatives": "See {{count}} alternatives",
+    "worldStock": "World stock",
+    "selectWorld": "Select a saved world first.",
+    "chooseWorld": "Choose world folder",
+    "refreshWorld": "Refresh world stock",
+    "reading": "Reading world…",
+    "javaOnly": "Local inventory and container reading is currently available for Java worlds only.",
+    "readFailed": "This folder could not be read as the selected Java world. No existing stock snapshot was replaced.",
+    "playerItems": "Player inventory",
+    "enderItems": "Ender Chest",
+    "containerItems": "Scanned containers",
+    "scannedContainers": "Containers found",
+    "localOnly": "Only aggregate item counts are stored on this device.",
+    "partialScan": "Bounded scan: {{scanned}} of {{total}} region files. Container totals are partial.",
+    "methods": {
+      "shaped": "Shaped recipe",
+      "shapeless": "Shapeless recipe",
+      "cooking": "Cooking recipe",
+      "cutting": "Stonecutting recipe",
+      "brewing": "Brewing recipe",
+      "smithing": "Smithing recipe"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Map, overlay and in-game behaviour",
+    "mapSection": "Map",
+    "groupNearby": "Group nearby markers",
+    "groupNearbyDesc": "Collapse nearby pins only in distant overview views. Close-up views always show individual markers.",
+    "selectionZoom": "Zoom in when jumping to a point",
+    "selectionZoomDesc": "Zoom the map in when you pick a marker or centre on your player. Off keeps your current zoom and only pans.",
+    "gameSection": "Game integration",
+    "autoOpenApp": "Open the app with the game",
+    "autoOpenAppDesc": "Open the desktop app when {{game}} starts.",
+    "secondScreenMap": "Move map to another screen",
+    "secondScreenMapDesc": "When the game and map share a display, move the desktop map to an available second screen without changing its map state.",
+    "showOverlayWidget": "Show the in-game minimap",
+    "showOverlayWidgetDesc": "Show the map overlay while you play.",
+    "autoOpenInGame": "Auto-open in game",
+    "autoOpenInGameDesc": "Opens the full map over {{game}} automatically on one monitor. With multiple monitors, it does not auto-open; use the app hotkey in game.",
+    "hotkeysSection": "Hotkeys",
+    "hotkeyDesktopApp": "Minimize or restore the desktop app",
+    "hotkeyApp": "Open or close the app",
+    "hotkeyOverlay": "Open or close the in-game map overlay",
+    "hotkeyPinCurrentPosition": "Pin the current player position on the linked world",
+    "hotkeyZoomMinimapIn": "Zoom the in-game minimap in",
+    "hotkeyZoomMinimapOut": "Zoom the in-game minimap out",
+    "hotkeyChange": "Change",
+    "hotkeyCancel": "Cancel",
+    "hotkeyPressKeys": "Press keys…",
+    "hotkeyUnassigned": "Unassigned",
+    "hotkeyAssignFailed": "Couldn't assign this hotkey. Another app may be using it.",
+    "hotkeysNote": "Click Change and press a new combination to rebind it for every supported edition.",
+    "helpSection": "Help",
+    "replayTour": "Guided tour",
+    "replayTourDesc": "Walk through the map and every setting again.",
+    "startTour": "Start tour",
+    "legalSection": "Legal",
+    "unofficialDisclaimer": "{{game}} is created by {{developer}}. This is an unofficial companion app and is not affiliated with or endorsed by {{developer}}.",
+    "developerTerms": "{{developer}} terms"
+  },
+  "onboarding": {
+    "btn_start": "Start tour",
+    "btn_next": "Next",
+    "btn_back": "Back",
+    "btn_done": "Done",
+    "btn_skip": "Skip tour",
+    "aria_dialog": "Product tour",
+    "aria_close": "Close tour",
+    "progress": "{{current}} of {{total}}",
+    "step_welcome_title": "Welcome to {{app}}",
+    "step_welcome_body": "Explore your world on the map and follow discoveries into the guide.",
+    "step_world-new_title": "New world",
+    "step_world-new_body": "Add a world from here to preview its map.",
+    "step_world-create_title": "Create your world",
+    "step_world-create_body": "Choose the edition, version and seed, then create your map.",
+    "step_worlds_title": "Your worlds, in one place",
+    "step_worlds_body": "Switch between linked worlds, add another save, or preview a different seed without losing your place.",
+    "step_search_title": "Find anything",
+    "step_search_body": "Search locations, enter coordinates, or jump straight to a region.",
+    "step_filters_title": "Control what you see",
+    "step_filters_body": "Open Menu to show or hide map layers and your saved locations.",
+    "step_saved_title": "Keep what matters",
+    "step_saved_body": "Saved and completed locations live here, one click from the map.",
+    "step_map-tools_title": "Drop your own markers",
+    "step_map-tools_body": "Place personal markers anywhere, then name, colour, group and annotate them.",
+    "step_map-dimension_body": "Switch between the Overworld, Nether and End; each dimension keeps its own map view and discoveries.",
+    "step_map-route_body": "Choose a start and destination to plan a route across the current dimension.",
+    "step_map-marker_body": "Place your own marker anywhere on the map, then give it a name, group and note.",
+    "step_map-journey_body": "Show or hide the path recorded while you explore, so you can retrace where you have been.",
+    "step_map-center_body": "Jump the map back to your live in-game position whenever you lose sight of yourself.",
+    "step_map-follow_body": "Keep the map camera attached to your live position, or pause following to explore freely.",
+    "step_map-origin_body": "Return to coordinate origin and the map default view in one click; this is not your spawn point.",
+    "step_map-zoom-out_body": "Zoom out to see more of the world and understand the wider area around you.",
+    "step_map-zoom-level_body": "This number shows the current map scale, so you always know how close you are.",
+    "step_map-zoom-in_body": "Zoom in for a closer look at terrain, structures and exact positions.",
+    "step_guide_title": "Map discoveries meet the guide",
+    "step_guide_body": "Look up structures, items, mobs, enchantments and mechanics without leaving your companion app.",
+    "step_crafting_title": "Craft with the right recipe",
+    "step_crafting_body": "Browse recipes for your edition and version, then jump into the connected guide for deeper details.",
+    "step_account_title": "Keep your companion personal",
+    "step_account_body": "Open your account to manage your profile and the features that follow you across sessions.",
+    "step_settings-game_title": "Choose what opens",
+    "step_settings-game_body": "Open the desktop app, minimap or full in-game map with the game.",
+    "step_settings-hotkeys_title": "Set your hotkeys",
+    "step_settings-hotkeys_body": "Use separate hotkeys for the desktop app, in-game map and minimap.",
+    "step_map-controls_body": "Zoom in or out to change how much of the map you see.",
+    "step_journeys_body": "Review the routes you recorded while exploring and return to places you visited.",
+    "step_seeds_body": "Compare world seeds and open a preview before creating a new world.",
+    "step_language_body": "Change the app language from the title bar at any time.",
+    "step_settings_body": "Adjust how the map and app behave, and replay this tour whenever you need it.",
+    "step_settings-map_body": "Choose how nearby markers group and how the map zooms to a selected place.",
+    "step_settings-help_body": "Use this button to replay the guided tour later.",
+    "step_support_body": "Ask for help or send feedback from inside the app.",
+    "step_guide-item_body": "Browse items and follow their details into recipes and sources.",
+    "step_guide-entity_body": "Find creatures and inspect their behavior, drops, and related entries.",
+    "step_guide-trade_body": "Browse available trades and see what each exchange offers.",
+    "step_guide-enchantment_body": "Explore enchantments and the effects they add to equipment.",
+    "step_finish_title": "You're all set",
+    "step_finish_body": "Start exploring, or open Settings anytime to change options and replay this tour."
+  },
+  "overlay": {
+    "autoOpenHint": "Toggle this map with {{hotkey}}",
+    "minimap": {
+      "resize": "Resize minimap",
+      "locked": "Locked",
+      "toggleHint": "Toggle with {{hotkey}}",
+      "close": "Close minimap"
+    }
+  },
+  "account": {
+    "account": "Account",
+    "open": "Account",
+    "closeAccount": "Close account",
+    "yourAccount": "Your account",
+    "signInOrCreate": "Sign in or create an account",
+    "serviceUnavailable": "Account service unavailable",
+    "accountsNotAvailable": "Accounts not available",
+    "accountsNotAvailableBody": "This build isn't connected to the account service. Everything else in the app works without signing in.",
+    "signIn": "Sign in",
+    "signInSubtitle": "Sync your markers and progress across devices.",
+    "createAccount": "Create account",
+    "signUpSubtitle": "Create your account in a few seconds.",
+    "recoverAccess": "Recover access",
+    "forgotPasswordSubtitle": "Reset your password without leaving the app.",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "atLeast6Characters": "At least 6 characters",
+    "repeatThePassword": "Repeat the password",
+    "passwordsDontMatch": "Passwords don't match.",
+    "forgotPassword": "Forgot password?",
+    "noAccountSignUp": "No account? Sign up",
+    "alreadyHaveAccountSignIn": "Already have an account? Sign in",
+    "accountCreatedConfirm": "Account created — confirm it via the link we emailed you, then sign in.",
+    "forgotPasswordIntro": "Enter your account email and we'll send a recovery code to reset your password — right here, no browser needed.",
+    "sendRecoveryCode": "Send recovery code",
+    "recoveryCodeOnItsWay": "If an account exists for {{email}}, a recovery code is on its way.",
+    "recoveryCode": "Recovery code",
+    "recoveryCodePlaceholder": "6-digit code from the email",
+    "newPassword": "New password",
+    "confirmNewPassword": "Confirm new password",
+    "resetPassword": "Reset password",
+    "resendCode": "Resend code",
+    "backToSignIn": "Back to sign in",
+    "displayName": "Display name",
+    "displayNamePlaceholder": "How you appear in the app",
+    "displayNameHint": "This is the name shown next to anything you share. Leave it empty to go back to the default.",
+    "editDisplayName": "Change your display name",
+    "saveName": "Save name",
+    "cancel": "Cancel",
+    "joinedOn": "Joined {{date}}",
+    "signOut": "Sign out"
+  },
+  "journeyHistory": {
+    "nav": "Journeys",
+    "title": "Journey history",
+    "collapseSidebar": "Collapse journey list",
+    "expandSidebar": "Expand journey list",
+    "subtitle": "Every recorded trip, grouped by world and time.",
+    "emptyTitle": "No journeys yet",
+    "emptyBody": "Completed journeys of at least 200 blocks appear here.",
+    "deleteJourney": "Delete journey",
+    "deleteConfirm": "Delete this journey?",
+    "cancelDelete": "Cancel",
+    "deleteFailed": "Could not delete this journey. Try again.",
+    "emptyMap": "Choose a recorded journey to review its route.",
+    "live": "Live",
+    "died": "Died",
+    "survived": "Survived",
+    "now": "Now",
+    "dimension": "Journey dimension",
+    "readonly": "Read-only map",
+    "readonlyMap": "Read-only map of the selected journey",
+    "noDimensionRoute": "This journey has no recorded route in this dimension.",
+    "startPoint": "Start",
+    "points": "{{count}} sampled points",
+    "distance": "{{count}} blocks",
+    "minutes": "{{count}} min",
+    "hours": "{{count}} hr",
+    "hoursMinutes": "{{hours}} hr {{minutes}} min",
+    "from": "From X {{x}}, Y {{y}}, Z {{z}}",
+    "to": "To X {{x}}, Y {{y}}, Z {{z}}",
+    "chooseWorld": "Choose world",
+    "biomes": "{{count}} biomes",
+    "deaths": "{{count}} deaths",
+    "mapUnavailable": "Biome tiles are unavailable for this world and version.",
+    "mapCanvas": "Journey biome map. Drag to move and scroll to zoom.",
+    "loadingMap": "Loading biome tiles…",
+    "mapFailed": "Biome tiles could not be loaded.",
+    "fitRoute": "Fit journey route",
+    "biomesUnknown": "Biomes —",
+    "start": "Start",
+    "end": "Finish",
+    "showOtherSide": "Show the other side in {{dimension}}",
+    "transitionFrom": "From {{dimension}}",
+    "transitionTo": "To {{dimension}}",
+    "inProgress": "In progress",
+    "linkedPortal": "Linked portal",
+    "dimensionChange": "Dimension change",
+    "portalTravel": "In this journey, you used this portal to travel from {{from}} to {{to}}.",
+    "dimensionTravel": "In this journey, you traveled from {{from}} to {{to}}.",
+    "departure": "Departure · {{dimension}}",
+    "destination": "Destination · {{dimension}}",
+    "goToDestination": "Go to destination in {{dimension}}",
+    "portalMarker": "Portal linked to {{dimension}}",
+    "portalCoordinates": "X {{x}} · Y {{y}} · Z {{z}}",
+    "portalObservationNote": "Recorded player positions at the crossing; the portal blocks may be nearby.",
+    "removePortal": "Remove portal marker",
+    "removePortalFailed": "Portal marker could not be removed. Please try again."
+  },
+  "support": {
+    "prompts": {
+      "missingFeature": "Missing a feature?",
+      "somethingBuggingYou": "Something bugging you?",
+      "cantFindSomething": "Can't find something?",
+      "gotAnIdea": "Got an idea?",
+      "wishItDidMore": "Wish it did more?",
+      "whatFeelsClunky": "What feels clunky?",
+      "somethingNotWorking": "Something not working?",
+      "whatWouldYouChange": "What would you change?",
+      "whatsMissing": "What’s missing?",
+      "howCanWeImprove": "How can we improve?",
+      "foundABug": "Found a bug?",
+      "tellUsWhatYouThink": "Tell us what you think"
+    },
+    "title": "Help & Feedback",
+    "subtitle": "A private line to the developer — only they can read it.",
+    "close": "Close Help & Feedback",
+    "loading": "Loading",
+    "loadFailed": "This conversation couldn't be loaded.",
+    "retry": "Try again",
+    "noMessages": "No messages in this conversation.",
+    "unavailable": "Support isn't available in this build.",
+    "replyPromise": "You'll have an answer within {{hours}} hours.",
+    "writeTitle": "Write to us",
+    "writeBody": "Bugs, wrong data, a feature you want — it all lands with the developer directly.",
+    "writePrivacy": "Nobody else can read what you send.",
+    "nameLabel": "What should we call you?",
+    "namePlaceholder": "Your name",
+    "reportLabel": "Your report",
+    "reportPlaceholder": "What happened, and what did you expect instead?",
+    "sendReport": "Send report",
+    "newReport": "New report",
+    "lastActivity": "Last activity {{date}}",
+    "newReply": "New reply",
+    "opened": "Opened {{date}}",
+    "sentConfirm": "Report sent. We answer within {{hours}} hours — the reply lands right here.",
+    "supportSide": "Support",
+    "edited": "edited",
+    "editMessage": "Edit this message",
+    "saveChanges": "Save changes",
+    "cancel": "Cancel",
+    "send": "Send",
+    "delete": "Delete",
+    "deleteConversation": "Delete conversation",
+    "deleteTitle": "Delete this conversation?",
+    "deleteBody": "The whole conversation and every message in it are removed for good. This cannot be undone.",
+    "closedHint": "This report is closed. Writing again reopens it.",
+    "replyPlaceholder": "Write your reply…",
+    "addPlaceholder": "Add to your report…",
+    "yourReply": "Your reply",
+    "yourMessage": "Your message",
+    "anonymousReport": "no account — anonymous report",
+    "reopen": "Reopen",
+    "markClosed": "Mark as closed",
+    "inbox": "Inbox",
+    "inboxCount": "{{count}} reports",
+    "inboxEmpty": "No reports yet.",
+    "status": {
+      "open": "Waiting for reply",
+      "answered": "Answered",
+      "closed": "Closed"
+    },
+    "error": {
+      "tooManyOpen": "You already have a lot of reports open — delete an old one first.",
+      "tooManyNew": "You've started several reports just now — try again a little later.",
+      "tooFast": "You're sending messages very quickly — give it a moment and try again.",
+      "busy": "Support is unusually busy right now — please try again shortly.",
+      "threadFull": "This conversation is full — please start a new report.",
+      "gone": "That conversation is no longer there — it may have been deleted.",
+      "notYours": "You can only edit your own messages.",
+      "empty": "Write a name and a report before sending.",
+      "generic": "Something went wrong with support. Please try again.",
+      "offline": "Can't reach support right now — check your connection."
+    },
+    "nudge": "Something bugging you? Tell me — I read and answer everything.",
+    "dismissNudge": "Dismiss",
+    "buttonIdle": "Help & Feedback — write to the developer",
+    "buttonWaiting": "Help & Feedback — a reply is waiting"
+  },
+  "seeds": {
+    "nav": "Seeds",
+    "eyebrow": "World inspiration",
+    "title": "Discover your next world",
+    "intro": "Find your next world in a handpicked gallery of in-game seed screenshots. Every seed matches an edition and version available in the app.",
+    "results_one": "{{count}} seed",
+    "results_many": "{{count}} seeds",
+    "results_other": "{{count}} seeds",
+    "editionFilter": "Filter by edition",
+    "allEditions": "All editions",
+    "versionFilter": "Version",
+    "allVersions": "All versions",
+    "currentVersion": "Latest",
+    "topPick": "Top pick",
+    "morePicks": "More worlds to explore",
+    "copy": "Copy",
+    "create": "Create",
+    "copied": "Copied",
+    "copySeed": "Copy seed {{seed}}",
+    "copyFailed": "The seed could not be copied. Try selecting the number instead.",
+    "openSource": "Open {{source}} source",
+    "empty": "No seeds match these filters.",
+    "imageAlt": "In-game screenshot of {{title}}",
+    "mapPreview": "In-game screenshot",
+    "sourceNote": "Seed details and images are credited in the project rights register. World generation can change between versions.",
+    "sources": {
+      "gameskinny": "GameSkinny",
+      "craftmc": "CraftMC"
+    },
+    "locations": {
+      "village": "Village",
+      "mansion": "Woodland mansion",
+      "sulfurSpring": "Sulfur spring",
+      "mushroomIsland": "Mushroom island",
+      "ancientCity": "Ancient city"
+    },
+    "entries": {
+      "caveMansion": {
+        "title": "Mansion above a vast cave",
+        "description": "A woodland mansion stands over a deep open cavern near spawn, with a pale garden and another mansion nearby."
+      },
+      "dualMountainBowls": {
+        "title": "Twin mountain bowls",
+        "description": "Two neighboring mountain bowls offer dramatic base sites, with a village, ocean and badlands nearby."
+      },
+      "villageSinkhole": {
+        "title": "Village inside a sinkhole",
+        "description": "A village descends into a huge cave, with a ruined portal, cherry trees and mountains nearby."
+      },
+      "structuresEverywhere": {
+        "title": "Mansion and village at spawn",
+        "description": "A woodland mansion, village and several other structures make the starting area dense with places to explore."
+      },
+      "cherryBlossomIsland": {
+        "title": "Cherry grove island",
+        "description": "A cherry-covered landscape offers a village, a deep cave, an outpost and a ruined portal nearby."
+      },
+      "outpostSpire": {
+        "title": "Outpost on a stone spire",
+        "description": "A pillager outpost crowns a narrow coastal spire, creating a striking challenge and lookout."
+      },
+      "mansionOutpostVillage": {
+        "title": "Mansion, village and outpost",
+        "description": "A mansion, village, outpost and desert temple sit close together, with caves and more structures below."
+      },
+      "beachSulfurCave": {
+        "title": "Sulfur cave by the beach",
+        "description": "A sulfur cave meets the coast near a desert village, combining new cave terrain with an easy surface route."
+      },
+      "icyLakeVillage": {
+        "title": "Villages around an icy lake",
+        "description": "Two snowy villages face a broad frozen lake, with caves and room for a winter base."
+      },
+      "desertLandmarks": {
+        "title": "Four desert landmarks",
+        "description": "A desert village, temple, pillager outpost and shipwreck cluster near spawn beside a mangrove swamp."
+      },
+      "farmsGalore": {
+        "title": "Village full of farms",
+        "description": "A large farming village has plentiful fields, animals and food for a relaxed survival start."
+      },
+      "blacksmithCherry": {
+        "title": "Blacksmith villages by a cherry grove",
+        "description": "Two villages with blacksmiths flank a cherry grove, with three trial chambers underneath."
+      },
+      "fiveBlacksmith": {
+        "title": "Five blacksmiths in an autumn forest",
+        "description": "A dappled forest start with a nearby five-blacksmith village and many exploration routes."
+      },
+      "dappledVillages": {
+        "title": "Dappled forest and four villages",
+        "description": "The new forest begins beside spawn; four villages make this an inviting survival start."
+      },
+      "burningMansion": {
+        "title": "Mansion on a fiery mountain",
+        "description": "A woodland mansion sits against snowy peaks, with lava inside the structure and ancient cities below."
+      },
+      "paleMansion": {
+        "title": "Mansion in a vast pale forest",
+        "description": "A broad pale forest, nearby mansion and mountain scenery create a striking Bedrock start."
+      },
+      "sulfurVillage": {
+        "title": "Sulfur spring beside a village",
+        "description": "A surface sulfur spring points to the cave below, with a plains village close to spawn."
+      },
+      "dappledIce": {
+        "title": "Autumn forest meets ice spikes",
+        "description": "An abandoned camp and ruined portal near spawn lead toward ice spikes, cherry trees and an ancient city."
+      },
+      "desertMansion": {
+        "title": "Tall mansion above the desert",
+        "description": "An unusually elevated woodland mansion turns the spawn into a dramatic survival challenge."
+      },
+      "sixVillages": {
+        "title": "Six villages across the plains",
+        "description": "A broad village network, an outpost and a ruined portal give this world a strong start."
+      },
+      "darkForestCamp": {
+        "title": "Dark forest mansion and camp",
+        "description": "Start near a mansion, gather supplies from villages and a camp, then seek the autumn forest."
+      },
+      "frozenMushroom": {
+        "title": "Mushroom island in a frozen sea",
+        "description": "A mushroom island sits within reach of spawn, with two villages for early supplies."
+      },
+      "ancientCities": {
+        "title": "Ancient cities under the mountains",
+        "description": "Mountain scenery, four villages and a remarkable concentration of ancient cities underground."
+      },
+      "paleGardenCamp": {
+        "title": "Pale garden and autumn campsite",
+        "description": "A pale garden borders an abandoned camp, with villages and autumn forest beyond."
+      },
+      "tripleDappled": {
+        "title": "Three autumn forests by the sea",
+        "description": "Cross the water to a vast dappled forest, with a trial chamber and ancient city underneath."
+      },
+      "desertWoodland": {
+        "title": "Woodland mansion in the desert",
+        "description": "A mansion rises from desert sand, with more rare structures across the region."
+      },
+      "giantSulfur": {
+        "title": "Giant sulfur cave",
+        "description": "Four sulfur springs mark a vast cave, with a snowy village nearby for supplies."
+      },
+      "jungleRuins": {
+        "title": "Four jungle temples",
+        "description": "A bamboo jungle holds four temples and trail ruins for an archaeology-rich start."
+      },
+      "toweringCherry": {
+        "title": "Cherry grove above an outpost",
+        "description": "A tall cherry-covered hill rises over a plains outpost, with a trial chamber below."
+      },
+      "lakesideTaiga": {
+        "title": "Taiga village by the lake",
+        "description": "A lakeside village hides trail ruins, while a shipwreck and trial chamber wait nearby."
+      },
+      "islandCave": {
+        "title": "Sunflower island cave",
+        "description": "A small island opens into a deep cave and mineshaft for a compact survival start."
+      },
+      "coralVillage": {
+        "title": "Desert village by a coral reef",
+        "description": "Spawn beside a desert village overlooking coral reefs, shipwrecks and ocean ruins."
+      },
+      "paleMountainVillage": {
+        "title": "Village beside a pale garden and mansion",
+        "description": "A mountain village borders a pale garden and woodland mansion, with an ancient city beneath."
+      },
+      "desertSulfurVillage": {
+        "title": "Desert village above a sulfur cave",
+        "description": "A desert village overlooks a ravine with a sulfur cave and a buried desert temple."
+      },
+      "floatingSavanna": {
+        "title": "Savanna village floating at sea",
+        "description": "A village sits in the ocean off the savanna coast, with ruins and another village nearby."
+      },
+      "paleMountainValley": {
+        "title": "Pale garden between mountains",
+        "description": "A vast pale garden fills the mountain valley, with six ancient cities hidden below."
+      },
+      "sulfurMineshafts": {
+        "title": "Mineshafts in lush and sulfur caves",
+        "description": "Three mineshafts thread through lush and sulfur caves close to spawn."
+      },
+      "mangroveIsland": {
+        "title": "Mangrove swamp island",
+        "description": "Mangroves, plains and savanna share an island ringed by shipwrecks and ocean ruins."
+      },
+      "taigaTrailRuins": {
+        "title": "Three trail ruins in the taiga",
+        "description": "Explore three trail ruins and two taiga villages, including one above an iron-rich ravine."
+      },
+      "coldOceanShipwreck": {
+        "title": "Shipwreck inside cold ocean ruins",
+        "description": "A shipwreck has crashed into cold ocean ruins beneath a frozen sea."
+      },
+      "dappledCanopy": {
+        "title": "Windswept autumn island",
+        "description": "An island crowned by dappled forest rises above caves, waterfalls and amethyst geodes."
+      },
+      "quadTaigaVillages": {
+        "title": "Four villages near a snowy taiga",
+        "description": "Four villages cluster near spawn, with a mineshaft and cold ocean ruins to explore."
+      },
+      "dualSnowyVillages": {
+        "title": "Two snowy villages at spawn",
+        "description": "Two large snowy villages share the starting area, with a ruined portal and frozen ruins nearby."
+      },
+      "dappledRiverIsland": {
+        "title": "Autumn forest around a river island",
+        "description": "A river wraps a plains island with two villages; a nearby dappled forest hides abandoned camps."
+      },
+      "glacialAutumn": {
+        "title": "Autumn island below jagged peaks",
+        "description": "A stony shore leads to a mountain dappled forest, shipwreck and ancient city below."
+      },
+      "scatteredSeasons": {
+        "title": "Four seasons in one view",
+        "description": "Autumn poplars, cherry blossoms, ice spikes and green plains meet around spawn."
+      },
+      "dappledRange": {
+        "title": "Autumn forest beneath snowy slopes",
+        "description": "Dappled forest meets cherry groves and snowy slopes, with a small village valley beyond."
+      },
+      "cherryLakeVillage": {
+        "title": "Village beside a cherry valley lake",
+        "description": "A quiet lake rests below cherry-covered peaks, with villages near its shores."
+      },
+      "cherryGroveVillage": {
+        "title": "Cliffside cherry grove and lake village",
+        "description": "A peaceful valley climbs into a vast cherry grove; a village overlooks the lake beyond."
+      },
+      "mesaCrater": {
+        "title": "Mesa crater on the forest edge",
+        "description": "A huge badlands crater opens where terracotta meets a green forest."
+      },
+      "threeBiomeVillage": {
+        "title": "Village where three biomes meet",
+        "description": "A village sits between pink cherry groves, orange autumn woods and snowy ice spikes."
+      },
+      "perfectMountain": {
+        "title": "Towering mountain island",
+        "description": "A steep stone peak rises above the ocean, with caves and a village in the surrounding world."
+      },
+      "mountainBowl": {
+        "title": "Cherry grove inside a mountain bowl",
+        "description": "A broad grassy valley and pink cherry trees sit inside a ring of snowy peaks."
+      },
+      "waterSinkhole": {
+        "title": "Water sinkhole beneath the lake",
+        "description": "A deep water-filled chasm drops through a mountain lake, with ice spikes nearby."
+      },
+      "coralReefDesert": {
+        "title": "Coral reef in the desert",
+        "description": "A bright reef forms an oasis where desert sands meet orange badlands."
+      }
+    }
+  },
+  "tracking": {
+    "preparingWorldShort": "Preparing your world and location. Loading a world for the first time may take longer than usual.",
+    "preparingWorld": "Preparing your world and location. Loading a world for the first time may take longer than usual.",
+    "offline": "Offline — showing saved world data",
+    "reconnecting": "Reconnecting to player tracking…",
+    "waiting": "Waiting for a world position…",
+    "chooseWorld": "Select the saved world for this session",
+    "readingWorld": "Reading world information — retrying automatically…",
+    "connectingWorld": "Reconnecting your saved world…",
+    "storageError": "Saved data could not be read",
+    "selectWorld": "Select world",
+    "lastKnown": "Last known position · {{time}}"
+  }
+}

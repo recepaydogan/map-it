@@ -1,0 +1,22 @@
+{
+  "chest": "maps/category-icons/chest.svg",
+  "ground-loot": "maps/category-icons/ground-loot.svg",
+  "dust": "maps/category-icons/dust.svg",
+  "npc": "maps/category-icons/npc.svg",
+  "bell": "maps/category-icons/bell.svg",
+  "portal": "maps/category-icons/portal.svg",
+  "memory-flower": "maps/category-icons/memory-flower.svg",
+  "key": "maps/category-icons/key.svg",
+  "weapon": "maps/category-icons/weapon.svg",
+  "phantom-edge": "maps/category-icons/phantom-edge.svg",
+  "accessory": "maps/category-icons/accessory.svg",
+  "medicine": "maps/category-icons/medicine.svg",
+  "long-pillar": "maps/category-icons/long-pillar.svg",
+  "banyan": "maps/category-icons/banyan.svg",
+  "scarecrow": "maps/category-icons/scarecrow.svg",
+  "quest": "maps/category-icons/quest.svg",
+  "pin": "maps/category-icons/pin.svg",
+  "home": "maps/category-icons/home.svg",
+  "quest-giver": "maps/category-icons/quest-giver.svg",
+  "boss": "maps/category-icons/boss.svg"
+}

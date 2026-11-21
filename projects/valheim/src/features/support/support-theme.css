@@ -1,0 +1,29 @@
+/* PZ's support palette is isolated so the surrounding app keeps its theme. */
+@theme {
+  --color-support-background: #101112;
+  --color-support-surface: #171819;
+  --color-support-border: rgba(236, 229, 218, 0.13);
+  --color-support-muted: #a6a29c;
+  --color-support-subtle: #bbb7b0;
+  --color-support-accent: #c97855;
+  --color-support-accent-soft: rgba(201, 120, 85, 0.16);
+  --color-support-on-accent: #1b0c07;
+  --color-support-zinc-50: #faf9f7;
+  --color-support-zinc-100: #f2efea;
+  --color-support-zinc-200: #dedad3;
+  --color-support-zinc-300: #c9c4bc;
+  --color-support-zinc-400: #aaa69f;
+  --color-support-zinc-500: #918e88;
+  --color-support-zinc-600: #74716c;
+  --color-support-zinc-700: #454544;
+  --color-support-zinc-800: #292a2b;
+  --color-support-zinc-900: #171819;
+  --color-support-zinc-950: #101112;
+  --font-support-display: "Cinzel", "Inter", system-ui, sans-serif;
+  --animate-support-fade-in: support-fade-in 120ms ease-out both;
+
+  @keyframes support-fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+}

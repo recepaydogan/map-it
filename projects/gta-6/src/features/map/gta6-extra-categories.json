@@ -1,0 +1,15 @@
+[
+  ["fire", "infrastructure", "local-fire-department"],
+  ["transit-stop", "infrastructure", "directions-bus"],
+  ["amenity", "infrastructure", "local-atm"],
+  ["food-stop", "commercial", "coffee"],
+  ["activity", "activities", "personal-flag"],
+  ["event", "activities", "personal-danger"],
+  ["stunt", "activities", "jump-across"],
+  ["robbery", "activities", "account-balance"],
+  ["collectible", "collectables", "package-2"],
+  ["card", "collectables", "print"],
+  ["magazine", "collectables", "gallery"],
+  ["vehicle", "pickups", "directions-car"],
+  ["weapon", "pickups", "pistol-gun"]
+]

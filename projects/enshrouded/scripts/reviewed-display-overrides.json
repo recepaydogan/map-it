@@ -1,0 +1,58 @@
+{
+  "Investigate The Strange Letter": {
+    "ja": "謎の手紙を調べる"
+  },
+  "Commo": {
+    "de": "Gewöhnlich",
+    "fr": "Commun",
+    "it": "Comune",
+    "es": "Común",
+    "ru": "Обычный",
+    "pl": "Zwykły",
+    "ja": "コモン",
+    "ko": "일반",
+    "pt-BR": "Comum",
+    "th": "ธรรมดา",
+    "tr": "Sıradan",
+    "zh-Hans": "普通",
+    "zh-Hant": "普通",
+    "uk": "Звичайний"
+  },
+  "Bembel Pitcher": {
+    "uk": "Глечик «Бембель»"
+  },
+  "Gatherable - Veilwater Basin Farmable from Banana Seedling": {
+    "uk": "Можна збирати - Бухта прозорої води Можна вирощувати від Саджанець банана"
+  },
+  "Gatherable - Veilwater Basin Farmable from Ginger Seedling": {
+    "uk": "Можна збирати - Бухта прозорої води Можна вирощувати від Саджанець імбиру"
+  },
+  "Gatherable - Veilwater Basin Farmable from Shiitake Seedling": {
+    "uk": "Можна збирати - Бухта прозорої води Можна вирощувати від Саджанець шиїтаке"
+  },
+  "Veilwater Basin Lacemaker Pond Night Sanctum": {
+    "uk": "Бухта прозорої води Ставок мереживниці Храм ночі"
+  },
+  "Balefire-LancePoint": {
+    "de": "Leuchtfeuer Festung \"Lanzensprung\"",
+    "fr": "Forteresse du Feu de joie « Lance Point »",
+    "it": "Roccaforte fuoco di segnalazione \"Punta di lancia\"",
+    "es": "Hoguera de la fortaleza \"Punta de lanza\"",
+    "ru": "Путеводная крепость «Наконечник копья»",
+    "pl": "Twierdza strażnicza „Ostrze Lancy”",
+    "ja": "かがり火の砦「ランス・ポイント」",
+    "ko": "봉화 요새 \"랜스 포인트\"",
+    "pt-BR": "Fortaleza da Fogueira Sinistra \"Ponta de Lança\"",
+    "th": "ปราการกองไฟ \"แลนซ์พอยต์\"",
+    "tr": "Izdırap Ateşi Karargâhı \"Mızrak Ucu\"",
+    "zh-Hans": "篝火要塞“枪尖”",
+    "zh-Hant": "烽火據點「長矛點」",
+    "uk": "Фортеця згубного вогню «Наконечник списа»"
+  },
+  "Banana Plant Pot": {
+    "pl": "Doniczka z bananowcem"
+  },
+  "Our Eye Towards The Stars, Forever Shut": {
+    "ko": "별을 향한 우리의 눈, 영원히 감기다"
+  }
+}

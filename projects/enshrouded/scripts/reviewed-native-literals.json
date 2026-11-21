@@ -1,0 +1,205 @@
+{
+  "2cec71e9034b6baf12023f5b": {
+    "fr": {
+      "englishSha256": "2cec71e9034b6baf12023f5b3eec1e1d7150fb16da6037b925b9c60a17e2c83b",
+      "translatedSha256": "09321a52a9f110741aede239f9e9d7ea1f3180a6e6cfe14039b1f2bd1381f59a",
+      "words": [],
+      "phrases": [
+        "cassandra wynn notes"
+      ],
+      "reason": "French Notes is a cognate heading after the proper name Cassandra Wynn."
+    }
+  },
+  "f59fea0a6e687812de11b2e7": {
+    "ja": {
+      "englishSha256": "f59fea0a6e687812de11b2e7e426abfacaa93f4d15189db7e27debc15df47662",
+      "translatedSha256": "fb2439e083f316299ccbb8b2c9af087f7e5bd11a6417a8a99a75a1a94c5be8f5",
+      "words": [
+        "MINR"
+      ],
+      "phrases": [],
+      "reason": "MINR is the in-world construct model code."
+    },
+    "ko": {
+      "englishSha256": "f59fea0a6e687812de11b2e7e426abfacaa93f4d15189db7e27debc15df47662",
+      "translatedSha256": "90a637d0468b3d10442b46759ba6fe64630de6dd8e04766c02802a239e5f3c2b",
+      "words": [
+        "MINR"
+      ],
+      "phrases": [],
+      "reason": "MINR is the in-world construct model code."
+    },
+    "th": {
+      "englishSha256": "f59fea0a6e687812de11b2e7e426abfacaa93f4d15189db7e27debc15df47662",
+      "translatedSha256": "33ec21d808c07fa51436a25fb0ff58e994f256f5335701b0234b988f6452bf6e",
+      "words": [
+        "MINR"
+      ],
+      "phrases": [],
+      "reason": "MINR is the in-world construct model code."
+    },
+    "zh-Hans": {
+      "englishSha256": "f59fea0a6e687812de11b2e7e426abfacaa93f4d15189db7e27debc15df47662",
+      "translatedSha256": "ce731bc5dadb2089d517a4fd417574348877e89fa42170697134edefad52989d",
+      "words": [
+        "MINR"
+      ],
+      "phrases": [],
+      "reason": "MINR is the in-world construct model code."
+    },
+    "zh-Hant": {
+      "englishSha256": "f59fea0a6e687812de11b2e7e426abfacaa93f4d15189db7e27debc15df47662",
+      "translatedSha256": "08fcb226b1e66ef56b08338abbcb92f76addad3d36c1611d5421bbab31453ae8",
+      "words": [
+        "MINR"
+      ],
+      "phrases": [],
+      "reason": "MINR is the in-world construct model code."
+    }
+  },
+  "bca1e6d507a062ce7977e34c": {
+    "ko": {
+      "englishSha256": "bca1e6d507a062ce7977e34c78f5e34e7909a18d5f506c2f8e84f0ccb99f085d",
+      "translatedSha256": "ad6ec9ccdeea195e7d72aa3eb5743ed392c7e0e4572c69f32183e3f675c4efbb",
+      "words": [
+        "SPDR",
+        "SPDR"
+      ],
+      "phrases": [],
+      "reason": "Official construct model codes and their English acronym expansions."
+    },
+    "th": {
+      "englishSha256": "bca1e6d507a062ce7977e34c78f5e34e7909a18d5f506c2f8e84f0ccb99f085d",
+      "translatedSha256": "c23e71fb1e738597520ab4aa39a0b1fb9beefc06ac45d1c780f848612ca1c9c3",
+      "words": [
+        "Metallurgical",
+        "Industrial",
+        "and",
+        "Nonmetal",
+        "extraction",
+        "Rig",
+        "Building",
+        "Landscaping",
+        "and",
+        "Demolition",
+        "Rig",
+        "Grunt",
+        "Transportation",
+        "and",
+        "Hauling",
+        "Rig",
+        "Signal",
+        "and",
+        "Intrusion",
+        "Reveal",
+        "Node",
+        "Guarding",
+        "and",
+        "high",
+        "Alert",
+        "Resolution",
+        "Defender",
+        "Gunnery",
+        "and",
+        "Ultrasonic",
+        "Neutron",
+        "Rocketcore",
+        "Construct",
+        "Reconstruction",
+        "and",
+        "Termination",
+        "Rig",
+        "Security",
+        "Patrol",
+        "Dome",
+        "Rig"
+      ],
+      "phrases": [],
+      "reason": "Official construct model codes and their English acronym expansions."
+    }
+  },
+  "1b5152f4ebdf93566c159851": {
+    "th": {
+      "englishSha256": "1b5152f4ebdf93566c159851993447db5a40117110095efaacc6d6ead6db7a9a",
+      "translatedSha256": "f6cde60c7ee43a5cb052cac31046668a5ab672a3118917767c78a4500fcfc520",
+      "words": [
+        "GTHR",
+        "CRTR"
+      ],
+      "phrases": [],
+      "reason": "GTHR and CRTR are in-world construct model codes."
+    }
+  },
+  "3e61e20e696a9805af15cd29": {
+    "th": {
+      "englishSha256": "3e61e20e696a9805af15cd299e48032acce1e8bbdf407d28026302370deb90ac",
+      "translatedSha256": "175f47c5e77d6e674752ef8260ee7b3c6588b314d50fa45be2853bd5729891e0",
+      "words": [
+        "Fig"
+      ],
+      "phrases": [],
+      "reason": "Fig23 is an experimental cultivar identifier."
+    },
+    "zh-Hant": {
+      "englishSha256": "3e61e20e696a9805af15cd299e48032acce1e8bbdf407d28026302370deb90ac",
+      "translatedSha256": "220f827134d38e40cd3da1c2536fd0e94c840825ff4c1c314a9656a9e99dc149",
+      "words": [
+        "Fig"
+      ],
+      "phrases": [],
+      "reason": "Fig23 is an experimental cultivar identifier."
+    },
+    "uk": {
+      "englishSha256": "3e61e20e696a9805af15cd299e48032acce1e8bbdf407d28026302370deb90ac",
+      "translatedSha256": "5e5893f471c9b3fc9d5f282a9db3d0a5ec936321de4ec958b12964c6821eb2d0",
+      "words": [
+        "Fig"
+      ],
+      "phrases": [],
+      "reason": "Fig23 is an experimental cultivar identifier."
+    }
+  },
+  "bce2e747f2f6cc9dc584ff6b": {
+    "zh-Hans": {
+      "englishSha256": "bce2e747f2f6cc9dc584ff6b366927490dfbaaa0c963d61d180f393407fad76d",
+      "translatedSha256": "5815069eb8c8fe9609fd03028ab4687ebfeb8f7a5ee0b30365458b06797fb400",
+      "words": [
+        "onni"
+      ],
+      "phrases": [],
+      "reason": "The specimen name is kept in Latin letters because this passage explains their animal-like shape."
+    },
+    "zh-Hant": {
+      "englishSha256": "bce2e747f2f6cc9dc584ff6b366927490dfbaaa0c963d61d180f393407fad76d",
+      "translatedSha256": "e975bd684950bb74221454d98fbec0d483c4da11976c474079e6d58c32e6f234",
+      "words": [
+        "Ony"
+      ],
+      "phrases": [],
+      "reason": "The specimen name is kept in Latin letters because this passage explains their animal-like shape."
+    }
+  },
+  "c80b998c338efe023e9813c1": {
+    "zh-Hant": {
+      "englishSha256": "c80b998c338efe023e9813c1aa7de3d3a514a7dc31f77baca6901b91d4703fb3",
+      "translatedSha256": "7108a18c496e263ede59a625015602d9b1819886a8262701c748bc2ef74a05a3",
+      "words": [
+        "Timberwolf"
+      ],
+      "phrases": [],
+      "reason": "Timberwolf is the company name in the signature."
+    }
+  },
+  "a13c4e3cb3a8df75d466d8c8": {
+    "uk": {
+      "englishSha256": "a13c4e3cb3a8df75d466d8c8f05ff2fddfbe507c0cc074b5e824db6f64bde9ed",
+      "translatedSha256": "fd0be39aa85147f7570f7ba9bdb93b31288d5d003020023d0519978d76dfb7a8",
+      "words": [
+        "Draconis",
+        "Communis"
+      ],
+      "phrases": [],
+      "reason": "Draconis Communis is the specimen Latin name."
+    }
+  }
+}

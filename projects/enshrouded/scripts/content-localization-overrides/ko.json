@@ -1,0 +1,236 @@
+{
+  "e0f651508d5ad0e49f6a0b9a": {
+    "english": "The Fell took the Archaic Essence into a winding, enshrouded cave. What purpose are they after? Explore the depths of the Shroud Lair to proceed! Consider gathering more Archaic Essence as you go forth to reclaim it from the Shroud!",
+    "templateSha256": "c5aff0a22a9b27e9dca87e5e201a81bc39a55c4e1f10f03feebb6ee25037af8e",
+    "translation": "{{EMTERM_0}} 무리가 {{EMTERM_1}}을 구불구불하고 안개에 뒤덮인 동굴로 가져갔습니다. 무엇을 노리는 걸까요? {{EMTERM_2}} 깊숙이 탐험하여 계속 진행하세요! {{EMTERM_4}}에서 자원을 되찾으러 가는 길에 {{EMTERM_3}}도 더 모아 보세요!",
+    "reviewNote": "Translate the full source in context, retaining every gameplay fact, quantity and native-name placeholder."
+  },
+  "3ce9cc4b63ddb5765dcc38e2": {
+    "english": "A resplendent white-and-gold interwoven with iridescent threads. Worn by the \"Scholars of the Young Flame\", it sybolizes the burning desire to illuminate the unknown.",
+    "templateSha256": "27156a896dc2da28184a4f111a7afc58fe64b429cf90ab9f7c4800fa72b1b969",
+    "translation": "무지갯빛 실을 엮어 만든 눈부신 흰색과 금색 의복입니다. 「젊은 {{EMTERM_0}}의 학자들」이 입으며, 미지의 세계를 밝히려는 뜨거운 열망을 상징합니다.",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "10299a0ba3b875f1b2886ddd": {
+    "english": "Crystalwater Staff is obtained randomly from Lootable Chests or Bosses in the Albaneve Summits. C:Souls Of The Frozen Frontier Update",
+    "templateSha256": "7714d1d615b4dc655480b62926c9c11f350950ce5a69d692de5c51be3208494a",
+    "translation": "{{EMTERM_0}}는 {{EMTERM_1}}의 루팅 가능한 상자나 보스에서 무작위로 획득됩니다. C:얼어붙은 변경의 영혼 업데이트",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "5cc5225d4c57e8b07d6238a1": {
+    "english": "Dropped by Draconian Vulture, Flightless Redtail, Round-Billed Sailer",
+    "templateSha256": "4f545586e82081fa8c9f10045ce6f68c259ab495ba95778e8a0d7e4a879b2fa1",
+    "translation": "용 독수리, {{EMTERM_0}}, 둥근 부리 활강조에게서 획득합니다.",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "39a82a0c883d177d1dad7442": {
+    "english": "Dropped by Pink Giant Wasp in Veilwater Basin C:Wake Of Water Update",
+    "templateSha256": "c0751c836b9290433d506ad059a4cdf567156f9244dfc97a1e6b8cdbd30f4763",
+    "translation": "베일워터 유역의 분홍 거대 말벌에게서 획득합니다. 분류: {{EMTERM_0}}의 각성 업데이트.",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "1ab558d2d05f2cc7ea9661f3": {
+    "english": "Eternal Fireball II is found during the quest A Glimpse Of Eternity after finding the Spell you will unlock the ability to craft it at the Alchemist.",
+    "templateSha256": "30294ac16cef6efd3462fc01b5c37fcd854a86921c8bfe5325428378bc128796",
+    "translation": "{{EMTERM_0}}는 주문을 찾은 후 영원을 엿보다 퀘스트 중에 발견되며 {{EMTERM_1}}에서 제작할 수 있는 능력을 잠금 해제합니다.",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "c4a7c3f7cf255cb05ed39ed2": {
+    "english": "Eternal Heal Beam Channel is found during the quest A Glimpse Of Eternity.",
+    "templateSha256": "c4a7c3f7cf255cb05ed39ed24338fea181a8996f00e2d8e444c16fcaa3bcde4d",
+    "translation": "영원의 치유 광선 집중 주문은 영원을 엿보다 퀘스트 중에 발견됩니다.",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "0aa17b3af188891969cc2e86": {
+    "english": "Eternal Ice Bolt II is found during the quest A Glimpse Of Eternity after finding the Spell you will unlock the ability to craft it at the Alchemist.",
+    "templateSha256": "30294ac16cef6efd3462fc01b5c37fcd854a86921c8bfe5325428378bc128796",
+    "translation": "{{EMTERM_0}}는 주문을 찾은 후 영원을 엿보다 퀘스트 중에 발견되며 {{EMTERM_1}}에서 제작할 수 있는 능력을 잠금 해제합니다.",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "d7a53c0fd01f6896b43b1d7e": {
+    "english": "Eternal Lightning Channel is found during the quest A Glimpse Of Eternity after finding the Spell you will unlock the ability to craft it at the Alchemist.",
+    "templateSha256": "afa6e9d951fdeb0fd88a7097db01911b152552976d2b700eb0fb08df0713bb4b",
+    "translation": "영원한 번개 채널은 주문을 찾은 후 영원을 엿보다 퀘스트 중에 발견되며 {{EMTERM_0}}에서 제작할 수 있는 능력을 잠금 해제합니다.",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "53ed12feea7b7748cd890752": {
+    "english": "Flaming Gauntlets is found at Gateway Outpost \"Endflame\", Forging A Flaming Gauntlet lore note on the west side next to a repair station will guide you to find this item.",
+    "templateSha256": "82911c6829dc4e3387e83b76954f44f6fc90f0fc3db71076c35b9403fd4dacd7",
+    "translation": "{{EMTERM_0}}는 {{EMTERM_1}}에서 찾을 수 있습니다. 수리소 옆 서쪽에 있는 불타는 건틀릿 단조하기 지식 노트가 이 아이템을 찾는 방법을 안내할 것입니다.",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "94dcd96cb929b91b5bba3756": {
+    "english": "Fortified is a quest in Enshrouded , started by reading I Will Defend My House! .",
+    "templateSha256": "38eb9faf47b2f59bf90ad1d0ca71831e9d797e785d48738187d94878769414e9",
+    "translation": "요새화는 {{EMTERM_0}}의 퀘스트로, 내 집을 지키리라!를 읽고 시작됩니다. .",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "c888ffc50972728a6b1e4584": {
+    "english": "Golden Bulwark Chest Plate is crafted at the Blacksmith.",
+    "templateSha256": "ee830aa832006eb478cc6ddd5c7fdc1227de5cb14f6cce36d039f42b691e829b",
+    "translation": "황금 수호자 흉갑는 {{EMTERM_0}}에서 제작됩니다.",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "8401d71bc103801e33e6ae2d": {
+    "english": "Gormander's Imperial Gardens is a quest in Enshrouded , started by reading The Pike Weekly: Nothing Grand About Gormander .",
+    "templateSha256": "37a3136258baa076daa2c4b6716de2d63ab76d969b568f3df57024be5088591d",
+    "translation": "{{EMTERM_0}}는 {{EMTERM_2}}의 퀘스트로, {{EMTERM_1}} 주간지: 고르만더에게 위대함이란 없다를 읽고 시작됩니다.",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "f362ceea20c1b7b6e7ac03a1": {
+    "english": "In a tower in Balefire Stronghold Lance Point.",
+    "templateSha256": "f362ceea20c1b7b6e7ac03a1c6ef693f9902d1b20f2d5d24a5b1b15858db8f3e",
+    "translation": "재앙의 불꽃 요새 창끝의 타워에 있습니다.",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "7b3f87a0304342ac00fae4c7": {
+    "english": "Lord Vorgoth’s Throneroom is a quest in Enshrouded , at Veilwater Basin .",
+    "templateSha256": "d83ae0a25bea39c571825b3c16fd02a12c38d10bbd1b6be33cda9252fe854bc5",
+    "translation": "보르고스 군주의 알현실은 베일워터 유역의 {{EMTERM_0}}에 있는 퀘스트입니다.",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "ca346cb1350a046eff485da7": {
+    "english": "On a ledge in Balefire Stronghold Iron Heart.",
+    "templateSha256": "ca346cb1350a046eff485da7425dbfe6d39a1b55c0ed17c56ca0d777678d4961",
+    "translation": "재앙의 불꽃 요새 강철 심장의 선반에 있습니다.",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "6db38224e6e2485ec9523f15": {
+    "english": "Playing Pranks is a quest in Enshrouded , started by reading He'll Be Fine Down There .",
+    "templateSha256": "c861236698b75294fac6d2ac81a6b929f3f4e8ce5f304b93397657ae2ef01524",
+    "translation": "{{EMTERM_0}}는 {{EMTERM_1}}의 퀘스트로, 잘 할 수 있을 거야!를 읽고 시작됩니다.",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "0a00b41b2da8cf73196cfd29": {
+    "english": "The Albaneve Summits is a frozen mountainous biome added in the Souls Of The Frozen Frontier Update. It is dominated by Howling Peak - the highest point in Embervale - where a dangerous corrupted beast lurks.",
+    "templateSha256": "5a9ac051e59a68dc474659d8a70d2a7e61a8b6bacebef9eb5a16d9c70fabfe70",
+    "translation": "{{EMTERM_0}}는 얼어붙은 변경의 영혼 업데이트에 추가된 얼어붙은 산악 생물 군계입니다. 위험한 타락한 짐승이 도사리고 있는 {{EMTERM_1}}의 가장 높은 지점인 울부짖는 봉우리가 지배하고 있습니다.",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "1502956113a4c8a278a87653": {
+    "english": "The Alchemy Of Bean And Water is a quest in Enshrouded , started by reading The Worst Has Occured!",
+    "templateSha256": "5b15a6257ed9405b74cd542d98517637eaff439be0fb0235ecfd3cd05ea31346",
+    "translation": "{{EMTERM_0}}는 {{EMTERM_1}}의 퀘스트로, 최악의 사태가 발생했다!를 읽고 시작되었습니다.",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "a5872d169b236060e64e1fdf": {
+    "english": "The item was added as part of the Souls of the Frozen Frontier update so the shroud areas in Albaneve Summits contain this item. Specifically, many Chanterelle can be found close to the Watchtower point of interest in the shroud directly north of the Nomad Heights spire.",
+    "templateSha256": "3fbe8e01d4d6a897f699cf2f3a277c6ed4068b4496f9bfec34afb6544106763d",
+    "translation": "이 아이템은 얼어붙은 변경의 영혼 업데이트의 일부로 추가되었으므로 {{EMTERM_0}}의 장막 영역에 이 아이템이 포함되어 있습니다. 특히, 많은 {{EMTERM_1}}는 ​​노마드 하이츠 첨탑 바로 북쪽의 장막에 있는 감시탑 관심 지점 근처에서 찾을 수 있습니다.",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "a3bc1a36baf3a5a1a39cc0d5": {
+    "english": "Unlocked by completing Lord Vorgoth’s Throneroom",
+    "templateSha256": "a3bc1a36baf3a5a1a39cc0d5914f0a00d7c8907628e6a6985bdae50b85ef15e1",
+    "translation": "보르고스 군주의 알현실을 완료하면 잠금 해제됩니다.",
+    "reviewNote": "Review previously retained English titles and prose in context; use native labels for matching game titles and retain original navigation IDs."
+  },
+  "b28d57ccaff2da95475885fe": {
+    "english": "Lighting Ancient Spires unlocks their Fast Travel points. Once their Fast Travel point is unlocked, the Flame atop the tower will offer you knowledge about the surrounding area. Open the map and select the Ancient Spire to Fast Travel to this location.",
+    "templateSha256": "8d3963862c4c994f59af4ce31b09bc1397249786281ba828cf076f0de5a89b54",
+    "translation": "고대 첨탑에 불을 밝히면 {{EMTERM_0}} 지점이 해금됩니다. {{EMTERM_1}} 지점이 해금되면 탑 꼭대기의 {{EMTERM_2}}이 주변 지역에 관한 정보를 알려 줍니다. 지도를 열고 {{EMTERM_3}}을 선택하면 이곳으로 {{EMTERM_4}}할 수 있습니다.",
+    "reviewNote": "Contextual review: retain every source gameplay clause and protected game term; repair untranslated or malformed text."
+  },
+  "4d69565d5233d4a70475b06a": {
+    "english": "The Vukah Brawler is a boss in Enshrouded. Way larger than a normal Vukah, The Brawler is the champion from gladiators fights, organised by a warrior sect",
+    "templateSha256": "453fbe4399268578c105a02c6e1a03b811f57ccb9adcb385d5856c995ce618b6",
+    "translation": "{{EMTERM_0}} 싸움꾼은 {{EMTERM_1}}의 보스입니다. 일반 부카보다 훨씬 크며, 전사 집단이 주최하는 검투사 대회의 우승자입니다.",
+    "reviewNote": "Contextual review: retain every source gameplay clause and protected game term; repair untranslated or malformed text."
+  },
+  "c6107edc1fbcb93f7ae62f90": {
+    "english": "Shroud Weaver pickup associated with The Mysterious Wanderer Appears.",
+    "templateSha256": "ae4649874821b659f456c87c97db1db1be97f675e44032572eebfdb87eb47ded",
+    "translation": "{{EMTERM_0}} 획득은 「수수께끼의 방랑자 출현」 퀘스트와 관련이 있습니다.",
+    "reviewNote": "Pickup denotes obtaining a weapon, not a vehicle or recording device. Use the native associated quest title without changing navigation."
+  },
+  "76d26bc80c0a7bfd374ba2e8": {
+    "english": "2:00 Time In The Shroud",
+    "templateSha256": "08f18516f0551c00c5a88fdf84745f6ba9a67dba8d47d1ce93affec0122b3fd2",
+    "translation": "{{EMTERM_0}} 체류 시간 2:00",
+    "reviewNote": "Numeric and semantic review: retain original duration notation, quantities, clauses, and game context. Do not reinterpret durations as hours or enemy bosses as employers."
+  },
+  "8722e76604b48c78370f1950": {
+    "english": "A miniature piece that shows the Revelwood, part of Meldore. It used to be a vibrant area where the rivers flowed with wine, and the trees would shade the weary. Eventually, though, abuse of the Elixir spread, and the roots that once brought life to the Kingdom began to rot.",
+    "templateSha256": "39b93ff9bfef2c2e82cf84c97cdae50129e35d98764b69666c31ff0eaa07c2d9",
+    "translation": "멜도어의 일부인 레벨우드를 보여주는 미니어처 작품입니다. 그곳은 강물이 포도주로 흐르고, 나무들이 지친 이들에게 그늘을 드리워주는 활기 넘치는 지역이었습니다. 하지만 결국 엘릭서의 남용이 퍼지고 한때 왕국에 생명을 불어넣었던 뿌리가 썩기 시작했습니다.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "d877d4ae27b6857c199a2b4a": {
+    "english": "Hearing Voices — Vorgoth Notes",
+    "templateSha256": "d877d4ae27b6857c199a2b4a6da7880f87ea098b67246fe345e544793737cec1",
+    "translation": "목소리 듣기 — 보르고스의 쪽지",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "ba339acc497a47614a4a7de7": {
+    "english": "In a silver chest underground, guarded by a two Hollow Damned .",
+    "templateSha256": "d22d0acd0a860b686d681f3366f5006b041f1961124c644dce940091f24b9a09",
+    "translation": "지하의 은색 상자에는 두 명의 할로우 저주받은 자가 지키고 있습니다.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "c96b2b2a91f65e27e1a1715b": {
+    "english": "Reading \"About The Goods\" (Lunar New Year Bandit Notes 1/1) adds a hint to the Set List. This block is then obtained by looting the Roughly Cut Stone Block in Netherton. It is found in a large glowing crate on top of a ruined building in Netherton. The crate can be spotted from the nearby Ancient Obelisk.",
+    "templateSha256": "9ac050b16f8b96abd2c2e64cce446b837f8b3eae1db19a38b942257469cd7242",
+    "translation": "\"물건에 대해\"(설날 도적 쪽지 1/1)를 읽으면 세트 목록에 힌트가 추가됩니다. 이 블록은 네더튼에서 대충 잘라낸 돌 블록를 약탈하여 얻습니다. 네더튼의 폐허가 된 건물 꼭대기에 있는 커다란 빛나는 상자에서 발견됩니다. 상자는 근처의 고대 오벨리스크에서 발견할 수 있습니다.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "0069b28c1aa9238dfd979a34": {
+    "english": "Reading \"Citywall Blocks\" (Fortification 1/2) adds a hint to the Set List. This block is then obtained by looting the Castle Wall Stone Block in the Mining Rift. It is found in a silver chest on a platform hanging over the Rift.",
+    "templateSha256": "36a9c26bafc01b4580433fad946f98dec8e1d7475afcb92cba98102ad93cc711",
+    "translation": "\"도시 벽 블록\"(요새 강화 1/2)를 읽으면 세트 목록에 힌트가 추가됩니다. 이 블록은 광산 균열에서 성벽 돌 블록를 약탈하여 얻습니다. 리프트 위에 걸려 있는 플랫폼의 은색 상자에서 발견됩니다.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "417e6ff4b93e13135abb57b0": {
+    "english": "Reading \"Imagine This\" (Searching For Hidden Tombs 1/3) adds a hint into the Set List. This block is then obtained by looting the Bone Block in the Hidden Tomb northwest of the Ancient Spire - Springlands.",
+    "templateSha256": "cc64080fa8f099b46407fe9390815e8b856f3c5d9fa842aa927c27e22f57bf40",
+    "translation": "\"상상해 보세요\"(숨겨진 무덤 검색 1/3)을 읽으면 세트 목록에 힌트가 추가됩니다. 이 블록은 고대 첨탑 - 스프링랜드 북서쪽의 숨겨진 무덤에 있는 뼈 블록를 약탈하여 얻습니다.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "a12aa64946bc45333790c6f2": {
+    "english": "Research camp where Nala hid Masonry Tools .",
+    "templateSha256": "f38cf974feb1463e0a5aedd274db13d6778b9f56ef9462161647d1815324f86e",
+    "translation": "날라가 석공 도구를 숨긴 연구 캠프.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "b932094847efa5b3cf77c403": {
+    "english": "The Dungeon is where the Hall Of Founders is located",
+    "templateSha256": "b932094847efa5b3cf77c4035213e2b1a821085d295c6a8ff67f856041d93c15",
+    "translation": "던전은 설립자의 홀(창시자의 전당)이 있는 곳입니다.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "07ef06d432c4cdbe7dcdbda9": {
+    "english": "The Hollow's Eve Set is a Cosmetic Armor set that can be found in Spooky Grave.",
+    "templateSha256": "90cda16ba999422ab643e1a488adb520ddf60c03b485d1a9e8d5b9e1152c63a3",
+    "translation": "핼러윈 이브 세트는 으스스한 무덤에서 찾을 수 있는 화장품 방어구 세트입니다.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "8fa3e5f9a2e1b546d46f3f6e": {
+    "english": "This block is found in the Albaneve Hollow Halls.",
+    "templateSha256": "a636ce8b209945ca12ea27821517958cd2f1d8659372e4c4be5a4a3f0905282e",
+    "translation": "이 블록은 알바네브 봉우리 텅 빈 굴에 있습니다.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "41c7c1a551a86dd757a8efe1": {
+    "english": "Vorgoth's Ruminations — Vorgoth Notes",
+    "templateSha256": "41c7c1a551a86dd757a8efe1caf6f9fdffee0111e5f794adba8ce6d8e8d81bcc",
+    "translation": "보르고스의 반추 — 보르고스의 쪽지",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "dafc94358f91d8a1d387a815": {
+    "english": "A dense chunk of nickel and iron. The slow cooling over millions of years formed its crystal bands. the Widmanstätten structure.",
+    "templateSha256": "dafc94358f91d8a1d387a815619ef123bb72afc37525d49c416ae3f0551eed5e",
+    "translation": "니켈과 철의 조밀한 덩어리. 수백만 년에 걸친 느린 냉각으로 인해 결정 띠가 형성되었습니다. 위드만스테텐 구조.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "1a4e9e7d293c1bf3b367e279": {
+    "english": "A hint appears in the Set List after reading \"It Crawls Beneath My Flesh\" (A Rumble in the Catacombs 2/2). This block is then obtained by looting the Weathered Stone Block in Bramblespine Boneyard. It is found in a silver chest towards the end of the Catacomb, before the Fell Thunderbrute.",
+    "templateSha256": "6b9ea77f0d6944e0fef8bfe6ef5c3726225a0d47d6e9a8a94860a03ce0d9a33a",
+    "translation": "\"살갗 아래로 뭔가가 기어다닌다\"(납골당에서 들리는 소리 2/2)를 읽은 후 세트 목록에 힌트가 나타납니다. 이 블록은 가시밭 묘지에서 풍화된 돌 블록를 약탈하여 얻습니다. 타락자 선더브루트 앞 카타콤 끝 부분의 은색 상자에서 발견됩니다.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "f940931c259d4600a89b6172": {
+    "english": "A hint is placed in the Set List after reading \"The Tower Must Reach The Sky!\" (A Tower to the Stars 1/1). This block is then obtained by looting the Citywall Block in Fawnsong Frontier. It is found in a silver chest on one of the scaffolds behind the tower guarded by the Scavenger Matron. the quest Table Saw For The Carpenter leads to the same location, but the tower is further in.",
+    "templateSha256": "e54b9acf60c598b5e61db9d635c8fc3fe6ddc68a8268c605e9a6d474395224a3",
+    "translation": "\"하늘 꼭대기까지 탑을 세워라!\"를 읽은 후 세트 목록에 힌트가 배치됩니다. (별을 향한 탑 1/1). 이 블록은 폰송 변경에서 도시 벽 블록를 약탈하여 얻습니다. 스캐빈저 매트론가 지키고 있는 탑 뒤의 비계 중 하나에 있는 은색 상자에서 발견됩니다. 목공에게 필요한 탁자 톱 퀘스트는 같은 위치로 연결되지만 타워는 더 안쪽에 있습니다.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  }
+}

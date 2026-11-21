@@ -1,0 +1,32 @@
+/* Keep support surfaces aligned with the dashboard theme. */
+@theme inline {
+  --color-support-background: var(--color-background);
+  --color-support-surface: var(--color-surface);
+  --color-support-border: var(--color-border);
+  --color-support-muted: var(--color-muted);
+  --color-support-subtle: var(--color-subtle);
+  --color-support-accent: var(--color-accent);
+  --color-support-accent-soft: var(--color-accent-soft);
+  --color-support-on-accent: var(--color-on-accent);
+  --color-support-zinc-50: var(--color-zinc-50);
+  --color-support-zinc-100: var(--color-zinc-100);
+  --color-support-zinc-200: var(--color-zinc-200);
+  --color-support-zinc-300: var(--color-zinc-300);
+  --color-support-zinc-400: var(--color-zinc-400);
+  --color-support-zinc-500: var(--color-zinc-500);
+  --color-support-zinc-600: var(--color-zinc-600);
+  --color-support-zinc-700: var(--color-zinc-700);
+  --color-support-zinc-800: var(--color-zinc-800);
+  --color-support-zinc-900: var(--color-zinc-900);
+  --color-support-zinc-950: var(--color-zinc-950);
+  --font-support-display: var(--font-display);
+}
+
+@theme {
+  --animate-support-fade-in: support-fade-in 120ms ease-out both;
+
+  @keyframes support-fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+}

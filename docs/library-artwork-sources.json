@@ -1,0 +1,219 @@
+{
+  "updated": "2026-11-21",
+  "processing": "Showcase art uses separate publisher promotional artwork with any title treatment excluded from the framing. Catalog posters use publisher assets framed as 480 × 720 WebP. The WoW Forever card pairs Blizzard launch art with its official logo.",
+  "sidebarIcons": {
+    "output": "public/game-cards/icons/<id>.png",
+    "processing": "Native 64px icon frames and the native 128px Minecraft icon, saved as lossless PNG. The GTA VI title mark is scaled onto a transparent 64px canvas.",
+    "sources": {
+      "aion-2": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/3393110/14f90efcc700b0d6238e95ce07fd548990f26f1f.ico",
+      "baldurs-gate-3": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1086940/ea19a7ce2af83c0240e775d79d3b690751a062c1.ico",
+      "elden-ring": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1245620/2e048bfc2073ca30804ed5b8c454a9ca0e2f98de.ico",
+      "enshrouded": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1203620/b51ff4aa19722a1f3587b35f37f590a998f36a9a.ico",
+      "minecraft": "https://resources.download.minecraft.net/b6/b62ca8ec10d07e6bf5ac8dae0c8c1d2e6a1e3356",
+      "peak": "PEAK/PEAK.exe (Steam installation)",
+      "phantom-blade": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4115450/ce420dc458dd3d7af276f48fbaa44a05876760dc.ico",
+      "project-zomboid": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/108600/b8036444b2a8889663bc232c142ac888e8353415.ico",
+      "rob-run": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/4262460/6925066dc70cf9453455a8c1db9539521a116f63.ico",
+      "valheim": "Valheim/valheim.exe (Steam installation)",
+      "wow-forever": "World of Warcraft/_forever_/Wow.exe (Battle.net installation)",
+      "gta-6": "https://www.rockstargames.com/VI/_next/static/media/logo_vi.02gnpy7k4ozcz.png",
+      "nightreign": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/2622380/b02da776020b00125a508dc3f0bb1470da6e0805.ico"
+    }
+  },
+  "assets": [
+    {
+      "id": "aion-2",
+      "steam": 3393110,
+      "url": "https://st.ncjapan.co.jp/ncjapan/ncsoft/aion2/official/contents/phase2_EJiepgDgardbi3sE/images/wallpaper/wallpaperBg4.webp",
+      "width": 1920,
+      "height": 900,
+      "output": "public/game-cards/worlds/aion-2.webp",
+      "bytes": 190294,
+      "page": "https://aion2.ncsoft.jp/en/contents",
+      "cardSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/145d58f9f8ffa48e6333b1dc3dd2ad7e9bf2b2b4/library_capsule_2x.jpg",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 900
+      },
+      "sourceWidth": 1920,
+      "sourceHeight": 1080
+    },
+    {
+      "id": "baldurs-gate-3",
+      "steam": 1086940,
+      "url": "https://baldursgate3.game/wallpapers/wallpaper-02-desktop.zip",
+      "width": 2560,
+      "height": 1227,
+      "output": "public/game-cards/worlds/baldurs-gate-3.webp",
+      "bytes": 807806,
+      "page": "https://baldursgate3.game/",
+      "cardSource": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/library_600x900_2x.jpg",
+      "archiveEntry": "wallpaper-02-desktop/01_BG_wallpaper_3840x2160px.jpg",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 3840,
+        "height": 1840
+      },
+      "sourceWidth": 3840,
+      "sourceHeight": 2160
+    },
+    {
+      "id": "elden-ring",
+      "steam": 1245620,
+      "url": "https://media-center.bandainamcoent.eu/games/elden-ring/elden-ring-shadow-of-the-erdtree-wallpaper-download.zip",
+      "width": 2560,
+      "height": 1075,
+      "output": "public/game-cards/worlds/elden-ring.webp",
+      "bytes": 432284,
+      "page": "https://en.bandainamcoent.eu/elden-ring/news/the-expansion-of-elden-ring-shadow-of-the-erdtree-has-been-announced",
+      "cardSource": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/library_600x900_2x.jpg",
+      "archiveEntry": "elden-ring-shadow-of-the-erdtree-wallpaper-download/elden-ring-shadow-of-the-erdtree-wallpaper-download.jpg",
+      "crop": {
+        "left": 0,
+        "top": 276,
+        "width": 3840,
+        "height": 1612
+      },
+      "sourceWidth": 3840,
+      "sourceHeight": 2160
+    },
+    {
+      "id": "nightreign",
+      "steam": 2622380,
+      "url": "https://media-center.bandainamcoent.eu/games/elden-ring-nightreign/4K-wallpapers/Raider.zip",
+      "width": 2560,
+      "height": 1213,
+      "output": "public/game-cards/worlds/nightreign.webp",
+      "bytes": 495124,
+      "page": "https://en.bandainamcoent.eu/elden-ring/news/get-your-4k-elden-ring-nightreign-wallpaper-desktop-mobile",
+      "cardSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2622380/d1ee7bc631966b1a99e232a9f84af736bb298395/library_600x900_2x.jpg",
+      "archiveEntry": "Raider/NIGHTREIGN-QuizWallpapers-RAIDER-Desktop.jpg",
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 3840,
+        "height": 1820
+      },
+      "sourceWidth": 3840,
+      "sourceHeight": 2160
+    },
+    {
+      "id": "enshrouded",
+      "steam": 1203620,
+      "url": "https://cdn.akamai.steamstatic.com/steam/apps/1203620/library_hero_2x.jpg",
+      "width": 3840,
+      "height": 1240,
+      "output": "public/game-cards/worlds/enshrouded.webp",
+      "bytes": 1265486,
+      "page": "https://store.steampowered.com/app/1203620/",
+      "cardSource": "https://cdn.cloudflare.steamstatic.com/steam/apps/1203620/library_600x900_2x.jpg"
+    },
+    {
+      "id": "peak",
+      "steam": 3527290,
+      "url": "https://drive.google.com/file/d/1BY04prN0n599KqfJsp8jVU-C53CAePaV/view",
+      "width": 2560,
+      "height": 1440,
+      "output": "public/game-cards/worlds/peak.webp",
+      "bytes": 791420,
+      "page": "https://landfall.se/peak-press-kit",
+      "cardSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3527290/480bd879ac737921bfa2529a6fea15961267ad21/library_600x900_2x.jpg",
+      "sourceWidth": 3840,
+      "sourceHeight": 2160
+    },
+    {
+      "id": "phantom-blade",
+      "steam": 4115450,
+      "url": "https://pbz.s-game.com/assets/media/concept_art/scene3.jpg",
+      "width": 2560,
+      "height": 1374,
+      "output": "public/game-cards/worlds/phantom-blade.webp",
+      "bytes": 428204,
+      "page": "https://pbz.s-game.com/en-US/",
+      "cardSource": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/471e77854910665c03eb9a53ad06f2ac12903acd/library_capsule_2x.jpg",
+      "sourceWidth": 6000,
+      "sourceHeight": 3700,
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 6000,
+        "height": 3220
+      }
+    },
+    {
+      "id": "project-zomboid",
+      "steam": 108600,
+      "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/108600/library_hero.jpg",
+      "width": 1920,
+      "height": 620,
+      "output": "public/game-cards/worlds/project-zomboid.webp",
+      "bytes": 95016,
+      "page": "https://store.steampowered.com/app/108600/",
+      "cardSource": "https://cdn.cloudflare.steamstatic.com/steam/apps/108600/library_600x900_2x.jpg",
+      "sourceWidth": 1920,
+      "sourceHeight": 620
+    },
+    {
+      "id": "rob-run",
+      "steam": 4262460,
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4262460/61dff3c7ebce05c75d9d60d69440b099d16cfd02/library_hero_2x.jpg",
+      "width": 3840,
+      "height": 1240,
+      "output": "public/game-cards/worlds/rob-run.webp",
+      "bytes": 968902,
+      "page": "https://store.steampowered.com/app/4262460/ROB_RUN/",
+      "cardSource": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4262460/69a7d94807fcdea67f649ecfa3da0aab369bd767/library_capsule_2x.jpg"
+    },
+    {
+      "id": "valheim",
+      "steam": 892970,
+      "url": "https://a.storyblok.com/f/157036/6000x3314/ddbf463117/ashlands-art-1.jpg/m/3200x0",
+      "width": 3200,
+      "height": 1767,
+      "output": "public/game-cards/worlds/valheim.webp",
+      "bytes": 707740,
+      "page": "https://www.valheimgame.com/press/",
+      "originalUrl": "https://a.storyblok.com/f/157036/6000x3314/ddbf463117/ashlands-art-1.jpg",
+      "cardSource": "https://cdn.cloudflare.steamstatic.com/steam/apps/892970/library_600x900_2x.jpg"
+    },
+    {
+      "id": "gta-6",
+      "url": "https://www.rockstargames.com/VI/_next/static/media/Jason_Lucia_Rooftop_ultrawide.16ihdjb5jjs.w.jpg",
+      "width": 2560,
+      "height": 1080,
+      "output": "public/game-cards/worlds/gta-6.webp",
+      "bytes": 391560,
+      "page": "https://www.rockstargames.com/VI/media/artwork-wallpapers",
+      "cardSource": "https://www.rockstargames.com/VI/_next/static/media/Official_Cover_Art_portrait.0_q101pt77mgu.jpg",
+      "sourceWidth": 5120,
+      "sourceHeight": 2160
+    },
+    {
+      "id": "minecraft",
+      "url": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/software/wallpapers_minecraft_pc_bundle.zip",
+      "archiveEntry": "wallpaper_minecraft_pc_bundle_2560x1440.png",
+      "page": "https://www.minecraft.net/en-us/collectibles?tabs=%7B%22tab%22:0%7D",
+      "width": 2560,
+      "height": 1440,
+      "output": "public/game-cards/worlds/minecraft.webp",
+      "bytes": 363236,
+      "cardSource": "https://store-images.s-microsoft.com/image/apps.808.14492077886571533.be42f4bd-887b-4430-8ed0-622341b4d2b0.c8274c53-105e-478b-9f4b-41b8088210a3"
+    },
+    {
+      "id": "wow-forever",
+      "url": "https://blizzard.gamespress.com/Files/File?url=Q81XdHF0AZe4uWM4lLOQQd7x8HGL%2baOSgQvmSqo3pyIvT%2fvnzXhGwKr7g4vg2vwNy%2fdAHqTzwVUEXJsGtqRcfdRSX6Hjg8lgemRwy%2f%2bsHRcnulBOPm%2bKE5807FO0m1bU9TF1Wai2kUg%2b5s4PpvqPk12c6KwDib0yezEINgTb%2fJc1tfTxIXxyD7ZeRSURwFlwUGq%2fXwyshQYZ%2fFFzV7yqaj77xznycxo%2bSUxzvleiKfczMF9Sz8Q7VFoIKCbI2eYNbM5YjQP25PsHfuYkfiGZleS3a5COfGL%2flwLrllHWlPrDgcGz%2bU%2bboaQoc2sTfaPvYCL%2bR%2fk3itc15AL%2b5IMyRS%2f2bbkU0w%2bznwKr%2fC7og8MrnDRv%2f9GY1O0PvOjEthQL%2fFNtzOTSfIg4WGulYi%2fIQ4faYpQvIWW4RnqYtcbw0FGe8TFUv7FYQo%2bNldB%2ftNVIBdfoddBqpGT7hM%2bnXnDzWB9LcxPUs9OGNgT8SSvKk7hp79mSpWAXF9Y28VguwpJU184B6U3PYtbyGOVX1c06JjcKypD302GdRD6JKXfkVUA%3d",
+      "page": "https://blizzard.gamespress.com/en-GB/WoW-Forever-Launch-Press-Kit",
+      "width": 1920,
+      "height": 1080,
+      "output": "public/game-cards/worlds/wow-forever.webp",
+      "bytes": 605384,
+      "sourceFile": "WoW_Forever_Skyborne_LaunchArt.png",
+      "cardLogoSource": "https://blizzard.gamespress.com/Files/File?url=Q81XdHF0AZe4uWM4lLOQQd7x8HGL%2baOSgQvmSqo3pyIvT%2fvnzXhGwKr7g4vg2vwNy%2fdAHqTzwVUEXJsGtqRcfbT%2b3St0egshRDvM6ijAw5sLMvXOib8EoiJI1isalPvECvoC9wOah1CCbPlLa1YcIUISiYSlslQd6PTDGo5bIl%2bVvYX8EPq%2bSg%2baw%2bsNm9dX1ifY%2fzZjLW6NrWn16vjdAmyTGEgRTUkxiQeJOP5vdS54vBI2WnlhZ07LH97WJQGrdL1iZeu1HFwNwUlAapV4K6nbZXSPXBxqh%2bNeCF0kQnQur5w6X3wHjJiRXr20r1pfoTPTPMYTcx%2bmXtAx%2bDFeHrGk3cpMVac372H7kQZRbXFV%2bbHQfp%2bpGmyqpFgH9MItBleh9Qetof7xmjgXbMN%2fZ6C8uQnA8VKY3Vs3UZSV6TXDtYzYNw%2bNsl9GGooP9J07O0J%2bS3IxvkKCLvT7%2fctyIiObm0MmJ8OdOwpoS%2fZTJXMsysT%2fcJh%2fwg%2ftDoxZKVzsjHZlMN7e7sDbyeJMZGgyxA%3d%3d",
+      "cardSourceFile": "WoW_Forever_DwarfShaman_LaunchArt.png",
+      "cardSource": "https://blizzard.gamespress.com/Files/File?url=Q81XdHF0AZe4uWM4lLOQQd7x8HGL%2baOSgQvmSqo3pyIvT%2fvnzXhGwKr7g4vg2vwNy%2fdAHqTzwVUEXJsGtqRcfdRSX6Hjg8lgemRwy%2f%2bsHRcnulBOPm%2bKE5807FO0m1bUkPJf83zdqhlVScCGJiWofE1gOO%2fCGwakDotw08vQe4bshIbffb5KR4Er%2bNxqlL9lymeMWgYINWoUEZ%2fVak9osmcOqyPYszTJGL%2fbp35LAa8w2lkum9IidBFVSZkI69LFan6wrY3k1AFZWR7JbroAKge0gOJAeQ%2fAJTq8Tw1DMuzNbq6pXIwhFxMUMImFZTyxonFFqc8oDKwFuv1SZ8OsyMJ0BmrUvJwKv1TD5TKH2QMaO7YaRwxtW157ovy2zIwNYVgx6Vc37qnTq52w0hqDGFtfoxBaqa8ZRq2qQu3qDR9e5DpBbr1m35veivtmWGdUJu%2f0ROmXnRcLxS8of2Y2VsU7GP2cJX%2bggAErX95mx9%2bV4EoqcWqOWtxxNK0JIeCupgD%2blYDqLdtbgwaRBlpok97Awbf67jiveOwlHs4tOms%3d"
+    }
+  ]
+}

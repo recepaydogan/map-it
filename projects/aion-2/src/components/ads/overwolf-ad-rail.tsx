@@ -1,0 +1,269 @@
+import React, { useCallback, useEffect, useRef, useState } from "react";
+import { cn } from "../../lib/cn";
+import RemoveAdsCta from "./remove-ads-cta";
+import { createObservedAd } from "./ad-telemetry";
+import {
+  canUseOwAds,
+  isAdWindowOpenState as isOpenState,
+  loadOwAdsSdk,
+  type OwAdsSdkState as SdkState,
+} from "./owads-sdk";
+
+const BANNER_SIZE = { width: 400, height: 60 } as const;
+const LARGE_SIZE = { width: 400, height: 600 } as const;
+
+/**
+ * Overwolf-compliant ad rail.
+ *
+ * Follows Overwolf's official ads-sample pattern:
+ * https://github.com/overwolf/apis-sample-apps/blob/master/ads-sample/desktop.js
+ *
+ * Key rules respected here:
+ *  - Load the SDK from Overwolf's CDN (never bundle it).
+ *  - Create OwAd instances exactly once and reuse them.
+ *  - On minimize/hide, call removeAd() — do NOT destroy the instance.
+ *  - On restore, call refreshAd() to bring ads back.
+ */
+const OverwolfAdRail: React.FC<{ onRemoveAds?: () => void; preview?: boolean }> = ({ onRemoveAds, preview = false }) => {
+  const topAdContainerRef = useRef<HTMLDivElement | null>(null);
+  const largeAdContainerRef = useRef<HTMLDivElement | null>(null);
+  const topAdRef = useRef<OwAdInstance | null>(null);
+  const topDiagnosticsCleanup = useRef<(() => void) | null>(null);
+  const largeAdRef = useRef<OwAdInstance | null>(null);
+  const [sdkState, setSdkState] = useState<SdkState>("loading");
+  const [highImpactActive, setHighImpactActive] = useState(false);
+
+  // Track whether the window is open (normal/maximized) vs minimized/hidden.
+  const [windowOpen, setWindowOpen] = useState(true);
+
+  // Overwolf requires each ad container to carry a unique containerId (max 20
+  // chars). Any window that renders this component receives its own namespace.
+  const windowSlugRef = useRef<string | null>(null);
+  const [windowSlug, setWindowSlug] = useState<string | null>(null);
+  const windowOpenRef = useRef(windowOpen);
+
+  // ── SDK bootstrap ──────────────────────────────────────────────
+  useEffect(() => {
+    let cancelled = false;
+
+    const bootstrapSdk = async () => {
+      if (!canUseOwAds()) {
+        if (!cancelled) setSdkState("unsupported");
+        return;
+      }
+
+      const loaded = await loadOwAdsSdk();
+      if (cancelled) return;
+
+      if (!loaded || !window.OwAd) {
+        setSdkState("error");
+        return;
+      }
+
+      setSdkState("ready");
+    };
+
+    void bootstrapSdk();
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  // ── Window state listener (minimize / restore) ─────────────────
+  useEffect(() => {
+    if (typeof overwolf === "undefined") return;
+
+    let currentWindowName = "";
+    overwolf.windows.getCurrentWindow((res) => {
+      if (res.success && res.window) {
+        currentWindowName = res.window.name;
+        const slug = res.window.name === "main" ? "desktop" : "overlay";
+        windowSlugRef.current = slug;
+        setWindowSlug(slug);
+        setWindowOpen(isOpenState(res.window.stateEx));
+      } else {
+        // Couldn't resolve the window — fall back so ads still load.
+        windowSlugRef.current = "desktop";
+        setWindowSlug("desktop");
+      }
+    });
+
+    if (!overwolf.windows.onStateChanged) return;
+
+    const handler = (event: {
+      window_name?: string;
+      window_state_ex?: string;
+      window_previous_state_ex?: string;
+    }) => {
+      // Only handle state changes for the window this component is rendered in.
+      if (!currentWindowName || (event.window_name && event.window_name !== currentWindowName)) return;
+
+      const open = isOpenState(event.window_state_ex ?? "");
+      setWindowOpen(open);
+    };
+
+    overwolf.windows.onStateChanged.addListener(handler);
+    return () => {
+      overwolf.windows.onStateChanged.removeListener(handler);
+    };
+  }, []);
+
+  // ── removeAd / refreshAd based on window state ─────────────────
+  // Per Overwolf docs: don't destroy the OwAd instance on minimize.
+  // Instead call removeAd() and later refreshAd() on restore.
+  const prevWindowOpenRef = useRef(windowOpen);
+  useEffect(() => {
+    const wasOpen = prevWindowOpenRef.current;
+    prevWindowOpenRef.current = windowOpen;
+
+    if (wasOpen && !windowOpen) {
+      // Window minimized / hidden → remove ads (keeps instance alive)
+      topAdRef.current?.removeAd();
+      largeAdRef.current?.removeAd();
+    } else if (!wasOpen && windowOpen) {
+      // Window restored → refresh ads
+      topAdRef.current?.refreshAd({});
+      largeAdRef.current?.refreshAd({});
+    }
+  }, [windowOpen]);
+
+  useEffect(() => {
+    windowOpenRef.current = windowOpen;
+    const display = windowOpen ? "" : "none";
+    if (topAdContainerRef.current) topAdContainerRef.current.style.display = display;
+    if (largeAdContainerRef.current) largeAdContainerRef.current.style.display = display;
+  }, [windowOpen]);
+
+  // ── Create ad instances ────────────────────────────────────────
+  const shutdownTopBanner = useCallback(() => {
+    topDiagnosticsCleanup.current?.();
+    topDiagnosticsCleanup.current = null;
+    if (!topAdRef.current) return;
+    void topAdRef.current.shutdown().catch(() => undefined);
+    topAdRef.current = null;
+  }, []);
+
+  const ensureTopBanner = useCallback(() => {
+    if (!topAdContainerRef.current || !window.OwAd || topAdRef.current) return;
+    const container = topAdContainerRef.current;
+    container.style.display = "";
+    const observed = createObservedAd(container, {
+      size: BANNER_SIZE,
+      containerId: `gm_top_${windowSlugRef.current ?? "desktop"}`,
+    });
+    topAdRef.current = observed.ad;
+    topDiagnosticsCleanup.current = observed.disposeDiagnostics;
+    if (!windowOpenRef.current) container.style.display = "none";
+  }, []);
+
+  useEffect(() => {
+    if (sdkState !== "ready") return;
+    // Wait until the host window is known so ad container ids cannot collide.
+    if (!windowSlug) return;
+    if (
+      !window.OwAd ||
+      !topAdContainerRef.current ||
+      !largeAdContainerRef.current
+    )
+      return;
+
+    const cleanupTasks: Array<() => void> = [];
+
+    const subscribe = (
+      ad: OwAdInstance,
+      eventName: string,
+      listener: (data: unknown) => void,
+    ) => {
+      ad.addEventListener(eventName, listener);
+      cleanupTasks.push(() => {
+        ad.removeEventListener(eventName, listener);
+      });
+    };
+
+    const largeContainer = largeAdContainerRef.current;
+    largeContainer.style.display = "";
+    const observed = createObservedAd(largeContainer, {
+      size: LARGE_SIZE,
+      enableHighImpact: true,
+      containerId: `gm_lg_${windowSlug}`,
+    });
+    const largeAd = observed.ad;
+    cleanupTasks.push(observed.disposeDiagnostics);
+    largeAdRef.current = largeAd;
+
+    ensureTopBanner();
+    if (!windowOpenRef.current) {
+      topAdContainerRef.current.style.display = "none";
+      largeContainer.style.display = "none";
+    }
+
+    // High-impact takeover: hide the top banner while it runs, restore after.
+    subscribe(largeAd, "high-impact-ad-loaded", () => {
+      setHighImpactActive(true);
+      shutdownTopBanner();
+    });
+
+    subscribe(largeAd, "high-impact-ad-removed", () => {
+      setHighImpactActive(false);
+      window.setTimeout(() => {
+        ensureTopBanner();
+      }, 0);
+    });
+
+    return () => {
+      cleanupTasks.forEach((task) => task());
+      shutdownTopBanner();
+
+      if (largeAdRef.current) {
+        void largeAdRef.current.shutdown().catch(() => undefined);
+        largeAdRef.current = null;
+      }
+    };
+  }, [sdkState, windowSlug, ensureTopBanner, shutdownTopBanner]);
+
+  if (!preview && (sdkState === "unsupported" || sdkState === "error")) {
+    return null;
+  }
+
+  return (
+    <aside className="flex h-full min-h-[670px] w-[440px] min-w-[440px] flex-col items-center animate-fade-up">
+      <div
+        className={cn(
+          "w-[400px] overflow-hidden",
+          highImpactActive ? "h-0" : "h-[60px] shrink-0",
+        )}
+      >
+        <div
+          ref={topAdContainerRef}
+          className="h-[60px] w-[400px] overflow-hidden"
+        />
+      </div>
+
+      <div
+        className={cn(
+          "overflow-hidden",
+          highImpactActive
+            ? "h-full w-full grow"
+            : "mt-[10px] h-[600px] w-[400px] shrink-0",
+        )}
+      >
+        <div
+          ref={largeAdContainerRef}
+          className={cn(
+            "overflow-hidden",
+            highImpactActive ? "h-full w-full" : "h-[600px] w-[400px]",
+          )}
+        />
+      </div>
+      {!highImpactActive && onRemoveAds && (
+        <div className="flex min-h-0 w-full flex-1 flex-col overflow-hidden [container-type:size]">
+          <div className="mt-auto hidden shrink-0 [@container_(min-height:60px)]:block">
+            <RemoveAdsCta onActivate={onRemoveAds} />
+          </div>
+        </div>
+      )}
+    </aside>
+  );
+};
+
+export default OverwolfAdRail;

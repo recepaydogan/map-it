@@ -1,0 +1,14 @@
+[
+  { "id": "aion-2", "name": "AION 2", "folder": "aion 2" },
+  { "id": "baldurs-gate-3", "name": "Baldur’s Gate 3", "folder": "baldurs-gate-map" },
+  { "id": "elden-ring", "name": "Elden Ring / Nightreign", "folder": "ER", "hotkeyAliases": { "toggle_app": "toggle_desktop_app" }, "hotkeyDefaults": { "dismiss_overlay": "Ctrl+Shift+H" } },
+  { "id": "enshrouded", "name": "Enshrouded", "folder": "enshrouded-map" },
+  { "id": "gta-6", "name": "GTA 6", "folder": "archeage-chronicles-app" },
+  { "id": "minecraft", "name": "Minecraft", "folder": "minecraft-map" },
+  { "id": "peak", "name": "PEAK", "folder": "peak", "hotkeyAliases": { "toggle_app": "toggle_desktop_app" } },
+  { "id": "phantom-blade", "name": "Phantom Blade Zero", "folder": "phantom-blade-app" },
+  { "id": "project-zomboid", "name": "Project Zomboid", "folder": "PZ" },
+  { "id": "rob-run", "name": "ROB RUN", "folder": "rob-run-app" },
+  { "id": "valheim", "name": "Valheim", "folder": "Valheim", "hotkeyAliases": { "toggle_app": "toggle_desktop_app", "toggle_in_game_app": "toggle_app" } },
+  { "id": "wow-forever", "name": "WoW Forever", "folder": "wow-forever-map" }
+]

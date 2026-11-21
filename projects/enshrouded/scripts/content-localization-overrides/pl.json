@@ -1,0 +1,62 @@
+{
+  "f0279b00ce3d2d738073892b": {
+    "english": "Embody golden grandeur with this ornate helm - and a gaze as unyielding as stone itself.",
+    "templateSha256": "f0279b00ce3d2d738073892b1cf041481c6eb9769e84b7ac1d44be0df27249c5",
+    "translation": "Uosabiaj złoty majestat dzięki temu bogato zdobionemu hełmowi i spojrzeniu równie nieugiętemu jak skała.",
+    "reviewNote": "Restore the complete contextual description; the prior supplementary draft was truncated or untranslated."
+  },
+  "b3e0106f1b7c250656350714": {
+    "english": "Elite Hollow Chest Plate is a unique drop looted from a Gold Sarcophagus in Kindlewastes Hollow Halls.",
+    "templateSha256": "d088e5a16a979b9b57c93383d679500f39e90f605b07891b516e832783bd96a1",
+    "translation": "Elitarny napierśnik upadłych to unikatowy łup ze złotego sarkofagu w lokacji {{EMTERM_1}}.",
+    "reviewNote": "Restore the source gameplay meaning, remove mixed English, and omit unresolved empty source fragments or foreign interwiki annotations without inventing facts."
+  },
+  "50ff4bd4ac40c2da8c91939b": {
+    "english": "Elite Hollow Helmet is a unique drop looted from a Gold Chest in Kindlewastes Hollow Halls.",
+    "templateSha256": "768eeb3c67e751a69b5b7a90d1ed416c1ea5289dcc260dde4c8ffc555a6c2be9",
+    "translation": "{{EMTERM_0}} to unikatowy łup ze złotej skrzyni w lokacji {{EMTERM_1}}.",
+    "reviewNote": "Restore the source gameplay meaning, remove mixed English, and omit unresolved empty source fragments or foreign interwiki annotations without inventing facts."
+  },
+  "409c99220e00d17143c81dcb": {
+    "english": "Riptide is a unique drop looted from a Gold Chest in Grind Teeth Grotto.",
+    "templateSha256": "768eeb3c67e751a69b5b7a90d1ed416c1ea5289dcc260dde4c8ffc555a6c2be9",
+    "translation": "{{EMTERM_0}} to unikatowy łup ze złotej skrzyni w lokacji {{EMTERM_1}}.",
+    "reviewNote": "Restore the source gameplay meaning, remove mixed English, and omit unresolved empty source fragments or foreign interwiki annotations without inventing facts."
+  },
+  "bee6b52856b6dbd52809ea7b": {
+    "english": "Embervale has fallen, consumed by the \" Shroud \". Bring back the light and reclaim the land by establishing a Flame Altar in the wilds! A promising site to establish a Flame Altar is marked on your map. Reach the location and proceed.",
+    "templateSha256": "82215d0d768f678add6192674bf20446b5d57046e46abb55c18987cf9664990b",
+    "translation": "{{EMTERM_0}} upadła, pochłonięta przez zjawisko znane jako {{EMTERM_1}}. Przywróć światło i odzyskaj tę krainę, stawiając {{EMTERM_2}} na dzikich terenach! Obiecujące miejsce pod {{EMTERM_3}} zaznaczono na mapie. Dotrzyj tam i kontynuuj.",
+    "reviewNote": "Restore the source gameplay meaning, remove mixed English, and omit unresolved empty source fragments or foreign interwiki annotations without inventing facts."
+  },
+  "8151ef67a5d8d066367232e7": {
+    "english": "Emily Fray is a survivor and Craftsperson that you rescue from an Ancient Vault . She is a talented farmer and cook, found in the Ancient Vault - Farmer during the quest Growing Stronger Together .",
+    "templateSha256": "fdf167e9c93fb448f17316c8348ff88ec21bed3cbb057a5b691691a748b8b94f",
+    "translation": "{{EMTERM_0}} jest ocalałą rzemieślniczką, którą ratujesz z miejsca o nazwie {{EMTERM_1}}. To utalentowana rolniczka i kucharka. Znajdziesz ją w lokacji {{EMTERM_2}} – {{EMTERM_3}}, wykonując zadanie „{{EMTERM_4}}”.",
+    "reviewNote": "Restore the source gameplay meaning, remove mixed English, and omit unresolved empty source fragments or foreign interwiki annotations without inventing facts."
+  },
+  "6e14bd7010ff142029220a45": {
+    "english": "Emily Fray is a survivor and Craftsperson that you rescue from an Ancient Vault. She is a talented farmer and cook, found in the during .",
+    "templateSha256": "b789a689cc8b817b5fe0ee22b7e4159e65d7b3a4dfffe72c02e1b2511deaef27",
+    "translation": "{{EMTERM_0}} jest ocalałą rzemieślniczką, którą ratujesz z miejsca o nazwie {{EMTERM_1}}. To utalentowana rolniczka i kucharka.",
+    "reviewNote": "Restore the source gameplay meaning, remove mixed English, and omit unresolved empty source fragments or foreign interwiki annotations without inventing facts."
+  },
+  "eadf312e3dc75e10d623b1d7": {
+    "english": "Emily crafts food , supplies for Farming and Animal Husbandry , and a variety of Decorations . Her workstations include the Seedbed , Cooking Station , Oven and Beehive .",
+    "templateSha256": "92e40bac4a56421ecd718eac162f1afd8d3552ddfa757b10ea8b7f7d784d5460",
+    "translation": "Emily wytwarza żywność, wyposażenie do uprawy roślin i zajęć takich jak {{EMTERM_0}} oraz rozmaite dekoracje. Jej stanowiska pracy to: {{EMTERM_1}}, stanowisko do gotowania, piec oraz {{EMTERM_2}}.",
+    "reviewNote": "Restore the source gameplay meaning, remove mixed English, and omit unresolved empty source fragments or foreign interwiki annotations without inventing facts."
+  },
+  "c6107edc1fbcb93f7ae62f90": {
+    "english": "Shroud Weaver pickup associated with The Mysterious Wanderer Appears.",
+    "templateSha256": "ae4649874821b659f456c87c97db1db1be97f675e44032572eebfdb87eb47ded",
+    "translation": "Zdobycie przedmiotu {{EMTERM_0}} wiąże się z zadaniem „Pojawienie się tajemniczego wędrowca”.",
+    "reviewNote": "Pickup denotes obtaining a weapon, not a vehicle or recording device. Use the native associated quest title without changing navigation."
+  },
+  "21dd1482c105cccd66a3502d": {
+    "english": "The Alchemist Balthazar brews potions and other concoctions",
+    "templateSha256": "7085c7882ffcbe5bfa08b96dd061a28ea34ed20cbd0fc6a8eba12180f39a77e4",
+    "translation": "{{EMTERM_0}} {{EMTERM_1}} warzy eliksiry i inne preparaty alchemiczne.",
+    "reviewNote": "Avoid repeating potions as both the main product and the other alchemical concoctions."
+  }
+}

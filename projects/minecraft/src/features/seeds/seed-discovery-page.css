@@ -1,0 +1,8 @@
+.seed-feature {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 1fr));
+}
+
+.seed-card-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 290px), 1fr));
+}

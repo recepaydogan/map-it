@@ -1,0 +1,68 @@
+.craft-hotkey-hint {
+  position: relative;
+  display: flex;
+  width: 416px;
+  min-height: 84px;
+  margin: 2px;
+  align-items: center;
+  gap: 12px;
+  overflow: hidden;
+  padding: 13px 16px;
+  border: 1px solid var(--border-strong);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-md);
+  background: var(--overlay-background);
+  box-shadow: 0 12px 30px rgb(0 0 0 / 45%);
+  color: var(--text);
+  animation: craft-hotkey-hint-in 240ms ease-out both;
+}
+
+.craft-hotkey-hint-icon {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  flex: 0 0 40px;
+  place-items: center;
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  border-radius: var(--radius-sm);
+  background: var(--accent-soft);
+  color: var(--accent-text);
+}
+
+.craft-hotkey-hint-copy {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.craft-hotkey-hint-copy strong {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.craft-hotkey-hint-copy > span {
+  color: var(--text);
+}
+
+.craft-hotkey-hint kbd {
+  display: inline-block;
+  margin-left: 3px;
+  padding: 2px 7px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: rgb(0 0 0 / 35%);
+  color: var(--accent-text);
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+@keyframes craft-hotkey-hint-in {
+  from { opacity: 0; transform: translateX(-12px); }
+  to { opacity: 1; transform: translateX(0); }
+}

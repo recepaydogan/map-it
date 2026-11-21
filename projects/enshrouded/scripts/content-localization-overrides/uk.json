@@ -1,0 +1,350 @@
+{
+  "adf8276e170d1bb86879ec8b": {
+    "english": "Blunt Damage, Blunt Damage, Brutal, Blunt Damage, Brutal",
+    "templateSha256": "adf8276e170d1bb86879ec8bcb623755e3c03b4e570b0a07d984f94fa058c4fe",
+    "translation": "Дробильне ушкодження, Дробильне ушкодження, Жорстокий, Дробильне ушкодження, Жорстокий",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "e900145f580e3223c69a2169": {
+    "english": "Blunt Damage, Health Leech, Blunt Damage, Health Leech, Blunt Damage",
+    "templateSha256": "e900145f580e3223c69a2169a322780089fcbd8a874f982eba82db831e6b5694",
+    "translation": "Дробильне ушкодження, Крадіжка життя, Дробильне ушкодження, Крадіжка життя, Дробильне ушкодження",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "b47ee556445b0fddfcb24f1e": {
+    "english": "Blunt Damage, Merciless, Blunt Damage, Merciless, Blunt Damage",
+    "templateSha256": "b47ee556445b0fddfcb24f1e816a20495f0d1ac359141be2fd62b8eda69f6c2b",
+    "translation": "Дробильне ушкодження, Безжальний, Дробильне ушкодження, Безжальний, Дробильне ушкодження",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "487d8c0cbaf51ae9e209f225": {
+    "english": "Blunt Damage, Sacred, Magic Ice Damage, Sacred, Blunt Damage",
+    "templateSha256": "487d8c0cbaf51ae9e209f225bea6a5211322ac81cbb1745bddc99fe859d932fe",
+    "translation": "Дробильне ушкодження, Священний, Магічне крижане ушкодження, Священний, Дробильне ушкодження",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "b2a387dfa7623193e34a541d": {
+    "english": "Blunt Damage, Sacred, Magic Ice Damage, Sacred, Mana Leech",
+    "templateSha256": "b2a387dfa7623193e34a541d775c085d130951f5a4d4ce733f234473e204e52e",
+    "translation": "Дробильне ушкодження, Священний, Магічне крижане ушкодження, Священний, П'явка мани",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "e29b9c60ff90162bf33d8a9f": {
+    "english": "Blunt Damage, Sacred, Magic Ice Damage, Sacred, Stamina Leech",
+    "templateSha256": "e29b9c60ff90162bf33d8a9f3a0e68333bc27381c1bdc47de85cc45a0c9b9704",
+    "translation": "Дробильне ушкодження, Священний, Магічне крижане ушкодження, Священний, Крадіжка витривалості",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "51ae5b30f6718192553fb35d": {
+    "english": "Brutal, Blunt Damage, Brutal, Blunt Damage, Brutal",
+    "templateSha256": "51ae5b30f6718192553fb35db72d5e9d1ebd5d2fea98fd3dc3c865aba17cea09",
+    "translation": "Жорстокий, Дробильне ушкодження, Жорстокий, Дробильне ушкодження, Жорстокий",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "703796d8306eee4bcba32661": {
+    "english": "Brutal, Blunt Damage, Magic Shock Damage, Blunt Damage, Brutal",
+    "templateSha256": "703796d8306eee4bcba326615af0962e016999aa419d4a032b2318c402736bdf",
+    "translation": "Жорстокий, Дробильне ушкодження, Магічне електричне ушкодження, Дробильне ушкодження, Жорстокий",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "5bc2cd983cc01341c25db8c2": {
+    "english": "Brutal, Piercing Damage, Brutal, Blunt Damage, Brutal",
+    "templateSha256": "5bc2cd983cc01341c25db8c265b572f770ba371c452f63f385c7240b3b4595bd",
+    "translation": "Жорстокий, Проколююче ушкодження, Жорстокий, Дробильне ушкодження, Жорстокий",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "10299a0ba3b875f1b2886ddd": {
+    "english": "Crystalwater Staff is obtained randomly from Lootable Chests or Bosses in the Albaneve Summits. C:Souls Of The Frozen Frontier Update",
+    "templateSha256": "7714d1d615b4dc655480b62926c9c11f350950ce5a69d692de5c51be3208494a",
+    "translation": "{{EMTERM_0}} отримують випадковим чином із грабованих скринь або босів у {{EMTERM_1}}. Оновлення C:Душі крижаного рубежу",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "6b732179f873b7e0192c8fe7": {
+    "english": "Deep Dive Trade Outpost - Rules:",
+    "templateSha256": "6b732179f873b7e0192c8fe7cfaf7af6abe8ef96c245017aa760702053ce9e45",
+    "translation": "Глибоководна торгова застава - Правила:",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "c4a7c3f7cf255cb05ed39ed2": {
+    "english": "Eternal Heal Beam Channel is found during the quest A Glimpse Of Eternity.",
+    "templateSha256": "c4a7c3f7cf255cb05ed39ed24338fea181a8996f00e2d8e444c16fcaa3bcde4d",
+    "translation": "Вічний промінь зцілення з підтримуванням можна знайти під час квесту Погляд вічності.",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "c60590b1090021eac6651a43": {
+    "english": "File:Alpine Rose Plant Pot.png Alpine Rose Plant Pot x4",
+    "templateSha256": "c60590b1090021eac6651a433d711858f62a3709f294d7d83ff75ed90c2469ff",
+    "translation": "Файл:Горщик альпійської троянди.png Горщик альпійської троянди x4",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "b6a5bdfb95719c4f212cb50a": {
+    "english": "Gatherable - Veilwater Basin Farmable from Banana Seedling",
+    "templateSha256": "25b964319ea30c6410030a1f091f1f55bf39a9f892d7ea782bc005b129f8e5eb",
+    "translation": "Можна збирати - Сира земля Можна вирощувати від {{EMTERM_0}}",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "dbdf72eeef2310e2f4706c38": {
+    "english": "Gatherable - Veilwater Basin Farmable from Ginger Seedling",
+    "templateSha256": "25b964319ea30c6410030a1f091f1f55bf39a9f892d7ea782bc005b129f8e5eb",
+    "translation": "Можна збирати - Сира земля Можна вирощувати від {{EMTERM_0}}",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "a55c539689c362dc5ef684b4": {
+    "english": "Gatherable - Veilwater Basin Farmable from Shiitake Seedling",
+    "templateSha256": "25b964319ea30c6410030a1f091f1f55bf39a9f892d7ea782bc005b129f8e5eb",
+    "translation": "Можна збирати - Сира земля Можна вирощувати від {{EMTERM_0}}",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "8401d71bc103801e33e6ae2d": {
+    "english": "Gormander's Imperial Gardens is a quest in Enshrouded , started by reading The Pike Weekly: Nothing Grand About Gormander .",
+    "templateSha256": "37a3136258baa076daa2c4b6716de2d63ab76d969b568f3df57024be5088591d",
+    "translation": "{{EMTERM_0}} — це квест у {{EMTERM_2}}, розпочатий із прочитання {{EMTERM_1}} — тижневик: У Гормандері немає нічого величного.",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "f362ceea20c1b7b6e7ac03a1": {
+    "english": "In a tower in Balefire Stronghold Lance Point.",
+    "templateSha256": "f362ceea20c1b7b6e7ac03a1c6ef693f9902d1b20f2d5d24a5b1b15858db8f3e",
+    "translation": "У вежі у фортеця згубного вогню «Вістря списа».",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "a2cc5a49c94cfcf8927f16f2": {
+    "english": "Magic Ice Damage, Mana Leech, Magic Ice Damage, Mana Leech, Merciless",
+    "templateSha256": "a2cc5a49c94cfcf8927f16f2b06a895bbd918388ba9f61c0017c0b5d08833a67",
+    "translation": "Магічне крижане ушкодження, П'явка мани, Магічне крижане ушкодження, П'явка мани, Безжальний",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "b01c7b08a22cb7329411acfc": {
+    "english": "Mana Leech, Precise, Magic Shock Damage, Magic Shock Damage, Ruthless",
+    "templateSha256": "b01c7b08a22cb7329411acfcb26792a83759a80f48180862bb4133c79e85631e",
+    "translation": "П'явка мани, Точний, Магічне електричне ушкодження, Магічне електричне ушкодження, Нещадний",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "b01de2ab77e011c84db50a39": {
+    "english": "Mannequin Here I Come is crafted at the Carpenter. The crafting recipe requires discovering the Ancient Spire - Revelwood to unlock.",
+    "templateSha256": "e902aa00fd8571d26ec6e37eec2ae2427b2497b1a0dadcb223823ed22a60d937",
+    "translation": "Манекен «Ось і я» створений у {{EMTERM_0}}. Щоб розблокувати рецепт виготовлення, потрібно знайти {{EMTERM_1}} - {{EMTERM_2}}.",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "1f9cf048f8c9cdf70fff4dae": {
+    "english": "Mannequin Let Me Serve You",
+    "templateSha256": "1f9cf048f8c9cdf70fff4daebe0f060cefb3c8671f943da619396b76a31599eb",
+    "translation": "Манекен «Дозвольте вам прислужити»",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "e9de910a890b6958d649efc0": {
+    "english": "Mannequin Let Me Serve You is crafted at the Carpenter. The crafting recipe requires discovering the Ancient Spire - Revelwood to unlock.",
+    "templateSha256": "bf8c2de51a5cc73519f258b671d965ac1a0575e9100b42f85cd55c68df27c122",
+    "translation": "Манекен «Дозвольте вам прислужити» створений у {{EMTERM_0}}. Щоб розблокувати рецепт виготовлення, потрібно знайти {{EMTERM_1}} - {{EMTERM_2}}.",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "2198f526fcf28f920884f020": {
+    "english": "Mannequin Strike A Pose is crafted at the Carpenter. The crafting recipe requires discovering the Ancient Spire - Revelwood to unlock.",
+    "templateSha256": "13f8f078dc8ab28f4286645fcdfcbd5db24ae4cc6da0cad48ee59963f793789f",
+    "translation": "Манекен «Прийми позу» створено на {{EMTERM_0}}. Щоб розблокувати рецепт виготовлення, потрібно знайти {{EMTERM_1}} - {{EMTERM_2}}.",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "ca346cb1350a046eff485da7": {
+    "english": "On a ledge in Balefire Stronghold Iron Heart.",
+    "templateSha256": "ca346cb1350a046eff485da7425dbfe6d39a1b55c0ed17c56ca0d777678d4961",
+    "translation": "На виступі в фортеця згубного вогню «Залізне серце».",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "9e351a6afdd7a49425eb09ef": {
+    "english": "Poison Damage, Poison Damage, Precise, Venomous Blades, Precise",
+    "templateSha256": "9e351a6afdd7a49425eb09ef6e0981208598c1dff473f920b4e6ff7ade1a1271",
+    "translation": "Отруйне ушкодження, Отруйне ушкодження, Точний, Отруєні леза, Точний",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "0c5817a2dddd8f601cfa1466": {
+    "english": "Poison Damage, Vicious, Brutal, Reaping, Vicious",
+    "templateSha256": "0c5817a2dddd8f601cfa14667cf9b732a0baa821f529a232df27543abfd39593",
+    "translation": "Отруйне ушкодження, Лютий, Жорстокий, Жнива, Лютий",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "0a5d183faa4d8adb86fe81e8": {
+    "english": "Renewal, Headseeker, Piercing Damage, Renewal, Stamina Leech",
+    "templateSha256": "0a5d183faa4d8adb86fe81e8029c1ba81919c55686fc2e857883e03c501c9a8c",
+    "translation": "Відновлення, Головоріз, Проколююче ушкодження, Відновлення, Крадіжка витривалості",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "efcc84ae2eaa147cf5161e27": {
+    "english": "Simple black pants with delicate golden details. Inconspicuous on its own, but in perfect harmony with other parts of this set. The hems have been rethreaded many times, worn thin by long journeys through Embervale. A quiet statement to the distance walked by the \"Scholars of the Empyrean\".",
+    "templateSha256": "13cbadab6462ec37e05ea4a9fe5aa4b10ed13f979bed2a0e53426a44ae5e586f",
+    "translation": "Прості чорні штани з ніжними золотистими деталями. Непомітний сам по собі, але ідеально гармонує з іншими частинами цього набору. Краї багато разів заправляли ниткою, зношені під час довгих подорожей через {{EMTERM_0}}. Тиха заява про відстань, пройдену \"Вчені Емпірею\".",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "0a00b41b2da8cf73196cfd29": {
+    "english": "The Albaneve Summits is a frozen mountainous biome added in the Souls Of The Frozen Frontier Update. It is dominated by Howling Peak - the highest point in Embervale - where a dangerous corrupted beast lurks.",
+    "templateSha256": "5a9ac051e59a68dc474659d8a70d2a7e61a8b6bacebef9eb5a16d9c70fabfe70",
+    "translation": "{{EMTERM_0}} — це заморожений гірський біом, доданий в оновленні Душі крижаного рубежу. Над ним домінує Виючий пік - найвища точка в {{EMTERM_1}} - де ховається небезпечний зіпсований звір.",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "9c4d8a0899701c0e1850ff63": {
+    "english": "The Hanfu Ponytail Wig Head can be found in Brittlebush.",
+    "templateSha256": "ae45f4791e59c7226113854b522a2ee70bcd11da5f168fd263db4ccc12db5bc4",
+    "translation": "Перуку голова з перукою «Хвіст ханьфу» можна знайти в {{EMTERM_0}}.",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "4fd5b6335d4682db096eecce": {
+    "english": "The Luscious Drakonian Maid (2/2)",
+    "templateSha256": "4fd5b6335d4682db096eecce400538fb18c8a21f6876adaf6c31b8549ab3bf78",
+    "translation": "Спокуслива драконівська покоївка (2/2)",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "a5872d169b236060e64e1fdf": {
+    "english": "The item was added as part of the Souls of the Frozen Frontier update so the shroud areas in Albaneve Summits contain this item. Specifically, many Chanterelle can be found close to the Watchtower point of interest in the shroud directly north of the Nomad Heights spire.",
+    "templateSha256": "3fbe8e01d4d6a897f699cf2f3a277c6ed4068b4496f9bfec34afb6544106763d",
+    "translation": "Предмет було додано як частину оновлення Душі крижаного рубежу, тож області савана в {{EMTERM_0}} містять цей предмет. Зокрема, багато {{EMTERM_1}} можна знайти поблизу цікавого місця Сторожової вежі в савані на північ від шпиля Кочових висот.",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "f0e73d227175be0b6f5d3100": {
+    "english": "Veilwater Basin Lacemaker Pond Night Sanctum",
+    "templateSha256": "b32ed11bc8936500594b13a1722f9f93739c614a2ba07c340ec0a7d088a9cc27",
+    "translation": "Сира земля Ставок мереживниці {{EMTERM_0}}",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "a84aa1b150ffb1307622ebec": {
+    "english": "Vicious, Health Leech, Merciless, Cutting Damage, Merciless",
+    "templateSha256": "a84aa1b150ffb1307622ebec21df484a30d52ef8a23c74eed2d1d56965fd0ec0",
+    "translation": "Лютий, Крадіжка життя, Безжальний, Різане ушкодження, Безжальний",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "562123eee96ed37d4bf2daf7": {
+    "english": "Vicious, Magic Fire Damage, Brutal, Headseeker, Magic Fire Damage",
+    "templateSha256": "562123eee96ed37d4bf2daf78ac640f2f5d7be3d3e352ffc01e7c38182a98ac0",
+    "translation": "Лютий, Магічне вогняне ушкодження, Жорстокий, Головоріз, Магічне вогняне ушкодження",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "f7d52dd25439d738819c9b5f": {
+    "english": "Vicious, Piercing Damage, Mana Leech, Precise, Mana Leech",
+    "templateSha256": "f7d52dd25439d738819c9b5fbf5bfa6e2e9d502d6d6ba5b68a368af38a19331c",
+    "translation": "Лютий, Проколююче ушкодження, П'явка мани, Точний, П'явка мани",
+    "reviewNote": "Contextual review of untranslated weapon perks, quest titles and lore labels; retain native game names and source IDs."
+  },
+  "5fa431433163e601b2e8ce6b": {
+    "english": "Catacombs in the Shroud inhabited by Fell .",
+    "templateSha256": "09fa566e2de309d9122f012eda0b1be5b9948be4739fb5343ceedf8ab511fe7d",
+    "translation": "{{EMTERM_0}} у зоні «{{EMTERM_1}}». Мешканці: {{EMTERM_2}}.",
+    "reviewNote": "Full contextual correction. Where the original source omits the location, state that it is unknown instead of inventing a location."
+  },
+  "f763bc8fc9ef3c4da68dd095": {
+    "english": "Balefire Garrison \"Wind Ward\"",
+    "templateSha256": "f763bc8fc9ef3c4da68dd095953c6f8ca8996303dc5b35d7cca6f073eeceda33",
+    "translation": "Гарнізон великого багаття «Захист від вітру»",
+    "reviewNote": "Contextual review: retain every source gameplay clause and protected game term; repair untranslated or malformed text."
+  },
+  "45e1bdae3ecf1646d9abe6d4": {
+    "english": "Balefire Garrison, White Pine, inhabited by Scavengers .",
+    "templateSha256": "1e50584108700c78a4b342282494a262498750062342ca4af532aa6e87070b8c",
+    "translation": "Гарнізон великого багаття «Біла сосна». Мешканці: {{EMTERM_0}}.",
+    "reviewNote": "Contextual review: retain every source gameplay clause and protected game term; repair untranslated or malformed text."
+  },
+  "bc6a16aefe0c28f821734619": {
+    "english": "Brotherly Hijinx (1/1).",
+    "templateSha256": "bc6a16aefe0c28f8217346194151388e0263491385e52ed30f3b5597fb8edca4",
+    "translation": "Братські витівки (1/1).",
+    "reviewNote": "Contextual review: retain every source gameplay clause and protected game term; repair untranslated or malformed text."
+  },
+  "1074f1450dcfce7f8861c86c": {
+    "english": "Magic Shroud Damage, Cutting Damage, Magic Shroud Damage, Precise, Scrounging",
+    "templateSha256": "17367c68ecf9c0e2ff2f1f59480ac1406217e622d31e77df2a2fde9b885706d6",
+    "translation": "Магічне ушкодження: {{EMTERM_0}}, Різане ушкодження, Магічне ушкодження: {{EMTERM_1}}, Точний, Пошук припасів",
+    "reviewNote": "Contextual review: retain every source gameplay clause and protected game term; repair untranslated or malformed text."
+  },
+  "c6107edc1fbcb93f7ae62f90": {
+    "english": "Shroud Weaver pickup associated with The Mysterious Wanderer Appears.",
+    "templateSha256": "ae4649874821b659f456c87c97db1db1be97f675e44032572eebfdb87eb47ded",
+    "translation": "Отримання предмета «{{EMTERM_0}}» пов’язане із завданням «Поява таємничого мандрівника».",
+    "reviewNote": "Pickup denotes obtaining a weapon, not a vehicle or recording device. Use the native associated quest title without changing navigation."
+  },
+  "639d79b39e24abb9f09a1c54": {
+    "english": "+ 1 Fisherman's Resolve",
+    "templateSha256": "639d79b39e24abb9f09a1c542d095052ee794df33c45d3b6d071749ea5378a3f",
+    "translation": "+ 1 Рішучість рибалки",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "438b160b0f6ca660516768cf": {
+    "english": "+ 1 Titan Edge",
+    "templateSha256": "438b160b0f6ca660516768cf7559ecd9e87efbe19a2211b9ceb828a11d2846f8",
+    "translation": "+ 1 Титанове лезо",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "e2377bef23cf33eec67a81c0": {
+    "english": "A Night Sanctum in the Nomad Highlands. Requires a Spark to open at night.. Contains the Scholar Of The Empyrean Cloak .",
+    "templateSha256": "e67f3ccf095e3fe8698319e716f71e4d44ecd8e7c27bbd5c141adb6a4087f3a6",
+    "translation": "Храм ночі у Нагір'я кочівників. Щоб відкрити вночі, потрібна Іскра. Містить Накидка вченого неба.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "8722e76604b48c78370f1950": {
+    "english": "A miniature piece that shows the Revelwood, part of Meldore. It used to be a vibrant area where the rivers flowed with wine, and the trees would shade the weary. Eventually, though, abuse of the Elixir spread, and the roots that once brought life to the Kingdom began to rot.",
+    "templateSha256": "39b93ff9bfef2c2e82cf84c97cdae50129e35d98764b69666c31ff0eaa07c2d9",
+    "translation": "Мініатюрний фрагмент, який показує Ревелвуд, частину Мелдор. Колись це була жвава місцевість, де ріки текли вином, а дерева затіняли втомлених. Згодом, однак, зловживання Еліксир поширилося, і коріння, яке колись дало життя Королівству, почало гнити.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "e73a9b375f2917a64e265536": {
+    "english": "Claim A Spot For Your Base is a Springlands Quest given by The Flame .",
+    "templateSha256": "74a52a2f1d1762b4fde9483b9889de200f3c51093aa6047dc80c40189d06f25c",
+    "translation": "Оберіть місце для вашого оплоту — це квест Спрінгленд, наданий Полум'я.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "72161d1e7a329e45e372455c": {
+    "english": "Follow The Melody is a Revelwood Quest given by The Flame .",
+    "templateSha256": "74a52a2f1d1762b4fde9483b9889de200f3c51093aa6047dc80c40189d06f25c",
+    "translation": "Йдіть за мелодією — це квест Ревелвуд, наданий Полум'я.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "1cd6c5e87b96648185b6b951": {
+    "english": "Lover's Quarrel — acquisition location. Loot the body.",
+    "templateSha256": "1cd6c5e87b96648185b6b95193b4c86573237ee58f1685bd1148b0c9e2eb7f57",
+    "translation": "Чвара коханців — місце придбання. Розграбуйте тіло.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "04d1d095ecc14d08c937cc70": {
+    "english": "Magic Shroud Damage, Brutal, Mana Currents, Magic Shroud Damage, Nebulous",
+    "templateSha256": "8b35d9316bbe5fe3441720fbee65fbc310728131c2040d69de7c84b7288db13a",
+    "translation": "Магічне Саван Ушкодження, Жорстокий, Потоки мани, Магічне Саван Ушкодження, Туманний",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "f049d47288ac7a14a2a074da": {
+    "english": "The Final Trial (1/1), Need to drink Drak Soulward Flaskto read.",
+    "templateSha256": "f049d47288ac7a14a2a074da46a6da536ae2da514bf32bf925fa9ce7e9c0e2be",
+    "translation": "Останнє випробування (1/1). Щоб прочитати запис, випийте: Фляжка з душею ящірок.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "8fa3e5f9a2e1b546d46f3f6e": {
+    "english": "This block is found in the Albaneve Hollow Halls.",
+    "templateSha256": "a636ce8b209945ca12ea27821517958cd2f1d8659372e4c4be5a4a3f0905282e",
+    "translation": "Цей блок міститься в Альбанівські вершини Зали пустотілих.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "8cdd9638e0eb5f80691b56ca": {
+    "english": "This model of the Kindlewastes shows sandy dunes and rugged cliffs, but Orindell wasn't always like this. Perhaps this scorching expanse would have looked different if water hadn't stopped flowing through its veins.",
+    "templateSha256": "84a3a5ec241cc710133fa4f3a943ac2d8c23015d0d4ba9104ec822d15b411c3e",
+    "translation": "Ця модель Палаюча пустка демонструє піщані дюни та круті скелі, але Оріндел не завжди був таким. Можливо, цей пекучий простір виглядав би інакше, якби по його жилах не перестала текти вода.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "2a209f4977e2c2da1a1ef37d": {
+    "english": "Underground Infestation — acquisition location. Loot Dreadbane from the body.",
+    "templateSha256": "4d1f312bae539356459a035da49c116ed7a0c66c4371a4515d08df3644893f66",
+    "translation": "Підземна навала — місце отримання. Здобуйте Пострах з тіла.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "1a4e9e7d293c1bf3b367e279": {
+    "english": "A hint appears in the Set List after reading \"It Crawls Beneath My Flesh\" (A Rumble in the Catacombs 2/2). This block is then obtained by looting the Weathered Stone Block in Bramblespine Boneyard. It is found in a silver chest towards the end of the Catacomb, before the Fell Thunderbrute.",
+    "templateSha256": "6b9ea77f0d6944e0fef8bfe6ef5c3726225a0d47d6e9a8a94860a03ce0d9a33a",
+    "translation": "Після прочитання «Воно залізло під шкіру» (Гуркіт у катакомбах 2/2) у Набір Список з’являється підказка. Потім цей блок можна отримати, пограбувавши Блок зі старого каменю у Кладовище Бремблспайн. Його можна знайти в срібній скрині в кінці катакомб, перед Громолом занепалих.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "bc0c6f6662d825ca66b50e9e": {
+    "english": "A model of the Veilwater Basin, complete with glistening lakes, bloodthirsty Drak, and Coconana smoothies. A treacherous paradise. what could you want more from life?",
+    "templateSha256": "bc0c6f6662d825ca66b50e9e3e64943d5541c99d9c6d26559652add40547e9e1",
+    "translation": "Модель регіону «Veilwater Basin» з блискучими озерами, кровожерливими істотами «Drak» і напоєм «Кокобананове смузі». Підступний рай. Чого ще бажати від життя?",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  },
+  "c07beece8f59f3ac374caa61": {
+    "english": "An Elixir Well. Guarded by a Fell Striker .",
+    "templateSha256": "6ebdf0ddead240929c7b654dcf248015395f81b949a3ed98cc2e21a1a4807a99",
+    "translation": "Колодязь Еліксиру. Під охороною Занепалий берсерк.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  }
+}

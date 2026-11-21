@@ -1,0 +1,20 @@
+{
+  "994261764a4edf3626ba8f28": {
+    "english": "Learning how to create basic structures with the Construction Hammer and Building Blocks has enabled you to build Shelter. Being sheltered fulfills one of the 3 conditions needed to become Rested: Shelter , (or sitting, lying down), warmth , and comfort. The next major condition you need to understand is warmth. You’ve warmed by spending time near a fire, such as a Flame Alter, campfire, or fireplace. The latter two are also necessary for cooking food, which provides helpful buffs. Craft or obtain a fireplace to proceed!",
+    "templateSha256": "dcdee7466c2808e730e34f8d20602c679de559164c5aaf1eacca5d43f8df74b8",
+    "translation": "Aprender a crear estructuras básicas con el {{EMTERM_0}} y bloques de construcción te ha permitido construir un refugio. El refugio (o estar sentado o tumbado), el calor y la comodidad son las tres condiciones necesarias para obtener el estado Descansado. La siguiente condición que debes conocer es el calor: se consigue pasando tiempo cerca de un fuego, como un altar de la {{EMTERM_1}}, una hoguera o una chimenea. Estas dos últimas también permiten cocinar comida que otorga bonificaciones útiles. ¡Fabrica o consigue una chimenea para continuar!",
+    "reviewNote": "Restore every original gameplay clause and all distinct protected terms omitted by machine translation."
+  },
+  "c6107edc1fbcb93f7ae62f90": {
+    "english": "Shroud Weaver pickup associated with The Mysterious Wanderer Appears.",
+    "templateSha256": "ae4649874821b659f456c87c97db1db1be97f675e44032572eebfdb87eb47ded",
+    "translation": "La obtención de {{EMTERM_0}} está relacionada con la misión «El Nómada intrigante aparece».",
+    "reviewNote": "Pickup denotes obtaining a weapon, not a vehicle or recording device. Use the native associated quest title without changing navigation."
+  },
+  "b4a5103d6148b960c0ba8fb8": {
+    "english": "Shroud Weaver can be found in a chest near Low Tide. The Mysterious Wanderer Appears points toward its location.",
+    "templateSha256": "eb1d29db21a7cb768cc608002dabbce0f880d1c6254e4ffea80f402595568f9a",
+    "translation": "Tejedor del Velo se encuentra en un cofre cerca de Marea Baja. La entrada «El Nómada intrigante aparece indica su ubicación.",
+    "reviewNote": "Map update terminology checked against official game tags and marker context."
+  }
+}

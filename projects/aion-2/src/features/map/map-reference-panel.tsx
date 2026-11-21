@@ -1,0 +1,62 @@
+import { getItemDisplayName } from "../../lib/item-display-name";
+import { cn } from "../../lib/cn";
+import { ChevronLeft, X } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import ReferenceDetail from "../reference/reference-detail";
+import CreatureDetail from "../reference/creature-detail";
+import ActivityDetail from "../reference/activity-detail";
+import { groupActivities } from "../reference/activity-families";
+import { useReferenceNavigation } from "../reference/reference-navigation-context";
+import type { ReferenceTarget } from "../reference/reference-types";
+import { useReferenceIndex } from "../reference/use-reference-data";
+import MapItemPanel from "./map-item-panel";
+import MapRecipePanel from "./map-recipe-panel";
+import MapRewardBoxPanel from "./map-reward-box-panel";
+
+type Props = {
+  target: ReferenceTarget;
+  backLabel: string;
+  onBack: () => void;
+  onClose: () => void;
+  onOpenMap: (mapId: string, markerId: string) => void;
+};
+
+const EntryPanel = ({ target, onOpenMap }: Pick<Props, "target" | "onOpenMap">) => {
+  const { t } = useTranslation();
+  const openReference = useReferenceNavigation();
+  const index = useReferenceIndex();
+  if (index.status !== "ready") return <p className="p-4 text-sm text-subtle" role={index.status === "error" ? "alert" : "status"}>{t(index.status === "error" ? "reference.error" : "reference.loading")}</p>;
+  const summary = index.data.entries.find((entry) => entry.id === target.id && entry.category === target.category);
+  if (!summary) return <p role="alert" className="p-4 text-sm text-subtle">{t("reference.error")}</p>;
+  if (target.category === "activities") {
+    const family = groupActivities(index.data.entries.filter((entry) => entry.category === "activities"), target.id)
+      .find((entry) => entry.variants.some((variant) => variant.id === summary.id))!;
+    return <ActivityDetail family={family} current={summary}
+      onSelect={(id) => openReference({ category: "activities", id, name: family.name })} onOpenMap={onOpenMap} />;
+  }
+  return target.category === "recipes" ? <MapRecipePanel summary={summary} onOpenMap={onOpenMap} />
+    : <ReferenceDetail summary={summary} onOpenMap={onOpenMap} />;
+};
+
+const MapReferencePanel = ({ target, backLabel, onBack, onClose, onOpenMap }: Props) => {
+  const { t } = useTranslation();
+  const backText = t("reference.backTo", { label: getItemDisplayName(backLabel) });
+  return <>
+    <header className={cn("flex shrink-0 items-center gap-2 px-4", target.category === "items" ? "border-b border-border bg-black/20 py-2" : "pt-3")}>
+      <button type="button" onClick={onBack} title={backText} aria-label={backText}
+        className="flex min-w-0 flex-1 cursor-pointer items-center gap-1 text-xs font-medium text-zinc-400 hover:text-white">
+        <ChevronLeft size={15} className="shrink-0" aria-hidden="true" /><span className="truncate">{backText}</span>
+      </button>
+      {target.category !== "items" && <button type="button" onClick={onClose} title={t("chrome.close")} aria-label={t("chrome.close")}
+        className="ml-auto grid h-7 w-7 shrink-0 cursor-pointer place-items-center rounded-[var(--radius-sm)] text-subtle hover:bg-white/5 hover:text-white"><X size={16} aria-hidden="true" /></button>}
+    </header>
+    <div key={`${target.category}:${target.id}`} className="flex min-h-0 flex-1 flex-col">
+      {target.category === "items" ? <MapItemPanel itemId={target.id} reward={target} onOpenMap={onOpenMap} onClose={onClose} />
+        : target.category === "creatures" ? <CreatureDetail target={target} onOpenMap={onOpenMap} />
+        : target.category === "boxes" ? <MapRewardBoxPanel target={target} onOpenMap={onOpenMap} />
+          : <EntryPanel target={target} onOpenMap={onOpenMap} />}
+    </div>
+  </>;
+};
+
+export default MapReferencePanel;

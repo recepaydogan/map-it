@@ -1,0 +1,87 @@
+.app-dashboard-window-chrome {
+  --app-window-button-size: 40px;
+  position: absolute;
+  inset: 0 0 auto auto;
+  z-index: 1600;
+  display: flex;
+  justify-content: flex-end;
+  width: calc(3 * var(--app-window-button-size));
+  height: var(--app-window-button-size);
+  color: #c9cdd2;
+  user-select: none;
+}
+
+.app-dashboard-window-drag-strip {
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 1540;
+  height: var(--app-window-drag-height);
+  cursor: grab;
+  user-select: none;
+}
+
+.app-dashboard-window-drag-strip:active { cursor: grabbing; }
+
+.app-dashboard-window-actions {
+  display: flex;
+}
+
+.app-dashboard-window-actions > button {
+  display: grid;
+  width: var(--app-window-button-size);
+  place-items: center;
+  border: 0;
+  background: transparent;
+  color: inherit;
+}
+
+.app-dashboard-window-actions > button:hover {
+  background: rgb(255 255 255 / 10%);
+  color: #fff;
+}
+
+.app-dashboard-window-actions > button:last-child:hover {
+  background: #a42532;
+}
+
+.app-dashboard-window-actions > button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: -2px;
+}
+
+.app-window-ad-column {
+  display: flex;
+  flex: none;
+  align-items: stretch;
+}
+
+/* The rail can disappear after mount when the ad SDK is unavailable. */
+.app-dashboard-window:has(> .app-dashboard-window-chrome) {
+  --app-window-chrome-height: 40px;
+  --app-window-drag-height: 20px;
+  --app-window-ad-width: 440px;
+}
+
+.app-dashboard-window:has(> .app-dashboard-window-chrome):has(.app-window-ad-column > aside:not([aria-hidden="true"])) {
+  > .app-dashboard-window-chrome {
+    width: var(--app-window-ad-width);
+    background: var(--color-background, var(--background, #151719));
+  }
+
+  .app-window-ad-column {
+    width: var(--app-window-ad-width);
+    margin-top: var(--app-window-chrome-height);
+    border-left-width: 0;
+    background: var(--color-background, var(--background, #151719));
+  }
+}
+
+.app-dashboard-window:has(> .app-dashboard-window-chrome):not(:has(.app-window-ad-column > aside:not([aria-hidden="true"]))) {
+  .app-window-ad-column {
+    display: none;
+  }
+
+  :is([data-app-window-page-content], [data-app-window-top-controls]) {
+    margin-top: var(--app-window-chrome-height);
+  }
+}
